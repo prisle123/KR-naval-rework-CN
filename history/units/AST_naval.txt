@@ -1,0 +1,444 @@
+﻿###OOB File for AST.txt
+instant_effect = {
+	###Ship Variants###
+	create_equipment_variant = { #ast original one
+		name = "L 型 "
+		type = ship_hull_submarine_2
+		name_group = AST_SS_LTYPE_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+
+	create_equipment_variant = {
+		name = "H 型 "
+		type = ship_hull_submarine_1
+		name_group = AST_SS_HTYPE_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "卡彭特利亚级"
+		type = ship_hull_carrier_conversion_ca
+		name_group = AST_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "暴怒级"
+		type = ship_hull_carrier_conversion_bb
+		name_group = AST_GBR_BC_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_deck_space
+		}
+	}
+
+	create_equipment_variant = {
+		name = "信天翁级"
+		type = ship_hull_cruiser_1
+		name_group = AST_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "十字军级"
+		type = ship_hull_light_2
+		name_group = AST_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "V/W级"
+		type = ship_hull_light_1
+		name_group = AST_GBR_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "英王乔治五世级"
+		type = ship_hull_heavy_2
+		name_group = AST_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "不倦级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+		type = ship_hull_heavy_1
+		name_group = AST_GBR_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "纳尔逊级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Nelson.png"
+		type = ship_hull_heavy_1
+		name_group = AST_GBR_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "海军上将级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+		type = ship_hull_heavy_1
+		name_group = AST_GBR_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "伯勒洛丰级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "猎户座级"
+		icon = "gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "复仇级"
+		type = ship_hull_heavy_1
+		name_group = AST_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "铁公爵级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+		type = ship_hull_heavy_1
+		name_group = AST_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "伊丽莎白女王级"
+		type = ship_hull_heavy_1
+		name_group = AST_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "蒙茅斯级"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = AST_GBR_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "蒙克顿级"
+		type = ship_hull_cruiser_2
+		name_group = AST_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "城级"
+		type = ship_hull_cruiser_1
+		name_group = AST_GBR_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "霍金斯级"
+		type = ship_hull_cruiser_1
+		name_group = AST_GBR_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {#TBC
+		name = "林仙级 / 布隆德级"
+		type = ship_hull_cruiser_1
+		name_group = AST_GBR_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "澳大利亚皇家海军"
+		naval_base = 12406 ###Change to proper province number
+		task_force = {
+			name = "主力舰队"
+			location = 12406 ###Change to proper province number
+			ship = { name = "HMAS 信天翁" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "信天翁级" } } }
+			ship = { name = "HMAS 暴怒" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = AST version_name = "暴怒级" } } }
+			ship = { name = "HMAS 军团" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 格林维尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 帕克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 索马雷兹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 西摩尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 温哥华" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 瓦妮莎" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 虚荣" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 优势" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 威尼斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 报复" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 冒险" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 凡尔登" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 有才" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 维鲁拉姆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 战士" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 总督" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 沃克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 沃波尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 海象" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 黄鼠狼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 威尔斯利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 维塞克斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 惠勒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 皮鞭" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 惠比特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 白熊" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 惠特舍德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 野天鹅" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 威沙特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 伍尔斯顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 嫉妒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 埃芬汉" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "霍金斯级" } } }
+			ship = { name = "HMAS 罗利" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "霍金斯级" } } }
+			ship = { name = "HMAS 阿德莱德" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "城级" } } }
+			ship = { name = "HMAS 布里斯班" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "城级" } } }
+			ship = { name = "HMAS 墨尔本" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "城级" } } }
+			ship = { name = "HMAS 悉尼" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "城级" } } }
+			ship = { name = "HMAS 康斯坦斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "城级" } } }
+			ship = { name = "HMAS L-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L 型 " } } }
+			ship = { name = "HMAS L-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L 型 " } } }
+			ship = { name = "HMAS L-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L 型 " } } }
+			ship = { name = "HMAS H-48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS H-49" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS H-50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS K-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS K-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS K-25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS K-26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS K-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS K-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
+			ship = { name = "HMAS 德雷克" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "纳尔逊级" } } }
+			ship = { name = "HMAS 马来亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "伊丽莎白女王级" } } }
+			ship = { name = "HMAS 君权" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "复仇级" } } }
+		}
+	}
+}
+

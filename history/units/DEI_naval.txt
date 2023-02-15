@@ -1,0 +1,283 @@
+﻿###OOB File for DEI.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "O9 级"					# represents O9-15, K XI-XIII subs
+		name_group = HOL_SS_OCLASS
+		type = ship_hull_submarine_1
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "K-XI 级"					# represents K XIV-XVIII, O16 subs
+		name_group = HOL_SS_KCLASS
+		type = ship_hull_submarine_2
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "金狮级"
+		name_group = HOL_CV_HISTORICAL
+		type = ship_hull_carrier_conversion_ca
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "杰拉德·卡林堡级"
+		name_group = HOL_DD_HISTORICAL
+		type = ship_hull_light_2
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "杰森级"
+		name_group = HOL_DD_HISTORICAL
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "马斯特里赫特级"
+		name_group = HOL_DD_HISTORICAL
+		type = ship_hull_light_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "范·盖伦级"
+		name_group = HOL_DD_HISTORICAL
+		type = ship_hull_light_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "艾米利亚级"
+		name_group = HOL_BB_HISTORICAL
+		type = ship_hull_heavy_1
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "威廉一世级"
+		name_group = HOL_BB_HISTORICAL
+		type = ship_hull_heavy_2
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "泗水级"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck
+		name_group = HOL_CA_HISTORICAL
+		type = ship_hull_cruiser_coastal_defense_ship
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "雅各布·范黑姆斯克尔克级"
+		name_group = HOL_CA_HISTORICAL
+		type = ship_hull_cruiser_coastal_defense_ship
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "爪哇级"
+		name_group = HOL_CL_HISTORICAL
+		type = ship_hull_cruiser_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "德·鲁伊特级"
+		name_group = HOL_CL_HISTORICAL
+		type = ship_hull_cruiser_2
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "荷兰皇家海军远东舰队"
+		naval_base = 7381 ###Change to proper province number
+		task_force = {
+			name = "第一舰队"
+			location = 7381 ###Change to proper province number
+			ship = { name = "HrMs 墨丘利" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEI version_name = "威廉一世级" } } }
+			ship = { name = "HrMs 威廉一世" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEI version_name = "威廉一世级" } } }
+			ship = { name = "HrMs 鹿特丹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 斯海尔托亨博斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 提耳堡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 乌德勒支" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 范·盖伦" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 范·根特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 范·尼斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 维特·代·韦特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 祖特梅尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 德·鲁伊特" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEI version_name = "德·鲁伊特级" } } }
+			ship = { name = "HrMs 皮亚特·海恩" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEI version_name = "德·鲁伊特级" } } }
+		}
+		task_force = {
+			name = "第二舰队"
+			location = 7381 ###Change to proper province number
+			ship = { name = "HrMs 博爱" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DEI version_name = "艾米利亚级" } } }
+			ship = { name = "HrMs 圣马修" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DEI version_name = "艾米利亚级" } } }
+			ship = { name = "HrMs 西里伯斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "爪哇级" } } }
+			ship = { name = "HrMs 苏门答腊" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "爪哇级" } } }
+			ship = { name = "HrMs 爪哇" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "爪哇级" } } }
+			ship = { name = "HrMs 杰森" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "杰森级" } } }
+			ship = { name = "HrMs 俄瑞斯忒斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "杰森级" } } }
+			ship = { name = "HrMs 多德雷赫特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "马斯特里赫特级" } } }
+			ship = { name = "HrMs 马斯特里赫特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "马斯特里赫特级" } } }
+			ship = { name = "HrMs 兹沃勒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "马斯特里赫特级" } } }
+			ship = { name = "HrMs 格罗宁根" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 哈勒梅尔米尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 寇腾纳尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 莱顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+			ship = { name = "HrMs 纳梅亨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "范·盖伦级" } } }
+		}
+	}
+
+	fleet = {
+		name = "荷属东印度潜艇部队"
+		naval_base = 4608 ###Change to proper province number
+		task_force = {
+			name = "第二潜艇支队"
+			location = 4608 ###Change to proper province number
+			ship = { name = "HrMs K II" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K V" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K VI" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K VII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K IX" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K VIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K X" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 级" } } }
+			ship = { name = "HrMs K XI" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K-XI 级" } } }
+			ship = { name = "HrMs K XII" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K-XI 级" } } }
+			ship = { name = "HrMs K XIII" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K-XI 级" } } }
+		}
+	}
+}

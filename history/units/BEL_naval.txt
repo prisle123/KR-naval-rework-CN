@@ -1,0 +1,109 @@
+﻿###OOB File for BEL.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "格劳登茨 / 科隆 / 科尼斯堡级"
+		type = ship_hull_cruiser_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "根特级"
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "皇帝级"
+		icon = "gfx/interface/technologies/Germany/GER_pre_dreadnought.png"
+		type = ship_hull_heavy_1
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "拿骚级"
+		icon = "gfx/interface/technologies/Germany/GER_battleship_Helgoland.png"
+		type = ship_hull_heavy_1
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "泽布鲁日舰队"
+		naval_base = 6446
+		task_force = {
+			name = "泽布鲁日舰队"
+			location = 6446
+			ship = { name = "BNS 斯卡尔迪斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "根特级" } } }
+			ship = { name = "BNS 伊萨拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "根特级" } } }
+			ship = { name = "BNS 穆萨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "根特级" } } }
+			ship = { name = "BNS 乌尔塔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "根特级" } } }
+			ship = { name = "BNS 莱吉亚" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "根特级" } } }
+			ship = { name = "BNS 萨比斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "根特级" } } }
+			ship = { name = "BNS 安特卫普" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BEL version_name = "格劳登茨 / 科隆 / 科尼斯堡级" } } }
+			ship = { name = "BNS 法兰德斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BEL version_name = "皇帝级" } } }
+			ship = { name = "BNS 布拉班特" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BEL version_name = "拿骚级" } } }
+		}
+	}
+}
+
+instant_effect = {
+	#Naval Production
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "BEL"
+			version_name = "格劳登茨 / 科隆 / 科尼斯堡级"
+		}
+		name = "BNS 弗维亚"
+		requested_factories = 1
+		progress = 0.67
+		amount = 3
+	}
+}

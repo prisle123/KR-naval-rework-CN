@@ -1,0 +1,405 @@
+﻿capital = 159
+oob = "ITA"
+set_naval_oob = "ITA_naval"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.6
+set_war_support = 0.2
+starting_train_buffer = 0.5
+
+### Starting Technologies ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+
+	### Support ###
+	tech_support = 1
+	tech_engineers = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Industry ###
+	fuel_silos = 1
+	fuel_refining = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "ITA_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		engines_1 = 1
+		engines_2 = 1
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_small_airframe = 1
+		basic_medium_airframe = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "ITA_air_legacy"
+	set_technology = {
+		early_fighter = 1
+		early_bomber = 1
+		naval_bomber1 = 1
+		CAS1 = 1
+	}
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+### Navy - MtG ###
+if = {
+	limit = { has_dlc_mtg = yes }
+	set_technology = {
+		### Hulls ###
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+
+		### Modules ###
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		improved_airplane_launcher = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = { has_dlc_mtg = no }
+	set_technology = {
+		### Hulls ###
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+
+		### Transport ###
+		transport = 1
+	}
+}
+
+### LaR techs ###
+if = {
+	limit = { has_dlc_lar = yes }
+	set_technology = { armored_car1 = 1 }
+}
+
+country_event = { id = ita.1 days = 1 }
+country_event = { id = ita.103 days = 481 }
+country_event = { id = ita.104 days = 158 }
+country_event = { id = ita.108 days = 103 }
+country_event = { id = ita.109 days = 141 }
+country_event = { id = ita.16 days = 2617 random_days = 35 } #Partito Liberale Democratico Leadership Conference
+country_event = { id = ita.17 days = 2677 random_days = 35 } #Partito Repubblicano Italiano Leadership Conference
+country_event = { id = ita.106 days = 4243 random_days = 5 } #Anniversary of the Golden Ambrosian Republic
+
+759 = {
+	state_event = { id = ita.105 days = 290 trigger_for = owner }
+}
+
+VNC = {
+	country_event = { id = venice.37 days = 476 random_days = 80 } #Sebastiano Venier Naval Military School
+	country_event = { id = venice.36 days = 841 random_days = 90 } #Ponte della Liberta
+}
+
+add_ai_strategy = {
+	type = ignore_claim
+	id = "PAP"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "SRD"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "SRI"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "SIC"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "EMI"
+	value = 1
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1932.05.01"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 2
+	social_democrat = 4
+	social_liberal = 31
+	market_liberal = 11
+	social_conservative = 18
+	authoritarian_democrat = 13
+	paternal_autocrat = 3
+	national_populist = 18
+}
+
+add_ideas = ITA_republic_federation
+
+# Country Leaders
+recruit_character = ITA_italo_balbo
+recruit_character = ITA_pietro_ferdinando
+recruit_character = ITA_adriano_visconti
+recruit_character = ITA_emilio_de_bono
+recruit_character = ITA_giovanni_gronchi
+recruit_character = ITA_luigi_einaudi
+recruit_character = ITA_marcello_soleri
+recruit_character = ITA_ivanoe_bonomi
+recruit_character = ITA_ferruccio_parri
+recruit_character = ITA_carlo_rosselli
+# SiC
+recruit_character = ITA_Federico_Comandini
+recruit_character = ITA_Giovanni_Uberti
+recruit_character = ITA_Augusto_de_Marsenisch
+recruit_character = ITA_Cesare_Forni
+recruit_character = ITA_Meuccio_Ruini
+# Advisors
+recruit_character = ITA_Mario_Abbiate
+recruit_character = ITA_Carlo_Schanzer
+recruit_character = ITA_Luigi_Gasparotto
+recruit_character = ITA_Anonio_Mosconi
+recruit_character = ITA_Duccio_Galimberti
+recruit_character = ITA_Alessandro_Pavolini
+recruit_character = ITA_Nicolo_Carandini
+recruit_character = ITA_Ezio_Vanoni
+recruit_character = ITA_Roberto_Tremelloni
+recruit_character = ITA_Giovanni_Conti
+recruit_character = ITA_Arrigo_Solmi
+recruit_character = ITA_giuseppe_tellera
+recruit_character = ITA_ferruccio_ranza
+recruit_character = ITA_mario_stoppani
+recruit_character = ITA_marziale_cerutti
+recruit_character = ITA_pietro_piacentini
+recruit_character = ITA_giuseppe_fioravanzo
+
+activate_advisor = ITA_Federico_Comandini_sic
+# Army Officers
+recruit_character = ITA_rodolfo_graziani
+recruit_character = ITA_ettore_bastico
+recruit_character = ITA_annibale_bergonzoli
+recruit_character = ITA_alberto_pariani
+recruit_character = ITA_sebastiano_visconti_prasca
+recruit_character = ITA_arnaldo_azzi
+recruit_character = ITA_enrico_riccardi
+recruit_character = ITA_gabriele_nasci
+recruit_character = ITA_italo_gariboldi
+recruit_character = ITA_venanzio_gabrotti
+recruit_character = ITA_fedele_de_giorgis
+recruit_character = ITA_domenico_mondelli
+# Navy Officers
+recruit_character = ITA_alberto_da_zara
+recruit_character = ITA_gino_pavesi
+recruit_character = ITA_raffaele_de_courten
+recruit_character = ITA_carlo_bergamini
+recruit_character = ITA_costanzo_ciano
+recruit_character = ITA_giovanni_galati
+
+ITA_sebastiano_visconti_prasca = { set_character_flag = ITA_lombard_leader }
+ITA_luigi_einaudi = { set_character_flag = ITA_lombard_leader }
+ITA_ivanoe_bonomi = { set_character_flag = ITA_lombard_leader }
+ITA_emilio_de_bono = { set_character_flag = ITA_lombard_leader }
+ITA_alberto_pariani = { set_character_flag = ITA_lombard_leader }
+ITA_italo_gariboldi = { set_character_flag = ITA_lombard_leader }
+ITA_fedele_de_giorgis = { set_character_flag = ITA_lombard_leader }
+ITA_raffaele_de_courten = { set_character_flag = ITA_lombard_leader }
+
+ITA_alberto_da_zara = { set_character_flag = ITA_venetian_admiral }
+ITA_gino_pavesi = { set_character_flag = ITA_venetian_admiral }
+
+################
+### Variants ###
+################
+if = {
+	limit = { has_dlc_nsb = yes }
+	create_equipment_variant = {
+		name = "Fiat 3000"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "gfx/interface/technologies/ITA_basic_light_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "Fiat 3000B"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "gfx/interface/technologies/ITA_basic_light_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "L3/35"
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_fixed_superstructure_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 1
+		}
+		icon = "gfx/interface/technologies/ITA_basic_light_tank.dds"
+	}
+}
+
+if = {
+	limit = { has_dlc_bba = yes }
+	create_equipment_variant = {
+		name = "CR.32"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Ca.111"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = small_bomb_bay
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Ca.101"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Ca.133"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "SM.81"
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			engine_type_slot = engine_1_3x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+	}
+	create_equipment_variant = {
+		name = "SM.79"
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+			engine_type_slot = engine_2_3x
+			special_type_slot_1 = lmg_defense_turret_2x
+		}
+	}
+	create_equipment_variant = {
+		name = "Ba.65"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = small_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+	}
+}

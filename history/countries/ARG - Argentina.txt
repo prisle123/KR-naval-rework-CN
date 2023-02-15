@@ -1,0 +1,265 @@
+﻿capital = 278
+oob = "ARG"
+set_naval_oob = "ARG_naval"
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.35
+set_convoys = 120
+starting_train_buffer = 1
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	marines = 1
+
+	### Support ###
+	tech_support = 1
+	tech_engineers = 1
+
+	### Artillery ###
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Trains ###
+	basic_train = 1
+}
+
+### Planes - BBA ###
+if = {
+	limit = { has_dlc_bba = yes }
+	set_air_oob = "ARG_air_bba"
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+}
+
+### Planes - non BBA ###
+if = {
+	limit = { has_dlc_bba = no }
+	set_air_oob = "ARG_air_legacy"
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+	}
+}
+
+### Tanks - NSB ###
+if = {
+	limit = { has_dlc_nsb = yes }
+	set_technology = { gwtank_chassis = 1 }
+}
+
+### Tanks - non NSB ###
+if = {
+	limit = { has_dlc_nsb = no }
+	set_technology = { gwtank = 1 }
+}
+
+### Navy - MtG ###
+if = {
+	limit = { has_dlc_mtg = yes }
+	set_technology = {
+		### Hulls ###
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		coastal_defense_ships = 1
+
+		### Modules ###
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+
+		### Transports ###
+		mtg_transport = 1
+	}
+}
+
+### Navy - non MtG ###
+if = {
+	limit = { has_dlc_mtg = no }
+	set_technology = {
+		### Hulls ###
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+
+		### Transports ###
+		transport = 1
+	}
+}
+
+add_ideas = {
+	ARG_carles_rule_idea_1
+	ARG_interservice_rivalry_navy_dominant
+	ARG_Military_Cliques
+	ARG_Military_Apparatus
+}
+
+unlock_national_focus = ARG_Woes_of_the_Christmas_Coup
+
+# Country events
+country_event = { id = argcar.1 days = 1 }          # Status of Argentina
+country_event = { id = argbla.8 days = 441 }        # Patriotic loan introduction
+country_event = { id = argbla.9 days = 596 }        # Creation of La Junta Nacional de Granos
+country_event = { id = argbla.11 days = 688 }       # La Viña dam construction start
+
+#Immigration
+country_event = { id = argim.10 days = 365 random_days = 20 } #1936
+country_event = { id = argim.20 days = 730 random_days = 20 } #1937
+country_event = { id = argim.30 days = 1095 random_days = 20 } #1938
+country_event = { id = argim.40 days = 1460 random_days = 20 } #1939
+country_event = { id = argim.50 days = 1825 random_days = 20 } #1940
+country_event = { id = argim.60 days = 2190 random_days = 20 } #1941
+country_event = { id = argim.70 days = 2555 random_days = 20 } #1942
+country_event = { id = argim.80 days = 2920 random_days = 20 } #1943
+country_event = { id = argim.90 days = 3285 random_days = 20 } #1944
+
+#Military events
+country_event = { id = argmil.24 days = 1460 random_days = 180 } #Officer Alberte joins the GOU
+country_event = { id = argfor.16 days = 730 random_days = 5 } #Coup to depose the hesitant player
+
+#ARG shared flavour events
+country_event = { id = arg_flavour.2 days = 415 }   # Horacio Quiroga suicide
+country_event = { id = arg_flavour.3 days = 779 }   # Leopoldo Lugones death
+country_event = { id = arg_flavour.9 days = 888 }   # Alfonsina Storni death
+country_event = { id = arg_flavour.10 days = 1001 } # Lisandro de la Torre death
+country_event = { id = arg_flavour.11 days = 1145 } # New metro line opening
+country_event = { id = arg_flavour.13 days = 1430 } # 'The Life of Carlos Gardel' movie
+country_event = { id = arg_flavour.14 days = 1606 } # Football stadium opening
+country_event = { id = arg_flavour.15 days = 1706 } # 'The Invention of Morel' novel published
+country_event = { id = arg_flavour.19 days = 1905 } # 40th Anniversary of the Antarctic Expedition
+country_event = { id = arg_flavour.16 days = 2010 } # San Juan earthquake
+country_event = { id = arg_flavour.17 days = 2190 } # Augustin Justo death
+country_event = { id = arg_flavour.18 days = 2315 } # 'Gaucho Wars' movie
+
+#AGR unique flavour events
+country_event = { id = arg_flavour.1 days = 288 }   # Buenos Aires obelisk
+country_event = { id = arg_flavour.12 days = 1295 } # Bairoletto death
+country_event = { id = argcar.47 days = 3950 }      # Carles death
+
+set_variable = { arg_im_factor = 100 }
+
+set_politics = {
+	ruling_party = national_populist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 4
+	radical_socialist = 4
+	syndicalist = 4
+	social_democrat = 10
+	social_liberal = 18
+	market_liberal = 21
+	social_conservative = 6
+	paternal_autocrat = 10
+	authoritarian_democrat = 4
+	national_populist = 19
+}
+
+###Starting country leaders
+
+recruit_character = ARG_manuel_carles
+recruit_character = ARG_juan_domingo_peron
+recruit_character = ARG_pedro_pablo_ramirez
+recruit_character = ARG_roberto_ortiz
+recruit_character = ARG_ramon_antonio_castillo
+recruit_character = ARG_nicolas_repetto #also a radsoc
+recruit_character = ARG_angel_borlenghi
+recruit_character = ARG_jose_peter
+
+### Field Marshals ###
+
+recruit_character = ARG_agustin_pedro_justo
+# ramirez gets recruited as a country leader
+recruit_character = ARG_juan_pistarini
+recruit_character = ARG_pedro_eugenio_aramburu
+
+### Corps Commanders ###
+
+recruit_character = ARG_enrique_mosconi
+### Peron gets recruited as a country leader
+recruit_character = ARG_edelmiro_julian_farrell
+recruit_character = ARG_manuel_savio
+recruit_character = ARG_humberto_sosa_molina
+recruit_character = ARG_arturo_rawson
+recruit_character = ARG_manuel_domecq_garcia
+
+### Admirals ###
+recruit_character = ARG_eleazar_videla
+recruit_character = ARG_isaac_francisco_rojas
+
+### Via event characters
+recruit_character = ARG_council_of_buenos_aires
+recruit_character = ARG_miguel_de_andrea
+recruit_character = ARG_elpidio_gonzalez
+recruit_character = ARG_jose_tamborini
+recruit_character = ARG_robustiano_costas
+recruit_character = ARG_alicia_moreau
+recruit_character = ARG_arturo_frondizi
+recruit_character = ARG_marcelo_alvear
+recruit_character = ARG_ricardo_balbin
+recruit_character = ARG_argentine_parliament
+recruit_character = ARG_bernardo_alberte
+
+##### Political advisors
+# Politics
+recruit_character = ARG_miguel_ortiz
+recruit_character = ARG_segundo_storni
+recruit_character = ARG_luis_costa
+recruit_character = ARG_juan_cooke
+recruit_character = ARG_eduardo_lonardi
+# Economy
+recruit_character = ARG_diego_mason
+recruit_character = ARG_carlos_begnis
+recruit_character = ARG_alberto_gilbert
+recruit_character = ARG_carlos_sanchez_viamonte
+recruit_character = ARG_jose_maria_sobral
+# Military staff - navy
+recruit_character = ARG_alberto_teisaire
+recruit_character = ARG_carlos_daireaux
+recruit_character = ARG_hector_vernengo_lima
+# Military staff - air
+recruit_character = ARG_antonio_parodi
+recruit_character = ARG_bartolome_de_la_colina
+recruit_character = ARG_pedro_castex_lainfor
+recruit_character = ARG_marcos_zar
+
+### Character Flags ###
+# event fop.230 - Civilian specialists approach FOP government
+ARG_jose_maria_sobral = { set_character_flag = ARG_can_join_FOP }
+ARG_luis_costa = { set_character_flag = ARG_can_join_FOP }
+ARG_juan_cooke = { set_character_flag = ARG_can_join_FOP }
+ARG_carlos_sanchez_viamonte = { set_character_flag = ARG_can_join_FOP }
+ARG_carlos_begnis = { set_character_flag = ARG_can_join_FOP }
+# Events
+ARG_alicia_moreau = { set_character_flag = ARG_can_join_FOP }
+ARG_nicolas_repetto = { set_character_flag = ARG_can_join_FOP }
+ARG_elpidio_gonzalez = { set_character_flag = ARG_can_join_FOP }
+ARG_robustiano_costas = { set_character_flag = ARG_can_join_FOP }
+ARG_arturo_frondizi = { set_character_flag = ARG_can_join_FOP }
+ARG_ricardo_balbin = { set_character_flag = ARG_can_join_FOP }
+# Focus tree - ARG characters that can be added to FOP roster via completing focuses
+ARG_juan_pistarini = { set_character_flag = ARG_can_join_FOP }
+ARG_enrique_mosconi = { set_character_flag = ARG_can_join_FOP }
+ARG_manuel_savio = { set_character_flag = ARG_can_join_FOP }
+ARG_humberto_sosa_molina = { set_character_flag = ARG_can_join_FOP }
+ARG_eleazar_videla = { set_character_flag = ARG_can_join_FOP }
+ARG_segundo_storni = { set_character_flag = ARG_can_join_FOP }
+ARG_isaac_francisco_rojas = { set_character_flag = ARG_can_join_FOP }
+ARG_bartolome_de_la_colina = { set_character_flag = ARG_can_join_FOP }
+ARG_pedro_castex_lainfor = { set_character_flag = ARG_can_join_FOP }

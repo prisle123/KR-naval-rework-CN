@@ -1,0 +1,943 @@
+﻿###OOB File for JAP.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "巡潜 III 型"
+		type = ship_hull_cruiser_submarine
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			front_1_custom_slot = ship_airplane_launcher_2
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_extra_fuel_tank
+		}
+	}
+	create_equipment_variant = {
+		name = "巡潜 II 型"
+		type = ship_hull_cruiser_submarine
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			front_1_custom_slot = ship_airplane_launcher_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_extra_fuel_tank
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "巡潜 I 型"
+		type = ship_hull_cruiser_submarine
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "机雷潜 II 型"
+		type = ship_hull_submarine_2
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+	create_equipment_variant = {
+		name = "海大 V 型"
+		type = ship_hull_submarine_2
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "海大 型"
+		type = ship_hull_submarine_1
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "海中 VI 型"
+		type = ship_hull_submarine_1
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "机雷潜 型"
+		type = ship_hull_submarine_1
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "L 型"
+		type = ship_hull_submarine_1
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "龙渊级"
+		type = ship_hull_carrier_conversion_ca
+		name_group = JAP_CVL_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "凤翔级"
+		type = ship_hull_carrier_conversion_ca
+		name_group = JAP_CVL_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "龙骧级"
+		icon = "gfx/interface/technologies/Japan/JAP_carrier1.png"
+		type = ship_hull_carrier_1
+		name_group = JAP_CVL_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "苍龙级"
+		type = ship_hull_carrier_1
+		name_group = JAP_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_deck_space
+		}
+	}
+	create_equipment_variant = {
+		name = "飞龙级"
+		icon = "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
+		type = ship_hull_carrier_1
+		name_group = JAP_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_deck_space
+		}
+	}
+	create_equipment_variant = {
+		name = "吹雪型 / 晓型"
+		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Fubuki.png"
+		type = ship_hull_light_1
+		name_group = JAP_WEATHER
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "初春型 / 白露型"
+		type = ship_hull_light_2
+		name_group = JAP_WEATHER
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "峯风型 / 睦月型" #collection of various WWI and early interwar ships with similiar capabilities
+		type = ship_hull_light_1
+		name_group = JAP_WEATHER
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "桃型 / 枞型 "
+		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
+		type = ship_hull_light_1
+		name_group = JAP_NATURE
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "若竹型 "
+		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
+		type = ship_hull_light_1
+		name_group = JAP_NATURE
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "扶桑级"
+		icon = "gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
+		type = ship_hull_heavy_1
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "伊势级"
+		icon = "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
+		type = ship_hull_heavy_1
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "长门级"
+		type = ship_hull_heavy_1
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "土佐级"
+		icon = "gfx/interface/technologies/Japan/JAP_battleship2.png"
+		type = ship_hull_heavy_1
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	
+	create_equipment_variant = {#TBC
+		name = "金刚级"
+		icon = "gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+		type = ship_hull_heavy_1
+		name_group = JAP_MOUNTAIN
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {#TBC
+		name = "天城级"
+		icon = "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
+		type = ship_hull_heavy_1
+		name_group = JAP_MOUNTAIN
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "纪伊级"
+		type = ship_hull_heavy_2
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "安艺级"			# Slow but ultra strong battleship
+		type = ship_hull_super_heavy_1		# Dreadnought
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_shbb
+			front_1_custom_slot = ship_super_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_super_heavy_battery_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {#TBC
+		name = "古鹰级 / 青叶级"
+		type = ship_hull_cruiser_panzerschiff
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_2
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_torpedo_1
+		}
+	}
+	create_equipment_variant = {
+		name = "出云级"
+		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser1.png"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "筑摩级"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "川内型"
+		type = ship_hull_cruiser_1
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	create_equipment_variant = {
+		name = "球磨型 / 长良型"
+		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser2.png"
+		type = ship_hull_cruiser_1
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_light_medium_battery_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	create_equipment_variant = {
+		name = "香取型"					# cruiser minelayer
+		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Katori.png"
+		type = ship_hull_cruiser_1
+		name_group = JAP_MINELAYERS_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "天龙型"
+		type = ship_hull_cruiser_1
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "夕张型"
+		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
+		type = ship_hull_cruiser_1
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "物部级" # Myoko & Mogami class irl
+		type = ship_hull_cruiser_2
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "十胜级" # Myoko & Mogami class irl
+		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser_Tokachi.png"
+		type = ship_hull_cruiser_2
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "阿贺野型"		# Agano-class as IRL
+		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser3.png"
+		type = ship_hull_cruiser_2
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_2
+			rear_1_custom_slot = ship_anti_air_1
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "第一舰队"
+		naval_base = 9950 ###Change to proper province number
+		task_force = {
+			name = "第一舰队"
+			location = 9950 ###Change to proper province number
+			ship = { name = "赤城" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
+			ship = { name = "雾岛" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "金刚级" } } }
+			ship = { name = "出云" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "出云级" } } }
+			ship = { name = "陆奥" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "长门级" } } }
+			ship = { name = "凤翔" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "凤翔级" } } }
+			ship = { name = "龙骧" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "龙骧级" } } }
+			ship = { name = "泽风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "岛风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "时津风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "睦月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "卯月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "矢风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "吹雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "矶波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			# ship = { name = "深雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "敷波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "东云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "丛云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "白云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "白雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "浦波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "薄云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "栗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "梨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "榆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "堇" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "薄" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "竹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "栂" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "茑" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "五月雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "春雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "木曾" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "五十铃" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "六角川" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
+			ship = { name = "十胜" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
+		}
+	}
+	fleet = {
+		name = "第二舰队"
+		naval_base = 1092 ###Change to proper province number
+		task_force = {
+			name = "第二舰队"
+			location = 1092 ###Change to proper province number
+			ship = { name = "天城" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
+			ship = { name = "榛名" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "金刚级" } } }
+			ship = { name = "天雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "朝雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "绫波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "胧" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "狭雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "夕雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "文月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "羽风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "滨风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "春风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "菊月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "如月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "三日月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "水无月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "峯风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "望月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "滩风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "长月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "冲风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "皋月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "弥生" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "夕月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "朝颜" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "芙蓉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "刈萱" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "吴竹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "沢瀉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "早苗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "早蕨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "蓼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "若竹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "蓬" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "夕颜" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "若竹型 " } } }
+			ship = { name = "阿武隈" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "北上" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "鬼怒" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "长良" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "物部" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "隅田" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
+			ship = { name = "铃鹿" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "磐手" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "出云级" } } }
+			ship = { name = "龙渊" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "龙渊级" } } }
+			ship = { name = "苍龙" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "苍龙级" } } }
+			ship = { name = "尾张" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "纪伊级" } } }
+		}
+	}
+	fleet = {
+		name = "第三舰队"
+		naval_base = 9998 ###Change to proper province number
+		task_force = {
+			name = "第三舰队"
+			location = 9998 ###Change to proper province number
+			ship = { name = "晓" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "曙" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "初雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "响" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "雷" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "电" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "秋风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "朝风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "朝凪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "旗风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "疾风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "帆风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "神风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "松风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "波风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "野风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "沼风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "追风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "汐风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "太刀风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "夕风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "夕凪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
+			ship = { name = "枞" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			# ship = { name = "江风" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }  in construction
+			ship = { name = "村雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "子日" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "时雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "白露" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "海风" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "若叶" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "夕立" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "夕暮" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "大井" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "多摩" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "神通" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "川内型" } } }
+			ship = { name = "那珂" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "川内型" } } }
+			ship = { name = "川内" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "川内型" } } }
+			ship = { name = "夕张" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "夕张型" } } }
+			ship = { name = "九头龙" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
+			ship = { name = "三隈" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "最上" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "青叶" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
+			ship = { name = "衣笠" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
+			ship = { name = "古鹰" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
+			ship = { name = "加古" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
+			ship = { name = "土佐" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "土佐级" } } }
+			ship = { name = "长门" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "长门级" } } }
+			ship = { name = "爱宕" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
+			ship = { name = "加贺" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "土佐级" } } }
+			ship = { name = "纪伊" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "纪伊级" } } }
+		}
+	}
+	fleet = {
+		name = "第七舰队"
+		naval_base = 1150 ###Change to proper province number
+		task_force = {
+			name = "第七舰队"
+			location = 1150 ###Change to proper province number
+			ship = { name = "伊-1" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = JAP version_name = "巡潜 I 型" } } }
+			ship = { name = "伊-2" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = JAP version_name = "巡潜 I 型" } } }
+			ship = { name = "吕-29" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-30" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-32" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-57" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-58" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-59" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-60" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-61" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-62" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-63" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-64" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-65" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-66" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-67" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+			ship = { name = "吕-68" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "L 型" } } }
+		}
+	}
+	fleet = {
+		name = "第五舰队"
+		naval_base = 7072 ###Change to proper province number
+		task_force = {
+			name = "第五舰队"
+			location = 7072 ###Change to proper province number
+			ship = { name = "伊-3" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = JAP version_name = "巡潜 I 型" } } }
+			ship = { name = "伊-5" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = JAP version_name = "巡潜 II 型" } } }
+			ship = { name = "伊-51" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-52" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-53" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-54" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-55" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-56" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-57" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-58" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-59" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-60" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-63" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-21" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "机雷潜 型" } } }
+			ship = { name = "伊-22" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "机雷潜 型" } } }
+			ship = { name = "伊-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "机雷潜 型" } } }
+			ship = { name = "伊-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "机雷潜 型" } } }
+		}
+	}
+	fleet = {
+		name = "第六舰队"
+		naval_base = 9998 ###Change to proper province number
+		task_force = {
+			name = "第六舰队"
+			location = 9998 ###Change to proper province number
+			ship = { name = "伊-4" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = JAP version_name = "巡潜 I 型" } } }
+			ship = { name = "伊-6" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = JAP version_name = "巡潜 II 型" } } }
+			ship = { name = "吕-33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海中 VI 型" } } }
+			ship = { name = "吕-34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海中 VI 型" } } }
+			ship = { name = "伊-61" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-62" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-64" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-65" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-66" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-67" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-68" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-69" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-70" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-71" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-72" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-73" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-74" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+			ship = { name = "伊-75" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP version_name = "海大 型" } } }
+		}
+	}
+	fleet = {
+		name = "第四舰队"
+		naval_base = 1092 ###Change to proper province number
+		task_force = {
+			name = "第四舰队"
+			location = 1092 ###Change to proper province number
+			ship = { name = "扶桑" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "扶桑级" } } }
+			ship = { name = "山城" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "扶桑级" } } }
+			ship = { name = "伊势" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "伊势级" } } }
+			ship = { name = "日向" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "伊势级" } } }
+			ship = { name = "比叡" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "金刚级" } } }
+			ship = { name = "金刚" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "金刚级" } } }
+			ship = { name = "筑摩" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "筑摩级" } } }
+			ship = { name = "矢矧" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "筑摩级" } } }
+			ship = { name = "平户" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "筑摩级" } } }
+			ship = { name = "龙田" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "天龙型" } } }
+			ship = { name = "天龙" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "天龙型" } } }
+			ship = { name = "球磨" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "名取" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "由良" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
+			ship = { name = "有明" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "初春" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "初霜" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "涟" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "潮" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "葵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "苇" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "藤" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "萩" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "莲" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "菱" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "柿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "榧" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "菊" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "桃" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+			ship = { name = "柳" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
+		}
+	}
+}
+
+
+instant_effect = {
+	# add_equipment_production = {
+		# equipment = {
+			# type = ship_hull_carrier_1
+			# creator = "JAP"
+			# version_name = "苍龙级"
+		# }
+		# name = "飞龙"
+		# requested_factories = 3
+		# progress = 0.2
+		# amount = 1
+	# }
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "JAP"
+			version_name = "初春型 / 白露型"
+		}
+		name = "山风"
+		requested_factories = 1
+		progress = 0.8
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "JAP"
+			version_name = "初春型 / 白露型"
+		}
+		name = "江风"
+		requested_factories = 1
+		progress = 0.8
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "JAP"
+			version_name = "初春型 / 白露型"
+		}
+		name = "凉风"
+		requested_factories = 1
+		progress = 0.8
+		amount = 1
+	}
+}

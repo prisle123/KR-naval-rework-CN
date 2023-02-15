@@ -1,0 +1,353 @@
+﻿### OOB for file TUR.txt
+instant_effect = {
+	### Ship Variants ###
+
+	###Submarines###
+	create_equipment_variant = {
+		name = "奥鲁奇海军上将级" #OTL Ay class, so, again german submarines
+		type = ship_hull_submarine_2
+
+		name_group = OTT_REIS
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "UB III 级" #German UB III submarines
+		type = ship_hull_submarine_1
+
+		name_group = OTT_TAHTELBAHIR
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	###Destroyers###
+	create_equipment_variant = {
+		name = "扎法级"								# represents Zafer
+		type = ship_hull_light_2
+
+		name_group = OTT_GEOGRAPHIC
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "科札德佩级"								# represents Kocatepe
+		type = ship_hull_light_2
+
+		name_group = OTT_GEOGRAPHIC
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "萨姆松级"								# represents French Durandal-class
+		type = ship_hull_light_1
+
+		name_group = OTT_GEOGRAPHIC
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "爱国级"
+		type = ship_hull_light_1
+
+		name_group = OTT_INSPIRATIONAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	###Cruisers###
+
+	create_equipment_variant = {
+		name = "梅西迪耶级"								# represents Mecidiye and Hamidiye protected cruisers
+		type = ship_hull_cruiser_coastal_defense_ship
+
+		name_group = OTT_SULTANS
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "佩伊克伊·谢夫克特级"
+		type = ship_hull_cruiser_coastal_defense_ship
+
+		name_group = OTT_INSPIRATIONAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "不来梅级" #Old 1904 german Bremen class
+		type = ship_hull_cruiser_1
+
+		name_group = OTT_ISLANDS
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {#TBC
+		name = "斯特拉斯堡级"
+		type = ship_hull_cruiser_1
+
+		name_group = OTT_ISLANDS
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "毛奇级"
+		type = ship_hull_heavy_1
+		icon = "gfx/interface/technologies/Germany/GER_battleship_Moltke.png"
+		name_group = OTT_SULTANS
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+		}
+	}
+
+	###Battleships###
+	create_equipment_variant = {
+		name = "雷沙迪耶级"
+		type = ship_hull_heavy_1
+		icon = "gfx/interface/technologies/UOB/ENG_pre_dreadnought.png"
+		name_group = OTT_SULTANS
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "苏丹奥斯曼一世级"
+		icon = "gfx/interface/technologies/Ottomans/OTT_battleship_Agincourt.png"
+		type = ship_hull_heavy_1
+		name_group = OTT_SULTANS
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "巴伐利亚级"
+		type = ship_hull_heavy_1
+
+		name_group = OTT_SULTANS
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+	}
+}
+
+###########
+
+units = {
+	fleet = {
+		name = "奥斯曼帝国海军本土舰队" #Imperial Fleet, Home Command
+		naval_base = 9833
+		task_force = {
+			name = "第一作战舰队"
+			location = 9833 #Istanbul
+			#1. Donanma Firkasi
+			ship = { name = "OHG 苏丹穆罕默德四世" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "巴伐利亚级" } } } #Württemberg bought from germans
+			ship = { name = "OHG 苏丹奥斯曼一世" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "苏丹奥斯曼一世级" } } } #Sultan Osman I
+			ship = { name = "OHG 苏丹穆罕默德五世" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "雷沙迪耶级" } } } #Reşadiye
+			ship = { name = "OHG 格克切" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "斯特拉斯堡级" } } } #Strassburg
+			#3. Donanma Firkasi
+			ship = { name = "OHG 苏丹迈吉德一世" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "梅西迪耶级" } } } #Mecidiye
+			ship = { name = "OHG 佩伊克伊·谢夫克特" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "佩伊克伊·谢夫克特级" } } }
+			ship = { name = "OHG 伯克·伊·萨特维特" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "佩伊克伊·谢夫克特级" } } }
+		}
+		task_force = {
+			name = "第一支援舰队"
+			location = 4112 #Izmir
+			#1. Muhrip Firkasi
+			ship = { name = "OHG 科札德佩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "科札德佩级" } } } #ordered from germans
+			ship = { name = "OHG 阿达泰佩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "科札德佩级" } } } #ordered from germans
+			ship = { name = "OHG 扎法" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "扎法级" } } } #ordered from italians
+			ship = { name = "OHG 提纳兹特佩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "扎法级" } } } #ordered from italians
+			#2. Muhrip Firkasi
+			ship = { name = "OHG 爱国" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "爱国级" } } } #not decommissioned after WW1
+			ship = { name = "OHG 发展" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "爱国级" } } } #not decommissioned after WW1
+			ship = { name = "OHG 巴勒克西尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "科札德佩级" } } } #ordered from germans
+		}
+	}
+	fleet = {
+		name = "奥斯曼帝国海军地中海舰队" #Imperial Fleet, Mediterranean Command
+		naval_base = 9833
+		task_force = {
+			name = "第二作战舰队"
+			location = 792 #Beirut
+			#2. Donanma Firkasi
+			ship = { name = "OHG 苏丹塞利姆一世" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "毛奇级" } } } #Yavuz Sultan Selim
+			ship = { name = "OHG 苏丹哈米德二世" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = TUR version_name = "梅西迪耶级" } } } #Hamidiye
+			ship = { name = "OHG 科斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "斯特拉斯堡级" } } } #Stralsund
+			ship = { name = "OHG 希俄斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "不来梅级" } } } #Danzig
+			#3. Muhrip Firkasi
+			ship = { name = "OHG 萨姆松" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "萨姆松级" } } } #Old french ship, wasn't scrapped like in OTL
+			ship = { name = "OHG 巴士拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "萨姆松级" } } } #Old french ship, wasn't scrapped like in OTL
+			ship = { name = "OHG 萨索斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "萨姆松级" } } } #Old french ship, wasn't scrapped like in OTL
+		}
+		task_force = {
+			name = "潜艇分队"
+			location = 1149 #Tripoli
+			#1. Denizalti Firkasi
+			ship = { name = "OHG T-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "UB III 级" } } } #bought from germans
+			ship = { name = "OHG T-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "UB III 级" } } } #bought from germans
+			ship = { name = "OHG T-3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "UB III 级" } } } #bought from germans
+			#2. Denizalti Firkasi
+			ship = { name = "OHG 奥鲁奇海军上将" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "奥鲁奇海军上将级" } } } #ordered from germans, OTL Saldiray
+			ship = { name = "OHG 穆拉特海军上将" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "奥鲁奇海军上将级" } } } #ordered from germans OTL Atilay
+			ship = { name = "OHG 布拉克海军上将" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TUR version_name = "奥鲁奇海军上将级" } } } #ordered from germans, OTL Batiray
+		}
+	}
+
+	fleet = {
+		name = "奥斯曼帝国海军波斯湾舰队"  #Imperial Fleet, Persian Gulf Command
+		naval_base = 2089
+		task_force = {
+			name = "第二支援舰队"
+			location = 2089
+			#4. Muhrip Firkasi
+			ship = { name = "OHG 埃尔津詹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "爱国级" } } } #bought from germans
+			ship = { name = "OHG 迪兹杰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "爱国级" } } } #bought from germans
+			ship = { name = "OHG 伊兹密尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "爱国级" } } } #bought from germans
+			ship = { name = "OHG 比加" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "爱国级" } } } #bought from germans
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "TUR"
+			version_name = "扎法级"
+		}
+		requested_factories = 5
+		progress = 0.1
+		amount = 12
+	}
+}

@@ -1,0 +1,12 @@
+units = {
+	fleet = {
+		name = "联合流亡舰队，航母"
+		naval_base = 9458
+		task_force = {
+			name = "联合流亡舰队，航母"
+			location = 9458
+			ship = { name = "HMS 暴怒" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = D01 version_name = "暴怒级" } } }
+			ship = { name = "HMS 竞技神" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = D01 version_name = "竞技神级" } } }
+		}
+	}
+}

@@ -1,0 +1,49 @@
+﻿###OOB File for AST.txt
+units = {
+	fleet = {
+		name = "升级舰队1"
+		naval_base = 12406 ###Change to proper province number
+		task_force = {
+			name = "升级舰队1"
+			location = 12406 ###Change to proper province number
+			ship = { name = "HMAS 巴拉瑞特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 巴瑟斯特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 本迪戈" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 博马德里" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 博尔德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 鲍勒尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 班布里" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 班达伯格" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 凯恩斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 科夫斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 达尔文" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 达博" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 吉朗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 杰拉尔顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 格拉德斯通" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 哈威" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 荷巴特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 朗塞斯顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 麦凯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 麦夸里" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 米尔杜拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 米塔贡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 莫维尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 诺拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 奥兰治" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 洛克汉普顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 谢珀顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 塔姆沃思" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 图文巴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 汤斯维尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 特拉拉尔根" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 沃加" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 瓦南布尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS 沃东加" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMAS SS-H48" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L 型" } } }
+			ship = { name = "HMAS SS-H49" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L 型" } } }
+			ship = { name = "HMAS SS-H50" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "L 型" } } }
+		}
+	}
+}
+

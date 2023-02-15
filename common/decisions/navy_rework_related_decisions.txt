@@ -1,0 +1,80 @@
+political_actions = {
+	AST_transfer_generals = {
+		allowed = { tag = GBR }
+		visible = {
+			is_in_faction_with = AST
+		}
+		fire_only_once = yes
+		
+		cancel_if_not_visible = yes
+		
+		remove_effect = {
+			AST = {
+				AST_victor_alexander_charles_crutchley = {
+					set_nationality = GBR
+				}
+			}
+		}
+	}
+	RAJ_transfer_generals = {
+		allowed = { tag = GBR }
+		visible = {
+			is_in_faction_with = RAJ
+		}
+		fire_only_once = yes
+		
+		cancel_if_not_visible = yes
+		
+		remove_effect = {
+			RAJ = {
+				RAJ_archibald_wavell = {
+					set_nationality = GBR
+				}
+				RAJ_hastings_ismay = {
+					set_nationality = GBR
+				}
+				RAJ_claude_auchinleck = {
+					set_nationality = GBR
+				}
+			}
+		}
+	}
+}
+
+
+political_actions = {
+	DEI_takeover_fleet = {
+		icon = generic_naval
+		allowed = { tag = HOL }
+		visible = {
+			country_exists = DEI
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 100
+				DEI = { has_capitulated = yes }
+			}
+			modifier = {
+				add = 100
+				NOT = {
+					has_subject = DEI
+				}
+			}
+			modifier = {
+				factor = 0
+				DEI = { is_ai = no }
+				OR = {
+					has_subject = DEI
+				}
+			}
+		}
+		cost = 0
+		fire_only_once = yes
+		complete_effect = {
+			DEI = {
+				transfer_navy = { target = HOL }
+			}
+		}
+	}
+}

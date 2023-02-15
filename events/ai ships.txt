@@ -1,0 +1,506 @@
+add_namespace = ai_ships
+
+country_event = {
+	id = ai_ships.0
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		GER = {
+			is_ai = yes
+			NOT = { has_country_flag = GER_CAPITAL_SHIPS_1940 }
+			OR = {
+				has_war_with = ENG
+				date > 1940.6.1
+				has_tech = improved_ship_hull_heavy
+			}
+		}
+	}
+	immediate = {
+		GER = {
+			set_technology = { improved_ship_hull_heavy = 1 }
+			set_technology = { antiair2 = 1 }
+			set_technology = { advanced_fire_control_system = 1 }
+			set_technology = { improved_decimetric_radar = 1 }
+			set_technology = { improved_dp_light_battery = 1 }
+			set_technology = { improved_heavy_battery = 1 }
+			set_technology = { improved_heavy_armor_scheme = 1 }
+			create_equipment_variant = {
+				name = "兴登堡级"
+				type = ship_hull_heavy_3
+				parent_version = 0
+				name_group = GER_BB_IMPERIAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_anti_air_3
+					mid_1_custom_slot = dp_ship_secondaries_3
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_3
+					rear_1_custom_slot = ship_heavy_battery_3
+				}
+			}
+			create_ship = { type = ship_hull_heavy_3 version_name = "兴登堡级" name = "SMS 兴登堡" }
+			create_ship = { type = ship_hull_heavy_3 version_name = "兴登堡级" name = "SMS 鲁登道夫" }
+			set_country_flag = GER_CAPITAL_SHIPS_1940
+		}
+	}
+	option = {
+	}
+}
+
+country_event = {
+	id = ai_ships.1
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		GER = {
+			is_ai = yes
+			NOT = { has_country_flag = GER_CAPITAL_SHIPS_1942 }
+			OR = {
+				AND = {
+					date > 1942.1.1
+					surrender_progress < 0.2
+				}
+				has_tech = improved_ship_hull_carrier
+			}
+		}
+	}
+	immediate = {
+		GER = {
+			set_technology = { improved_ship_hull_carrier = 1 }
+			set_technology = { antiair3 = 1 }
+			create_equipment_variant = {
+				name = "斯卡格拉克级"
+				type = ship_hull_carrier_2
+				parent_version = 0
+				name_group = GER_THEME_BATTLE_IMPERIAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_ship = { type = ship_hull_carrier_2 version_name = "斯卡格拉克级" name = "SMS 斯卡格拉克" }
+			create_ship = { type = ship_hull_carrier_2 version_name = "斯卡格拉克级" name = "SMS 条顿堡林山" }
+			set_country_flag = GER_CAPITAL_SHIPS_1942
+		}
+	}
+	option = {
+	}
+}
+
+country_event = {
+	id = ai_ships.2
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 180 }
+	trigger = {
+		GER = {
+			is_ai = yes
+			NOT = { has_country_flag = GER_CAPITAL_SHIPS_1944 }
+			OR = {
+				AND = {
+					date > 1943.1.1
+					surrender_progress < 0.2
+				}
+				AND = {
+					has_tech = advanced_ship_hull_carrier
+					has_tech = advanced_ship_hull_heavy
+				}
+			}
+		}
+	}
+	immediate = {
+		GER = {
+			set_technology = { advanced_ship_hull_carrier = 1 }
+			set_technology = { advanced_ship_hull_heavy = 1 }
+			set_technology = { antiair4 = 1 }
+			set_technology = { advanced_fire_control_system = 1 }
+			set_technology = { centimetric_radar = 1 }
+			set_technology = { advanced_dp_light_battery = 1 }
+			set_technology = { advanced_heavy_battery = 1 }
+			set_technology = { improved_heavy_armor_scheme = 1 }
+			create_equipment_variant = {
+				name = "拿骚级"
+				type = ship_hull_heavy_4
+				parent_version = 0
+				name_group = GER_BB_IMPERIAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_anti_air_4
+					mid_1_custom_slot = dp_ship_secondaries_3
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_3
+					rear_1_custom_slot = ship_heavy_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "法兰德斯级"
+				type = ship_hull_carrier_3
+				parent_version = 0
+				name_group = GER_THEME_BATTLE_IMPERIAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_ship = { type = ship_hull_heavy_4 version_name = "拿骚级" name = "SMS 拿骚" }
+			create_ship = { type = ship_hull_heavy_4 version_name = "拿骚级" name = "SMS 威斯特法伦" }
+			create_ship = { type = ship_hull_heavy_4 version_name = "拿骚级" name = "SMS 莱茵兰" }
+			create_ship = { type = ship_hull_heavy_4 version_name = "拿骚级" name = "SMS 波森" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "法兰德斯级" name = "SMS 法兰德斯" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "法兰德斯级" name = "SMS 凡尔登" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "法兰德斯级" name = "SMS 色当" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "法兰德斯级" name = "SMS 克尼格雷茨" }
+			set_country_flag = GER_CAPITAL_SHIPS_1944
+		}
+	}
+	option = {
+	}
+}
+
+
+country_event = {
+	id = ai_ships.3
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		ENG = {
+			is_ai = yes
+			NOT = { has_country_flag = ENG_CAPITAL_SHIPS_1941 }
+			OR = {
+				date > 1941.1.1
+				AND = {
+					has_tech = improved_ship_hull_heavy
+					has_tech = improved_ship_hull_carrier
+				}
+			}
+		}
+	}
+	immediate = {
+		ENG = {
+			set_technology = { improved_ship_hull_heavy = 1 }
+			set_technology = { antiair2 = 1 }
+			set_technology = { advanced_fire_control_system = 1 }
+			set_technology = { improved_decimetric_radar = 1 }
+			set_technology = { improved_dp_light_battery = 1 }
+			set_technology = { improved_heavy_battery = 1 }
+			set_technology = { improved_heavy_armor_scheme = 1 }
+			
+			create_equipment_variant = {
+				name = "反抗级"
+				type = ship_hull_heavy_3
+				parent_version = 0
+				name_group = ENG_BB_COMMUNISM
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_anti_air_3
+					mid_1_custom_slot = dp_ship_secondaries_3
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_3
+					rear_1_custom_slot = ship_heavy_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "光辉级"
+				type = ship_hull_carrier_2
+				parent_version = 0
+				name_group = ENG_CV_QUALITIES
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_ship = { type = ship_hull_carrier_2 version_name = "光辉级" name = "RNS 光辉" }
+			create_ship = { type = ship_hull_carrier_2 version_name = "光辉级" name = "RNS 不挠" }
+			create_ship = { type = ship_hull_carrier_2 version_name = "光辉级" name = "RNS 胜利" }
+			create_ship = { type = ship_hull_carrier_2 version_name = "光辉级" name = "RNS 可畏" }
+			create_ship = { type = ship_hull_heavy_3 version_name = "反抗级" name = "RNS 反抗" }
+			create_ship = { type = ship_hull_heavy_3 version_name = "反抗级" name = "RNS 无畏" }
+			set_country_flag = ENG_CAPITAL_SHIPS_1941
+		}
+	}
+	option = {
+	}
+}
+
+
+country_event = {
+	id = ai_ships.4
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 100 }
+	trigger = {
+		ENG = {
+			is_ai = yes
+			NOT = { has_country_flag = ENG_CAPITAL_SHIPS_1943 }
+			OR = {
+				AND = {
+					date > 1943.1.1
+					surrender_progress < 0.1
+				}
+				AND = {
+					has_tech = advanced_ship_hull_heavy
+					has_tech = advanced_ship_hull_carrier
+				}
+			}
+		}
+	}
+	immediate = {
+		ENG = {
+			set_technology = { advanced_ship_hull_heavy = 1 }
+			set_technology = { advanced_ship_hull_carrier = 1 }
+			set_technology = { antiair3 = 1 }
+			set_technology = { antiair4 = 1 }
+			set_technology = { advanced_fire_control_system = 1 }
+			set_technology = { centimetric_radar = 1 }
+			set_technology = { advanced_dp_light_battery = 1 }
+			set_technology = { advanced_heavy_battery = 1 }
+			set_technology = { improved_heavy_armor_scheme = 1 }
+			
+			create_equipment_variant = {
+				name = "狮级"
+				type = ship_hull_heavy_4
+				parent_version = 0
+				name_group = ENG_BB_COMMUNISM
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_anti_air_4
+					mid_1_custom_slot = dp_ship_secondaries_3
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_3
+					rear_1_custom_slot = ship_heavy_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "怨仇级"
+				type = ship_hull_carrier_3
+				parent_version = 0
+				name_group = ENG_CV_QUALITIES
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_armor_carrier_deck
+					mid_2_custom_slot = ship_deck_space
+				}
+			}
+			create_ship = { type = ship_hull_carrier_3 version_name = "怨仇级" name = "RNS 怨仇" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "怨仇级" name = "RNS 不倦" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "怨仇级" name = "RNS 不退" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "怨仇级" name = "RNS 可敬" }
+			create_ship = { type = ship_hull_heavy_4 version_name = "狮级" name = "RNS 狮"}
+			create_ship = { type = ship_hull_heavy_4 version_name = "狮级" name = "RNS 雷神"}
+			create_ship = { type = ship_hull_heavy_4 version_name = "狮级" name = "RNS 解放者"}
+			create_ship = { type = ship_hull_heavy_4 version_name = "狮级" name = "RNS 前卫"}
+			set_country_flag = ENG_CAPITAL_SHIPS_1943
+		}
+	}
+	option = {
+	}
+}
+
+country_event = {
+	id = ai_ships.5
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 180 }
+	trigger = {
+		JAP = {
+			is_ai = yes
+			NOT = { has_country_flag = JAP_CAPITAL_SHIPS_1941}
+			OR = {
+				date > 1941.1.1
+				AND = {
+					has_tech = improved_ship_hull_heavy
+					has_tech = improved_ship_hull_carrier
+				}
+			}
+		}
+	}
+	immediate = {
+		JAP = {
+			set_technology = { improved_ship_hull_heavy = 1 }
+			set_technology = { antiair2 = 1 }
+			set_technology = { advanced_fire_control_system = 1 }
+			set_technology = { improved_decimetric_radar = 1 }
+			set_technology = { improved_dp_light_battery = 1 }
+			set_technology = { improved_heavy_battery = 1 }
+			set_technology = { improved_heavy_armor_scheme = 1 }
+			
+			create_equipment_variant = {
+				name = "大和级"
+				type = ship_hull_heavy_3
+				parent_version = 0
+				name_group = JAP_PREFECTURES
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_anti_air_3
+					mid_1_custom_slot = dp_ship_secondaries_3
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_3
+					rear_1_custom_slot = ship_heavy_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "大凤级"
+				type = ship_hull_carrier_2
+				parent_version = 0
+				name_group = JAP_CV_HISTORICAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_ship = { type = ship_hull_heavy_3 version_name = "大和级" name = "大和" }
+			create_ship = { type = ship_hull_heavy_3 version_name = "大和级" name = "武藏" }
+			create_ship = { type = ship_hull_heavy_3 version_name = "大和级" name = "信浓" }
+			create_ship = { type = ship_hull_carrier_2 version_name = "大凤级" name = "大凤" }
+			create_ship = { type = ship_hull_carrier_2 version_name = "大凤级" name = "云龙" }
+			set_country_flag = JAP_CAPITAL_SHIPS_1941
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.6
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 180 }
+	trigger = {
+		JAP = {
+			is_ai = yes
+			NOT = { has_country_flag = JAP_CAPITAL_SHIPS_1943}
+			OR = {
+				date > 1943.1.1
+				AND = {
+					has_tech = advanced_ship_hull_heavy
+					has_tech = advanced_ship_hull_carrier
+				}
+			}
+		}
+	}
+	immediate = {
+		JAP = {
+			set_technology = { advanced_ship_hull_heavy = 1 }
+			set_technology = { advanced_ship_hull_carrier = 1 }
+			set_technology = { antiair3 = 1 }
+			set_technology = { antiair4 = 1 }
+			set_technology = { advanced_fire_control_system = 1 }
+			set_technology = { centimetric_radar = 1 }
+			set_technology = { advanced_dp_light_battery = 1 }
+			set_technology = { advanced_heavy_battery = 1 }
+			set_technology = { improved_heavy_armor_scheme = 1 }
+			
+			create_equipment_variant = {
+				name = "肥前级"
+				type = ship_hull_heavy_4
+				parent_version = 0
+				name_group = JAP_PREFECTURES
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					fixed_ship_armor_slot = ship_armor_bb_3
+					front_1_custom_slot = ship_anti_air_4
+					mid_1_custom_slot = dp_ship_secondaries_3
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_3
+					rear_1_custom_slot = ship_heavy_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "葛城级"
+				type = ship_hull_carrier_3
+				parent_version = 0
+				name_group = JAP_CV_HISTORICAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_deck_space
+				}
+			}
+			create_ship = { type = ship_hull_heavy_4 version_name = "肥前级" name = "肥前" }
+			create_ship = { type = ship_hull_heavy_4 version_name = "肥前级" name = "萨摩" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "葛城级" name = "葛城" }
+			create_ship = { type = ship_hull_carrier_3 version_name = "葛城级" name = "笠置" }
+			set_country_flag = JAP_CAPITAL_SHIPS_1943
+		}
+	}
+}

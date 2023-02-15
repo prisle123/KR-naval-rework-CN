@@ -1,0 +1,294 @@
+add_namespace = Naval_lore
+
+# Japan lore event
+country_event = {	# Japan navy 1910-1925
+	id = Naval_lore.0
+	title = Naval_lore.0.t
+	desc = Naval_lore.0.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_JAP_mutsu
+	
+	option = {
+		name = Naval_lore.next
+		FROM ={
+			country_event = Naval_lore.1
+		}
+	}
+	option = {
+		name = Naval_lore.option.JAP.ok
+	}
+}
+country_event = {	# Japan navy 1925-1936
+	id = Naval_lore.1
+	title = Naval_lore.1.t
+	desc = Naval_lore.1.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_JAP_mutsu
+	
+	option = {
+		name = Naval_lore.prev
+		FROM ={
+			country_event = Naval_lore.0
+		}
+	}
+	option = {
+		name = Naval_lore.option.JAP.ok
+	}
+}
+
+# Germany lore event
+country_event = {	# German navy 1910-1920
+	id = Naval_lore.2
+	title = Naval_lore.2.t
+	desc = Naval_lore.2.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_GER_ship
+	
+	option = {
+		name = Naval_lore.next
+		FROM = {
+			country_event = Naval_lore.3
+		}
+	}
+	option = {
+		name = Naval_lore.option.GER.ok
+	}
+}
+country_event = {	# German navy 1920-1936
+	id = Naval_lore.3
+	title = Naval_lore.3.t
+	desc = Naval_lore.3.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_GER_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.2
+		}
+	}
+	option = {
+		name = Naval_lore.option.GER.ok
+	}
+}
+
+# Royal navy lore event
+country_event = {	# Royal navy 1910-1925
+	id = Naval_lore.4
+	title = Naval_lore.4.t
+	desc = Naval_lore.4.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_ENG_ship
+	
+	option = {
+		name = Naval_lore.next
+		if = {
+			limit = {
+				OR = {
+					tag = CAN
+					tag = GBR
+					tag = AST
+					tag = WIF
+				}
+			}
+			
+			FROM = {
+				country_event = Naval_lore.5
+			}
+		}
+		else_if = {
+			limit = {
+				tag = ENG
+			}
+			
+			FROM = {
+				country_event = Naval_lore.6
+			}
+		} 
+	}
+	option = {
+		name = Naval_lore.option.CAN.ok
+	}
+}
+country_event = {	# Royal navy 1925-1936
+	id = Naval_lore.5
+	title = Naval_lore.5.t
+	desc = Naval_lore.5.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_ENG_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.4
+		}
+	}
+	option = {
+		name = Naval_lore.option.CAN.ok
+	}
+}
+country_event = {	# Republican navy 1925-1936
+	id = Naval_lore.6
+	title = Naval_lore.6.t
+	desc = Naval_lore.6.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_ENG_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.4
+		}
+	}
+	option = {
+		name = Naval_lore.option.ENG.ok
+	}
+}
+
+# USN
+country_event = {	# USN 1905-1920
+	id = Naval_lore.7
+	title = Naval_lore.7.t
+	desc = Naval_lore.7.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_USA_ship
+	
+	option = {
+		name = Naval_lore.next
+		FROM = {
+			country_event = Naval_lore.8
+		}
+	}
+	option = {
+		name = Naval_lore.option.USA.ok
+	}
+}
+country_event = {	# USN 1920-1936
+	id = Naval_lore.8
+	title = Naval_lore.8.t
+	desc = Naval_lore.8.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_USA_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.7
+		}
+	}
+	option = {
+		name = Naval_lore.option.USA.ok
+	}
+}
+
+# French Navy
+country_event = {	# French Navy 1900-1920
+	id = Naval_lore.9
+	title = Naval_lore.9.t
+	desc = Naval_lore.9.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_FRA_ship
+	
+	option = {
+		name = Naval_lore.next
+		if = {
+			limit = { tag = NFA }
+			FROM = {
+				country_event = Naval_lore.10
+			}
+		}
+		else_if = {
+			limit = { tag = FRA }
+			FROM = {
+				country_event = Naval_lore.11
+			}
+		}
+	}
+	option = {
+		name = Naval_lore.option.NFA.ok
+	}
+}
+country_event = {	# National Navy 1920-1936
+	id = Naval_lore.10
+	title = Naval_lore.10.t
+	desc = Naval_lore.10.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_FRA_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.9
+		}
+	}
+	option = {
+		name = Naval_lore.option.NFA.ok
+	}
+}
+country_event = {	# Communal Navy 1920-1936
+	id = Naval_lore.11
+	title = Naval_lore.11.t
+	desc = Naval_lore.11.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_FRA_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.9
+		}
+	}
+	option = {
+		name = Naval_lore.option.FRA.ok
+	}
+}
+
+# RUS
+country_event = {	# RUS 1905-1917
+	id = Naval_lore.12
+	title = Naval_lore.12.t
+	desc = Naval_lore.12.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_RUS_ship
+	
+	option = {
+		name = Naval_lore.next
+		FROM = {
+			country_event = Naval_lore.13
+		}
+	}
+	option = {
+		name = Naval_lore.option.RUS.ok
+	}
+}
+country_event = {	# RUS 1917-1936
+	id = Naval_lore.13
+	title = Naval_lore.13.t
+	desc = Naval_lore.13.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_RUS_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.12
+		}
+	}
+	option = {
+		name = Naval_lore.option.RUS.ok
+	}
+}

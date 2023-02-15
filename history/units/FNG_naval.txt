@@ -1,0 +1,84 @@
+﻿###OOB File for FNG.txt
+instant_effect = {
+	### Ship Variants
+	create_equipment_variant = {
+		name = "永谦级"
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "湖鹏级"					# torpedo boats
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "海圻级"
+		type = ship_hull_cruiser_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "L 型" # Coastal Sub
+		type = ship_hull_submarine_1
+		name_group = SIA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "联合舰队"
+		naval_base = 11764 ###Change to proper province number
+		task_force = {
+			name = "联合舰队"
+			location = 11764 ###Change to proper province number
+			ship = { name = "湖鸥" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "湖鹏级" } } }
+			ship = { name = "湖鹏" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "湖鹏级" } } }
+			ship = { name = "楚观" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "湖鹏级" } } }
+			ship = { name = "楚有" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "湖鹏级" } } }
+			ship = { name = "莲晶" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "湖鹏级" } } }
+			ship = { name = "永济" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "永谦级" } } }
+			ship = { name = "永谦" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FNG version_name = "永谦级" } } }
+			ship = { name = "海圻" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FNG version_name = "海圻级" } } }
+			ship = { name = "肇和" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FNG version_name = "海圻级" } } }
+			ship = { name = "应瑞" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FNG version_name = "海圻级" } } }
+		}
+	}
+}
+

@@ -1,0 +1,658 @@
+﻿###OOB File for CAN.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "N 型"
+		type = ship_hull_submarine_2
+		name_group = CAN_SS_NTYPE_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "L 型" # Old Eng Sub, keep here to prevent crash
+		type = ship_hull_submarine_1
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "H 型"
+		type = ship_hull_submarine_1
+		name_group = CAN_SS_HTYPE_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "X1 型"
+		type = ship_hull_cruiser_submarine
+		name_group = CAN_SS_X1TYPE_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "百眼巨人级"
+		type = ship_hull_carrier_conversion_ca
+		name_group = CAN_GBR_CVL_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "竞技神级"
+		icon = "gfx/interface/technologies/Canada/CAN_carrier1.png"
+		type = ship_hull_carrier_conversion_ca
+		name_group = CAN_GBR_CVL_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "勇敢级"
+		type = ship_hull_carrier_conversion_bb
+		name_group = CAN_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_deck_space
+		}
+	}
+
+	create_equipment_variant = {
+		name = "十字军级"
+		type = ship_hull_light_2
+		name_group = CAN_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "阿卡斯塔级"
+		type = ship_hull_light_1
+		name_group = CAN_GBR_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "R/S 级"
+		type = ship_hull_light_1
+		name_group = CAN_GBR_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "V/W 级"
+		type = ship_hull_light_1
+		name_group = CAN_GBR_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "英王乔治五世级"
+		type = ship_hull_heavy_2
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "纳尔逊级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Nelson.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "海军上将级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Admiral.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "伯勒洛丰级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "猎户座级"
+		icon = "gfx/interface/technologies/Canada/CAN_pre_dreadnought.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "复仇级"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "铁公爵级"
+		icon = "gfx/interface/technologies/Canada/CAN_battleship_GeorgeV.png"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "伊丽莎白女王级"
+		type = ship_hull_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {#TBC
+		name = "雄伟级"
+		type = ship_hull_super_heavy_1
+		name_group = CAN_GBR_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_shbb
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_super_heavy_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "布伦海姆级"
+		type = ship_hull_cruiser_panzerschiff
+		name_group = CAN_GBR_CA_HISTORICAL
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "C/D/E 级"
+		type = ship_hull_cruiser_1
+		name_group = CAN_GBR_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "蒙克顿级"
+		type = ship_hull_cruiser_2
+		name_group = CAN_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "城级"
+		type = ship_hull_cruiser_1
+		name_group = CAN_GBR_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "霍金斯级"
+		type = ship_hull_cruiser_1
+		name_group = CAN_GBR_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "大西洋舰队"
+		naval_base = 7361 ###Change to proper province number
+		task_force = {
+			name = "大西洋舰队水面舰艇部队"
+			location = 7361 ###Change to proper province number
+			ship = { name = "HMCS 豪" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "海军上将级" } } }
+			ship = { name = "HMCS 皇后" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 竞技神" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = IMP version_name = "竞技神级" } } }
+			ship = { name = "HMCS 阿卡斯塔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 伙伴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 冥界" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 积极" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 羚羊" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 安东尼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 热心" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 箭头" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 科林顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 亚马逊" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 伏击" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "阿卡斯塔级" } } }
+			ship = { name = "HMCS 雷蒙德·德·圣吉尔伯爵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 罗伯特二世伯爵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 十字军" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 布永·戈弗雷公爵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 罗贝尔二世公爵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 博希蒙德亲王" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 三叶草" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 猎人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 领队" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 索姆河" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 坚定" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 斯特林" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 成功" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 战术家" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 蒂尔伯里" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 廷塔哲" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 论坛" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 特立尼达" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 木马" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 煽动" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 绿松石" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 安德烈·德·蒙巴尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 富尔克五世" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 戈弗雷·德·圣奥梅尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 休·德·阿根廷" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 休·德·香槟" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 休·德·帕英" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 罗伯特·德·托特维尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 隆赛林·德福斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 阿布戴尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 加布里埃尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 伊图里尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 肯彭费尔特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 莱特富特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 斯图亚特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 布洛克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 凯佩尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 桑德斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 莎士比亚" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 斯普拉齐" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 华莱士" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 阿金库尔" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = IMP version_name = "布伦海姆级" } } }
+			ship = { name = "HMCS 蒙克顿" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "蒙克顿级" } } }
+			ship = { name = "HMCS 蒙特利尔" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "蒙克顿级" } } }
+			ship = { name = "HMCS 渥太华" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "蒙克顿级" } } }
+			ship = { name = "HMCS 多伦多" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMP version_name = "蒙克顿级" } } }
+			ship = { name = "HMCS 无惧" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 遣送" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 龙" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡吕普索" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡利奥佩" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 双子" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡莱尔" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 科伦坡" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 加罗林" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡里福特" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 征服" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 达特茅斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 雄伟" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "雄伟级" } } }
+			ship = { name = "HMCS 庄严" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "雄伟级" } } }
+			ship = { name = "HMCS 胜利" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = IMP version_name = "雄伟级" } } }
+			ship = { name = "HMCS 罗德尼" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "海军上将级" } } }
+			ship = { name = "HMCS 伯勒洛丰" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "伯勒洛丰级" } } }
+			ship = { name = "HMCS 征服者" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "猎户座级" } } }
+			ship = { name = "HMCS 猎户座" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "猎户座级" } } }
+			ship = { name = "HMCS 雷神" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "猎户座级" } } }
+			ship = { name = "HMCS 铁公爵" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "铁公爵级" } } }
+			ship = { name = "HMCS 巴勒姆" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "伊丽莎白女王级" } } }
+			ship = { name = "HMCS 勇士" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "伊丽莎白女王级" } } }
+			ship = { name = "HMCS 厌战" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "伊丽莎白女王级" } } }
+			ship = { name = "HMCS 拉米利斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "复仇级" } } }
+			ship = { name = "HMCS 决心" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "复仇级" } } }
+			ship = { name = "HMCS 复仇" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "复仇级" } } }
+		}
+	}
+	fleet = {
+		name = "大西洋舰队潜艇部队"
+		naval_base = 12149 ###Change to proper province number
+		task_force = {
+			name = "大西洋舰队潜艇部队"
+			location = 12149 ###Change to proper province number
+			ship = { name = "HMCS N-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N 型" } } }
+			ship = { name = "HMCS N-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N 型" } } }
+			ship = { name = "HMCS N-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N 型" } } }
+			ship = { name = "HMCS N-4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N 型" } } }
+			ship = { name = "HMCS N-5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N 型" } } }
+			ship = { name = "HMCS N-6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = IMP version_name = "N 型" } } }
+			ship = { name = "HMCS K-38" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-39" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-40" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-41" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-42" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-43" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS X-2" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = IMP version_name = "X1 型" } } }
+			
+			ship = { name = "HMCS L-11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-19" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-21" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-22" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-29" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-30" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-32" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+			ship = { name = "HMCS L-35" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "L 型" } } }
+
+		}
+	}
+	fleet = {
+		name = "大西洋舰队岸防舰队"
+		naval_base = 4285 ###Change to proper province number
+		task_force = {
+			name = "大西洋舰队岸防舰队"
+			location = 4285 ###Change to proper province number
+			ship = { name = "HMCS 坎贝尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 道格拉斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 马尔科姆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 蒙特罗斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 布伦海姆" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = IMP version_name = "布伦海姆级" } } }
+			ship = { name = "HMCS 翡翠" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡文迪许" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "霍金斯级" } } }
+			ship = { name = "HMCS 弗罗比舍" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "霍金斯级" } } }
+			ship = { name = "HMCS 霍金斯" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "霍金斯级" } } }
+		}
+	}
+	fleet = {
+		name = "印度特遣舰队"
+		naval_base = 3456 ###Change to proper province number
+		task_force = {
+			name = "印度特遣舰队"
+			location = 3456 ###Change to proper province number
+			ship = { name = "HMCS 沙玛瑙" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 土星" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 迅速" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 浪花" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 结实" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 梧桐" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 多巴哥" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 博兹贾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 萨尼特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 色雷斯人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 迪奥米德" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 寒武纪" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 坎特伯雷" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 半人马" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+		}
+	}
+	fleet = {
+		name = "太平洋舰队"
+		naval_base = 7259 ###Change to proper province number
+		task_force = {
+			name = "太平洋舰队水面舰艇部队"
+			location = 7259 ###Change to proper province number
+			ship = { name = "HMCS 百眼巨人" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = IMP version_name = "百眼巨人级" } } }
+			ship = { name = "HMCS 弯刀" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 苏格兰人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 侦察" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 巨石阵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 风暴云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 湍流" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "R/S 级" } } }
+			ship = { name = "HMCS 织女星" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 慷慨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 威洛克斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 沃尔顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 沃森" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 巨浪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 威斯敏斯特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 维文" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 人狼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMP version_name = "V/W 级" } } }
+			ship = { name = "HMCS 达尼厄" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 幼发拉底河" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡尔顿" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 卡拉多克" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 谷神星" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 鹬" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMP version_name = "C/D/E 级" } } }
+			ship = { name = "HMCS 安森" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "海军上将级" } } }
+			ship = { name = "HMCS 皇家橡树" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = IMP version_name = "复仇级" } } }
+		}
+		task_force = {
+			name = "太平洋舰队潜艇部队"
+			location = 1408 ###Change to proper province number
+			ship = { name = "HMCS H-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS H-25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS H-26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS H-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-29" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-30" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-36" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+			ship = { name = "HMCS K-37" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = IMP version_name = "H 型" } } }
+		}
+	}
+}
+

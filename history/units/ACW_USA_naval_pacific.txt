@@ -1,0 +1,40 @@
+﻿units = {
+
+	fleet = {
+		name = "美国海军加勒比舰队"
+		naval_base = 7617 ###NSB Coco Solo (Panama)
+		task_force = {
+			name = "加勒比舰队"
+			location = 7617 ###NSB Coco Solo (Panama)
+			ship = { name = "USS 路易斯维尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "北安普敦级" } } }
+			ship = { name = "USS 匹兹堡" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "匹兹堡级 / 孟菲斯级" } } }
+			ship = { name = "USS 宾夕法尼亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "宾夕法尼亚级 / 新墨西哥级" } } }
+			#Division 17
+			ship = { name = "USS 克莱门森" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 达尔格伦" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 金斯伯勒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 塞梅斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 沙特利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 格里尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Division 21
+			ship = { name = "USS 塔伯特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 沃特斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 丹特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 多西" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 林巴顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#6th Submarine Division
+			ship = { name = "USS R11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R19" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+			ship = { name = "USS R20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S 级" } } }
+		}
+	}
+}
+

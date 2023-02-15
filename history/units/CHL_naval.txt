@@ -1,0 +1,215 @@
+﻿###OOB File for CHL.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "安托法加斯塔级"
+		type = ship_hull_submarine_2
+		name_group = CHL_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "奥布莱恩海军上校级"
+		type = ship_hull_submarine_1
+		name_group = CHL_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "H 级"
+		type = ship_hull_submarine_1
+		name_group = CHL_SS_H_CLASS
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "塞拉诺级"
+		type = ship_hull_light_1
+		name_group = CHL_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "林奇海军少将级"
+		type = ship_hull_light_1
+		name_group = CHL_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "普拉特海军上校级"
+		type = ship_hull_pre_dreadnought
+		name_group = CHL_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "拉托雷海军上将级"
+		type = ship_hull_heavy_1
+		name_group = CHL_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {#TBC
+		name = "科克伦海军上将级"
+		type = ship_hull_cruiser_1
+		name_group = CHL_CA_HISTORICAL
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			rear_1_custom_slot = ship_medium_battery_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_anti_air_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "奥希金斯级"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = CHL_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "查卡布科级"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = CHL_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = empty
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "曾特诺部长级"
+		type = ship_hull_cruiser_1
+		name_group = CHL_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "智利海军"
+		naval_base = 13499
+		task_force = {
+			name = "智利海军"
+			location = 13499
+			ship = { name = "CSN 拉托雷海军上将" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "拉托雷海军上将级" } } }
+			ship = { name = "CSN 查卡布科" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "查卡布科级" } } }
+			ship = { name = "CSN 康戴尔海军少将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "林奇海军少将级" } } }
+			ship = { name = "CSN 林奇海军少将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "林奇海军少将级" } } }
+			ship = { name = "CSN 奥雷拉海军上校" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 佩德罗·维德拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 里克梅尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 哈亚特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 圣地亚哥" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 萨根多·艾尔迪亚" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 特恩尼特·塞拉诺" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "塞拉诺级" } } }
+			ship = { name = "CSN 科克伦海军上将" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "科克伦海军上将级" } } }
+			ship = { name = "CSN 艾萨吉雷" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "科克伦海军上将级" } } }
+			ship = { name = "CSN 普拉特海军上校" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CHL version_name = "普拉特海军上校级" } } }
+			ship = { name = "CSN 辛普森海军少将" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "奥布莱恩海军上校级" } } }
+			ship = { name = "CSN 奥布莱恩海军上校" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "奥布莱恩海军上校级" } } }
+			ship = { name = "CSN 汤姆森海军上校" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "奥布莱恩海军上校级" } } }
+			ship = { name = "CSN H-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H 级" } } }
+			ship = { name = "CSN H-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H 级" } } }
+			ship = { name = "CSN H-3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H 级" } } }
+			ship = { name = "CSN H-4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H 级" } } }
+			ship = { name = "CSN H-5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H 级" } } }
+			ship = { name = "CSN H-6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "H 级" } } }
+			ship = { name = "CSN 奥希金斯" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "奥希金斯级" } } }
+		}
+	}
+}
+

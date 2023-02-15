@@ -1,0 +1,91 @@
+Naval_lore_category = {
+	Naval_no_use = {
+		visible = { always = no }
+	}
+	
+	JAP_naval_lore = {
+		icon = generic_naval
+		allowed = { tag = JAP }
+		
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.0
+			}
+		}
+	}
+	GER_naval_lore = {
+		icon = generic_naval
+		allowed = {
+			OR = {
+				tag = GER
+				tag = GEA
+				tag = MAF
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.2
+			}
+		}
+	}
+	ENG_naval_lore = {
+		icon = generic_naval
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = CAN
+				tag = GBR
+				tag = AST
+				tag = WIF
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.4
+			}
+		}
+	}
+	USA_naval_lore = {
+		icon = generic_naval
+		allowed = {
+			OR = {
+				tag = USA
+				tag = CSA
+				tag = TEX
+				tag = PSA
+				tag = NEE
+				tag = HAW
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.7
+			}
+		}
+	}
+	FRA_naval_lore = {
+		icon = generic_naval
+		allowed = {
+			OR = {
+				tag = FRA
+				tag = NFA
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.9
+			}
+		}
+	}
+	RUS_naval_lore = {
+		icon = generic_naval
+		allowed = {
+			tag = RUS
+		}
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.12
+			}
+		}
+	}
+}

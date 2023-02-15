@@ -1,0 +1,92 @@
+﻿units = {
+	fleet = {
+		name = "美利坚联盟国海军水面舰艇部队"
+		naval_base = 7552 #New Orleans
+
+		task_force = {
+			name = "第一战列舰大队"
+			location = 7552 #New Orleans
+			ship = { name = "USS 田纳西" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "田纳西级" } } }
+			ship = { name = "USS 马里兰" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "科罗拉多级" } } }
+		}
+
+		task_force = {
+			name = "第一巡洋舰大队"
+			location = 1572 ###Green Cove Springs
+			ship = { name = "USS 北安普敦" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 切斯特" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 休斯顿" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 普韦布洛" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "匹兹堡级 / 孟菲斯级" } } }
+			ship = { name = "USS 克利夫兰" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "丹佛级" } } }
+		}
+
+		task_force = {
+			name = "第一航母支队"
+			location = 7552 #New Orleans
+			ship = { name = "USS 突击者" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = TEX version_name = "突击者级" } } }
+		}
+
+		task_force = {
+			name = "第一驱逐舰中队"
+			location = 1572 ###Green Cove Springs
+			#Division 7
+			ship = { name = "USS 麦基" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 罗宾逊" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 林戈德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 哈丁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 格里德利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 贝尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Division 8
+			ship = { name = "USS 金伯利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 戴耶" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 史蒂文斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 霍维" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 朗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 布鲁姆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Division 9
+			ship = { name = "USS 亚历山大·达拉斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 钱德勒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 索萨德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 贝尔纳普" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 麦克莱什" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 辛普森" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+		}
+
+		task_force = {
+			name = "太平洋舰队"
+			location = 2284 #North from Panama canal
+			ship = { name = "USS 奥马哈" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "奥马哈级" } } }
+			#Division 14
+			ship = { name = "USS 巴拉德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 查普林" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 麦霍" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 黑泽尔伍德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 哈特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 英格拉姆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Divisions 22-23
+			ship = { name = "USS 泰勒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 雪利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 赵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 科尔霍恩" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 麦基恩" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "USS 菲尔法克斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+		}
+	}
+	fleet = {
+		name = "美利坚联盟国海军潜艇部队"
+		naval_base = 1843 #Miami
+
+		task_force = {
+			name = "第一潜艇支队"
+			location = 1843 #Miami
+			ship = { name = "USS 梭鱼" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "梭鱼级 / 抹香鲸级" } } }
+			ship = { name = "USS 鲈鱼" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "梭鱼级 / 抹香鲸级" } } }
+			ship = { name = "USS 狐鲣" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "梭鱼级 / 抹香鲸级" } } }
+			ship = { name = "USS 抹香鲸" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "梭鱼级 / 抹香鲸级" } } }
+			ship = { name = "USS 墨鱼" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "梭鱼级 / 抹香鲸级" } } }
+			ship = { name = "USS 海豚" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "梭鱼级 / 抹香鲸级" } } }
+			ship = { name = "USS 鼠海豚" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "鼠海豚级" } } }
+			ship = { name = "USS 狗鱼" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = TEX version_name = "鼠海豚级" } } }
+		}
+	}
+}

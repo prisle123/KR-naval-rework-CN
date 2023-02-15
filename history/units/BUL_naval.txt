@@ -1,0 +1,181 @@
+﻿###OOB File for BUL.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "阿库拉级"			# Fictional, not related to the Russian one
+		type = ship_hull_submarine_2
+		name_group = BUL_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "潜鸟级"			# represents Leninets series II, XI
+		type = ship_hull_submarine_1
+		name_group = BUL_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "多布里奇级"
+		type = ship_hull_light_2
+		name_group = BUL_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "不倦级"						# represents Fidonisi and Izyaslav classes
+		type = ship_hull_light_1
+		name_group = BUL_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "德鲁兹基级"						# represents Fidonisi and Izyaslav classes
+		type = ship_hull_light_1
+		name_group = BUL_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "加富尔公爵级"			# refit variant (refit in 1937-40)
+		icon = "gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
+		type = ship_hull_heavy_1
+		name_group = BUL_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {#TBC
+		name = "赫拉巴尔级"
+		type = ship_hull_cruiser_1
+		name_group = BUL_CL_HISTORICAL
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			mid_2_custom_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "本科夫斯基级"
+		type = ship_hull_cruiser_2
+		name_group = BUL_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_2
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "地中海舰队"
+		naval_base = 11905 ###Change to proper province number
+		task_force = {
+			name = "水面舰队"
+			location = 11905 ###Dedeagac
+			#1st battle division
+			ship = { name = "赫拉巴尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUL version_name = "赫拉巴尔级" } } }
+			ship = { name = "本科夫斯基" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUL version_name = "本科夫斯基级" } } }
+			ship = { name = "圣伊凡" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BUL version_name = "加富尔公爵级" } } }
+			#1st destroyer division
+			ship = { name = "伊斯卡尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "多布里奇级" } } }
+			ship = { name = "马尔尼" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "多布里奇级" } } }
+			ship = { name = "维尔尼" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "多布里奇级" } } }
+			ship = { name = "德鲁兹基" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "德鲁兹基级" } } }
+			#2nd destroyer division
+			ship = { name = "彼得洛夫斯基" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "不倦级" } } }
+			ship = { name = "布利兹" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "多布里奇级" } } }
+			ship = { name = "多布里奇" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "多布里奇级" } } }
+			ship = { name = "戈迪" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUL version_name = "多布里奇级" } } }
+		}
+		task_force = {
+			name = "潜艇舰队"
+			location = 11905 ###Dedeagac
+			#1st destroyer division
+			ship = { name = "狡诈" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "潜鸟级" } } }
+			ship = { name = "希望" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "潜鸟级" } } }
+			ship = { name = "胜利" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "潜鸟级" } } }
+			ship = { name = "光荣" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = BUL version_name = "潜鸟级" } } }
+		}
+	}
+	fleet = {
+		name = "黑海舰队"
+		naval_base = 9783 ###Change to proper province number
+		task_force = {
+			name = "水面舰队"
+			location = 9783 ###Varna
+			#2nd battle division
+			ship = { name = "卡洛扬" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = BUL version_name = "加富尔公爵级" } } }
+			ship = { name = "康斯坦丁诺夫" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUL version_name = "本科夫斯基级" } } }
+			#3rd destroyer division
+			ship = { name = "勇敢" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "德鲁兹基级" } } }
+			ship = { name = "飞翔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "德鲁兹基级" } } }
+			ship = { name = "大胆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "德鲁兹基级" } } }
+			ship = { name = "严厉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "德鲁兹基级" } } }
+		}
+	}
+}
+

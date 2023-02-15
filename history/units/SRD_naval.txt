@@ -1,0 +1,170 @@
+﻿###OOB File for SRD.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "帕奇诺蒂级"
+		type = ship_hull_submarine_1
+		name_group = SRD_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "美杜莎级"
+		type = ship_hull_submarine_1
+		name_group = SRD_MYTHOLOGY
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "埃曼努埃莱·菲利伯托级"
+		type = ship_hull_light_2
+		name_group = SRD_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "阿尔伯雷亚级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		type = ship_hull_light_1
+		name_group = SRD_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "但丁·阿利吉耶里级"		# WK hulls
+		icon = "gfx/interface/technologies/Italy/ITA_battleship_Dante.png"
+		type = ship_hull_heavy_1
+		name_group = SRD_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "翁贝托级"
+		type = ship_hull_pre_dreadnought
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "巴列奥略级"
+		type = ship_hull_cruiser_2
+		name_group = SRD_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "大区级"			# WK hulls, all scrapped
+		type = ship_hull_cruiser_1
+		name_group = SRD_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_medium_battery_1
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "撒丁皇家海军"
+		naval_base = 6891
+		task_force = {
+			name = "撒丁皇家海军"
+			location = 6891
+			ship = { name = "RN 亚历山德罗·佩里奥" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 塞萨尔·罗萨罗尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 古格里尔莫·佩佩" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 阿尔盖罗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 阿尔巴塔克斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 阿尔伯雷亚" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 卡洛·阿尔贝托" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 杜卡·乌贝托" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 维拉奇德罗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 卡洛·埃曼努埃莱" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 卡洛福泰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRD version_name = "阿尔伯雷亚级" } } }
+			ship = { name = "RN 埃曼努埃莱·菲利伯托" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SRD version_name = "埃曼努埃莱·菲利伯托级" } } }
+			ship = { name = "RN 但丁·阿利吉耶里" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRD version_name = "但丁·阿利吉耶里级" } } }
+			ship = { name = "RN 阿妮塔·加里波第" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRD version_name = "巴列奥略级" } } }
+			ship = { name = "RN 巴列奥略" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SRD version_name = "巴列奥略级" } } }
+		}
+		task_force = {
+			name = "潜艇部队"
+			location = 6891
+			ship = { name = "Rs.Smg. 卡利俄佩" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "美杜莎级" } } }
+			ship = { name = "Rs.Smg. 独眼巨人" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "美杜莎级" } } }
+			ship = { name = "Rs.Smg. 亚尔戈" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "美杜莎级" } } }
+			ship = { name = "Rs.Smg. 僧帽水母" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "美杜莎级" } } }
+			ship = { name = "Rs.Smg. 水母" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "美杜莎级" } } }
+			ship = { name = "Rs.Smg. 美杜莎" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "美杜莎级" } } }
+			ship = { name = "Rs.Smg. 古列尔莫蒂" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "帕奇诺蒂级" } } }
+			ship = { name = "Rs.Smg. 帕西诺蒂" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SRD version_name = "帕奇诺蒂级" } } }
+		}
+	}
+}
+

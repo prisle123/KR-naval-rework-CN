@@ -1,0 +1,89 @@
+﻿###OOB File for MEX.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "阿瓜普列塔级"				# USS Machias
+		type = ship_hull_light_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "G20级"
+		type = ship_hull_light_2
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "坦皮科级"
+		type = ship_hull_cruiser_1
+
+		name_group = USA_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = empty
+			rear_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "进取级"
+		type = ship_hull_cruiser_2
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "墨西哥海军"
+		naval_base = 12810 ###Change to proper province number
+		task_force = {
+			name = "墨西哥海军"
+			location = 12810 ###Change to proper province number
+			ship = { name = "G20" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEX version_name = "G20级" } } }
+			ship = { name = "G21" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEX version_name = "G20级" } } }
+			ship = { name = "G22" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEX version_name = "G20级" } } }
+			ship = { name = "G23" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MEX version_name = "G20级" } } }
+			ship = { name = "自由" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MEX version_name = "进取级" } } }
+			ship = { name = "进取" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MEX version_name = "进取级" } } }
+		}
+	}
+}
+

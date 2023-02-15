@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_report_event_ENG_ship"
+		texturefile = "gfx/event_pictures/Navy/eng_ship.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_ship"
+		texturefile = "gfx/event_pictures/Navy/usa_ship.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_FRA_ship"
+		texturefile = "gfx/event_pictures/Navy/fra_ship.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_RUS_ship"
+		texturefile = "gfx/event_pictures/Navy/rus_ship.png"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_naval_treaties"
+		texturefile = "gfx/event_pictures/Navy/decision_cat_naval_treaty.png"
+	}
+}

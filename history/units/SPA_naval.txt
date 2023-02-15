@@ -1,0 +1,253 @@
+﻿###OOB File for SPA.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "D 级"							# purchased from Italy
+		type = ship_hull_submarine_2
+		name_group = SPR_SS_HISTORICAL
+
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "C 级"
+		type = ship_hull_submarine_2
+		name_group = SPR_SS_HISTORICAL
+
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "B 级"
+		type = ship_hull_submarine_1
+		name_group = SPR_SS_HISTORICAL
+
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "安特奎拉海军上将级"
+		type = ship_hull_light_2
+		name_group = SPR_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "丘鲁卡级"
+		type = ship_hull_light_1
+		name_group = SPR_DD_HISTORICAL
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "阿尔塞多级"
+		type = ship_hull_light_1
+		name_group = SPR_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "西班牙级"
+		name_group = SPR_BB_HISTORICAL
+		type = ship_hull_heavy_1
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "维多利亚·欧仁妮王后级"
+		name_group = SPR_CL_HISTORICAL
+		type = ship_hull_cruiser_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "布拉斯·德莱索级"
+		type = ship_hull_cruiser_1
+		name_group = SPR_CL_HISTORICAL
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "塞韦拉海军上将级"
+		type = ship_hull_cruiser_2
+		name_group = SPR_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "殖民地舰队"
+		naval_base = 12100 ###Change to proper province number
+		task_force = {
+			name = "第一分遣舰队"
+			location = 12100 ###Change to proper province number
+			ship = { name = "西斯卡" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "安特奎拉海军上将级" } } }
+			ship = { name = "埃斯卡诺" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "安特奎拉海军上将级" } } }
+			ship = { name = "格拉维纳" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "安特奎拉海军上将级" } } }
+			ship = { name = "豪尔赫·胡安" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "安特奎拉海军上将级" } } }
+			ship = { name = "B1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPA version_name = "B 级" } } }
+			ship = { name = "B2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPA version_name = "B 级" } } }
+			ship = { name = "B3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPA version_name = "B 级" } } }
+			ship = { name = "C2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "C 级" } } }
+			ship = { name = "C3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "C 级" } } }
+			ship = { name = "C6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "C 级" } } }
+		}
+	}
+	fleet = {
+		name = "加的斯舰队"
+		naval_base = 1048 ###Change to proper province number
+		task_force = {
+			name = "加的斯舰队"
+			location = 1048 ###Change to proper province number
+			ship = { name = "乌路亚" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPA version_name = "安特奎拉海军上将级" } } }
+			ship = { name = "阿尔塞多" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "阿尔塞多级" } } }
+			ship = { name = "拉扎加" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "阿尔塞多级" } } }
+			ship = { name = "贝拉斯科" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "阿尔塞多级" } } }
+			ship = { name = "桑切斯·巴凯兹泰吉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "阿斯图里亚亲王" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPA version_name = "塞韦拉海军上将级" } } }
+			ship = { name = "布拉斯·德莱索" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPA version_name = "布拉斯·德莱索级" } } }
+			ship = { name = "门德斯·努涅斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPA version_name = "布拉斯·德莱索级" } } }
+			ship = { name = "B4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPA version_name = "B 级" } } }
+			ship = { name = "B5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPA version_name = "B 级" } } }
+			ship = { name = "B6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPA version_name = "B 级" } } }
+			ship = { name = "C1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "C 级" } } }
+			ship = { name = "C4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "C 级" } } }
+			ship = { name = "C5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "C 级" } } }
+			ship = { name = "D1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "D 级" } } }
+			ship = { name = "D2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "D 级" } } }
+			ship = { name = "D3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "D 级" } } }
+			ship = { name = "D4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPA version_name = "D 级" } } }
+		}
+	}
+	fleet = {
+		name = "作战舰队"
+		naval_base = 758 ###Change to proper province number
+		task_force = {
+			name = "作战舰队"
+			location = 758 ###Change to proper province number
+			ship = { name = "西班牙" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPA version_name = "西班牙级" } } }
+			ship = { name = "海梅一世" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPA version_name = "西班牙级" } } }
+			ship = { name = "米兰达海军上将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "安特奎拉海军上将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "阿尔卡拉·加利亚诺" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "费兰迪斯上将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "巴尔德斯海军上将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "丘鲁卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "何塞·路易·迪亚兹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "勒班陀" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPA version_name = "丘鲁卡级" } } }
+			ship = { name = "塞韦拉海军上将" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPA version_name = "塞韦拉海军上将级" } } }
+			ship = { name = "米格尔·塞凡提斯" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPA version_name = "塞韦拉海军上将级" } } }
+			ship = { name = "维多利亚·欧仁妮王后" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPA version_name = "维多利亚·欧仁妮王后级" } } }
+		}
+	}
+}
+
+instant_effect = {
+	### Under Contruction Notes ###
+	# DD: Churucca class (x3) ("ARE Almirante Miranda" "ARE Gravina" "ARE Escaño" "ARE Císcar" "ARE Jorge Juan" "ARE Ulloa")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SPA"
+			version_name = "安特奎拉海军上将级"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 3
+	}
+	# CA: ARE Canarias (Canarias class, comm. 1-Oct, 1936), ARE Baleares (Canarias class, comm. 28-Dec, 1936)
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "SPA"
+			version_name = "塞韦拉海军上将级"
+		}
+		requested_factories = 2
+		progress = 0.85
+		amount = 2
+	}
+}

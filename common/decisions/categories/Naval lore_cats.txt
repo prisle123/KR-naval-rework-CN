@@ -1,0 +1,5 @@
+Naval_lore_category = {
+	picture = GFX_decision_cat_picture_naval_treaties
+	allowed = { has_dlc_mtg = yes }
+	priority = 10
+}
