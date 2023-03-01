@@ -2,6 +2,7 @@
 instant_effect = {
 	create_equipment_variant = {
 		name = "利奥波德王储级" 				# Fictional
+		role_icon_index = 15
 		icon = "gfx/interface/technologies/Germany/GER_battleship_Leopold.png"
 		type = ship_hull_heavy_2
 		name_group = GER_THEME_BATTLE_IMPERIAL

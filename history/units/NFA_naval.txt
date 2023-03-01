@@ -2,6 +2,7 @@
 instant_effect = {
 	create_equipment_variant = {
 		name = "亚马逊级 / 亚尔戈级"
+		role_icon_index = 39
 		type = ship_hull_cruiser_submarine
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -13,6 +14,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "阿丽亚娜级 / 喀尔刻级"						# represents all 630 series classes
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -23,6 +25,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "可畏级"						# OTL Redoubtable Class
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -34,6 +37,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "空想级"				# represents Le Fantasque classes
+		role_icon_index = 33
 		type = ship_hull_light_2
 		name_group = FRA_DD_HISTORICAL
 		modules = {
@@ -50,6 +54,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "豺狼级 / 猎豹级"				# represents Chacal, Guépard, Agile, and Vauquelin classes
+		role_icon_index = 31
 		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Vauquelin.png"
 		type = ship_hull_light_1
 		name_group = FRA_DD_HISTORICAL
@@ -67,6 +72,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "冒险家级 / 阿拉伯人级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = FRA_DD_HISTORICAL
 		modules = {
@@ -84,6 +90,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "战斗级 / 斯帕希级 / 盾牌级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 31
 		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
 		type = ship_hull_light_1
 		name_group = FRA_DE_HISTORICAL
@@ -102,6 +109,7 @@ instant_effect = {
 
 	create_equipment_variant = {#TBC
 		name = "尼斯级"
+		role_icon_index = 1
 		icon = "gfx/interface/technologies/NatFrance/NFA_battleship_Nice.png"
 		type = ship_hull_heavy_2
 		name_group = FRA_CITIES
@@ -122,6 +130,7 @@ instant_effect = {
 
 	create_equipment_variant = {#TBC
 		name = "波塔乌级"
+		role_icon_index = 21
 		type = ship_hull_cruiser_panzerschiff
 		name_group = FRA_CA_HISTORICAL
 		modules = {
@@ -139,6 +148,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "自由级"
+		role_icon_index = 6
 		type = ship_hull_pre_dreadnought
 		name_group = FRA_BB_HISTORICAL
 		modules = {
@@ -158,6 +168,7 @@ instant_effect = {
 
 	create_equipment_variant = {#TBC
 		name = "布列塔尼级"
+		role_icon_index = 3
 		type = ship_hull_heavy_1
 		name_group = FRA_REGIONS
 		modules = {
@@ -177,6 +188,7 @@ instant_effect = {
 
 	create_equipment_variant = {#TBC
 		name = "孤拔级"
+		role_icon_index = 3
 		type = ship_hull_heavy_1
 		name_group = FRA_BB_HISTORICAL
 		modules = {
@@ -197,6 +209,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "埃德加·基内级"
+		role_icon_index = 17
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = FRA_CA_HISTORICAL
 		modules = {
@@ -216,6 +229,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "神圣联盟级"
+		role_icon_index = 1
 		type = ship_hull_heavy_2
 		name_group = FRA_BB_HISTORICAL
 		modules = {
@@ -235,6 +249,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "南特级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = FRA_CITIES
 		modules = {

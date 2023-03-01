@@ -3,6 +3,7 @@ instant_effect = {
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "亚历山德罗·波里奥级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = ITA_DD_HISTORICAL
 		modules = {
@@ -20,6 +21,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "天鹰级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = ITA_DD_HISTORICAL
 		modules = {
@@ -37,6 +39,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "艾莉娜王后级"
+		role_icon_index = 5
 		type = ship_hull_pre_dreadnought
 		name_group = ITA_BB_HISTORICAL
 		modules = {
@@ -56,6 +59,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "利托里奥级"
+		role_icon_index = 3
 		type = ship_hull_heavy_2
 		name_group = ITA_BB_HISTORICAL
 		modules = {
@@ -75,6 +79,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "大区级"			# WK hulls, all scrapped
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = ITA_CL_HISTORICAL
 		modules = {
@@ -93,6 +98,7 @@ instant_effect = {
 
 	create_equipment_variant = { #modern light cruiser coopearation with Italian Dockyards, italian version has mines
 		name = "斯特龙伯利级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = ITA_CL_HISTORICAL
 		modules = {
@@ -111,6 +117,7 @@ instant_effect = {
 
 	create_equipment_variant = { #support ships
 		name = "阿德尔奇级"
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = ITA_DD_HISTORICAL
 		modules = {
@@ -126,6 +133,7 @@ instant_effect = {
 	}
 	create_equipment_variant = { #coastal minelayer subs
 		name = "亚尔戈级"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = ITA_SS_HISTORICAL
 		modules = {
@@ -136,6 +144,7 @@ instant_effect = {
 	}
 	create_equipment_variant = { #coastal minelayer subs
 		name = "斯拉级"
+		role_icon_index = 41
 		type = ship_hull_submarine_1
 		name_group = ITA_SS_SLA
 		modules = {
@@ -147,6 +156,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "鹦鹉螺级"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = ITA_SS_NAUTILUS
 		modules = {

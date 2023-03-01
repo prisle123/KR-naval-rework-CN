@@ -2,6 +2,7 @@
 instant_effect = {
 	create_equipment_variant = {
 		name = "绿宝石级"
+		role_icon_index = 38
 		type = ship_hull_submarine_2
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -13,6 +14,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "白鹭级"
+		role_icon_index = 40
 		type = ship_hull_cruiser_submarine
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -25,6 +27,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "潜水者级"					# minelayers
+		role_icon_index = 42
 		type = ship_hull_submarine_1
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -36,6 +39,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "人鱼级"
+		role_icon_index = 38
 		type = ship_hull_submarine_1
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -47,6 +51,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "阿丽亚娜级 / 喀尔刻级"						# represents all 630 series classes
+		role_icon_index = 38
 		type = ship_hull_submarine_1
 		name_group = FRA_SS_HISTORICAL
 		modules = {
@@ -58,6 +63,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "鲁尔少尉级"
+		role_icon_index = 30
 		type = ship_hull_light_1
 		name_group = FRA_DD_HISTORICAL
 		modules = {
@@ -75,6 +81,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "空想级"
+		role_icon_index = 34
 		icon = "gfx/interface/technologies/CoF/FRA_destroyer2.png"
 		type = ship_hull_light_2
 		name_group = FRA_DD_HISTORICAL
@@ -92,6 +99,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "豺狼级 / 猎豹级 / 沃克兰级"				# represents Chacal, Guépard, Agile, and Vauquelin classes
+		role_icon_index = 32
 		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Vauquelin.png"
 		type = ship_hull_light_1
 		name_group = FRA_DD_HISTORICAL
@@ -109,6 +117,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "阔剑级 / 斯帕希级 / 盾牌级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 32
 		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
 		type = ship_hull_light_1
 		name_group = FRA_DE_HISTORICAL
@@ -127,6 +136,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "莫加多尔级"
+		role_icon_index = 34
 		type = ship_hull_light_2
 		name_group = FRA_DD_HISTORICAL
 		modules = {
@@ -143,6 +153,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "暴风雪级"				# represents Bourrasque and L'Adroit classes
+		role_icon_index = 35
 		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
 		type = ship_hull_light_1
 		name_group = FRA_DE_HISTORICAL
@@ -160,6 +171,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "国际级"
+		role_icon_index = 2
 		type = ship_hull_heavy_2
 		name_group = FRA_BB_HISTORICAL
 		modules = {
@@ -179,6 +191,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "孤拔级"
+		role_icon_index = 4
 		type = ship_hull_heavy_1
 		name_group = FRA_BB_HISTORICAL
 		modules = {
@@ -199,6 +212,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "诺曼底级"
+		role_icon_index = 4
 		icon = "gfx/interface/technologies/CoF/FRA_battleship_Normandy.png"
 		type = ship_hull_heavy_1
 		name_group = FRA_MARTYRS
@@ -220,6 +234,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "布列塔尼级"
+		role_icon_index = 4
 		type = ship_hull_heavy_1
 		name_group = FRA_BB_HISTORICAL
 		modules = {
@@ -240,6 +255,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "儒勒·米什莱级 / 欧内斯特·勒南级"
+		role_icon_index = 18
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = FRA_MARSHALS
 		modules = {
@@ -259,6 +275,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "里昂级" # Coeperation between SRI and FRA for Fast raider cruiser
+		role_icon_index = 26
 		type = ship_hull_cruiser_2
 		name_group = FRA_CITIES
 		modules = {
@@ -277,6 +294,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "雷恩级" # Coeperation between SRI and FRA for scout cruiser
+		role_icon_index = 26
 		type = ship_hull_cruiser_2
 		name_group = FRA_CITIES
 		modules = {
@@ -295,6 +313,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "巴黎级"			# represents Duguay-Trouin, Pluton, Jeanne d'Arc classes
+		role_icon_index = 46
 		type = ship_hull_cruiser_1
 		name_group = FRA_CITIES
 		modules = {
@@ -314,6 +333,7 @@ instant_effect = {
 	### Aircraft Carriers
 	create_equipment_variant = {
 		name = "联邦级"
+		role_icon_index = 12
 		type = ship_hull_carrier_conversion_ca
 		name_group = FRA_INSPIRATIONAL
 		modules = {
@@ -329,6 +349,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "欧仁·鲍狄埃级"
+		role_icon_index = 10
 		icon = "gfx/interface/technologies/CoF/FRA_carrier1.png"
 		type = ship_hull_carrier_conversion_bb
 		name_group = FRA_MARTYRS

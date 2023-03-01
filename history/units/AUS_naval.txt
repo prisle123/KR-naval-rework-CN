@@ -4,6 +4,7 @@ instant_effect = {
 	###Destroyers
 	create_equipment_variant = { #modern screen dd
 		name = "彗星级"
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = AUS_DD_T_C_ZERSTORER
 		modules = {
@@ -20,6 +21,7 @@ instant_effect = {
 
 	create_equipment_variant = { #modern torpedoboat hunter
 		name = "骠骑兵级"
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = AUS_DD_T_S_ZERSTORER
 		modules = {
@@ -36,6 +38,7 @@ instant_effect = {
 
 	create_equipment_variant = { #oldest dd in arsenal -nearly Torpedoboat
 		name = "塔特拉级"
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_M_ZERSTORER
 		modules = {
@@ -53,6 +56,7 @@ instant_effect = {
 
 	create_equipment_variant = { #bigger old tbd
 		name = "猎鹰级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_MC_ZERSTORER
 		modules = {
@@ -70,6 +74,7 @@ instant_effect = {
 
 	create_equipment_variant = { #minelayer
 		name = "旧 骠骑兵级"
+		role_icon_index = 35
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_S_ZERSTORER
 		modules = {
@@ -88,6 +93,7 @@ instant_effect = {
 	### Battleships
 	create_equipment_variant = { #ultimate battleships designed at the 1918 -Battleship V design armed with 4x2x42cm capable of damaging even biggest DNGs
 		name = "匈雅提级"
+		role_icon_index = 3
 		type = ship_hull_heavy_2
 		name_group = AUS_HH_Theme
 		modules = {
@@ -107,6 +113,7 @@ instant_effect = {
 
 	create_equipment_variant = { #
 		name = "施瓦岑贝格级" #New generation of Armored cruisers equiped with modernized turrets from Tegetthoff class 3x3 Ultimate cruiser killers
+		role_icon_index = 1
 		type = ship_hull_heavy_2
 		name_group = AUS_HH_Theme
 		modules = {
@@ -126,6 +133,7 @@ instant_effect = {
 
 	create_equipment_variant = { # 2nd gen dng refited with new turrets, torpedo protection and aa (refit in 1930s)
 		name = "泰格霍夫级"
+		role_icon_index = 3
 		type = ship_hull_heavy_1
 		name_group = AUS_HH_Theme
 		modules = {
@@ -145,6 +153,7 @@ instant_effect = {
 
 	create_equipment_variant = { #0.5 gen dng
 		name = "拉德茨基级"
+		role_icon_index = 6
 		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_pre_dreadnought.png"
 		type = ship_hull_heavy_1
 		name_group = AUS_HH_Theme
@@ -167,6 +176,7 @@ instant_effect = {
 	### Cruisers
 	create_equipment_variant = { #modern light cruiser coopearation with Italian Dockyards
 		name = "库斯托扎级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = AUS_C_T_B_Kreuzer
 		modules = {
@@ -185,6 +195,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "涅戈万海军上将级" #end war cruiser with heavily improved abilities
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = AUS_C_T_A_Kreuzer
 		modules = {
@@ -204,6 +215,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "斯邦海军上将级" #old scout cruiser
+		role_icon_index = 45
 		type = ship_hull_cruiser_1
 		name_group = AUS_C_T_A_Kreuzer
 		modules = {
@@ -222,6 +234,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "赫尔戈兰级" #similar to spaun but more guns
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = AUS_C_T_B_Kreuzer
 		modules = {
@@ -240,6 +253,7 @@ instant_effect = {
 
 	create_equipment_variant = { #old coast defense ships
 		name = "皇帝卡尔五世级 / 圣乔治级"
+		role_icon_index = 17
 		type = ship_hull_cruiser_coastal_defense_ship
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -259,6 +273,7 @@ instant_effect = {
 	### Submarines
 	create_equipment_variant = { #interwar adriatic sub
 		name = "U-120 级"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = AUS_U_Submarine
 		modules = {
@@ -270,6 +285,7 @@ instant_effect = {
 
 	create_equipment_variant = { #1918 subs
 		name = "U-100 级"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = AUS_U_Submarine
 		modules = {

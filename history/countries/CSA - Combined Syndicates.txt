@@ -307,7 +307,9 @@ division_template = {
 ### Naval Variants ###
 create_equipment_variant = {
 	name = "鼠海豚级"
+	role_icon_index = 37
 	type = ship_hull_submarine_2
+
 	name_group = CSA_FISH
 	modules = {
 		fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -318,6 +320,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 	name = "梭鱼级 / 抹香鲸级"
 	type = ship_hull_submarine_2
+	role_icon_index = 37
 	name_group = CSA_FISH
 	modules = {
 		fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -328,7 +331,9 @@ create_equipment_variant = {
 }
 create_equipment_variant = {			# represents O/R class, S class
 	name = "O/R/S 级"
+	role_icon_index = 37
 	type = ship_hull_submarine_1
+
 	name_group = CSA_FISH
 	modules = {
 		fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -340,6 +345,7 @@ create_equipment_variant = {			# represents O/R class, S class
 
 create_equipment_variant = {
 	name = "亚尔戈级"
+	role_icon_index = 39
 	type = ship_hull_cruiser_submarine
 	name_group = CSA_FISH
 	modules = {
@@ -351,6 +357,7 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "独角鲸级"				# cruiser submarine
+	role_icon_index = 39
 	type = ship_hull_cruiser_submarine
 	name_group = CSA_FISH
 	modules = {
@@ -364,6 +371,7 @@ create_equipment_variant = {
 ###DESTROYERS
 create_equipment_variant = {
 	name = "波特级 / 索莫斯级"				# represents Porter, Somers classes
+	role_icon_index = 33
 	type = ship_hull_light_2
 	name_group = CSA_HEROES_ACW
 	modules = {
@@ -379,6 +387,7 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "罗杰斯级 / 巴格利级"				# represents Gridley, Badley classes
+	role_icon_index = 31
 	type = ship_hull_light_2
 	name_group = CSA_HEROES_ACW
 	modules = {
@@ -394,6 +403,7 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "法拉格特级 / 马汉级"				# represents Farragut, Mahan classes
+	role_icon_index = 31
 	type = ship_hull_light_2
 	name_group = CSA_HEROES_ACW
 	modules = {
@@ -410,6 +420,7 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "考德维尔 / 克莱门森 / 维克斯级"				# represents Caldwell, Clemson, and Wickes classes
+	role_icon_index = 31
 	type = ship_hull_light_1
 	name_group = CSA_HEROES_ACW
 	modules = {
@@ -428,6 +439,7 @@ create_equipment_variant = {
 ###LIGHT CRUISERS
 create_equipment_variant = {
 	name = "彭萨科拉级"                    #not OTL class - composition like in Wichita class because we haven't OTL naval treaties
+	role_icon_index = 27
 	type = ship_hull_cruiser_2
 	name_group = CSA_CITIES
 	modules = {
@@ -449,7 +461,7 @@ create_equipment_variant = {
 	name = "布鲁克林级"
 	type = ship_hull_cruiser_2
 	name_group = CSA_CITIES
-	role_icon_index = 3
+	role_icon_index = 25
 	modules = {
 		fixed_ship_battery_slot = ship_light_medium_battery_2
 		fixed_ship_secondaries_slot = ship_secondaries_1
@@ -467,6 +479,7 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "奥马哈级"
+	role_icon_index = 25
 	type = ship_hull_cruiser_1
 	name_group = CSA_CITIES
 	modules = {
@@ -485,6 +498,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "丹佛级"
+	role_icon_index = 23
 	type = ship_hull_cruiser_1
 	name_group = CSA_CITIES
 	modules = {
@@ -504,6 +518,7 @@ create_equipment_variant = {
 ###CRUISERS
 create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to replace aging Armoured Cruisers
 	name = "匹兹堡级 / 孟菲斯级"
+	role_icon_index = 17
 	type = ship_hull_cruiser_1
 	name_group = CSA_CITIES
 	modules = {
@@ -518,11 +533,12 @@ create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to rep
 		mid_2_custom_slot = empty
 		rear_1_custom_slot = empty
 	}
+	obsolete = yes
 }
-
 create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to replace aging Armoured Cruisers
 	name = "北安普敦级"
-	icon = "gfx/interface/technologies/CSA/CSA_heavy_cruiser_Northampton.png"
+	role_icon_index = 45
+	icon = "gfx/interface/technologies/USA/USA_heavy_cruiser_Northampton.png"
 	type = ship_hull_cruiser_1
 	name_group = CSA_CITIES
 	modules = {
@@ -541,6 +557,7 @@ create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to rep
 
 create_equipment_variant = {					#Fictional Late Interwar Heavy Cruiser Design close to Admiral Hipper Class
 	name = "奥林匹亚级"
+	role_icon_index = 27
 	type = ship_hull_cruiser_2
 	name_group = CSA_CITIES
 	modules = {
@@ -551,7 +568,7 @@ create_equipment_variant = {					#Fictional Late Interwar Heavy Cruiser Design c
 		fixed_ship_engine_slot = cruiser_ship_engine_2
 		fixed_ship_secondaries_slot = ship_secondaries_2
 		fixed_ship_armor_slot = ship_armor_cruiser_2
-		front_1_custom_slot = empty
+		front_1_custom_slot = ship_anti_air_1
 		mid_1_custom_slot = ship_torpedo_2
 		mid_2_custom_slot = ship_airplane_launcher_1
 		rear_1_custom_slot = ship_medium_battery_2
@@ -562,7 +579,8 @@ create_equipment_variant = {					#Fictional Late Interwar Heavy Cruiser Design c
 
 create_equipment_variant = {
 	name = "列克星敦级"                    #were finished in KRTL, little different design without influence of Hood
-	icon = "gfx/interface/technologies/CSA/CSA_battleship_Lexington.png"
+	role_icon_index = 15
+	icon = "gfx/interface/technologies/USA/USA_battleship_Lexington.png"
 	type = ship_hull_heavy_1
 	name_group = CSA_BATTLES
 	modules = {
@@ -583,6 +601,7 @@ create_equipment_variant = {
 ###BATTLESHIPS
 create_equipment_variant = {
 	name = "衣阿华级"
+	role_icon_index = 2
 	type = ship_hull_heavy_2
 	name_group = CSA_STATES
 	modules = {
@@ -601,7 +620,8 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "南达科他级"
-	icon = "gfx/interface/technologies/CSA/CSA_battleship_South_Dakota.png"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_South_Dakota.png"
 	type = ship_hull_heavy_1
 	name_group = CSA_STATES
 	modules = {
@@ -621,7 +641,8 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "科罗拉多级"
-	icon = "gfx/interface/technologies/CSA/CSA_battleship_Colorado.png"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Colorado.png"
 	type = ship_hull_heavy_1
 	name_group = CSA_STATES
 	modules = {
@@ -640,16 +661,17 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "田纳西级"
-	icon = "gfx/interface/technologies/CSA/CSA_battleship_Tennessee.png"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Tennessee.png"
 	type = ship_hull_heavy_1
 	name_group = CSA_STATES
 	modules = {
 		fixed_ship_armor_slot = ship_armor_bb_2
 		fixed_ship_battery_slot = ship_heavy_battery_big_1
 		rear_1_custom_slot = ship_heavy_battery_big_1
-		mid_1_custom_slot = ship_secondaries_2
+		mid_1_custom_slot = ship_secondaries_1
 		mid_2_custom_slot = ship_airplane_launcher_1
-		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
 		fixed_ship_anti_air_slot = ship_anti_air_1
 		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 		fixed_ship_radar_slot = empty
@@ -659,7 +681,8 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "宾夕法尼亚级 / 新墨西哥级"
-	icon = "gfx/interface/technologies/CSA/CSA_battleship_Nevada.png"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
 	type = ship_hull_heavy_1
 	name_group = CSA_STATES
 	modules = {
@@ -680,7 +703,8 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "纽约级 / 内华达级"
-	icon = "gfx/interface/technologies/CSA/CSA_battleship_Nevada.png"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
 	type = ship_hull_heavy_1
 	name_group = CSA_STATES
 	modules = {
@@ -701,6 +725,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "佛罗里达级 / 怀俄明级"
+	role_icon_index = 3
 	type = ship_hull_heavy_1
 	name_group = CSA_STATES
 	modules = {
@@ -722,6 +747,7 @@ create_equipment_variant = {
 ###DREADNOUGHTS
 create_equipment_variant = {
 	name = "南卡罗莱纳级"                    #Tillman project of Dreadnoughts, tho, little changed and upgraded to 1936 - instead of South Dakotas
+	role_icon_index = 7
 	type = ship_hull_super_heavy_1
 	name_group = CSA_STATES
 	modules = {
@@ -744,6 +770,7 @@ create_equipment_variant = {
 ###CARRIERS
 create_equipment_variant = {
 	name = "兰利级"
+	role_icon_index = 12
 	type = ship_hull_carrier_conversion_ca
 	name_group = CSA_CVL_HISTORICAL
 	modules = {
@@ -759,6 +786,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "突击者级"                    #Converted ship of Lexington project
+	role_icon_index = 13
 	type = ship_hull_carrier_conversion_bb
 	name_group = CSA_CV_HISTORICAL
 	modules = {
@@ -773,9 +801,10 @@ create_equipment_variant = {
 }
 create_equipment_variant = {
 	name = "马萨诸塞级"                    #Converted ship of Tillman project
-	icon = "gfx/interface/technologies/CSA/CSA_carrier_Mass.png"
+	role_icon_index = 13
+	icon = "gfx/interface/technologies/USA/USA_carrier_Mass.png"
 	type = ship_hull_carrier_conversion_bb
-	name_group = CSA_CV_HISTORICAL
+	name_group = CSA_STATES
 	modules = {
 		fixed_ship_deck_slot_1 = ship_deck_space
 		fixed_ship_deck_slot_2 = ship_deck_space
@@ -788,7 +817,9 @@ create_equipment_variant = {
 	obsolete = yes
 }
 create_equipment_variant = {
-	name = "约克城级"                    #Yorktown Class
+	name = "约克城级"
+	role_icon_index = 9
+	icon = "gfx/interface/technologies/USA/USA_carrier2.png"
 	type = ship_hull_carrier_1
 	name_group = CSA_CV_HISTORICAL
 	modules = {

@@ -3,6 +3,7 @@ instant_effect = {
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "格劳科斯级"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = SIC_SS_HISTORICAL
 		modules = {
@@ -13,6 +14,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "F/H/N/X 级"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = SIC_SS_FHNX
 		modules = {
@@ -25,6 +27,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "奥特朗托级 / 希拉级" 			#Improved mid-war destroyers - universal escort and asw ship
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = SIC_DD_HISTORICAL
 		modules = {
@@ -41,6 +44,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "亚历山德罗·波里奥级" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = SIC_DD_HISTORICAL
 		modules = {
@@ -57,6 +61,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "艾莉娜王后级"
+		role_icon_index = 5
 		type = ship_hull_pre_dreadnought
 		name_group = SIC_BB_HISTORICAL
 		modules = {
@@ -76,6 +81,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "安德烈亚·多利亚级"
+		role_icon_index = 3
 		icon = "gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
 		type = ship_hull_heavy_1
 		name_group = SIC_BC_HISTORICAL
@@ -97,6 +103,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "弗朗切斯科·卡拉乔洛级"
+		role_icon_index = 3
 		type = ship_hull_heavy_1
 		name_group = SIC_BC_HISTORICAL
 		modules = {
@@ -116,6 +123,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "利托里奥级"
+		role_icon_index = 3
 		type = ship_hull_heavy_2
 		name_group = SIC_BB_HISTORICAL
 		modules = {
@@ -135,6 +143,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "大区级"			# WK hulls, all scrapped
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = SIC_CL_HISTORICAL
 		modules = {
@@ -153,6 +162,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "克里米索级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = SIC_CL_HISTORICAL
 		modules = {
@@ -170,6 +180,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "梅拉级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = SIC_CITIES
 		modules = {
@@ -187,6 +198,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {#TBC
 		name = "阿尔塔维拉级"
+		role_icon_index = 27
 		type = ship_hull_cruiser_1
 		name_group = SIC_BC_HISTORICAL
 		modules = {

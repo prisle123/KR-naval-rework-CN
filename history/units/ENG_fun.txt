@@ -1,0 +1,88 @@
+instant_effect = {
+    create_equipment_variant = {
+        name = "雄伟级"
+        icon = "gfx/interface/technologies/Canada/CAN_heavy_battleship1.png"
+		type = ship_hull_super_heavy_1
+		name_group = ENG_BB_COMMUNISM
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_shbb
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_secondaries_2
+			rear_1_custom_slot = ship_super_heavy_battery_1
+		}
+    }
+    
+    create_equipment_variant = {
+		name = "玛丽王后级 / 虎级"
+		icon = "gfx/interface/technologies/Fun/ENG_Tiger.png"
+		type = ship_hull_heavy_1
+		name_group = ENG_ADMIRALS
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+    create_equipment_variant = {
+		name = "无比级"
+		icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
+		type = ship_hull_heavy_1
+		name_group = ENG_ADMIRALS
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_super_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+    fleet = {
+        name = "英灵舰队"
+        naval_base = 9458
+        task_force = {
+            name = "英灵舰队"
+            location = 9458
+
+            ship = { name = "可敬" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "雄伟级" } } }
+
+            ship = { name = "狮" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "玛丽王后级 / 虎级" } } }
+            ship = { name = "玛丽王后" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "玛丽王后级 / 虎级" } } }
+            ship = { name = "虎" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "玛丽王后级 / 虎级" } } }
+
+            ship = { name = "无比" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "无比级" } } }
+            ship = { name = "罗德尼" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
+
+            ship = { name = "勇士" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
+            ship = { name = "巴勒姆" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
+            ship = { name = "马来亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
+            ship = { name = "厌战" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
+        }
+    }
+}

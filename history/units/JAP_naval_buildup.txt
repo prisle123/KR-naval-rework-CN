@@ -1,22 +1,24 @@
 ﻿instant_effect = {
 	create_equipment_variant = {
-				name = "翔鹤级"
-				icon = "gfx/interface/technologies/Japan/JAP_carrier3.png"
-				type = ship_hull_carrier_1
-				name_group = JAP_CV_HISTORICAL
-				parent_version = 0
-				modules = {
-					fixed_ship_deck_slot_1 = ship_deck_space
-					fixed_ship_deck_slot_2 = ship_deck_space
-					fixed_ship_anti_air_slot = ship_anti_air_2
-					fixed_ship_radar_slot = empty
-					fixed_ship_engine_slot = carrier_ship_engine_2
-					fixed_ship_secondaries_slot = ship_secondaries_1
-					front_1_custom_slot = ship_deck_space
-				}
-			}
+		name = "翔鹤级"
+		role_icon_index = 9
+		icon = "gfx/interface/technologies/Japan/JAP_carrier3.png"
+		type = ship_hull_carrier_1
+		name_group = JAP_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_deck_space
+		}
+	}
 	create_equipment_variant = {
 		name = "河内级"
+		role_icon_index = 1
 		icon = "gfx/interface/technologies/Japan/JAP_battleship_Kawachi.png"
 		type = ship_hull_heavy_2
 		name_group = JAP_PREFECTURES

@@ -88,4 +88,64 @@ Naval_lore_category = {
 			}
 		}
 	}
+	
+	ship_category_background = {
+		icon = generic_naval
+		
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.100
+			}
+		}
+	}
+	
+	
+	GER_naval_fun = {
+		icon = generic_naval
+		fire_only_once = yes
+		allowed = {
+			tag = GER
+		}
+		complete_effect = {
+			FROM = {
+				load_oob = GER_fun
+			}
+		}
+	}
+	ENG_naval_fun = {
+		icon = generic_naval
+		fire_only_once = yes
+		allowed = {
+			tag = ENG
+		}
+		complete_effect = {
+			FROM = {
+				load_oob = ENG_fun
+			}
+		}
+	}
+	JAP_naval_fun = {
+		icon = generic_naval
+		fire_only_once = yes
+		allowed = {
+			tag = JAP
+		}
+		complete_effect = {
+			FROM = {
+				load_oob = JAP_fun
+			}
+		}
+	}
+	USA_naval_fun = {
+		icon = generic_naval
+		fire_only_once = yes
+		allowed = {
+			tag = USA
+		}
+		complete_effect = {
+			FROM = {
+				load_oob = USA_fun
+			}
+		}
+	}
 }

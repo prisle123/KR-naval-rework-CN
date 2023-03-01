@@ -3,6 +3,7 @@ instant_effect = {
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "人鱼级"
+		role_icon_index = 41
 		type = ship_hull_submarine_1
 		name_group = FIN_SS_HISTORICAL
 		modules = {
@@ -14,6 +15,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "AG 级"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = FIN_SS_HISTORICAL
 		modules = {
@@ -26,6 +28,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "雪貂级"
+		role_icon_index = 38
 		type = ship_hull_submarine_2
 		name_group = FIN_SS_HISTORICAL
 		modules = {
@@ -37,6 +40,7 @@ instant_effect = {
 
 	create_equipment_variant = {			# represents O/R class, S class
 		name = "S 级"
+		role_icon_index = 38
 		type = ship_hull_submarine_1
 		name_group = FIN_SS_HISTORICAL
 		modules = {
@@ -49,6 +53,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "博腾级"						# Fictional
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = FIN_DD_HISTORICAL
 		modules = {
@@ -66,6 +71,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "菲林级"						# represents Fidonisi and Izyaslav classes
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = FIN_DD_HISTORICAL
 		modules = {
@@ -83,6 +89,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "哥卢布级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = FIN_DD_HISTORICAL
 		modules = {
@@ -100,6 +107,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "维纳莫依嫩级"
+		role_icon_index = 19
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = FIN_CA_HISTORICAL
 		modules = {
@@ -118,6 +126,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "芬兰级" # Fictional
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = FIN_CL_HISTORICAL
 		modules = {
@@ -137,6 +146,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "格劳登茨 / 科隆 / 科尼斯堡级"
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = FIN_CL_HISTORICAL
 		modules = {

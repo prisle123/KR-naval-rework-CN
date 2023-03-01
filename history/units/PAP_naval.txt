@@ -3,6 +3,7 @@ instant_effect = {
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "神诏级"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = PAP_SS_HISTORICAL
 		modules = {
@@ -13,6 +14,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "美杜莎级"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = PAP_SS_HISTORICAL
 		modules = {
@@ -24,6 +26,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "奥斯蒂亚级" 			#Improved mid-war destroyers - universal escort and asw ship - PAP license
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = PAP_DD_HISTORICAL
 		modules = {
@@ -39,6 +42,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "明灯级" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
+		role_icon_index = 29
 		type = ship_hull_light_1
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -54,6 +58,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "朱塞佩·西尔托里级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = PAP_DD_HISTORICAL
 		modules = {
@@ -71,6 +76,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "大区级"			# WK hulls, all scrapped
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = PAP_CL_HISTORICAL
 		modules = {
@@ -89,6 +95,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "艾莉娜王后级"
+		role_icon_index = 5
 		type = ship_hull_pre_dreadnought
 		name_group = PAP_BB_HISTORICAL
 		modules = {

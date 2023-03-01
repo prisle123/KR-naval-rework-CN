@@ -2,6 +2,7 @@
 instant_effect = {
 	create_equipment_variant = {
 		name = "龙级"
+		role_icon_index = 38
 		type = ship_hull_submarine_2
 		name_group = SWE_SS_HISTORICAL
 		modules = {
@@ -12,6 +13,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "鲨鱼级 / 河狸级"					# represents Hajen and Bävern classes
+		role_icon_index = 38
 		type = ship_hull_submarine_1
 		name_group = SWE_SS_HISTORICAL
 		modules = {
@@ -23,6 +25,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "哥德堡级"
+		role_icon_index = 32
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
 		modules = {
@@ -38,6 +41,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "艾伦斯科德级"
+		role_icon_index = 32
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		modules = {
@@ -54,6 +58,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "哥特兰级" # Borrow the class name a bit
+		role_icon_index = 46
 		type = ship_hull_cruiser_2
 		name_group = SWE_CL_HISTORICAL
 		modules = {
@@ -71,6 +76,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "奥丁级"
+		role_icon_index = 20
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
@@ -90,6 +96,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "荣耀级 / 奥斯卡二世级"
+		role_icon_index = 20
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
@@ -109,6 +116,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "瑞典级"
+		role_icon_index = 20
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		modules = {

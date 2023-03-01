@@ -3,6 +3,7 @@ instant_effect = {
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "巡潜 III 型"
+		role_icon_index = 39
 		type = ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -15,6 +16,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "巡潜 II 型"
+		role_icon_index = 39
 		type = ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -28,6 +30,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "巡潜 I 型"
+		role_icon_index = 39
 		type = ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -42,6 +45,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "机雷潜 II 型"
+		role_icon_index = 41
 		type = ship_hull_submarine_2
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -52,6 +56,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "海大 V 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -62,6 +67,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "海大 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -73,6 +79,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "海中 VI 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -84,6 +91,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "机雷潜 型"
+		role_icon_index = 41
 		type = ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -95,6 +103,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "L 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -106,6 +115,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "龙渊级"
+		role_icon_index = 12
 		type = ship_hull_carrier_conversion_ca
 		name_group = JAP_CVL_HISTORICAL
 		modules = {
@@ -119,6 +129,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "凤翔级"
+		role_icon_index = 12
 		type = ship_hull_carrier_conversion_ca
 		name_group = JAP_CVL_HISTORICAL
 		modules = {
@@ -133,6 +144,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "龙骧级"
+		role_icon_index = 12
 		icon = "gfx/interface/technologies/Japan/JAP_carrier1.png"
 		type = ship_hull_carrier_1
 		name_group = JAP_CVL_HISTORICAL
@@ -148,6 +160,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "苍龙级"
+		role_icon_index = 9
 		type = ship_hull_carrier_1
 		name_group = JAP_CV_HISTORICAL
 		modules = {
@@ -162,6 +175,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "飞龙级"
+		role_icon_index = 9
 		icon = "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 		type = ship_hull_carrier_1
 		name_group = JAP_CV_HISTORICAL
@@ -177,6 +191,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "吹雪型 / 晓型"
+		role_icon_index = 31
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Fubuki.png"
 		type = ship_hull_light_1
 		name_group = JAP_WEATHER
@@ -193,6 +208,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "初春型 / 白露型"
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = JAP_WEATHER
 		modules = {
@@ -208,6 +224,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "峯风型 / 睦月型" #collection of various WWI and early interwar ships with similiar capabilities
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = JAP_WEATHER
 		modules = {
@@ -224,6 +241,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "桃型 / 枞型 "
+		role_icon_index = 35
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
 		type = ship_hull_light_1
 		name_group = JAP_NATURE
@@ -241,6 +259,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "若竹型 "
+		role_icon_index = 35
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
 		type = ship_hull_light_1
 		name_group = JAP_NATURE
@@ -259,6 +278,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "扶桑级"
+		role_icon_index = 3
 		icon = "gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
 		type = ship_hull_heavy_1
 		name_group = JAP_PREFECTURES
@@ -279,6 +299,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "伊势级"
+		role_icon_index = 4
 		icon = "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 		type = ship_hull_heavy_1
 		name_group = JAP_PREFECTURES
@@ -300,6 +321,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "长门级"
+		role_icon_index = 4
 		type = ship_hull_heavy_1
 		name_group = JAP_PREFECTURES
 		modules = {
@@ -320,6 +342,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "土佐级"
+		role_icon_index = 4
 		icon = "gfx/interface/technologies/Japan/JAP_battleship2.png"
 		type = ship_hull_heavy_1
 		name_group = JAP_PREFECTURES
@@ -340,6 +363,7 @@ instant_effect = {
 	
 	create_equipment_variant = {#TBC
 		name = "金刚级"
+		role_icon_index = 3
 		icon = "gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
 		type = ship_hull_heavy_1
 		name_group = JAP_MOUNTAIN
@@ -361,6 +385,7 @@ instant_effect = {
 
 	create_equipment_variant = {#TBC
 		name = "天城级"
+		role_icon_index = 2
 		icon = "gfx/interface/technologies/Japan/JAP_battleship_Amagi.png"
 		type = ship_hull_heavy_1
 		name_group = JAP_MOUNTAIN
@@ -381,6 +406,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "纪伊级"
+		role_icon_index = 2
 		type = ship_hull_heavy_2
 		name_group = JAP_PREFECTURES
 		modules = {
@@ -400,6 +426,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "安艺级"			# Slow but ultra strong battleship
+		role_icon_index = 7
 		type = ship_hull_super_heavy_1		# Dreadnought
 		name_group = JAP_PREFECTURES
 		modules = {
@@ -420,6 +447,7 @@ instant_effect = {
 	
 	create_equipment_variant = {#TBC
 		name = "古鹰级 / 青叶级"
+		role_icon_index = 22
 		type = ship_hull_cruiser_panzerschiff
 		name_group = JAP_RIVER
 		modules = {
@@ -438,6 +466,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "出云级"
+		role_icon_index = 18
 		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser1.png"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = JAP_PREFECTURES
@@ -458,6 +487,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "筑摩级"
+		role_icon_index = 23
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = JAP_PREFECTURES
 		modules = {
@@ -477,6 +507,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "川内型"
+		role_icon_index = 25
 		type = ship_hull_cruiser_1
 		name_group = JAP_RIVER
 		modules = {
@@ -493,6 +524,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "球磨型 / 长良型"
+		role_icon_index = 25
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser2.png"
 		type = ship_hull_cruiser_1
 		name_group = JAP_RIVER
@@ -510,6 +542,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "香取型"					# cruiser minelayer
+		role_icon_index = 25
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Katori.png"
 		type = ship_hull_cruiser_1
 		name_group = JAP_MINELAYERS_HISTORICAL
@@ -528,6 +561,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "天龙型"
+		role_icon_index = 25
 		type = ship_hull_cruiser_1
 		name_group = JAP_RIVER
 		modules = {
@@ -545,6 +579,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "夕张型"
+		role_icon_index = 25
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
 		type = ship_hull_cruiser_1
 		name_group = JAP_RIVER
@@ -564,6 +599,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "物部级" # Myoko & Mogami class irl
+		role_icon_index = 27
 		type = ship_hull_cruiser_2
 		name_group = JAP_RIVER
 		modules = {
@@ -583,6 +619,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "十胜级" # Myoko & Mogami class irl
+		role_icon_index = 27
 		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser_Tokachi.png"
 		type = ship_hull_cruiser_2
 		name_group = JAP_RIVER
@@ -602,6 +639,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "阿贺野型"		# Agano-class as IRL
+		role_icon_index = 25
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser3.png"
 		type = ship_hull_cruiser_2
 		name_group = JAP_RIVER

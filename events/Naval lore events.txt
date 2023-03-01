@@ -292,3 +292,16 @@ country_event = {	# RUS 1917-1936
 		name = Naval_lore.option.RUS.ok
 	}
 }
+
+
+country_event = {
+	id = Naval_lore.100
+	title = Naval_lore.100.t
+	desc = Naval_lore.100.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Naval_lore.ok
+	}
+}

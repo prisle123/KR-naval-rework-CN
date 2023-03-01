@@ -148,6 +148,14 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
+		armored_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		SH_battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -246,6 +254,14 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 		carrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		armored_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		SH_battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -655,6 +671,14 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
+		armored_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		SH_battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -691,6 +715,14 @@ technologies = {
 			hg_armor_piercing = 0.05
 		}
 		battle_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		armored_cruiser = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		SH_battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}

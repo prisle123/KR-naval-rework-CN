@@ -2,6 +2,7 @@
 instant_effect = {
 	create_equipment_variant = {
 		name = "L 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		parent_version = 0
 		name_group = ENG_SS_COMMUNISM
@@ -15,6 +16,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "H/R 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = ENG_SS_COMMUNISM
 		parent_version = 0
@@ -28,6 +30,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "S 型"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = ENG_SS_COMMUNISM
 		parent_version = 0
@@ -40,6 +43,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "T/U 型"
+		role_icon_index = 37
 		name_group = ENG_SS_COMMUNISM
 		type = ship_hull_submarine_2
 		parent_version = 0
@@ -52,6 +56,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "M 型"
+		role_icon_index = 39
 		name_group = ENG_SS_COMMUNISM
 		type = ship_hull_cruiser_submarine
 		parent_version = 0
@@ -64,6 +69,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "X 型"
+		role_icon_index = 39
 		name_group = ENG_SS_COMMUNISM
 		type = ship_hull_cruiser_submarine
 
@@ -77,6 +83,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "鹰级"
+		role_icon_index = 9
 		icon = "gfx/interface/technologies/UOB/ENG_carrier1.png"
 		type = ship_hull_carrier_1
 		name_group = ENG_CV_QUALITIES
@@ -95,6 +102,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "百眼巨人级"
+		role_icon_index = 11
 		type = ship_hull_carrier_conversion_ca
 		name_group = ENG_CV_MYTHOLOGY
 		parent_version = 0
@@ -111,6 +119,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "勇敢级"
+		role_icon_index = 9
 		type = ship_hull_carrier_conversion_bb
 		name_group = ENG_CV_QUALITIES
 		parent_version = 0
@@ -128,6 +137,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "瑞贝卡级"
+		role_icon_index = 13
 		icon = "gfx/interface/technologies/UOB/ENG_carrier_Rebecca.png"
 		type = ship_hull_carrier_conversion_bb
 		name_group = ENG_REVOLUTIONARIES
@@ -147,6 +157,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "共和国级"
+		role_icon_index = 9
 		icon = "gfx/interface/technologies/UOB/ENG_carrier2.png"
 		type = ship_hull_carrier_1
 		name_group = ENG_REVOLUTIONARY_IDEALS
@@ -164,6 +175,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "A/B/C/D 级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = ENG_DD_ALPHABETICAL
 		parent_version = 0
@@ -181,6 +193,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "E/F/G/H 级"
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = ENG_DD_ALPHABETICAL
 		parent_version = 0
@@ -198,6 +211,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "R/S 级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		parent_version = 0
 		name_group = ENG_DD_ALPHABETICAL
@@ -216,6 +230,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "V/W 级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = ENG_DD_ALPHABETICAL
 		parent_version = 0
@@ -234,6 +249,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "英王乔治五世级"
+		role_icon_index = 3
 		icon = "gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 		type = ship_hull_heavy_1
 		name_group = ENG_BB_COMMUNISM
@@ -256,6 +272,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "铁公爵级"
+		role_icon_index = 3
 		icon = "gfx/interface/technologies/UOB/ENG_battleship_GeorgeV.png"
 		type = ship_hull_heavy_1
 		name_group = ENG_BB_COMMUNISM
@@ -278,6 +295,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "伊丽莎白女王级"
+		role_icon_index = 3
 		type = ship_hull_heavy_1
 		name_group = ENG_BB_COMMUNISM
 		parent_version = 0
@@ -299,6 +317,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "声望级"
+		role_icon_index = 15
 		icon = "gfx/interface/technologies/UOB/ENG_battleship_Renown.png"
 		type = ship_hull_heavy_1
 		name_group = ENG_ADMIRALS
@@ -320,6 +339,7 @@ instant_effect = {
 	
 	create_equipment_variant = {
 		name = "海军上将级"
+		role_icon_index = 15
 		icon = "gfx/interface/technologies/UOB/ENG_battleship_Admiral.png"
 		type = ship_hull_heavy_1
 		name_group = ENG_ADMIRALS
@@ -341,6 +361,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "纳尔逊级"
+		role_icon_index = 1
 		icon = "gfx/interface/technologies/UOB/ENG_battleship_Nelson.png"
 		type = ship_hull_heavy_1
 		name_group = ENG_ADMIRALS
@@ -362,6 +383,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "联盟级"
+		role_icon_index = 7
 		type = ship_hull_super_heavy_1
 		name_group = ENG_REVOLUTIONARY_IDEALS
 		icon = "gfx/interface/technologies/UOB/ENG_heavy_battleship1.png"
@@ -383,6 +405,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "班菲尔德级"
+		role_icon_index = 1
 		type = ship_hull_heavy_2
 		name_group = ENG_REVOLUTIONARIES
 		parent_version = 0
@@ -403,6 +426,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "C/D/E 级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_1
 		name_group = ENG_CL_TOWN
 		parent_version = 0
@@ -422,6 +446,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "霍金斯级"
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = ENG_ADMIRALS
 		modules = {
@@ -440,6 +465,7 @@ instant_effect = {
 
 	create_equipment_variant = { ##Change to be curiser 2
 		name = "无限级"
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = ENG_REVOLUTIONARY_IDEALS
 		parent_version = 0
@@ -459,6 +485,7 @@ instant_effect = {
 
 	create_equipment_variant = { ## Fake heavy cruiser
 		name = "共和级"
+		role_icon_index = 27
 		type = ship_hull_cruiser_2
 		name_group = ENG_REVOLUTIONARIES
 		parent_version = 0
