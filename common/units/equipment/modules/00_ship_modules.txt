@@ -261,7 +261,7 @@ equipment_modules = {
 #  # ### #  #   #     #       ###  #  #  #   #  ### #  #   #   
 
 
-
+	# double mounted
 	ship_heavy_battery_1 = {
 		abbreviation = "sai"
 		category = ship_heavy_battery
@@ -470,6 +470,470 @@ equipment_modules = {
 	
 	ship_super_heavy_battery_big_1 = {
 		abbreviation = "sam1"
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_5
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 29
+			build_cost_ic = 1750
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 47
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	# triple mounted
+	ship_heavy_battery_1_triple = {
+		abbreviation = "sait"
+		category = ship_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 14
+			build_cost_ic = 1250
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+		add_average_stats = {
+			hg_armor_piercing = 31
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	ship_heavy_battery_big_1_triple = {
+		abbreviation = "sait1"
+		category = ship_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_1
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 16
+			build_cost_ic = 1300
+		}
+		multiply_stats = {
+			naval_speed = -0.06
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	ship_heavy_battery_small_1_triple = {
+		abbreviation = "sait2"
+		category = ship_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_1
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 12
+			build_cost_ic = 1200
+		}
+		multiply_stats = {
+			naval_speed = -0.045
+		}
+		add_average_stats = {
+			hg_armor_piercing = 29
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_heavy_battery_2_triple = {
+		abbreviation = "sajt"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 18
+			build_cost_ic = 1350
+		}
+		multiply_stats = {
+			naval_speed = -0.06
+		}
+		add_average_stats = {
+			hg_armor_piercing = 36
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 900
+		}
+		
+		can_convert_from = {
+			module = ship_heavy_battery_1
+			convert_cost_ic = 600
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_heavy_battery_3_triple = {
+		abbreviation = "sakt"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 22
+			build_cost_ic = 1450
+		}
+		multiply_stats = {
+			naval_speed = -0.07
+		}
+		add_average_stats = {
+			hg_armor_piercing = 40
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 1200
+		}
+		
+		can_convert_from = {
+			module = ship_heavy_battery_2
+			convert_cost_ic = 600
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_heavy_battery_4_triple = {
+		abbreviation = "salt"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_3
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 26
+			build_cost_ic = 1550
+			
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+		}
+		add_average_stats = {
+			hg_armor_piercing = 45
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 1450
+		}
+		
+		can_convert_from = {
+			module = ship_heavy_battery_3
+			convert_cost_ic = 800
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_super_heavy_battery_1_triple = {
+		abbreviation = "samt"
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_5
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 27
+			build_cost_ic = 1700
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.09
+		}
+		add_average_stats = {
+			hg_armor_piercing = 45
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	ship_super_heavy_battery_big_1_triple = {
+		abbreviation = "sam1t"
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_5
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 29
+			build_cost_ic = 1750
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 47
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	# quadruple mounted
+	ship_heavy_battery_1_quad = {
+		abbreviation = "saiq"
+		category = ship_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 14
+			build_cost_ic = 1250
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+		add_average_stats = {
+			hg_armor_piercing = 31
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	ship_heavy_battery_big_1_quad = {
+		abbreviation = "sai1q"
+		category = ship_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_1
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 16
+			build_cost_ic = 1300
+		}
+		multiply_stats = {
+			naval_speed = -0.06
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	ship_heavy_battery_small_1_quad = {
+		abbreviation = "sai2q"
+		category = ship_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_1
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 12
+			build_cost_ic = 1200
+		}
+		multiply_stats = {
+			naval_speed = -0.045
+		}
+		add_average_stats = {
+			hg_armor_piercing = 29
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_heavy_battery_2_quad = {
+		abbreviation = "sajq"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 18
+			build_cost_ic = 1350
+		}
+		multiply_stats = {
+			naval_speed = -0.06
+		}
+		add_average_stats = {
+			hg_armor_piercing = 36
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 900
+		}
+		
+		can_convert_from = {
+			module = ship_heavy_battery_1
+			convert_cost_ic = 600
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_heavy_battery_3_quad = {
+		abbreviation = "sakq"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_2
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 22
+			build_cost_ic = 1450
+		}
+		multiply_stats = {
+			naval_speed = -0.07
+		}
+		add_average_stats = {
+			hg_armor_piercing = 40
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 1200
+		}
+		
+		can_convert_from = {
+			module = ship_heavy_battery_2
+			convert_cost_ic = 600
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_heavy_battery_4_quad = {
+		abbreviation = "salq"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_3
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 26
+			build_cost_ic = 1550
+			
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+		}
+		add_average_stats = {
+			hg_armor_piercing = 45
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 1450
+		}
+		
+		can_convert_from = {
+			module = ship_heavy_battery_3
+			convert_cost_ic = 800
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	ship_super_heavy_battery_1_quad = {
+		abbreviation = "samq"
+		category = ship_super_heavy_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = ship_heavy_battery_5
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 27
+			build_cost_ic = 1700
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.09
+		}
+		add_average_stats = {
+			hg_armor_piercing = 45
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	ship_super_heavy_battery_big_1_quad = {
+		abbreviation = "sam1q"
 		category = ship_super_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		gfx = ship_heavy_battery_5
