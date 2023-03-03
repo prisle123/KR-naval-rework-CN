@@ -15,7 +15,9 @@ instant_effect = {
 			front_1_custom_slot = ship_super_heavy_battery_big_1
 			mid_1_custom_slot = ship_anti_air_1
 			mid_2_custom_slot = ship_secondaries_2
+            mid_3_custom_slot = ship_super_heavy_battery_big_1
 			rear_1_custom_slot = ship_super_heavy_battery_big_1
+            rear_2_custom_slot = ship_super_heavy_battery_big_1
 		}
     }
 }

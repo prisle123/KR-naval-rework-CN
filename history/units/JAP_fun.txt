@@ -13,9 +13,11 @@ instant_effect = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_2
 			front_1_custom_slot = ship_anti_air_1
+            front_2_custom_slot = ship_super_heavy_battery_1
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_airplane_launcher_1
 			rear_1_custom_slot = ship_super_heavy_battery_1
+            rear_2_custom_slot = ship_super_heavy_battery_1
         }
     }
 
@@ -25,7 +27,7 @@ instant_effect = {
         icon = "gfx/interface/technologies/Japan/JAP_battleship3.png"
         name_group = JAP_PREFECTURES
         modules = {
-            fixed_ship_battery_slot = ship_super_heavy_battery_1
+            fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -33,9 +35,10 @@ instant_effect = {
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_bb_2
 			front_1_custom_slot = ship_anti_air_1
+            front_2_custom_slot = ship_super_heavy_battery_1_triple
 			mid_1_custom_slot = ship_secondaries_2
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_super_heavy_battery_1
+			rear_1_custom_slot = ship_super_heavy_battery_1_triple
         }
     }
 	create_equipment_variant = {
@@ -54,7 +57,7 @@ instant_effect = {
 			front_1_custom_slot = ship_super_heavy_battery_1
 			front_2_custom_slot = ship_super_heavy_battery_1
 			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_super_heavy_battery_1
 			mid_3_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_super_heavy_battery_1
 			rear_2_custom_slot = ship_super_heavy_battery_1
