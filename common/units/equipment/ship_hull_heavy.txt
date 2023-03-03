@@ -49,6 +49,14 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_heavy_armor }
 			}
+			fixed_ship_airplane_launcher_slot = {
+				required = no
+				allowed_module_categories = { ship_airplane_launcher }
+			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -66,6 +74,7 @@ equipments = {
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -124,7 +133,7 @@ equipments = {
 
 		build_cost_ic = 3300
 		resources = {
-			steel = 1
+			steel = 2
 			chromium = 1
 		}
 
@@ -150,6 +159,8 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -188,7 +199,7 @@ equipments = {
 		reliability = 0.65
 		build_cost_ic = 3000
 		resources = {
-			steel = 1
+			steel = 2
 			chromium = 1
 		}
 
@@ -231,7 +242,17 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_heavy_armor }
 			}
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					ship_super_heavy_battery
+				}
+			}
+			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
@@ -246,6 +267,8 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
+					ship_heavy_battery
+					ship_super_heavy_battery
 				}
 			}
 			mid_2_custom_slot = {
@@ -255,9 +278,31 @@ equipments = {
 					ship_anti_air
 					ship_secondaries
 					ship_dp_secondaries
+					ship_heavy_battery
+					ship_super_heavy_battery
+				}
+			}
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_airplane_launcher
+					ship_anti_air
+					ship_secondaries
+					ship_dp_secondaries
+					ship_heavy_battery
+					ship_super_heavy_battery
 				}
 			}
 			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					ship_super_heavy_battery
+					ship_airplane_launcher
+				}
+			}
+			rear_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
@@ -307,36 +352,15 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_heavy_battery
-					ship_super_heavy_battery
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_dp_secondaries
-					ship_airplane_launcher
-					ship_heavy_battery
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_heavy_battery
-					ship_secondaries
-					ship_dp_secondaries
-					ship_airplane_launcher
-					ship_super_heavy_battery
-				}
-			}
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			mid_3_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -357,6 +381,10 @@ equipments = {
 		}
 
 		manpower = 5200
+		resources = {
+			steel = 3
+			chromium = 1
+		}
 	}
 
 	ship_hull_heavy_3 = {
@@ -376,35 +404,15 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_heavy_battery
-					ship_super_heavy_battery
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_dp_secondaries
-					ship_airplane_launcher
-					ship_heavy_battery
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_heavy_battery
-					ship_airplane_launcher
-					ship_super_heavy_battery
-				}
-			}
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			mid_3_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -419,8 +427,7 @@ equipments = {
 
 		build_cost_ic = 3500
 		resources = {
-			#oil = 1
-			steel = 1
+			steel = 3
 			chromium = 1
 		}
 
@@ -444,37 +451,15 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_heavy_battery
-					ship_super_heavy_battery
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_dp_secondaries
-					ship_airplane_launcher
-					ship_heavy_battery
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-			mid_3_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_heavy_battery
-					ship_secondaries
-					ship_dp_secondaries
-					ship_airplane_launcher
-					ship_super_heavy_battery
-				}
-			}
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
+			front_1_custom_slot = inherit
+			front_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			mid_3_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -489,8 +474,7 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 3600
 		resources = {
-			#oil = 1
-			steel = 1
+			steel = 3
 			chromium = 1
 		}
 
@@ -534,6 +518,14 @@ equipments = {
 			fixed_ship_armor_slot = {
 				required = yes
 				allowed_module_categories = { ship_super_heavy_armor }
+			}
+			fixed_ship_airplane_launcher_slot = {
+				required = no
+				allowed_module_categories = { ship_airplane_launcher }
+			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -589,7 +581,7 @@ equipments = {
 		reliability = 0.80
 		build_cost_ic = 5500
 		resources = {
-			steel = 1
+			steel = 4
 			chromium = 1
 		}
 		manpower = 9000

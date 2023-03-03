@@ -146,7 +146,6 @@ guiTypes = {
 			@fixed_btn_mod_row = 300
 
 			@extra_fixed_btn_mod_row = 250
-			@extra_custom_btn_mod_row = 50
 
 			@custom_btn_mod_row = 0
 
@@ -192,15 +191,6 @@ guiTypes = {
 				position = { x=@fixed_btn_mod_col_6 y=@custom_btn_mod_row }
 			}
 
-			positionType = {
-				name = "pos_custom_module_slot_window_7"
-				position = { x=@fixed_btn_mod_col_0 y=@extra_custom_btn_mod_row }
-			}
-
-			positionType = {
-				name = "pos_custom_module_slot_window_8"
-				position = { x=@fixed_btn_mod_col_6 y=@extra_custom_btn_mod_row }
-			}
 
 			positionType = {
 				name = "pos_fixed_module_slot_window_0"

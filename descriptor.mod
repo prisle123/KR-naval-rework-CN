@@ -1,4 +1,4 @@
-version="v0.8"
+version="0.1"
 replace_path="common/units/names_ships"
 dependencies={
 	"Kaiserreich"
@@ -7,10 +7,7 @@ dependencies={
 }
 tags={
 	"Military"
-	"Translation"
-	"Graphics"
 }
-name="KR navy rework (CN ver.)"
+name="KR navy expansion"
 picture="thumbnail.png"
 supported_version="1.12.10"
-remote_file_id="2860531377"
