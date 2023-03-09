@@ -25,58 +25,7 @@ guiTypes = {
 			position = { x=0 y=0 }
 			size = { width=100% height=100% }
 
-			################# MODULE SLOT: Heavy Battery #################
-			containerWindowType = {
-				name = "fixed_ship_battery_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
-
-				containerWindowType = {
-					name = "ship_heavy_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_heavy_hull_fixed_heavy_battery"
-						position = { x=285 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_heavy_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_heavy_hull_fixed_heavy_battery@highlight"
-						position = { x=285 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_super_heavy_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery"
-						position = { x=285 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_super_heavy_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery@highlight"
-						position = { x=285 y=0 }
-					}
-				}
-
-			}
+			
 		
 			################# MODULE SLOT: Anti-Air #################
 			containerWindowType = {
@@ -424,64 +373,7 @@ guiTypes = {
 				}
 			}
 			
-		
-		
-		
-			################# MODULE SLOT: Custom, Front #1 #################
-			containerWindowType = {
-				name = "front_1_custom_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
-
-
-				#### MODULE: Anti-Air ####
-				containerWindowType = {
-					name = "ship_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_super_heavy_hull_front1_anti_air"
-						position = { x=240 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_super_heavy_hull_front1_anti_air@highlight"
-						position = { x=240 y=0 }
-					}
-				}
-
-				#### MODULE: Super Heavy Battery ####
-				containerWindowType = {
-					name = "ship_super_heavy_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery"
-						position = { x=330 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_super_heavy_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery@highlight"
-						position = { x=330 y=0 }
-					}
-				}
-			}
+			
 			################# MODULE SLOT: Custom, Front #2 #################
 			containerWindowType = {
 				name = "front_2_custom_slot"
@@ -515,7 +407,7 @@ guiTypes = {
 
 				#### MODULE: Super Heavy Battery ####
 				containerWindowType = {
-					name = "ship_super_heavy_battery"
+					name = "ship_heavy_battery_triple"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -526,7 +418,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "ship_super_heavy_battery@highlight"
+					name = "ship_heavy_battery_triple@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -534,6 +426,225 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery@highlight"
 						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery"
+						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery@highlight"
+						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_fixed_quad_heavy_battery"
+						position = { x=365 y=5 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_fixed_quad_heavy_battery@highlight"
+						position = { x=365 y=5 }
+					}
+				}
+
+			}
+			
+			################# MODULE SLOT: Custom, Front #1 #################
+			containerWindowType = {
+				name = "front_1_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_front1_anti_air"
+						position = { x=240 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_front1_anti_air@highlight"
+						position = { x=240 y=0 }
+					}
+				}
+
+				#### MODULE: Super Heavy Battery ####
+				containerWindowType = {
+					name = "ship_heavy_battery_triple"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery"
+						position = { x=330 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_triple@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery@highlight"
+						position = { x=330 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery"
+						position = { x=330 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery@highlight"
+						position = { x=330 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_fixed_quad_heavy_battery"
+						position = { x=330 y=5 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_fixed_quad_heavy_battery@highlight"
+						position = { x=330 y=5 }
+					}
+				}
+			}
+			
+			################# MODULE SLOT: Heavy Battery #################
+			containerWindowType = {
+				name = "fixed_ship_battery_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_heavy_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery"
+						position = { x=285 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery@highlight"
+						position = { x=285 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_triple"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery"
+						position = { x=285 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_triple@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_super_heavy_hull_fixed_heavy_battery@highlight"
+						position = { x=285 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_fixed_quad_heavy_battery"
+						position = { x=285 y=5 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_fixed_quad_heavy_battery@highlight"
+						position = { x=285 y=5 }
 					}
 				}
 
@@ -884,7 +995,7 @@ guiTypes = {
 
 				#### MODULE: Super Heavy Battery ####
 				containerWindowType = {
-					name = "ship_super_heavy_battery"
+					name = "ship_heavy_battery_triple"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -895,7 +1006,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "ship_super_heavy_battery@highlight"
+					name = "ship_heavy_battery_triple@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -903,6 +1014,50 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_super_heavy_hull_rear_heavy_battery@highlight"
 						position = { x=100 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_double_super_heavy_battery"
+						position = { x=100 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_rear_double_super_heavy_battery@highlight"
+						position = { x=100 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_quad_heavy_battery"
+						position = { x=100 y=5 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_rear_quad_heavy_battery@highlight"
+						position = { x=100 y=5 }
 					}
 				}
 			}
@@ -1014,7 +1169,7 @@ guiTypes = {
 				
 				
 				containerWindowType = {
-					name = "ship_super_heavy_battery"
+					name = "ship_heavy_battery_triple"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -1025,7 +1180,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "ship_super_heavy_battery@highlight"
+					name = "ship_heavy_battery_triple@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -1033,6 +1188,50 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_super_heavy_hull_rear_heavy_battery@highlight"
 						position = { x=40 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_double_super_heavy_battery"
+						position = { x=40 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_rear_double_super_heavy_battery@highlight"
+						position = { x=40 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_quad_heavy_battery"
+						position = { x=50 y=5 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_heavy_battery_quad@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_heavy_hull_rear_quad_heavy_battery@highlight"
+						position = { x=50 y=5 }
 					}
 				}
 			}

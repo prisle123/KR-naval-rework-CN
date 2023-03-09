@@ -135,7 +135,7 @@ instant_effect = {
 			front_1_custom_slot = ship_heavy_battery_1_quad
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_airplane_launcher_1
+			mid_3_custom_slot = ship_airplane_launcher_1
 		}
 	}
 

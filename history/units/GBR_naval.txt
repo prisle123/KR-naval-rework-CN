@@ -166,7 +166,6 @@ instant_effect = {
 			front_2_custom_slot = ship_heavy_battery_2_triple
 			mid_1_custom_slot = ship_secondaries_2
 			mid_2_custom_slot = ship_heavy_battery_2_triple
-			rear_1_custom_slot = ship_heavy_battery_2
 		}
 	}
 

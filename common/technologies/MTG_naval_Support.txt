@@ -52,6 +52,10 @@ technologies = {
 			ship_heavy_battery_big_1_quad
 			ship_heavy_battery_small_1_quad
 			ship_secondaries_1
+			
+			ship_ap_shell_1
+			ship_ap_shell_2
+			ship_ap_shell_3
 		}
 
 
@@ -657,7 +661,8 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
-
+		
+		
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 19 }
@@ -684,6 +689,9 @@ technologies = {
 			cat_ship_heavy_battery
 		}
 	}
+
+	
+	
 	basic_heavy_shell = {
 
 		research_cost = 0.5

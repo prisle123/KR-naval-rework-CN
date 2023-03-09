@@ -2,6 +2,7 @@ instant_effect = {
     create_equipment_variant = {
         name = "内布拉斯加级"
 		icon = "gfx/interface/technologies/Fun/USA_Nebraska.png"
+		role_icon_index = 7
         type = ship_hull_super_heavy_1
         name_group = USA_STATES
         modules = {

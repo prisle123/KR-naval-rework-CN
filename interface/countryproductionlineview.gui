@@ -4403,7 +4403,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "naval_production_cost"
 			position = { x = 15 y = 61 }
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			text = "cost 9001"
 			maxWidth = 160
 			maxHeight = 30
