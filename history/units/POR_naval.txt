@@ -3,6 +3,7 @@ instant_effect = {
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "海豚级"
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = POR_SS_HISTORICAL
 		modules = {
@@ -13,6 +14,7 @@ instant_effect = {
 	}
 	create_equipment_variant = {
 		name = "旗鱼级"	# The WK one, not to be confused with its successor in 海豚级
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = POR_SS_HISTORICAL
 		modules = {
@@ -25,6 +27,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "努诺·特里斯唐级"
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = POR_DD_HISTORICAL
 		modules = {
@@ -34,12 +37,15 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
-			mid_1_custom_slot = empty
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
 			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2
 		}
 	}
 	create_equipment_variant = {
 		name = "瓜地亚纳级"
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = POR_DD_HISTORICAL
 		modules = {
@@ -49,13 +55,15 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "蒙特哥级"
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = POR_DD_HISTORICAL
 		modules = {
@@ -65,43 +73,48 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			mid_1_custom_slot = ship_light_battery_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
 	}
 
 	create_equipment_variant = {
 		name = "伯勒洛丰级"
+		role_icon_index = 3
 		icon = "gfx/interface/technologies/Canada/CAN_battleship_Dreadnought.png"
 		type = ship_hull_heavy_1
 		name_group = POR_BB_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
-			front_1_custom_slot = ship_heavy_battery_1
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_heavy_battery_small_1
+			mid_2_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
 		}
 	}
 	create_equipment_variant = {#TBC
 		name = "印度级"
+		role_icon_index = 27
 		type = ship_hull_cruiser_panzerschiff
 		name_group = POR_CA_HISTORICAL
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = ship_heavy_battery_1_small
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_1
+			rear_2_custom_slot = ship_heavy_battery_1_small
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = empty
 		}
@@ -109,36 +122,40 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "圣马科斯级"			# Pensacola and Northampton classes
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = POR_CL_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_2
-			mid_1_custom_slot = ship_light_medium_battery_1
+			mid_1_custom_slot = ship_light_medium_battery_1_double
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_1_double
 		}
 	}
 	create_equipment_variant = {
 		name = "阿达玛斯特级"
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = POR_CL_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = empty
 			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			mid_3_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
 	}

@@ -2,6 +2,7 @@
 instant_effect = {
 	create_equipment_variant = {
 		name = "L型" # Coastal Sub
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = SIA_SS_HISTORICAL
 		modules = {
@@ -14,6 +15,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "普春蓬级" # Subclass of L-Class, completed late - Coastal Sub
+		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = SIA_SS_HISTORICAL
 		modules = {
@@ -25,6 +27,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "尼尔芒洪级" # SIA's 1935 Naval Program New Procurements, Planned Long-Range Sub
+		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = SIA_SS_HISTORICAL
 		modules = {
@@ -36,6 +39,7 @@ instant_effect = {
 
 	create_equipment_variant = {
 		name = "玛哈·扎克里级" #collection of various WWI and early interwar ships with similiar capabilities
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = SIA_DD_HISTORICAL
 		modules = {
@@ -45,14 +49,16 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
 	}
 
 	create_equipment_variant = {
 		name = "塔延春级" # Interwar Ship
+		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = SIA_DD_HISTORICAL
 		modules = {
@@ -63,13 +69,16 @@ instant_effect = {
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_mine_layer_1
+			mid_2_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
 	}
 
 	create_equipment_variant = {
 		name = "春蓬级"  # SIA's 1935 Naval Program New Procurements, OTL Chonburi
+		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = SIA_DD_HISTORICAL
 		modules = {
@@ -79,35 +88,42 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_battery_2
 			mid_1_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2
 		}
 	}
 
 	create_equipment_variant = {
 		name = "格劳登茨 / 科隆 / 科尼斯堡级"
+		role_icon_index = 23
 		type = ship_hull_cruiser_1
 		name_group = SIA_CL_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
 			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = empty
+			mid_3_custom_slot = ship_light_medium_battery_1_single
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_light_medium_battery_1_single
 		}
 		obsolete = yes
 	}
 
 	create_equipment_variant = {
 		name = "西北级" # SIA's 1935 Naval Program, Planned but not implemented
+		role_icon_index = 25
 		type = ship_hull_cruiser_2
 		name_group = SIA_THEME_STATES
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_battery_slot = ship_light_medium_battery_1_double
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -115,18 +131,20 @@ instant_effect = {
 			fixed_ship_armor_slot = ship_armor_cruiser_2
 			front_1_custom_slot = ship_anti_air_2
 			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_medium_battery_2
+			mid_2_custom_slot = ship_light_medium_battery_1_double
 			rear_1_custom_slot = ship_airplane_launcher_1
+			rear_2_custom_slot = ship_light_medium_battery_1_double
 		}
 	}
 
 	create_equipment_variant = {
 		name = "伊吹级"
+		role_icon_index = 17
 		icon = "gfx/interface/technologies/Japan/JAP_cruiser_coastal_defense_ship.png"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SIA_CA_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_battery_slot = ship_medium_battery_1_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -136,27 +154,29 @@ instant_effect = {
 			front_1_custom_slot = empty
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = ship_torpedo_1
+			rear_2_custom_slot = ship_medium_battery_1_double
 		}
 		obsolete = yes
 	}
 
 	create_equipment_variant = {
 		name = "吞武里级"		# SIA's 1935 Naval Program New Procurements
+		role_icon_index = 19
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SIA_CA_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_battery_slot = ship_medium_battery_1_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			front_1_custom_slot = ship_anti_air_1
+			front_1_custom_slot = empty
 			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_medium_battery_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_medium_battery_1_double
 		}
 	}
 }
