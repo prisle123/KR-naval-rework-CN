@@ -8,6 +8,10 @@ spriteTypes = {
 		name = "GFX_EMSI_fixed_ship_extra_secondaries_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
 	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
+	}
 
 	# category
 	spriteType = {
@@ -39,12 +43,26 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/angled_deck.dds"
 	}
 	spriteType = {
+		name = "GFX_SMI_armor_scheme"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_scheme.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_defense_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_defense_system.png"
+	}
+	
+	# new tech
+	spriteType = {
 		name = "GFX_modern_carrier_equipments_medium"
 		textureFile = "gfx/interface/technologies/floating_airfield.dds"
 	}
 	spriteType = {
 		name = "GFX_anti_air_rockets_medium"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_rockets.png"
+	}
+	spriteType = {
+		name = "GFX_advanced_sonar_medium"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/advanced_sonar.dds"
 	}
 	
 	# topview images
@@ -436,5 +454,55 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advanced_heavy_armor_scheme_medium"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/advanced_heavy_armor_scheme.dds"
+	}
+	
+	# engine
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
+	}
+	
+	## scheme & TDS
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_incremental"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_incremental.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_mixed"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_mixed.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_all_or_nothing"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_all_or_nothing.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_all_or_nothing_armor_box"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_all_or_nothing_armor_box.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_bulge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_bulge.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_belt"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_belt.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_pugliese_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/pugliese_system.png"
+	}
+	
+	## sonar
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_3.png"
 	}
 }

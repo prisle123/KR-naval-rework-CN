@@ -209,6 +209,7 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
+		naval_speed = 34
 	}
 
 	ship_hull_light_4 = {
@@ -234,6 +235,7 @@ equipments = {
 			chromium = 1
 		}
 		manpower = 500
+		naval_speed = 34
 	}
 	destroyer_1 = {
 		year = 1922

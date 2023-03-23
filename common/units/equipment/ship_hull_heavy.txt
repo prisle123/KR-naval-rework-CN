@@ -57,6 +57,14 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ap_shell }
 			}
+			fixed_ship_armor_scheme_slot = { 
+				required = yes
+				allowed_module_categories = { armor_scheme }
+			}
+			fixed_ship_torpedo_defense_system_slot = {
+				required = no
+				allowed_module_categories = { torpedo_defense_system }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -121,6 +129,7 @@ equipments = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental
 			front_1_custom_slot = empty
 			mid_1_custom_slot = empty
 			mid_2_custom_slot = empty
@@ -183,6 +192,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_armor_scheme_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -218,11 +228,11 @@ equipments = {
 		}
 		naval_range = 2250
 
-		max_strength = 300
-		naval_speed = 18
+		max_strength = 240
+		naval_speed = 21
 		fuel_consumption = 67
 		reliability = 0.65
-		build_cost_ic = 2500
+		build_cost_ic = 2200
 		resources = {
 			steel = 2
 			chromium = 1
@@ -255,11 +265,11 @@ equipments = {
 
 		naval_range = 3000
 
-		max_strength = 350
+		max_strength = 300
 		reliability = 0.80
-		naval_speed = 27.7
+		naval_speed = 27.2
 		fuel_consumption = 67
-		build_cost_ic = 3000
+		build_cost_ic = 2600
 	}
 
 	ship_hull_heavy_2 = {
@@ -279,11 +289,11 @@ equipments = {
 		}
 		naval_range = 3500
 
-		max_strength = 370
+		max_strength = 350
 		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 31
-		build_cost_ic = 3200
+		build_cost_ic = 2800
 		resources = {
 			#oil = 1
 			steel = 1
@@ -314,11 +324,11 @@ equipments = {
 		}
 		naval_range = 4000
 		naval_speed = 32
-		max_strength = 400
+		max_strength = 380
 		reliability = 0.9
 		fuel_consumption = 67
 
-		build_cost_ic = 3500
+		build_cost_ic = 3200
 		resources = {
 			steel = 3
 			chromium = 1
@@ -344,11 +354,11 @@ equipments = {
 		}
 		naval_range = 4500
 
-		max_strength = 450
+		max_strength = 420
 		naval_speed = 32
 		fuel_consumption = 67
 		reliability = 0.95
-		build_cost_ic = 3600
+		build_cost_ic = 3500
 		resources = {
 			steel = 3
 			chromium = 1
@@ -402,6 +412,14 @@ equipments = {
 			fixed_ship_extra_secondaries_slot = {
 				required = no
 				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+			}
+			fixed_ship_armor_scheme_slot = { 
+				required = yes
+				allowed_module_categories = { armor_scheme }
+			}
+			fixed_ship_torpedo_defense_system_slot = {
+				required = no
+				allowed_module_categories = { torpedo_defense_system }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -461,10 +479,10 @@ equipments = {
 		}
 		naval_range = 4500
 		naval_speed = 30
-		max_strength = 700
+		max_strength = 600
 		fuel_consumption = 75
-		reliability = 0.83
-		build_cost_ic = 5000
+		reliability = 0.9
+		build_cost_ic = 5500
 		resources = {
 			steel = 3
 			chromium = 1
