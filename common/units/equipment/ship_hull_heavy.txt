@@ -346,7 +346,62 @@ equipments = {
 		can_convert_from = { ship_hull_heavy_4 }
 		parent = ship_hull_heavy_3
 		visual_level = 1
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_armor_slot = inherit
+			fixed_ship_armor_scheme_slot = inherit
+			fixed_ship_torpedo_defense_system_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery 
+					ship_super_heavy_battery
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+					ship_missile
+				}
+			}
+			front_2_custom_slot = front_1_custom_slot
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_heavy_battery 
+					ship_super_heavy_battery
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+					ship_anti_air
+					ship_secondaries
+					ship_dp_secondaries
+					ship_airplane_launcher
+					ship_missile
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					ship_super_heavy_battery
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+					ship_secondaries
+					ship_dp_secondaries
+					ship_airplane_launcher
+					ship_missile
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+		}
 
 		default_modules = {
 			front_1_custom_slot = empty

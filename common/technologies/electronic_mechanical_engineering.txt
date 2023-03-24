@@ -967,6 +967,30 @@ technologies = {
 		}
 	}
 
+	ship_to_ship_missile = {
+		research_cost = 1
+		start_year = 1944
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipment_modules = {
+			ship_to_ship_missile
+		}
+		
+		categories = {
+			rocketry
+			naval_equipment
+			ship_modules_tech
+		}
+	}
+
 	improved_rocket_engines = {
 
 		show_equipment_icon = yes
