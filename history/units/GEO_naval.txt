@@ -21,21 +21,6 @@ instant_effect = {
 			rear_1_custom_slot = empty
 		}
 	}
-
-	create_equipment_variant = {
-		name = "费多尼西级"						# represents Fidonisi and Izyaslav classes
-		type = ship_hull_light_1
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_depth_charge_1
-		}
-	}
 }
 
 units = {
@@ -45,9 +30,6 @@ units = {
 		task_force = {
 			name = "Pirveli popularuli flotilla"
 			location = 772
-			ship = { name = "费多尼西" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEO version_name = "费多尼西级" } } }
-			ship = { name = "加齐贝" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEO version_name = "费多尼西级" } } }
-			ship = { name = "刻赤" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEO version_name = "费多尼西级" } } }
 			ship = { name = "艾提" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
 			ship = { name = "巴统" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
 			ship = { name = "迪奥斯库里亚 " definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
