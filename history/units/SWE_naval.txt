@@ -24,7 +24,7 @@ instant_effect = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "哥德堡级"
+		name = "艾伦斯科德级 / 哥德堡级"
 		role_icon_index = 32
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
@@ -38,23 +38,39 @@ instant_effect = {
 			mid_1_custom_slot = ship_torpedo_2
 			mid_2_custom_slot = ship_light_battery_2
 			rear_1_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_depth_charge_1
 		}
 	}
 	create_equipment_variant = {
-		name = "艾伦斯科德级"
-		role_icon_index = 32
+		name = "拉格纳级 / 胡金级 / 维兰格尔级"
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_depth_charge_1
-			mid_2_custom_slot = ship_light_battery_1
-			rear_1_custom_slot = ship_depth_charge_1
+			front_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "瓦利级"
+		role_icon_index = 29
+		type = ship_hull_light_1
+		name_group = SWE_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
 			rear_2_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
@@ -78,6 +94,28 @@ instant_effect = {
 			rear_1_custom_slot = ship_light_medium_battery_1_double
 		}
 	}
+
+	create_equipment_variant = {
+		name = "费尔加级"
+		role_icon_index = 23
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = SWE_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_light_medium_battery_1_single
+			rear_1_custom_slot = ship_torpedo_1
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+	}
+
 	create_equipment_variant = {
 		name = "奥丁级"
 		role_icon_index = 20
@@ -167,14 +205,13 @@ units = {
 			ship = { name = "HMS 坚强" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级 / 奥斯卡二世级" } } }
 			ship = { name = "HMS 鲁莽" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "荣耀级 / 奥斯卡二世级" } } }
 			ship = { name = "HMS 索尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "奥丁级" } } }
-			ship = { name = "HMS 西格德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 维达" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 艾伦斯科德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 努登舍尔德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 维兰格尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 胡金" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 穆宁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
-			ship = { name = "HMS 拉格纳" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "艾伦斯科德级" } } }
+			ship = { name = "HMS 西格德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
+			ship = { name = "HMS 维达" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
+			ship = { name = "HMS 艾伦斯科德" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级 / 哥德堡级" } } }
+			ship = { name = "HMS 努登舍尔德" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级 / 哥德堡级" } } }
+			ship = { name = "HMS 维兰格尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
+			ship = { name = "HMS 瓦赫特迈斯特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
+			ship = { name = "HMS 瓦利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "瓦利级" } } }
 		}
 	}
 	fleet = {
@@ -191,16 +228,57 @@ units = {
 			ship = { name = "HMS 瑞典" definition = armored_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "瑞典级" } } }
 			ship = { name = "HMS 奥丁" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "奥丁级" } } }
 			ship = { name = "HMS 哥特兰" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "哥特兰级" } } }
-			ship = { name = "HMS 克拉斯·霍恩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 克拉斯·阿格拉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 瓦利" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 瓦赫特迈斯特" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 哥德堡" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 斯德哥尔摩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 马尔默" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 卡尔斯克鲁纳" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 北雪平" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
-			ship = { name = "HMS 耶夫勒" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "哥德堡级" } } }
+			ship = { name = "HMS 费尔加" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "费尔加级" } } }
+			ship = { name = "HMS 克拉斯·霍恩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级 / 哥德堡级" } } }
+			ship = { name = "HMS 克拉斯·阿格拉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级 / 哥德堡级" } } }
+			ship = { name = "HMS 哥德堡" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级 / 哥德堡级" } } }
+			ship = { name = "HMS 斯德哥尔摩" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SWE version_name = "艾伦斯科德级 / 哥德堡级" } } }
+			ship = { name = "HMS 胡金" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
+			ship = { name = "HMS 穆宁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
+			ship = { name = "HMS 拉格纳" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "拉格纳级 / 胡金级 / 维兰格尔级" } } }
 		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SWE"
+			version_name = "艾伦斯科德级 / 哥德堡级"
+		}
+		name = "HMS 马尔默"
+		requested_factories = 1
+		progress = 0.3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SWE"
+			version_name = "艾伦斯科德级 / 哥德堡级"
+		}
+		name = "HMS 卡尔斯克鲁纳"
+		requested_factories = 1
+		progress = 0.3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SWE"
+			version_name = "艾伦斯科德级 / 哥德堡级"
+		}
+		name = "HMS 北雪平"
+		requested_factories = 1
+		progress = 0.3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SWE"
+			version_name = "艾伦斯科德级 / 哥德堡级"
+		}
+		name = "HMS 耶夫勒"
+		requested_factories = 1
+		progress = 0.3
 	}
 }
