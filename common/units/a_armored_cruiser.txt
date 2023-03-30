@@ -9,9 +9,23 @@ sub_units = {
 		need_equipment_modules = {
 			any = {
 				ship_heavy_battery_1 = 1
+				ship_heavy_battery_small_1 = 1
+				ship_heavy_battery_big_1 = 1
 				ship_heavy_battery_2 = 1
 				ship_heavy_battery_3 = 1
 				ship_heavy_battery_4 = 1
+				ship_heavy_battery_1_triple = 1
+				ship_heavy_battery_small_1_triple = 1
+				ship_heavy_battery_big_1_triple = 1
+				ship_heavy_battery_2_triple = 1
+				ship_heavy_battery_3_triple = 1
+				ship_heavy_battery_4_triple = 1
+				ship_heavy_battery_1_quad = 1
+				ship_heavy_battery_small_1_quad = 1
+				ship_heavy_battery_big_1_quad = 1
+				ship_heavy_battery_2_quad = 1
+				ship_heavy_battery_3_quad = 1
+				ship_heavy_battery_4_quad = 1
 			}
 		}
 		max_organisation = 40

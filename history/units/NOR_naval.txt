@@ -38,6 +38,7 @@ instant_effect = {
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_mine_layer_1
+			rear_2_custom_slot = ship_light_battery_2
 		}
 	}
 
@@ -54,7 +55,7 @@ instant_effect = {
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
 		}
 		obsolete = yes
 	}
@@ -66,17 +67,18 @@ instant_effect = {
 		name_group = NOR_BB_HISTORICAL
 		type = ship_hull_heavy_1
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
-			front_1_custom_slot = ship_heavy_battery_1
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = empty
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = ship_heavy_battery_small_1
+			mid_2_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
 		}
 		obsolete = yes
 	}
@@ -87,7 +89,7 @@ instant_effect = {
 		type = ship_hull_pre_dreadnought
 		name_group = NOR_BB_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -107,7 +109,7 @@ instant_effect = {
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = NOR_CA_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_battery_slot = ship_medium_battery_1_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -115,7 +117,7 @@ instant_effect = {
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			mid_2_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = empty
 		}
 	}
@@ -126,7 +128,7 @@ instant_effect = {
 		type = ship_hull_cruiser_2
 		name_group = NOR_CL_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -135,7 +137,8 @@ instant_effect = {
 			front_1_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_light_medium_battery_2
+			rear_1_custom_slot = ship_light_medium_battery_2_double
+			rear_2_custom_slot = ship_light_medium_battery_2_double
 		}
 	}
 
@@ -145,7 +148,7 @@ instant_effect = {
 		type = ship_hull_cruiser_1
 		name_group = NOR_CL_HISTORICAL
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty

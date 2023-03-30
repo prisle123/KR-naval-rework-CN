@@ -36,12 +36,26 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_light_battery_1
+			ship_light_battery_1_double
 			ship_medium_battery_1
+			ship_medium_battery_1_double
 			ship_light_medium_battery_1
+			ship_light_medium_battery_1_double
+			ship_light_medium_battery_1_single
 			ship_heavy_battery_1
 			ship_heavy_battery_big_1
 			ship_heavy_battery_small_1
+			ship_heavy_battery_1_triple
+			ship_heavy_battery_big_1_triple
+			ship_heavy_battery_small_1_triple
+			ship_heavy_battery_1_quad
+			ship_heavy_battery_big_1_quad
+			ship_heavy_battery_small_1_quad
 			ship_secondaries_1
+			
+			ship_ap_shell_1
+			ship_ap_shell_2
+			ship_ap_shell_3
 		}
 
 
@@ -89,6 +103,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_light_battery_2
+			ship_light_battery_2_double
 		}
 
 
@@ -198,6 +213,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_light_battery_3
+			ship_light_battery_3_double
 		}
 
 
@@ -293,6 +309,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_light_battery_4
+			ship_light_battery_4_double
 		}
 
 		on_research_complete = {
@@ -339,7 +356,10 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_medium_battery_2
+			ship_medium_battery_2_double
 			ship_light_medium_battery_2
+			ship_light_medium_battery_2_double
+			ship_light_medium_battery_2_single
 			ship_secondaries_2
 		}
 
@@ -418,7 +438,10 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_medium_battery_3
+			ship_medium_battery_3_double
 			ship_light_medium_battery_3
+			ship_light_medium_battery_3_double
+			ship_light_medium_battery_3_single
 			cat_ship_medium_battery
 		}
 
@@ -496,7 +519,10 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_medium_battery_4
+			ship_medium_battery_4_double
 			ship_light_medium_battery_4
+			ship_light_medium_battery_4_double
+			ship_light_medium_battery_4_single
 		}
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
@@ -535,6 +561,12 @@ technologies = {
 			ship_heavy_battery_2
 			ship_super_heavy_battery_1
 			ship_super_heavy_battery_big_1
+			ship_heavy_battery_2_triple
+			ship_super_heavy_battery_1_triple
+			ship_super_heavy_battery_big_1_triple
+			ship_heavy_battery_2_quad
+			ship_super_heavy_battery_1_quad
+			ship_super_heavy_battery_big_1_quad
 		}
 
 		on_research_complete = {
@@ -580,6 +612,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_heavy_battery_3
+			ship_heavy_battery_3_triple
+			ship_heavy_battery_3_quad
 		}
 
 		on_research_complete = {
@@ -620,12 +654,15 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_heavy_battery_4
+			ship_heavy_battery_4_triple
+			ship_heavy_battery_4_quad
 		}
 
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
-
+		
+		
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 19 }
@@ -652,6 +689,9 @@ technologies = {
 			cat_ship_heavy_battery
 		}
 	}
+
+	
+	
 	basic_heavy_shell = {
 
 		research_cost = 0.5
