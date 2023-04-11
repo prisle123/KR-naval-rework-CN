@@ -20,12 +20,12 @@ SIA_DD_HISTORICAL = {
 
 	unique = {
 		### Already In-game ###
-		"Suea Tayarnchol" "Suea Kamromsin" "Chao Phraya" "Phra Ruang" "Mahachakri"
+		"塔延春" "卡罗辛" "昭拍耶" "朗帕" "玛哈·扎克里"
 
 		### Other Plausible Names ###
-		"Maeklong" "Mongkut Rachakumarn" "Suriyamonthon" "Sarasin" "Prasae" "Tachin" "Songkhla" "Rayong" "Chumphon" "Klongyai" "Kangtang"
-		"Takbai" "Bangpakong" "Thiew Uthok" "Travane Vari" "Tongpliu" "Liulom" "Longlom" "Kraburi" "Saiburi" "Tapi" "Khirirat" "Krabi" "Narathiwat"
-		"Hua Hin" "Klang" "Sriracha" "Sattahip"
+		"美功" "蒙固" "苏雅蒙颂" "萨拉辛" "普拉塞河" "塔钦" "宋卡" "罗永" "春蓬" "空艾" "干当"
+		"达拜" "邦巴功" "邱乌托" "塔瓦纳瓦利" "通流" "柳隆" "朗隆" "克拉武里" "柿武里" "他彼" "基里拉塔" "甲米" "那拉提瓦"
+		"华欣" "格朗" "是拉差" "梭桃邑"
 	}
 }
 
@@ -43,11 +43,11 @@ SIA_CL_HISTORICAL = {
 
 	unique = {
 		## Already in-game ##
-		"Taksin" "Naresuan"
+		"达信" "纳黎萱"
 
 		### Named after person of importance ###
-		"Suranaree" "Suriyothai" "Isaraet Rangsan" "Maha Mongkut" "Damrongrachanuparb" "Norasingh" "Surasak Montri" "Arpaporn Kiattiwong" "Ramkamhaeng" "Narai"
-		"Piya Maharat" "Phutthaloetla Naphalai" "Phutthayotfa Chulalok" "Pokklao" "Vajiravudh"
+		"素罗娜丽" "素里育泰" "伊萨拉特·朗桑" "拉玛四世" "丹龙·拉差努帕" "诺拉欣" "素拉萨克大元帅" "阿帕空·吉提蓬" "兰甘亨" "那莱"
+		"朱拉隆功大帝" "帕佛陀洛罗·那帕莱" "帕佛陀约华·朱拉洛" "泼哥劳" "瓦栖拉兀"
 	}
 }
 
@@ -65,14 +65,14 @@ SIA_CA_HISTORICAL = {
 
 	unique = {
 		## Already In-game ##
-		"Rattanakosin" "Sukhothai"
+		"拉达那哥欣" "素可泰"
 
 		## Other Historical Ships ##
-		"Thonburi" "Sri Ayutthaya"
+		"吞武里" "阿瑜陀耶"
 
 		## Ancient States ##
-		"Ligor" "Dvaravati" "Lavo" "Supannabhum" "Singhanavati" "Nyeonyang" "Haripunchai" "Pan Pan" "Raktamaritika"
-		"Langkasuka" "Tarmpornling" "Nakhon Si Thammarat" "Isan" "Lanna" "Phitsanulok" "Si Kottaboon"
+		"利戈尔" "陀罗钵地" "华富里" "素万那普" "信哈那瓦地" "恩古扬" "哈利奔猜" "盘盘" "罗旦帝迦"
+		"狼牙修" "单马令" "达玛拉特" "伊舍那天" "兰纳" "彭世洛" "澜沧"
 	}
 }
 
@@ -90,7 +90,7 @@ SIA_BB_HISTORICAL = {
 
 	unique = {
 		### Important Battles ###
-		"Bangrachan" "Nong Sarai" "Lardyah" "Bangkeo" "Tha Din Daeng" "Phosamton"
+		"邦拉占" "弄沙叻" "拉贾" "曼谷" "丁登" "泼萨通"
 	}
 }
 
@@ -108,7 +108,7 @@ SIA_CV_HISTORICAL = {
 
 	unique = {
 		### Named after Mythical beings ###
-		"Nakharat" "Sawaettachat" "Phra Nakhon" "Chakri Naruebaet"
+		"那卡拉特" "萨瓦塔查特" "帕那空" "差克里·纳吕贝特"
 	}
 }
 
@@ -126,12 +126,12 @@ SIA_SS_HISTORICAL = {
 
 	unique = {
 		### Named according to Thai Literature characters who're related to the sea ###
-		"Phlai-Chumphon" "Nilmangkorn" "Chalawan" "Kraitong" "Saruengkhamatsaya" "Vimala" "Loemlaiwan" "Taphao Tong" "Taphao Kaew"
-		"Mahachanok" "Komin" "Sutsakorn" "Suwanmalee" "Soisuwan" "Chansuda" "Suwannahong" "Manora" "Suthonthakumarn" "Suphannamatcha"
-		"Hemwarin" "Kunchornwaree" "Matchanakha" "Matchawarn"
+		"普春蓬" "尼尔芒洪" "卡拉万" "鳄妻" "萨伦`卡玛查耶" "维玛拉" "隆莱万" "他棠" "他凯"
+		"玛哈雅努克" "科敏" "潇撒空" "素万玛" "桑唐" "婵素达" "素万娜洪" "马诺拉" "素吞他古曼" "素攀那玛恰"
+		"海华林" "苦春瓦丽" "媚卡拉" "玛雅万"
 
 		## Already In-game ##
-		"Matchanu" "Wirun" "Sinsamut"
+		"玛差奴" "蔚润" "欣沙姆"
 	}
 }
 
@@ -147,8 +147,8 @@ SIA_THEME_MOUNTAINS = {
 	fallback_name = "Reua Roeb %d"
 
 	unique = {
-		"Thanon Thongchai" "Phetchabun" "Sasnkamphaeng" "Phuphan" "Sankalakhiri" "Khun Tan" "Dong Phaya Yen" "Bantat" "Phanom Dongrak"
-		"Phi Pan Nam" "Daen Lao" "Luang Prabang" "Tanaosri" "Phuket" "Nakhon Sri Thammarat" "Chantaburi" "Damrai"
+		"他侬" "碧差汶" "山甘烹" "普攀" "蒂迪旺沙" "坤坦" "东帕雅颜" "豆蔻" "帕农东拉"
+		"披泛南" "丹老" "琅勃拉邦" "塔瑙斯里" "普吉" "那空是贪玛叻" "尖竹汶" "达姆莱"
 	}
 }
 
@@ -165,9 +165,9 @@ SIA_THEME_RIVERS = {
 
 	unique = {
 		### Named after rivers and estauries ###
-		"Maekhoeng" "Khwae" "Lopburi" "Prachinburi" "Salawin" "Pah Sak" "Kok" "Kolok" "She" "Trang" "Nakhon Nayok" "Nan" "Noi" "Bangkham"
-		"Bangtaboon" "Pai" "Ping" "Pranburi" "Phetchaburi" "Pa-she" "Mei" "Mun" "Yom" "Yuam" "Ruak" "Li" "Lamchiangkrai" "Ladkred" "Loei"
-		"Wang" "Hueang" "Ing" "Samut Prakarn" "Khao Saming"
+		"湄公河" "桂河" "华富里河" "巴真武里河" "萨尔温江" "巴塞河" "郭河" "戈洛克河" "谢河" "董里河" "那空那育河" "南河" "诺伊河" "邦康河"
+		"邦塔汶河" "拜河" "平河" "班武里河" "碧武里河" "巴谢河" "眉河" "蒙河" "永河" "元河" "洛克河" "漓江" "澜沧江" "拉克莱河" "黎河"
+		"王河" "黄河" "英格河" "北榄河" "考沙明河"
 	}
 }
 
@@ -184,8 +184,8 @@ SIA_THEME_ISLANDS = {
 
 	unique = {
 		### Named after islands ###
-		"Angthong" "Pha-ngan" "Tarutao" "Samui" "Chang" "Tao" "Nangyuan" "Samet" "Sichang" "Panyi" "Lipeh" "Kood" "Kham" "Mak" "Kradard"
-		"Rayang" "Lhaoya" "Whai" "Sai Ngam" "Ngam" "Kuti" "Talu" "Man Nai" "Man Klang" "Man Nork" "Larn" "Kham Yai" "Kangkaw" "Khai"
+		"红统" "帕岸" "塔鲁陶" "阁沙梅" "象岛" "阁道" "南苑" "沙美特" "阁西昌" "攀伊" "丽贝" "库特" "康岛" "槟榔岛" "卡拉达"
+		"腊阳" "奥雅" "瓦伊" "赛岸" "长泰" "库提" "塔鲁" "曼奈" "曼阁" "曼诺" "阁兰" "坎延" "康夸" "Khai"
 		"Mattra" "Maphraw" "Tong Lharng" "Langkajew" "Pitak" "Wuatahlhab" "Taen" "Lah" "Payarm" "Kum" "Phra Tong" "Langkawee" "Losin"
 		"Torilla" "Pajumpah" "Similan" "Shi" "Pingkun" "Tapuh" "Yao Yai" "Yao Noi" "Hong" "Khai Nai" "Khai Nork" "Racha Yai" "Hey" "Kaew"
 		"Bon" "Rung Yai" "Rung Noi" "Mai Thon" "Sireh" "Gai" "Thab" "Maw" "Pawdah" "Phai" "Lohbileh" "Pipi Don" "Pipi Lae" "Lanta Noi"
