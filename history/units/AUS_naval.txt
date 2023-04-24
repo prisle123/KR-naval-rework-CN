@@ -22,7 +22,7 @@ instant_effect = {
 	}
 
 	create_equipment_variant = { #modern torpedoboat hunter
-		name = "骠骑兵级"
+		name = "龙骑兵级"
 		role_icon_index = 31
 		type = ship_hull_light_2
 		name_group = AUS_DD_T_S_ZERSTORER
@@ -42,6 +42,7 @@ instant_effect = {
 
 	create_equipment_variant = { #oldest dd in arsenal -nearly Torpedoboat
 		name = "塔特拉级"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
 		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_M_ZERSTORER
@@ -60,7 +61,8 @@ instant_effect = {
 	}
 
 	create_equipment_variant = { #bigger old tbd
-		name = "猎鹰级"
+		name = "特里格拉夫级"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
 		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_MC_ZERSTORER
@@ -77,14 +79,35 @@ instant_effect = {
 		obsolete = yes
 	}
 
+	create_equipment_variant = { # Italian destroyer collection
+		name = "图乌级"
+		icon = "gfx/interface/technologies/Italy/ITA_destroyer1.png"
+		role_icon_index = 31
+		type = ship_hull_light_1
+		name_group = AUS_DD_T_MC_ZERSTORER
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_light_battery_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+	}
+
 	create_equipment_variant = { #minelayer
-		name = "旧 骠骑兵级"
-		role_icon_index = 35
+		name = "骠骑兵级"
+		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_S_ZERSTORER
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
@@ -102,7 +125,7 @@ instant_effect = {
 		type = ship_hull_heavy_2
 		name_group = AUS_HH_Theme
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -112,11 +135,11 @@ instant_effect = {
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 			front_1_custom_slot = ship_anti_air_1
-			front_2_custom_slot = ship_heavy_battery_2
+			front_2_custom_slot = ship_heavy_battery_big_1
 			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_2
-			rear_1_custom_slot = ship_heavy_battery_2
-			rear_2_custom_slot = ship_heavy_battery_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+			rear_2_custom_slot = ship_heavy_battery_big_1
 		}
 	}
 
@@ -126,7 +149,7 @@ instant_effect = {
 		type = ship_hull_heavy_2
 		name_group = AUS_HH_Theme
 		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1_triple
+			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -135,10 +158,11 @@ instant_effect = {
 			fixed_ship_armor_slot = ship_armor_bc_2
 			fixed_ship_armor_scheme_slot = ship_scheme_mixed
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_1_triple
 			front_2_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_secondaries_2
-			mid_2_custom_slot = ship_heavy_battery_1_triple
-			mid_3_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_1
 			rear_2_custom_slot = ship_heavy_battery_1_triple
 		}
 	}
@@ -160,7 +184,7 @@ instant_effect = {
 			front_1_custom_slot = ship_anti_air_1
 			front_2_custom_slot = ship_heavy_battery_small_1_triple
 			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_airplane_launcher_1
 			rear_1_custom_slot = ship_heavy_battery_small_1_triple
 			rear_2_custom_slot = ship_heavy_battery_small_1_triple
 		}
@@ -182,11 +206,11 @@ instant_effect = {
 			fixed_ship_armor_slot = ship_armor_bb_1
 			front_1_custom_slot = empty
 			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_small_1
 		}
 		obsolete = yes
 	}
+
 
 	### Cruisers
 	create_equipment_variant = { #modern light cruiser coopearation with Italian Dockyards
@@ -280,9 +304,10 @@ instant_effect = {
 	}
 
 	create_equipment_variant = { #old coast defense ships
-		name = "皇帝卡尔五世级 / 圣乔治级"
+		name = "皇帝卡尔六世级 / 圣乔治级"
 		role_icon_index = 17
 		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = AUS_HH_Theme
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -323,12 +348,12 @@ instant_effect = {
 		}
 		obsolete = yes
 	}
-
 }
+
 
 units = {
 	fleet = {
-		name = "皇家与王家战争海军水面舰艇部队"
+		name = "皇家与王家战争海军"
 		naval_base = 11735 ###Change to proper province number
 		task_force = {
 			name = "第一作战中队"
@@ -337,37 +362,36 @@ units = {
 			ship = { name = "SMS 匈雅提" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "匈雅提级" } } }
 			ship = { name = "SMS 皇帝约瑟夫·弗朗茨" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "匈雅提级" } } }
 			ship = { name = "SMS 圣瓦茨拉夫" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "匈雅提级" } } }
-			ship = { name = "SMS 巾帼" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 乌兰" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 乌斯科克" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 杜克拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
-			ship = { name = "SMS 利卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
-			ship = { name = "SMS 特里格夫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
-			ship = { name = "SMS 乌若克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
-			ship = { name = "SMS 巴拉顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
-			ship = { name = "SMS 雷泰扎特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "猎鹰级" } } }
-			ship = { name = "SMS 魏斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "猎鹰级" } } }
-			ship = { name = "SMS 布切吉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "猎鹰级" } } }
-			ship = { name = "SMS 莱塔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "猎鹰级" } } }
 			ship = { name = "SMS 闪电" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
 			ship = { name = "SMS 流星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
 			ship = { name = "SMS 彗星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
 			ship = { name = "SMS 行星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
+			ship = { name = "SMS 龙骑兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 枪骑兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 利卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "特里格拉夫级" } } }
+			ship = { name = "SMS 特里格拉夫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "特里格拉夫级" } } }
+			ship = { name = "SMS 巴拉顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
+			ship = { name = "SMS 雷泰扎特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "图乌级" } } }
+			ship = { name = "SMS 魏斯峰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "图乌级" } } }
+			ship = { name = "SMS 布切吉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "图乌级" } } }
+			ship = { name = "SMS 莱塔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "图乌级" } } }
 		}
 
 		task_force = {
 			name = "第二作战中队"
 			location = 11735
-			ship = { name = "SMS 王权" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "施瓦岑贝格级" } } }
+			ship = { name = "SMS 君主" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "施瓦岑贝格级" } } }
 			ship = { name = "SMS 施瓦岑贝格" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "施瓦岑贝格级" } } }
-			ship = { name = "SMS 牧民" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 骠骑兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 潘德" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 雷卡" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 狙击手" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 战士" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 边境步兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 掷弹兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 燧发枪兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 牧马人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 骠骑兵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 潘杜军团" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 里耶卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 狙击手" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
 			ship = { name = "SMS 库斯托扎" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
-			ship = { name = "SMS 莉萨" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
+			ship = { name = "SMS 利萨" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
 		}
 
 		task_force = {
@@ -378,34 +402,44 @@ units = {
 			ship = { name = "SMS 涅戈万海军上将" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "涅戈万海军上将级" } } }
 			ship = { name = "SMS 赫尔戈兰" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "赫尔戈兰级" } } }
 			ship = { name = "SMS 赛达" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "赫尔戈兰级" } } }
-			ship = { name = "SMS 诺瓦腊" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "赫尔戈兰级" } } }
+			ship = { name = "SMS 诺瓦拉" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "赫尔戈兰级" } } }
+			ship = { name = "SMS 国土佣仆" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 线列步兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
+			ship = { name = "SMS 胸甲骑兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
 			ship = { name = "SMS 奥连" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
 			ship = { name = "SMS 塔特拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
-			ship = { name = "SMS 施瓦茨科格尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "猎鹰级" } } }
-			ship = { name = "SMS 猎鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "猎鹰级" } } }
+			ship = { name = "SMS 杜克拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "特里格拉夫级" } } }
+			ship = { name = "SMS 乌若克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "特里格拉夫级" } } }
+			ship = { name = "SMS 施瓦茨科格尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "图乌级" } } }
+			ship = { name = "SMS 图乌" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "图乌级" } } }
 		}
 	}
 
 	fleet = {
-		name = "皇家与王家战争海军预备役舰队"
+		name = "预备役舰队"
 		naval_base = 6626
 		task_force = {
 			name = "预备役舰队"
 			location = 6626
 			ship = { name = "SMS 拉德茨基" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "拉德茨基级" } } }
-			ship = { name = "SMS 兹林" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "拉德茨基级" } } }
-			ship = { name = "SMS 迪纳拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "旧 骠骑兵级" } } }
-			ship = { name = "SMS 韦莱比特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "旧 骠骑兵级" } } }
-			ship = { name = "SMS 皇帝卡尔五世" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AUS version_name = "皇帝卡尔五世级 / 圣乔治级" } } }
-			ship = { name = "SMS 圣乔治" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AUS version_name = "皇帝卡尔五世级 / 圣乔治级" } } }
+			ship = { name = "SMS 兹里尼" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "拉德茨基级" } } }
+			ship = { name = "SMS 弗朗茨·斐迪南大公" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "拉德茨基级" } } }
+			ship = { name = "SMS 迪纳拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 韦莱比特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 皇帝卡尔六世" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AUS version_name = "皇帝卡尔六世级 / 圣乔治级" } } }
+			ship = { name = "SMS 圣乔治" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AUS version_name = "皇帝卡尔六世级 / 圣乔治级" } } }
 			ship = { name = "SMS 联合力量" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "泰格霍夫级" } } }
 			ship = { name = "SMS 斯邦海军上将" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "斯邦海军上将级" } } }
 			ship = { name = "SMS 切佩尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "塔特拉级" } } }
+			ship = { name = "SMS 瓦拉斯迪纳" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 野人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 乌兰骑兵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
+			ship = { name = "SMS 乌斯科克军团" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
 		}
 	}
 
 	fleet = {
-		name = "皇家与王家战争海军第一潜艇大队"
+		name = "第一潜艇大队"
 		naval_base = 3924
 		task_force = {
 			name = "第一潜艇分队"
@@ -442,7 +476,7 @@ units = {
 	}
 
 	fleet = {
-		name = "皇家与王家战争海军第二潜艇大队"
+		name = "第二潜艇大队"
 		naval_base = 3924
 		task_force = {
 			name = "第一潜艇分队"
