@@ -1,7 +1,8 @@
 ﻿###OOB File for NFA.txt
 instant_effect = {
 	create_equipment_variant = {
-		name = "亚马逊级 / 亚尔戈级"
+		name = "阿尔戈级"
+		allow_without_tech = yes
 		role_icon_index = 39
 		type = ship_hull_cruiser_submarine
 		name_group = FRA_SS_HISTORICAL
@@ -13,7 +14,7 @@ instant_effect = {
 		}
 	}
 	create_equipment_variant = {
-		name = "阿丽亚娜级 / 喀尔刻级"						# represents all 630 series classes
+		name = "安菲特里忒级 / 拉格朗日级"
 		role_icon_index = 37
 		type = ship_hull_submarine_1
 		name_group = FRA_SS_HISTORICAL
@@ -24,12 +25,12 @@ instant_effect = {
 		}
 	}
 	create_equipment_variant = {
-		name = "可畏级"						# OTL Redoubtable Class
+		name = "可畏级"
 		role_icon_index = 37
 		type = ship_hull_submarine_2
 		name_group = FRA_SS_HISTORICAL
 		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
 			rear_1_custom_slot = empty
 		}
@@ -373,34 +374,34 @@ units = {
 			#1re Escadrille
 			ship = { name = "跳跃者" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "战斗级 / 斯帕希级 / 盾牌级" } } }
 			ship = { name = "猞猁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "宁芬" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "喀尔刻" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "忒提斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "伽拉忒亚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "塞壬" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "纳伊阿德斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
+			ship = { name = "阿斯特赖亚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "阿耳忒弥斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "林仙" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "阿塔兰塔" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "阿马兰蒂" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "安德洛玛刻" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			#2e Escadrille
 			ship = { name = "瓦尔密" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
 			ship = { name = "凡尔登" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "阿丽亚娜" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "卡吕普索" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "温蒂尼" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "达娜厄" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
-			ship = { name = "欧律狄克" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "阿丽亚娜级 / 喀尔刻级" } } }
+			ship = { name = "阿尔米德" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "安提戈涅" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "亚马逊" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "拉格朗日" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "罗马佐蒂" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 		}
 		task_force = {
 			name = "特遣舰队"
 			location = 4948 ###Dakar
 			ship = { name = "黑豹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
 			ship = { name = "狮" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "亚马逊" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "安菲特里忒" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "安提俄普" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "黛安" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "美杜莎" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "阿瑞图萨" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "亚尔戈" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
-			ship = { name = "阿塔兰特" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "亚马逊级 / 亚尔戈级" } } }
+			ship = { name = "阿尔戈" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "阿尔戈级" } } }
+			ship = { name = "维斯塔贞女" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "阿尔戈级" } } }
+			ship = { name = "女苏丹" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "阿尔戈级" } } }
+			ship = { name = "可畏" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "可畏级" } } }
+			ship = { name = "复仇" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "可畏级" } } }
+			ship = { name = "帕斯卡" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "可畏级" } } }
+			ship = { name = "巴斯德" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "可畏级" } } }
+			ship = { name = "亨利·庞加莱" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = NFA version_name = "可畏级" } } }
 		}
 	}
 }
