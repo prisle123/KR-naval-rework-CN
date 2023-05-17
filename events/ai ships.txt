@@ -458,7 +458,7 @@ country_event = {
 	trigger = {
 		JAP = {
 			is_ai = yes
-			NOT = { has_country_flag = JAP_SHIPS_1940}
+			NOT = { has_country_flag = JAP_SHIPS_1940 }
 		}
 		date > 1940.2.1
 	}
@@ -563,7 +563,7 @@ country_event = {
 	trigger = {
 		JAP = {
 			is_ai = yes
-			NOT = { has_country_flag = JAP_SHIPS_1943}
+			NOT = { has_country_flag = JAP_SHIPS_1943 }
 		}
 		date > 1943.2.1
 	}
@@ -1337,6 +1337,7 @@ country_event = {
 					rear_2_custom_slot = ship_light_battery_4_double
 				}
 			}
+			set_country_flag = FRA_SHIPS_1943
 		}
 	}
 }

@@ -61,3 +61,42 @@ country_event = {
 		load_oob = AST_upgrade3
 	}
 }
+
+# make up missing starting tech for major countries
+# country_event = {
+	# id = navy_rework.3
+	# hidden = yes
+	# fire_only_once = yes
+	# immediate = {
+		# AST = {
+			# set_technology = { basic_ship_hull_submarine = 1 }
+		# }
+		# ENG = {
+			# set_technology = { basic_ship_hull_submarine = 1 }
+			# set_technology = { cruiser_submarines = 1 }
+			# set_technology = { ship_hull_super_heavy = 1 }
+		# }
+		# FRA = {
+			# set_technology = { basic_ship_hull_cruiser = 1 }
+		# }
+		# CAN = {
+			# set_technology = { basic_ship_hull_submarine = 1 }
+			# set_technology = { cruiser_submarines = 1 }
+			# set_technology = { panzerschiffe = 1 }
+		# }
+		# HOL = {
+			# set_technology = { early_ship_hull_carrier = 1 }
+		# }
+		# NFA = {
+			# set_technology = { basic_ship_hull_cruiser = 1 }
+			# set_technology = { panzerschiffe = 1 }
+			# set_technology = { cruiser_submarines = 1 }
+		# }
+		# GRE = {
+			# set_technology = { early_ship_hull_heavy = 1 }
+		# }
+		# ARG = {
+			# set_technology = { basic_ship_hull_cruiser = 1 }
+		# }
+	# }
+# }

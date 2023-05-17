@@ -293,6 +293,44 @@ country_event = {	# RUS 1917-1936
 	}
 }
 
+# AUS
+country_event = {	# AUS 1900-1920
+	id = Naval_lore.14
+	title = Naval_lore.14.t
+	desc = Naval_lore.14.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_AUS_ship
+	
+	option = {
+		name = Naval_lore.next
+		FROM = {
+			country_event = Naval_lore.15
+		}
+	}
+	option = {
+		name = Naval_lore.option.AUS.ok
+	}
+}
+country_event = {	# AUS 1920-1936
+	id = Naval_lore.15
+	title = Naval_lore.15.t
+	desc = Naval_lore.15.d
+	
+	is_triggered_only = yes
+	picture = GFX_report_event_AUS_ship
+	
+	option = {
+		name = Naval_lore.prev
+		FROM = {
+			country_event = Naval_lore.14
+		}
+	}
+	option = {
+		name = Naval_lore.option.AUS.ok
+	}
+}
+
 
 country_event = {
 	id = Naval_lore.100

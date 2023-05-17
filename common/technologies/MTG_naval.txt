@@ -65,6 +65,7 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_2
 			light_ship_engine_5
+			light_ship_engine_2_diesel
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_light
@@ -101,6 +102,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			light_ship_engine_3
+			light_ship_engine_3_diesel
 		}
 
 		path = {
@@ -134,6 +136,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			light_ship_engine_4
+			light_ship_engine_4_diesel
 		}
 
 		research_cost = 2
@@ -507,6 +510,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			cruiser_ship_engine_2
+			cruiser_ship_engine_2_diesel
 		}
 
 		path = {
@@ -541,6 +545,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			cruiser_ship_engine_3
+			cruiser_ship_engine_3_diesel
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_cruiser
@@ -574,6 +579,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			cruiser_ship_engine_4
+			cruiser_ship_engine_4_diesel
 		}
 		research_cost = 1.5
 
@@ -731,6 +737,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2
+			heavy_ship_engine_2_diesel
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
@@ -801,6 +808,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_3
+			heavy_ship_engine_3_diesel
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
@@ -838,6 +846,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_4
+			heavy_ship_engine_4_diesel
 		}
 		research_cost = 1.5
 
@@ -1038,6 +1047,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			carrier_ship_engine_2
+			carrier_ship_engine_2_diesel
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_carrier
@@ -1070,6 +1080,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			carrier_ship_engine_3
+			carrier_ship_engine_3_diesel
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
@@ -1102,6 +1113,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			carrier_ship_engine_4
+			carrier_ship_engine_4_diesel
 		}
 		research_cost = 1.5
 
@@ -1169,6 +1181,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_sub_1
 			sub_ship_engine_1
+			pressure_hull_1
 		}
 
 		path = {
@@ -1207,6 +1220,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_sub_2
 			sub_ship_engine_2
+			pressure_hull_2
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_submarine
@@ -1247,6 +1261,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_sub_3
 			sub_ship_engine_3
+			pressure_hull_3
 		}
 
 		path = {
@@ -1290,6 +1305,8 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_sub_4
 			sub_ship_engine_4
+			sub_ship_engine_5
+			pressure_hull_4
 		}
 
 		research_cost = 2.0
@@ -1461,6 +1478,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_extra_fuel_tank
+			sub_heavy_battery_1
 		}
 
 		research_cost = 1.5

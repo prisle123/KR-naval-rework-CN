@@ -120,6 +120,10 @@ equipments = {
 			category = ship_radar
 			count < 2
 		}
+		module_count_limit = {
+			category = ship_missile
+			count < 3
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -232,7 +236,7 @@ equipments = {
 		naval_speed = 21
 		fuel_consumption = 67
 		reliability = 0.65
-		build_cost_ic = 2200
+		build_cost_ic = 2000
 		resources = {
 			steel = 2
 			chromium = 1
@@ -266,10 +270,10 @@ equipments = {
 		naval_range = 3000
 
 		max_strength = 300
-		reliability = 0.80
+		reliability = 0.75
 		naval_speed = 27.2
 		fuel_consumption = 67
-		build_cost_ic = 2600
+		build_cost_ic = 2400
 	}
 
 	ship_hull_heavy_2 = {
@@ -293,7 +297,7 @@ equipments = {
 		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 31
-		build_cost_ic = 2800
+		build_cost_ic = 2600
 		resources = {
 			#oil = 1
 			steel = 1
@@ -328,7 +332,7 @@ equipments = {
 		reliability = 0.9
 		fuel_consumption = 67
 
-		build_cost_ic = 3200
+		build_cost_ic = 3000
 		resources = {
 			steel = 3
 			chromium = 1
@@ -352,12 +356,12 @@ equipments = {
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_armor_slot = inherit
-			fixed_ship_armor_scheme_slot = inherit
-			fixed_ship_torpedo_defense_system_slot = inherit
 			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_armor_scheme_slot = inherit
+			fixed_ship_torpedo_defense_system_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -413,7 +417,7 @@ equipments = {
 		naval_speed = 32
 		fuel_consumption = 67
 		reliability = 0.95
-		build_cost_ic = 3500
+		build_cost_ic = 3300
 		resources = {
 			steel = 3
 			chromium = 1
@@ -466,7 +470,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -537,7 +541,7 @@ equipments = {
 		max_strength = 600
 		fuel_consumption = 75
 		reliability = 0.9
-		build_cost_ic = 5500
+		build_cost_ic = 4500
 		resources = {
 			steel = 3
 			chromium = 1

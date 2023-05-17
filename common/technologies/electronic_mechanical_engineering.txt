@@ -945,6 +945,10 @@ technologies = {
 			leads_to_tech = jet_engines
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = ship_to_ship_missile
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1944
@@ -966,7 +970,7 @@ technologies = {
 			rocketry
 		}
 	}
-
+	
 	ship_to_ship_missile = {
 		research_cost = 1
 		start_year = 1944
@@ -981,7 +985,7 @@ technologies = {
 		}
 		
 		enable_equipment_modules = {
-			ship_to_ship_missile
+			ship_missile_1
 		}
 		
 		categories = {

@@ -443,19 +443,19 @@ naval_unit_role_ratios_GER_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = kr_naval_carrier
-		value = 80
+		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = kr_naval_screen
-		value = 40
+		value = 60
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = kr_naval_cruiser_light
-		value = 20
+		value = 40
 	}
 	
 	ai_strategy = {
@@ -1267,11 +1267,9 @@ naval_unit_role_ratios_USA_great_depression = {
 		tag = USA
 	}
 	enable = {
-		date < 1939.1.1
+		NOT = { has_global_flag = USA_civil_war_begun_flag }
 	}
-	abort = {
-		has_global_flag = USA_civil_war_begun_flag
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio

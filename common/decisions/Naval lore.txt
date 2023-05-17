@@ -88,6 +88,23 @@ Naval_lore_category = {
 			}
 		}
 	}
+	AUS_naval_lore = {
+		icon = generic_naval
+		allowed = {
+			OR = {
+				tag = AUS
+				tag = CRO
+				tag = HUN
+				tag = GAL
+				tag = CZE
+			}
+		}
+		complete_effect = {
+			FROM = {
+				country_event = Naval_lore.14
+			}
+		}
+	}
 	
 	ship_category_background = {
 		icon = generic_naval

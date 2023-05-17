@@ -669,7 +669,7 @@ QIE_create_battleship_variant = {
 }
 
 QIE_spawn_battleship = {
-	create_ship = { name = "吴元帅" type = ship_hull_heavy_1 equipment_variant = "不伦瑞克级 / 德意志级" creator = ROOT }
+	create_ship = { name = "吴元帅" type = ship_hull_pre_dreadnought equipment_variant = "不伦瑞克级 / 德意志级" creator = ROOT }
 }
 
 QIE_enable_zhili_offer_alliance_decisions = {

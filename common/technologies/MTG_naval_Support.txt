@@ -104,6 +104,8 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_2
 			ship_light_battery_2_double
+			dp_light_battery_1
+			dp_ship_secondaries_1
 		}
 
 
@@ -795,8 +797,6 @@ technologies = {
 		enable_equipment_modules = {
 			dp_light_battery_2
 			dp_ship_secondaries_2
-			dp_light_battery_1
-			dp_ship_secondaries_1
 		}
 
 		path = {
