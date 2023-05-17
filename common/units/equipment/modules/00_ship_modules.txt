@@ -1395,6 +1395,156 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
+
+	# double medium heavy battery
+	ship_medium_heavy_battery_1_double = {
+		category = ship_medium_heavy_battery
+		gui_category = ship_medium_battery
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 4
+			lg_attack = 1
+			build_cost_ic = 550
+			surface_visibility = 0.8
+		}
+		multiply_stats = {
+			naval_speed = -0.06
+			max_strength = 0.2
+		}
+		add_average_stats = {
+			hg_armor_piercing = 32
+			lg_armor_piercing = 11
+		}
+		
+
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_heavy_battery
+			convert_cost_ic = 275
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_medium_heavy_battery_2_double = {
+		category = ship_medium_heavy_battery
+		gui_category = ship_medium_battery
+		parent = ship_medium_heavy_battery_1_double
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 5
+			lg_attack = 2
+			build_cost_ic = 700
+			surface_visibility = 0.9
+		}
+		multiply_stats = {
+			naval_speed = -0.07
+			max_strength = 0.25
+		}
+		add_average_stats = {
+			hg_armor_piercing = 36
+			lg_armor_piercing = 14
+		}
+		
+
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_heavy_battery
+			convert_cost_ic = 350
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
+	# triple medium heavy battery
+	ship_medium_heavy_battery_1 = {
+		category = ship_medium_heavy_battery
+		gui_category = ship_medium_battery
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 6
+			lg_attack = 1.5
+			build_cost_ic = 600
+			surface_visibility = 0.8
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+			max_strength = 0.2
+		}
+		add_average_stats = {
+			hg_armor_piercing = 32
+			lg_armor_piercing = 11
+		}
+		
+
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_heavy_battery
+			convert_cost_ic = 300
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_medium_heavy_battery_2 = {
+		category = ship_medium_heavy_battery
+		gui_category = ship_medium_battery
+		parent = ship_medium_heavy_battery_1
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 7.5
+			lg_attack = 3
+			build_cost_ic = 800
+			surface_visibility = 0.9
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+			max_strength = 0.25
+		}
+		add_average_stats = {
+			hg_armor_piercing = 36
+			lg_armor_piercing = 14
+		}
+		
+
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_heavy_battery
+			convert_cost_ic = 400
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
 	
 	# triple light medium
 	ship_light_medium_battery_1 = {
