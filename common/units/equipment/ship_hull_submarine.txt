@@ -35,6 +35,12 @@ equipments = {
 				required = no
 				allowed_module_categories = { pressure_hull }
 			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_ship_periscope
+				}
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -53,6 +59,7 @@ equipments = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_1
 			fixed_ship_armor_slot = pressure_hull_1
+			mid_1_custom_slot = sub_ship_periscope_0
 			rear_1_custom_slot = empty
 		}
 
@@ -118,6 +125,12 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_ship_periscope
+				}
+			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -132,6 +145,7 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_2
 			fixed_ship_armor_slot = pressure_hull_1
+			mid_1_custom_slot = sub_ship_periscope_0
 		}
 		sub_visibility = 24
 		naval_speed = 17
@@ -172,6 +186,12 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					sub_ship_periscope
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
 					ship_radar
 					ship_sub_snorkel
 				}
@@ -181,7 +201,7 @@ equipments = {
 
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = sub_ship_periscope_0
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_3
 			fixed_ship_armor_slot = pressure_hull_1
@@ -214,18 +234,23 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
-			front_1_custom_slot = {
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_mine_layer_sub
+					sub_ship_periscope
 				}
 			}
-			mid_1_custom_slot = {
+			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_radar
 					ship_sub_snorkel
+				}
+			}
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_ship_stealth
 				}
 			}
 			rear_1_custom_slot = front_1_custom_slot
@@ -233,7 +258,7 @@ equipments = {
 
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = sub_ship_periscope_0
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_4
 			fixed_ship_armor_slot = pressure_hull_1
@@ -279,6 +304,12 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					sub_ship_periscope
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
 					ship_radar
 					ship_sub_snorkel
 				}
@@ -296,7 +327,7 @@ equipments = {
 
 		default_modules = {
 			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = sub_ship_periscope_0
 			rear_1_custom_slot = empty
 			fixed_ship_armor_slot = pressure_hull_1
 		}
@@ -319,7 +350,7 @@ equipments = {
 
 	ship_hull_midget_submarine = {
 		abbreviation = "ssm"
-		year = 1940
+		year = 1930
 
 		archetype = ship_hull_submarine
 		can_convert_from = { ship_hull_midget_submarine }
@@ -327,11 +358,18 @@ equipments = {
 		module_slots = {
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_ship_periscope
+				}
+			}
 		}
 
 		default_modules = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
+			mid_1_custom_slot = sub_ship_periscope_0
 		}
 
 		sub_visibility = 15

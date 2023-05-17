@@ -3668,7 +3668,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_1
 		
 		multiply_stats = {
-			sub_visibility = -0.1 
+			sub_visibility = -0.5
 		}
 		
 		add_stats = {
@@ -3681,7 +3681,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_2
 		parent = ship_sub_snorkel_1
 		multiply_stats = {
-			sub_visibility = -0.2
+			sub_visibility = -0.1
 		}
 		
 		add_stats = {
@@ -4032,8 +4032,20 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = -0.05
-			max_strength = 0.1
+			max_strength = 0.05
 			build_cost_ic = 0.05
+		}
+		add_stats = {
+			reliability = 0.1
+		}
+	}
+	ship_scheme_incremental_post_jutland = {
+		category = armor_scheme
+		
+		multiply_stats = {
+			naval_speed = -0.05
+			max_strength = 0.1
+			build_cost_ic = 0.065
 		}
 		add_stats = {
 			reliability = 0.1
@@ -4109,6 +4121,17 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.01
 			build_cost_ic = 0.08
+		}
+	}
+	torpedo_belt_enhanced = {
+    	category = torpedo_defense_system
+		
+		add_stats = {
+			naval_torpedo_enemy_critical_chance_factor = -0.25
+			naval_torpedo_damage_reduction_factor = 0.25
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
 		}
 	}
 	
@@ -4375,5 +4398,114 @@ equipment_modules = {
 			module_category = pressure_hull
 			convert_cost_ic = 200
 		}
+	}
+	anechoic_tile_1 = {
+		category = sub_ship_stealth
+		add_stats = {
+			reliability = -0.15
+		}
+		multiply_stats = {
+			sub_visibility = -0.1
+			build_cost_ic = 0.4
+		}
+	}
+
+### Submarine Periscope
+	sub_ship_periscope_0 = {
+		category = sub_ship_periscope
+		multiply_stats = {
+			surface_detection = 0.025
+			sub_visibility = 0.06
+		}
+		add_stats = {
+			build_cost_ic = 10
+		}
+		can_convert_from = {
+			module_category = sub_ship_periscope
+			convert_cost_ic = 50
+		}
+	}
+	sub_ship_periscope_1 = {
+		category = sub_ship_periscope
+		multiply_stats = {
+			surface_detection = 0.05
+			sub_visibility = 0.05
+		}
+		add_stats = {
+			build_cost_ic = 30
+		}
+		can_convert_from = {
+			module_category = sub_ship_periscope
+			convert_cost_ic = 50
+		}
+	}
+	sub_ship_periscope_2 = {
+		category = sub_ship_periscope
+		parent = sub_ship_periscope_1
+		multiply_stats = {
+			surface_detection = 0.075
+			sub_visibility = 0.025
+		}
+		add_stats = {
+			build_cost_ic = 50
+		}
+		can_convert_from = {
+			module_category = sub_ship_periscope
+			convert_cost_ic = 50
+		}
+	}
+	sub_ship_periscope_3 = {
+		category = sub_ship_periscope
+		parent = sub_ship_periscope_2
+		multiply_stats = {
+			surface_detection = 0.1
+		}
+		add_stats = {
+			build_cost_ic = 70
+		}
+		can_convert_from = {
+			module_category = sub_ship_periscope
+			convert_cost_ic = 50
+		}
+	}
+
+### Destroyer Role
+	ship_hull_light_role_dd = {
+    	category = dd_role
+		forbid_module_categories = {
+			ship_light_medium_battery
+		}
+	}
+	ship_hull_light_role_dl = {
+    	category = dd_role
+    	multiply_stats = {
+        	lg_attack = 0.1
+        	lg_armor_piercing = 0.1
+        	max_strength = 0.1
+        	build_cost_ic = 0.15
+    	}
+		forbid_module_categories = {
+			ship_light_medium_battery
+		}
+	}
+	ship_hull_light_role_de = {
+    	category = dd_role
+    	multiply_stats = {
+	        lg_attack = -0.05
+    	    max_strength = -0.05
+        	sub_detection = 0.05
+        	build_cost_ic = -0.1
+    	}
+		forbid_module_categories = {
+			ship_light_medium_battery
+		}
+	}
+	ship_hull_light_role_cl = {
+    	category = dd_role
+    	multiply_stats = {
+        	max_strength = 0.2
+        	naval_speed = -0.1
+        	build_cost_ic = 0.3
+    	}
 	}
 }

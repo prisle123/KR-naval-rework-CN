@@ -155,8 +155,34 @@ equipments = {
 		naval_supremacy_factor = 2.3
 	}
 
+	ship_hull_cruiser_0 = {
+		year = 1914
+		visual_level = 0
+		archetype = ship_hull_cruiser
+		priority = 1900
+		can_convert_from = { ship_hull_cruiser_0 }
+
+		module_slots = inherit
+
+		surface_detection = 15
+		sub_detection = 1
+		surface_visibility = 18
+		naval_speed = 25
+		reliability = 0.75
+
+		naval_range = 2200
+
+		max_strength = 90
+
+
+		fuel_consumption = 18
+
+		build_cost_ic = 1400
+	}
+
 	ship_hull_cruiser_1 = {
 		abbreviation = "hba"
+		parent = ship_hull_cruiser_0
 		year = 1922
 		visual_level = 0
 		archetype = ship_hull_cruiser

@@ -546,6 +546,78 @@ technologies = {
 			cat_ship_medium_battery
 		}
 	}
+
+	improved_medium_heavy_battery = {
+
+		research_cost = 1
+
+		start_year = 1939
+
+		path = {
+			leads_to_tech = advanced_medium_heavy_battery
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = medium_battery_advice_tt
+		}
+		enable_equipment_modules = {
+			ship_medium_heavy_battery_1
+			ship_medium_heavy_battery_1_double
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -1 y = 11 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = improved_ship_hull_cruiser
+				factor = 5
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_medium_battery
+		}
+	}
+
+	improved_medium_heavy_battery = {
+
+		research_cost = 1
+
+		start_year = 1942
+
+		on_research_complete = {
+			custom_effect_tooltip = medium_battery_advice_tt
+		}
+		enable_equipment_modules = {
+			ship_medium_heavy_battery_2
+			ship_medium_heavy_battery_2_double
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -1 y = 13 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = advanced_ship_hull_cruiser
+				factor = 5
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_medium_battery
+		}
+	}
 	
 
 	basic_heavy_battery = {
