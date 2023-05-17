@@ -1,0 +1,101 @@
+instant_effect = {
+    create_equipment_variant = {
+        name = "13号巡洋战舰"
+		icon = "gfx/interface/technologies/Fun/JAP_NO13.png"
+        type = ship_hull_heavy_1
+		role_icon_index = 1
+        name_group = JAP_PREFECTURES
+        modules = {
+            fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			fixed_ship_armor_scheme_slot = ship_scheme_mixed
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_anti_air_1
+            front_2_custom_slot = ship_super_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_super_heavy_battery_1
+            rear_2_custom_slot = ship_super_heavy_battery_1
+        }
+    }
+
+    create_equipment_variant = {
+        name = "大和级"
+        type = ship_hull_heavy_2
+		role_icon_index = 3
+        icon = "gfx/interface/technologies/Japan/JAP_battleship3.png"
+        name_group = JAP_PREFECTURES
+        modules = {
+            fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+			fixed_ship_torpedo_defense_system_slot = torpedo_belt
+			front_1_custom_slot = ship_anti_air_1
+            front_2_custom_slot = ship_super_heavy_battery_1_triple
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_super_heavy_battery_1_triple
+        }
+    }
+	create_equipment_variant = {
+        name = "金田战列舰"
+		icon = "gfx/interface/technologies/Fun/JAP_Kaneda.png"
+		role_icon_index = 7
+        type = ship_hull_super_heavy_1
+        name_group = JAP_PREFECTURES
+        modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_shbb
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_super_heavy_battery_1
+			front_2_custom_slot = ship_super_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_super_heavy_battery_1
+			mid_3_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_super_heavy_battery_1
+			rear_2_custom_slot = ship_super_heavy_battery_1
+		}
+    }
+}
+
+units = {
+    fleet = {
+        name = "英灵舰队"
+        naval_base = 9998
+        task_force = {
+            name = "英灵舰队"
+            location = 9998
+
+            ship = { name = "13号" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "13号巡洋战舰" } } }
+            ship = { name = "14号" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "13号巡洋战舰" } } }
+            ship = { name = "15号" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "13号巡洋战舰" } } }
+            ship = { name = "16号" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "13号巡洋战舰" } } }
+
+            ship = { name = "大和" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "大和级" } } }
+            ship = { name = "武藏" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "大和级" } } }
+            ship = { name = "信浓" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "大和级" } } }
+
+            ship = { name = "高雄" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
+
+            ship = { name = "骏河" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "纪伊级" } } }
+            ship = { name = "近江" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "纪伊级" } } }
+			
+			ship = { name = "金田战列舰" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "金田战列舰" } } }
+        }
+    }
+}

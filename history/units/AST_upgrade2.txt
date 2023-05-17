@@ -1,0 +1,23 @@
+﻿###OOB File for AST.txt
+units = {
+	fleet = {
+		name = "升级舰队2"
+		naval_base = 12406 ###Change to proper province number
+		task_force = {
+			name = "升级舰队2"
+			location = 12406 ###Change to proper province number
+			ship = { name = "HMAS 无常" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "阿瑞图萨级 / 布隆德级" } } }
+			ship = { name = "HMAS 佩内洛普" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "阿瑞图萨级 / 布隆德级" } } }
+			ship = { name = "HMAS 辉腾" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "阿瑞图萨级 / 布隆德级" } } }
+			ship = { name = "HMAS 顽强" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "阿瑞图萨级 / 布隆德级" } } }
+			ship = { name = "HMAS 布列斯特" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "郡级" } } }
+			ship = { name = "HMAS 格拉斯哥" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "郡级" } } }
+			ship = { name = "HMAS 格洛斯特" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "郡级" } } }
+			ship = { name = "HMAS 利物浦" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "郡级" } } }
+			ship = { name = "HMAS 纽卡斯尔" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "郡级" } } }
+			ship = { name = "HMAS 卡那封" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AST version_name = "蒙茅斯级" } } }
+			ship = { name = "HMAS 苏福克" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AST version_name = "蒙茅斯级" } } }
+		}
+	}
+}
+

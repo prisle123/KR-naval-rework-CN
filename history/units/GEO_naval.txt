@@ -1,0 +1,41 @@
+﻿###OOB File for GEO.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "鲈鱼级"
+		type = ship_hull_submarine_1
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "巴统级"
+		type = ship_hull_submarine_2
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Pirveli popularuli flotilla"
+		naval_base = 772
+		task_force = {
+			name = "Pirveli popularuli flotilla"
+			location = 772
+			ship = { name = "艾提" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
+			ship = { name = "巴统" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
+			ship = { name = "迪奥斯库里亚 " definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
+			ship = { name = "奥查尔" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
+			ship = { name = "第比利斯" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GEO version_name = "巴统级" } } }
+		}
+	}
+}
+

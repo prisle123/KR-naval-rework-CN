@@ -1,0 +1,58 @@
+﻿###OOB File for VEN.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "塔玛纳科级"				# represents Sampson, Caldwell, Clemson, and Wickes classes
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "玻利瓦尔级"			# Pensacola and Northampton classes
+		type = ship_hull_cruiser_1
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_medium_battery_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "委内瑞拉玻利瓦尔国家海军"
+		naval_base = 1944 ###Change to proper province number
+		task_force = {
+			name = "委内瑞拉玻利瓦尔国家海军"
+			location = 1944 ###Change to proper province number
+			ship = { name = "AEBV 阿美利加" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 加勒比" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 防卫者" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 埃兹基尔·萨莫拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 里巴斯将军" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 华金·克雷斯波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 安德烈斯·贝略" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 瓜卡普罗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 何塞·安杰·拉马斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 塔玛纳科" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = VEN version_name = "塔玛纳科级" } } }
+			ship = { name = "AEBV 埃塞奎博" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = VEN version_name = "玻利瓦尔级" } } }
+			ship = { name = "AEBV 西蒙·玻利瓦尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = VEN version_name = "玻利瓦尔级" } } }
+		}
+	}
+}
+

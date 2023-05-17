@@ -1,0 +1,83 @@
+﻿units = {
+	fleet = {
+		name = "新大陆海军水面舰艇部队"
+		naval_base = 6845 #Philadelphia
+		task_force = {
+			name = "战列舰支队"
+			location = 6845 #Philadelphia
+			ship = { name = "CNS 印第安纳" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = CSA version_name = "南卡罗莱纳级" } } }
+			ship = { name = "CNS 蒙大拿" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = CSA version_name = "南卡罗莱纳级" } } }
+			ship = { name = "CNS 密西西比" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "宾夕法尼亚级 / 新墨西哥级" } } }
+			ship = { name = "CNS 爱达荷" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "宾夕法尼亚级 / 新墨西哥级" } } }
+			ship = { name = "CNS 加利福尼亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "田纳西级" } } }
+		}
+
+		task_force = {
+			name = "巡洋舰支队"
+			location = 6845 #Philadelphia
+			ship = { name = "CNS 宪法" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "列克星敦级" } } }
+			ship = { name = "CNS 芝加哥" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "北安普敦级" } } }
+			ship = { name = "CNS 特伦顿" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "奥马哈级" } } }
+			ship = { name = "CNS 得梅因" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "丹佛级" } } }
+			ship = { name = "CNS 查塔努加" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "丹佛级" } } }
+		}
+
+		task_force = {
+			name = "第一驱逐舰支队"
+			location = 6845 #Philadelphia
+			#Leader
+			ship = { name = "CNS 塞弗里奇" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "波特级 / 索莫斯级" } } }
+			#Division 19
+			ship = { name = "CNS 麦考密克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 特鲁斯顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 哈特菲尔德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 布鲁克斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 吉尔默" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 福克斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Division 29
+			ship = { name = "CNS 史密斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 特雷西" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 博利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 勒德洛" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+		}
+
+		task_force = {
+			name = "西海岸舰队"
+			location = 2284 #North from Panama canal
+			ship = { name = "CNS 怀俄明" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "佛罗里达级 / 怀俄明级" } } }
+			#Division 13
+			ship = { name = "CNS 考德维尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 克雷文" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 格温" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 康纳" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 斯托克顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 曼利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Division 18
+			ship = { name = "CNS 瓦德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 克拉克斯顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 汉密尔顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 塔贝尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 亚纳尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "CNS 厄普舍" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+		}
+	}
+
+	fleet = {
+		name = "新大陆海军潜艇部队"
+		naval_base = 6845 #Philadelphia
+		task_force = {
+			name = "第一潜艇支队"
+			location = 6845 #Philadelphia
+			ship = { name = "CNS O1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+			ship = { name = "CNS O10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CSA version_name = "O/R/S 级" } } }
+		}
+	}
+}
+

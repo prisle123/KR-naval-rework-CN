@@ -1,0 +1,913 @@
+﻿capital = 395
+set_research_slots = 4
+set_convoys = 50
+set_stability = 0.8
+set_war_support = 0.5
+
+USA_starting_techs = yes
+USA_starting_tank_variants = yes
+USA_starting_plane_variants = yes
+
+set_politics = {
+	ruling_party = syndicalist
+	last_election = "1936.11.08"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 12
+	radical_socialist = 14
+	syndicalist = 62
+	social_democrat = 12
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	national_populist = 0
+}
+
+### AI strategies ###
+add_ai_strategy = {
+	type = ignore_claim
+	id = "USA"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "TEX"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "PSA"
+	value = 1
+}
+add_ai_strategy = {
+	type = ignore_claim
+	id = "NEE"
+	value = 1
+}
+
+### Dummy Leaders ###
+create_country_leader = {
+	name = USA_floyd_olson
+	picture = "gfx/leaders/USA/Portrait_USA_Floyd_Olson.png"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = USA_al_smith
+	picture = "gfx/leaders/USA/Portrait_USA_Al_Smith.png"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = USA_alf_landon
+	picture = "gfx/leaders/USA/Portrait_USA_Alf_Landon_KR.png"
+	ideology = market_liberal_subtype
+}
+create_country_leader = {
+	name = USA_john_nance_garner
+	picture = "gfx/leaders/USA/Portrait_USA_John_Nance_Garner.png"
+	ideology = social_conservative_subtype
+}
+create_country_leader = {
+	name = TEX_charles_lindbergh
+	picture = "gfx/leaders/TEX/Portrait_TEX_charles_lindbergh.png"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = USA_douglas_macarthur
+	picture = "gfx/leaders/USA/Portrait_USA_Douglas_MacArthur_KR.png"
+	ideology = paternal_autocrat_subtype
+}
+create_country_leader = {
+	name = TEX_gerald_lyman_kenneth_smith
+	picture = "gfx/leaders/TEX/Portrait_TEX_gearld_k_smith.png"
+	ideology = national_populist_subtype
+}
+
+### Country Leaders ###
+recruit_character = CSA_earl_browder
+recruit_character = CSA_william_zebulon_foster
+recruit_character = CSA_jack_reed
+recruit_character = CSA_elizabeth_gurley_flynn
+recruit_character = CSA_daniel_hoan
+recruit_character = CSA_frank_johns
+recruit_character = CSA_eleanor_roosevelt
+recruit_character = CSA_frank_zeidler
+recruit_character = CSA_elmer_allison
+recruit_character = CSA_james_cannon
+recruit_character = CSA_henning_blomen
+recruit_character = CSA_norman_thomas
+recruit_character = CSA_upton_sinclair
+recruit_character = CSA_john_llewellyn_lewis
+recruit_character = CSA_israel_amter
+recruit_character = CSA_darlington_hoopes
+recruit_character = CSA_oakley_johnson
+recruit_character = CSA_asa_philip_randolph
+
+### Second in Command ###
+recruit_character = CSA_revolutionary_congress
+activate_advisor = CSA_revolutionary_congress_sic
+
+### Advisors ###
+recruit_character = CSA_dorothy_day
+recruit_character = CSA_paul_leroy_robeson
+recruit_character = CSA_whittaker_chambers
+recruit_character = CSA_alger_hiss
+recruit_character = CSA_james_william_ford
+recruit_character = CSA_reverend_major_jealous_divine
+recruit_character = CSA_ernest_miller_hemingway
+recruit_character = CSA_ralph_hosea_chaplin
+recruit_character = CSA_harry_dexter_white
+recruit_character = CSA_meyer_london
+recruit_character = CSA_james_renshaw_cox
+recruit_character = CSA_ralph_johnson_bunche
+recruit_character = CSA_william_ross_knudsen
+recruit_character = CSA_harold_maskell_ware
+recruit_character = CSA_alexander_golberger
+
+### Theorists ###
+recruit_character = CSA_john_henry_manley
+recruit_character = CSA_norman_scott
+recruit_character = CSA_marc_andrew_mitscher
+recruit_character = CSA_donald_wilson
+recruit_character = CSA_james_edmond_fechet
+recruit_character = CSA_terry_de_la_mesa_allen_sr
+recruit_character = CSA_john_benjamin_anderson
+
+### Field Marshals ###
+recruit_character = CSA_smedley_butler
+
+### Generals ###
+# Defecting Officers
+recruit_character = CSA_herbert_charles_heitke
+recruit_character = CSA_evans_fordyce_carlson
+recruit_character = CSA_david_monroe_shoup
+recruit_character = CSA_robert_sharon_allen
+recruit_character = CSA_maurice_rose
+recruit_character = CSA_george_ham_cannon
+recruit_character = CSA_robert_hale_merriman
+recruit_character = CSA_benjamin_oliver_davis_sr
+
+# Red Guards
+recruit_character = CSA_milton_wolff
+recruit_character = CSA_edward_allen_carter_jr
+recruit_character = CSA_benjamin_katine
+recruit_character = CSA_james_patrick_murphy
+recruit_character = CSA_john_tisa
+recruit_character = CSA_oliver_law
+
+### Admirals ###
+recruit_character = CSA_william_rea_furlong
+recruit_character = CSA_arthur_schuyler_carpender
+recruit_character = CSA_arleigh_albert_burke
+recruit_character = CSA_hyman_godalia_rickover
+recruit_character = CSA_hugh_nathaniel_mulzac
+recruit_character = CSA_george_whelan_anderson_jr
+recruit_character = CSA_willard_john_smith
+recruit_character = CSA_youngblood_nance
+
+### Military Staff ###
+recruit_character = CSA_nathan_farragut_twining
+recruit_character = CSA_willis_henry_hale
+recruit_character = CSA_bessie_coleman
+recruit_character = CSA_eddie_august_henry_schneider
+
+### Character Setup ###
+CSA_jack_reed = {
+	set_nationality = USA
+	promote_character = yes
+}
+CSA_eleanor_roosevelt = { set_nationality = NEE }
+CSA_smedley_butler = { set_nationality = USA }
+CSA_herbert_charles_heitke = { set_nationality = USA }
+CSA_george_whelan_anderson_jr = { retire = yes }
+CSA_willard_john_smith = { retire = yes }
+CSA_youngblood_nance = { retire = yes }
+
+### Operatives ###
+if = {
+	limit = { has_dlc_lar = yes }
+	create_operative_leader = {
+		name = "Josephine Baker"
+		GFX = GFX_portrait_kr_josephine_baker
+		traits = {
+			operative_infiltrator
+			operative_escape_artist
+		}
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CSA USA TEX PSA NEE }
+	}
+	create_operative_leader = {
+		name = "Lucille Ball"
+		GFX = GFX_portrait_kr_lucille_ball
+		traits = {
+			operative_well_groomed
+			operative_natural_orator
+		}
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CSA USA TEX PSA NEE }
+	}
+	create_operative_leader = {
+		name = "Lee Pressman"
+		GFX = GFX_portrait_kr_lee_pressman
+		traits = {
+			operative_infiltrator
+			operative_safe_cracker
+		}
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		nationalities = { CSA USA TEX PSA NEE }
+	}
+}
+
+### Templates ###
+division_template = {# Motorized
+	name = "Continental Mobile Division"
+	division_names_group = CSA_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+division_template = {# CSA Army
+	name = "Continental Infantry"
+	division_names_group = CSA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	priority = 2
+	template_counter = 72
+}
+division_template = {
+	name = "Continental Armor"
+	division_names_group = CSA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Continental Light Infantry"
+	division_names_group = CSA_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Continental Marines"
+	division_names_group = CSA_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+### Naval Variants ###
+create_equipment_variant = {
+	name = "鼠海豚级"
+	role_icon_index = 37
+	type = ship_hull_submarine_2
+
+	name_group = CSA_FISH
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		rear_1_custom_slot = empty
+	}
+}
+create_equipment_variant = {
+	name = "梭鱼级 / 抹香鲸级"
+	type = ship_hull_submarine_2
+	role_icon_index = 37
+	name_group = CSA_FISH
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {			# represents O/R class, S class
+	name = "O/R/S 级"
+	role_icon_index = 37
+	type = ship_hull_submarine_1
+
+	name_group = CSA_FISH
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "亚尔戈级"
+	role_icon_index = 39
+	type = ship_hull_cruiser_submarine
+	name_group = CSA_FISH
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		front_1_custom_slot = ship_torpedo_sub_1
+		rear_1_custom_slot = ship_mine_layer_sub
+	}
+}
+create_equipment_variant = {
+	name = "独角鲸级"				# cruiser submarine
+	role_icon_index = 39
+	type = ship_hull_cruiser_submarine
+	name_group = CSA_FISH
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_2
+		front_1_custom_slot = ship_airplane_launcher_1
+		rear_1_custom_slot = ship_torpedo_sub_1
+	}
+}
+
+###DESTROYERS
+create_equipment_variant = {
+	name = "波特级 / 索莫斯级"				# represents Porter, Somers classes
+	role_icon_index = 33
+	type = ship_hull_light_2
+	name_group = CSA_HEROES_ACW
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2_double
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		front_1_custom_slot = ship_light_battery_2_double
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_light_battery_2_double
+		rear_1_custom_slot = ship_depth_charge_1
+		rear_2_custom_slot = ship_light_battery_2_double
+	}
+}
+create_equipment_variant = {
+	name = "罗杰斯级 / 巴格利级"				# represents Gridley, Badley classes
+	role_icon_index = 31
+	type = ship_hull_light_2
+	name_group = CSA_HEROES_ACW
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		front_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_light_battery_2
+		rear_1_custom_slot = ship_depth_charge_1
+		rear_2_custom_slot = ship_light_battery_2
+	}
+}
+create_equipment_variant = {
+	name = "法拉格特级 / 马汉级"				# represents Farragut, Mahan classes
+	role_icon_index = 31
+	type = ship_hull_light_2
+	name_group = CSA_HEROES_ACW
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		front_1_custom_slot = ship_light_battery_2
+		mid_1_custom_slot = ship_light_battery_2
+		mid_2_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
+		rear_2_custom_slot = ship_light_battery_2
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "考德维尔 / 克莱门森 / 维克斯级"				# represents Caldwell, Clemson, and Wickes classes
+	role_icon_index = 31
+	type = ship_hull_light_1
+	name_group = CSA_HEROES_ACW
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
+		front_1_custom_slot = ship_light_battery_1
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_light_battery_1
+		rear_1_custom_slot = ship_depth_charge_1
+		rear_2_custom_slot = ship_light_battery_1
+	}
+	obsolete = yes
+}
+
+###LIGHT CRUISERS
+create_equipment_variant = {
+	name = "彭萨科拉级"                    #not OTL class - composition like in Wichita class because we haven't OTL naval treaties
+	role_icon_index = 27
+	type = ship_hull_cruiser_2
+	name_group = CSA_CITIES
+	modules = {
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		fixed_ship_battery_slot = ship_medium_battery_2
+		front_1_custom_slot = ship_medium_battery_2
+		rear_1_custom_slot = ship_airplane_launcher_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		rear_2_custom_slot = ship_medium_battery_2
+		mid_2_custom_slot = ship_secondaries_1
+		mid_3_custom_slot = ship_medium_battery_2
+	}
+}
+create_equipment_variant = {
+	name = "布鲁克林级"
+	type = ship_hull_cruiser_2
+	name_group = CSA_CITIES
+	role_icon_index = 25
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_anti_air_1
+		rear_1_custom_slot = ship_light_medium_battery_2
+		rear_2_custom_slot = ship_light_medium_battery_2
+		front_1_custom_slot = ship_light_medium_battery_2
+		front_2_custom_slot = ship_light_medium_battery_2
+	}
+}
+create_equipment_variant = {
+	name = "奥马哈级"
+	role_icon_index = 25
+	type = ship_hull_cruiser_1
+	name_group = CSA_CITIES
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1_double
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		front_1_custom_slot = ship_light_medium_battery_1_single
+		front_2_custom_slot = ship_light_medium_battery_1_single
+		rear_1_custom_slot = ship_light_medium_battery_1_double
+		rear_2_custom_slot = ship_light_medium_battery_1_single
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_mine_layer_1
+		mid_3_custom_slot = ship_light_medium_battery_1_single
+	}
+}
+
+create_equipment_variant = {
+	name = "丹佛级"
+	role_icon_index = 23
+	type = ship_hull_cruiser_1
+	name_group = CSA_CITIES
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1_single
+		fixed_ship_secondaries_slot = empty
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		front_1_custom_slot = ship_light_medium_battery_1_single
+		rear_1_custom_slot = ship_light_medium_battery_1_single
+		rear_2_custom_slot = ship_light_medium_battery_1_single
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_light_medium_battery_1_single
+	}
+}
+
+###CRUISERS
+create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to replace aging Armoured Cruisers
+	name = "匹兹堡级 / 孟菲斯级"
+	role_icon_index = 17
+	type = ship_hull_cruiser_1
+	name_group = CSA_CITIES
+	modules = {
+		fixed_ship_battery_slot = ship_medium_battery_1_double
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_medium_battery_1_double
+	}
+	obsolete = yes
+}
+create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to replace aging Armoured Cruisers
+	name = "北安普敦级"
+	role_icon_index = 45
+	icon = "gfx/interface/technologies/USA/USA_heavy_cruiser_Northampton.png"
+	type = ship_hull_cruiser_1
+	name_group = CSA_CITIES
+	modules = {
+		fixed_ship_battery_slot = ship_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		mid_1_custom_slot = ship_anti_air_1
+		mid_2_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_medium_battery_1
+		rear_2_custom_slot = ship_medium_battery_1
+	}
+}
+
+create_equipment_variant = {					#Fictional Late Interwar Heavy Cruiser Design close to Admiral Hipper Class
+	name = "奥林匹亚级"
+	role_icon_index = 27
+	type = ship_hull_cruiser_2
+	name_group = CSA_CITIES
+	modules = {
+		fixed_ship_battery_slot = ship_medium_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		front_1_custom_slot = ship_medium_battery_2
+		front_2_custom_slot = ship_anti_air_1
+		mid_1_custom_slot = ship_anti_air_1
+		mid_2_custom_slot = ship_airplane_launcher_1
+		rear_1_custom_slot = ship_medium_battery_2
+	}
+}
+
+###ARMORED CRUISERS
+
+create_equipment_variant = {
+	name = "列克星敦级"                    #were finished in KRTL, little different design without influence of Hood
+	role_icon_index = 15
+	icon = "gfx/interface/technologies/USA/USA_battleship_Lexington.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_BATTLES
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bc_1
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+		front_1_custom_slot = ship_anti_air_1
+		front_2_custom_slot = ship_heavy_battery_2
+		mid_1_custom_slot = ship_secondaries_1
+		mid_2_custom_slot = ship_airplane_launcher_1
+		rear_1_custom_slot = ship_heavy_battery_2
+		rear_2_custom_slot = ship_heavy_battery_2
+	}
+}
+
+###BATTLESHIPS
+create_equipment_variant = {
+	name = "衣阿华级"
+	role_icon_index = 2
+	type = ship_hull_heavy_2
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_anti_air_1
+		fixed_ship_battery_slot = ship_heavy_battery_2_triple
+		front_2_custom_slot = ship_heavy_battery_2_triple
+		rear_1_custom_slot = ship_heavy_battery_2_triple
+		mid_1_custom_slot = ship_secondaries_2
+		mid_2_custom_slot = ship_airplane_launcher_1
+		mid_3_custom_slot = ship_anti_air_1
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_belt
+	}
+}
+create_equipment_variant = {
+	name = "南达科他级"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_South_Dakota.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_anti_air_1
+		fixed_ship_battery_slot = ship_heavy_battery_2_triple
+		front_2_custom_slot = ship_heavy_battery_2_triple
+		rear_1_custom_slot = ship_heavy_battery_2_triple
+		rear_2_custom_slot = ship_heavy_battery_2_triple
+		mid_1_custom_slot = ship_secondaries_2
+		mid_2_custom_slot = ship_airplane_launcher_1
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "科罗拉多级"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Colorado.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_armor_slot = ship_armor_bb_2
+		front_1_custom_slot = ship_heavy_battery_2
+		fixed_ship_battery_slot = ship_heavy_battery_2
+		rear_1_custom_slot = ship_heavy_battery_2
+		rear_2_custom_slot = ship_heavy_battery_2
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_secondaries_1
+		mid_3_custom_slot = ship_anti_air_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+	}
+}
+create_equipment_variant = {
+	name = "田纳西级"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Tennessee.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_armor_slot = ship_armor_bb_1
+		fixed_ship_battery_slot = ship_heavy_battery_big_1_triple
+		front_1_custom_slot = ship_heavy_battery_big_1_triple
+		rear_1_custom_slot = ship_heavy_battery_big_1_triple
+		rear_2_custom_slot = ship_heavy_battery_big_1_triple
+		mid_1_custom_slot = ship_secondaries_1
+		mid_2_custom_slot = ship_airplane_launcher_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "宾夕法尼亚级 / 新墨西哥级"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1_triple
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_secondaries_2
+		rear_1_custom_slot = ship_heavy_battery_1_triple
+		rear_2_custom_slot = ship_heavy_battery_1_triple
+		front_1_custom_slot = ship_heavy_battery_1_triple
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "内华达级"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = empty
+		rear_1_custom_slot = ship_heavy_battery_1_triple
+		rear_2_custom_slot = ship_heavy_battery_1
+		front_1_custom_slot = ship_heavy_battery_1_triple
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "纽约级"
+	role_icon_index = 3
+	icon = "gfx/interface/technologies/USA/USA_battleship_New_York.png"
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = empty
+		mid_3_custom_slot = ship_heavy_battery_1
+		rear_1_custom_slot = ship_heavy_battery_1
+		rear_2_custom_slot = ship_heavy_battery_1
+		front_1_custom_slot = ship_heavy_battery_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "佛罗里达级 / 怀俄明级"
+	role_icon_index = 3
+	type = ship_hull_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_small_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_secondaries_1
+		mid_3_custom_slot = ship_heavy_battery_small_1
+		rear_1_custom_slot = ship_heavy_battery_small_1
+		rear_2_custom_slot = ship_heavy_battery_small_1
+		front_1_custom_slot = ship_heavy_battery_small_1
+	}
+	obsolete = yes
+}
+
+###DREADNOUGHTS
+create_equipment_variant = {
+	name = "南卡罗莱纳级"                    #Tillman project of Dreadnoughts, tho, little changed and upgraded to 1936 - instead of South Dakotas
+	role_icon_index = 7
+	type = ship_hull_super_heavy_1
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_shbb
+		fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+		fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+		fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+		front_1_custom_slot = ship_super_heavy_battery_1_triple
+		mid_1_custom_slot = ship_anti_air_1
+		mid_2_custom_slot = ship_secondaries_2
+		mid_3_custom_slot = empty
+		rear_1_custom_slot = ship_super_heavy_battery_1_triple
+		rear_2_custom_slot = ship_super_heavy_battery_1_triple
+	}
+}
+
+###CARRIERS
+create_equipment_variant = {
+	name = "兰利级"
+	role_icon_index = 12
+	type = ship_hull_carrier_conversion_ca
+	name_group = CSA_CVL_HISTORICAL
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = empty
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = carrier_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "突击者级"                    #Converted ship of Lexington project
+	role_icon_index = 13
+	type = ship_hull_carrier_conversion_bb
+	name_group = CSA_CV_HISTORICAL
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = ship_deck_space
+		mid_1_custom_slot = ship_deck_space
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_secondaries_slot = ship_secondaries_2
+	}
+}
+create_equipment_variant = {
+	name = "马萨诸塞级"                    #Converted ship of Tillman project
+	role_icon_index = 13
+	icon = "gfx/interface/technologies/USA/USA_carrier_Mass.png"
+	type = ship_hull_carrier_conversion_bb
+	name_group = CSA_STATES
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = ship_deck_space
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = empty
+		mid_1_custom_slot = ship_deck_space
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "约克城级"
+	role_icon_index = 9
+	icon = "gfx/interface/technologies/USA/USA_carrier2.png"
+	type = ship_hull_carrier_1
+	name_group = CSA_CV_HISTORICAL
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = ship_deck_space
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = carrier_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		front_1_custom_slot = ship_deck_space
+	}
+}

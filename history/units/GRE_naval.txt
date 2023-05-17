@@ -1,0 +1,261 @@
+﻿###OOB File for GRE.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "普罗透斯级"						# represents all 630 series classes
+		role_icon_index = 37
+		type = ship_hull_submarine_1
+		name_group = GRE_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "卡索尼斯级"						# represents all 630 series classes
+		role_icon_index = 37
+		type = ship_hull_submarine_1
+		name_group = GRE_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "康托里奥蒂斯级"
+		role_icon_index = 31
+		type = ship_hull_light_2
+		name_group = GRE_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2_double
+		}
+	}
+
+	create_equipment_variant = {
+		name = "胜利级 / 鹰级" #+V-1 class
+		role_icon_index = 31
+		type = ship_hull_light_1
+		name_group = GRE_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "风暴级"				# minelayer
+		role_icon_index = 29
+		type = ship_hull_light_1
+		name_group = GRE_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "汤巴奇斯级"					# modernized salamis class should be used in event
+		role_icon_index = 3
+		type = ship_hull_heavy_1
+		name_group = GRE_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			front_2_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+			rear_2_custom_slot = ship_heavy_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "佛罗里达级 / 怀俄明级"					# represents Wyoming (Arkansas) and New York classes
+		allow_without_tech = yes
+		role_icon_index = 3
+		icon = "gfx/interface/technologies/USA/USA_battleship1.png"
+		type = ship_hull_heavy_1
+		name_group = GRE_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+			mid_3_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {#TBC
+		name = "萨拉米级"
+		role_icon_index = 27
+		type = ship_hull_cruiser_1
+		name_group = GRE_BC_HISTORICAL
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_medium_battery_1_double
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			front_1_custom_slot = ship_medium_battery_1_double
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_torpedo_1
+			rear_2_custom_slot = ship_medium_battery_1_double
+		}
+	}
+
+	create_equipment_variant = {
+		name = "比萨级"
+		role_icon_index = 17
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = GRE_CA_HISTORICAL
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_medium_battery_1_double
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_2_custom_slot = ship_medium_battery_1_double
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "比雷埃夫斯级"
+		role_icon_index = 25
+		type = ship_hull_cruiser_2
+		name_group = GRE_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_anti_air_1
+			front_2_custom_slot = ship_light_medium_battery_1_double
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_layer_1
+			rear_2_custom_slot = ship_light_medium_battery_1_double
+		}
+	}
+
+	create_equipment_variant = {
+		name = "爱丽级"
+		role_icon_index = 23
+		type = ship_hull_cruiser_1
+		name_group = GRE_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "希腊海军"
+		naval_base = 4109 ###Change to proper province number
+		task_force = {
+			name = "第一舰队"
+			location = 4109 ###Piraeus
+			ship = { name = "EP 格奥吉欧斯·阿维洛夫" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GRE version_name = "比萨级" } } }
+			ship = { name = "EP 萨拉米" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "萨拉米级" } } }
+			ship = { name = "EP 普萨拉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GRE version_name = "康托里奥蒂斯级" } } }
+			ship = { name = "EP 斯佩察" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GRE version_name = "康托里奥蒂斯级" } } }
+			ship = { name = "EP 盾牌" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 荣耀" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 胜利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 弓箭" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 长矛" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "风暴级" } } }
+			ship = { name = "EP 纳夫克拉图萨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "风暴级" } } }
+		}
+		task_force = {
+			name = "第二舰队"
+			location = 9940 ###Crete
+			ship = { name = "EP 康斯坦丁大帝" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "佛罗里达级 / 怀俄明级" } } }
+			ship = { name = "EP 康托里奥蒂斯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GRE version_name = "康托里奥蒂斯级" } } }
+			ship = { name = "EP 伊兹拉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GRE version_name = "康托里奥蒂斯级" } } }
+			ship = { name = "EP 狮" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 豹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 弹弓" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "风暴级" } } }
+		}
+		task_force = {
+			name = "第三舰队"
+			location = 7211 ###Patras
+			ship = { name = "EP 尤比亚" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "萨拉米级" } } }
+			ship = { name = "EP 爱丽" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "爱丽级" } } }
+			ship = { name = "EP 鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 雕" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "胜利级 / 鹰级" } } }
+			ship = { name = "EP 风暴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "风暴级" } } }
+		}
+		task_force = {
+			name = "潜艇舰队"
+			location = 4109 ###Piraeus
+			ship = { name = "EP 尼瑞夫" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "普罗透斯级" } } }
+			ship = { name = "EP 普罗透斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "普罗透斯级" } } }
+			ship = { name = "EP 特里同" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "普罗透斯级" } } }
+			ship = { name = "EP 格拉科斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "普罗透斯级" } } }
+			ship = { name = "EP 卡索尼斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "卡索尼斯级" } } }
+			ship = { name = "EP 帕帕尼古里斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "卡索尼斯级" } } }
+		}
+	}
+}

@@ -1,0 +1,54 @@
+﻿units = {
+	fleet = {
+		name = "新英格兰海军"
+		naval_base = 6732 #Boston
+		task_force = {
+			name = "巡逻舰队"
+			location = 6732 #Boston
+			#Leader
+			ship = { name = "NES 麦道加" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "波特级 / 索莫斯级" } } }
+			#Division 4
+			ship = { name = "NES 法拉格特" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 杜威" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 赫尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 麦克多诺" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 沃登" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 戴尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			#Division 5
+			ship = { name = "NES 莫纳根" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 埃尔文" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 马汉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 甘明斯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 杜雷顿" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 帕西瓦尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEE version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			#Division 6
+			ship = { name = "NES 凯恩" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEE version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "NES 汉弗莱斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NEE version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
+			ship = { name = "NES 傅拉瑟" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 里德" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 格斯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+			ship = { name = "NES 康宁汉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
+		}
+		task_force = {
+			name = "潜艇部队"
+			location = 6732 #Boston
+			ship = { name = "NES 亚尔戈" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NEE version_name = "亚尔戈级" } } }
+			ship = { name = "NES 独角鲸" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NEE version_name = "独角鲸级" } } }
+			ship = { name = "NES 鹦鹉螺" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NEE version_name = "独角鲸级" } } }
+			ship = { name = "NES O11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES O12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES O13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES O14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES O15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES O16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R21" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R22" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+			ship = { name = "NES R27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NEE version_name = "O/R/S 级" } } }
+		}
+	}
+}
+

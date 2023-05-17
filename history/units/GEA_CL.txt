@@ -1,0 +1,15 @@
+﻿###OOB File for GEA.txt
+units = {
+	fleet = {
+		name = "新加坡支队"
+		naval_base = 12299 ###Change to proper province number
+		task_force = {
+			name = "新加坡支队"
+			location = 12299 ###Change to proper province number
+			ship = { name = "SMS 塞班" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GEA version_name = "亚琛级" } } }
+			ship = { name = "SMS 沙捞越" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GEA version_name = "亚琛级" } } }
+			ship = { name = "SMS 北圻" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GEA version_name = "亚琛级" } } }
+		}
+	}
+}
+

@@ -1,0 +1,17 @@
+﻿l_english:
+ NAVAL_TITLE_BATTLESHIPS:0 "战列舰"
+ 
+ modern_carrier_equipments:0 "现代化航母改装方案"
+ modern_carrier_equipments_desc:0 "航母在经历过世界大战的淬炼后已经成为了海军最重要的武器，随着喷气式飞机的发明，舰载机的尺寸也逐渐变大。诸如弹射器之类全新航母技术的诞生将使以空制海的趋势更加不可阻挡。"
+ 
+ anti_air_rockets:0 "防空火箭弹"
+ anti_air_rockets_desc:0 "一种没有制导装置的舰对空火箭弹。"
+ 
+ advanced_heavy_armor_scheme: "加强重点防护装甲方案"
+ advanced_heavy_armor_scheme_desc: "该方案只注重保护船舶上最重要的部分，而忽略了不重要的部分，在全新制钢工业的加持下比以前的装甲效果更好。\n\n在§Y重型舰艇§!上安装这个模块可以提高他们§Y抵御敌人伤害§!的能力。§Y战列舰§!和§Y战列巡洋舰§!由它们不同的§Y装甲方案§!来决定。"
+ 
+ advanced_sonar: "拖拽式声呐阵列"
+ advanced_sonar_desc: "拖拽式声呐也称可变深度声呐，其可在更深的水下工作以避免舰船本身噪音带来的影响。\n\n在§Y轻型船舰§!和§Y巡洋舰§!的§Y电子设备槽位§!上安装此模块将有助于探测敌方§Y潜艇§!。"
+ 
+ ship_to_ship_missile: "线控反舰导弹"
+ ship_to_ship_missile_desc: "使用线控的早期反舰导弹，其拥有极高的突防速度和毁伤能力。"

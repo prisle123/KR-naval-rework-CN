@@ -1,0 +1,53 @@
+﻿###OOB File for GEA.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "利奥波德王储级" 				# Fictional
+		role_icon_index = 15
+		icon = "gfx/interface/technologies/Germany/GER_battleship_Leopold.png"
+		type = ship_hull_heavy_2
+		name_group = GER_THEME_BATTLE_IMPERIAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			fixed_ariplane_launcher_slot = ship_airplane_launcher_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_1
+			rear_2_custom_slot = ship_heavy_battery_1
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GEA"
+			version_name = "利奥波德王储级"
+		}
+		name = "SMS 阿尔布雷希特王储"
+		requested_factories = 3
+		progress = 0.6
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GEA"
+			version_name = "利奥波德王储级"
+		}
+		name = "SMS 利奥波德王储"
+		requested_factories = 3
+		progress = 0.6
+		amount = 1
+	}
+}
+

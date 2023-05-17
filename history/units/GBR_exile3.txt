@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "澳大拉西亚流亡舰队，屏卫舰"
+		naval_base = 9458
+		task_force = {
+			name = "澳大拉西亚流亡舰队，屏卫舰"
+			location = 9458
+			ship = { name = "HMS L-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = D01 version_name = "L 型" } } }
+			ship = { name = "HMS L-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = D01 version_name = "L 型" } } }
+			ship = { name = "HMS L-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = D01 version_name = "L 型" } } }
+			ship = { name = "HMS H-48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H 型" } } }
+			ship = { name = "HMS H-49" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H 型" } } }
+			ship = { name = "HMS H-50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H 型" } } }
+			ship = { name = "HMS K-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H 型" } } }
+			ship = { name = "HMS K-24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H 型" } } }
+			ship = { name = "HMS K-25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = D01 version_name = "H 型" } } }
+			ship = { name = "HMS 冒险" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 凡尔登" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 有才" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 维鲁拉姆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 战士" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 总督" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 沃克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 沃波尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 海象" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 黄鼠狼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+			ship = { name = "HMS 威尔斯利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W级" } } }
+		}
+	}
+}

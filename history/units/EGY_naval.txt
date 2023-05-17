@@ -1,0 +1,154 @@
+﻿###OOB File for EGY.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "斥候级" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "史密斯级"
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "R/S 级"
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "阿布基尔级"
+		type = ship_hull_light_2
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = { # Revenge Class Spec
+		name = "穆罕默德·阿里帕夏级"
+		type = ship_hull_heavy_1
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+
+	create_equipment_variant = {#TBC
+		name = "亚历山大级"
+		type = ship_hull_cruiser_1
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			mid_2_custom_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "城级"
+		type = ship_hull_cruiser_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "埃及皇家海军"
+		naval_base = 4076 ###Change to proper province number
+		task_force = {
+			name = "埃及皇家海军"
+			location = 4076 ###Change to proper province number
+			ship = { name = "斥候" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "斥候级" } } }
+			ship = { name = "追风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "斥候级" } } }
+			ship = { name = "胜利" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "R/S 级" } } }
+			ship = { name = "杜姆亚特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "R/S 级" } } }
+			ship = { name = "拉希德" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "R/S 级" } } }
+			ship = { name = "沙姆沙伊赫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "R/S 级" } } }
+			ship = { name = "亚历山大港" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "史密斯级" } } }
+			ship = { name = "弗雷姆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "史密斯级" } } }
+			ship = { name = "密史脱拉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "史密斯级" } } }
+			ship = { name = "塔巴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "史密斯级" } } }
+			ship = { name = "托斯哈" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EGY version_name = "史密斯级" } } }
+			ship = { name = "法尤姆" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EGY version_name = "亚历山大级" } } }
+			ship = { name = "亚历山大" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EGY version_name = "亚历山大级" } } }
+			ship = { name = "易卜拉欣帕夏" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EGY version_name = "亚历山大级" } } }
+			ship = { name = "科尼" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EGY version_name = "城级" } } }
+			ship = { name = "开罗" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EGY version_name = "城级" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "EGY"
+			version_name = "斥候级"
+		}
+		requested_factories = 4
+		progress = 0.85
+		amount = 6
+	}
+}

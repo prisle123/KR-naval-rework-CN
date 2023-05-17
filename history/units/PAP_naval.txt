@@ -1,0 +1,147 @@
+﻿###OOB File for PAP.txt
+instant_effect = {
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "神诏级"
+		role_icon_index = 37
+		type = ship_hull_submarine_2
+		name_group = PAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "美杜莎级"
+		role_icon_index = 37
+		type = ship_hull_submarine_1
+		name_group = PAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "奥斯蒂亚级" 			#Improved mid-war destroyers - universal escort and asw ship - PAP license
+		role_icon_index = 31
+		type = ship_hull_light_2
+		name_group = PAP_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "明灯级" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
+		role_icon_index = 29
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "朱塞佩·西尔托里级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 29
+		type = ship_hull_light_1
+		name_group = PAP_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "大区级"			# WK hulls, all scrapped
+		role_icon_index = 23
+		type = ship_hull_cruiser_1
+		name_group = PAP_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_medium_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "艾莉娜王后级"
+		role_icon_index = 5
+		type = ship_hull_pre_dreadnought
+		name_group = PAP_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "宗座海军"
+		naval_base = 11751 ###Change to proper province number
+		task_force = {
+			name = "宗座海军"
+			location = 11751 ###Change to proper province number
+			ship = { name = "朱塞佩·西尔托里" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PAP version_name = "朱塞佩·西尔托里级" } } }
+			ship = { name = "文森佐·焦尔达诺·奥尔西尼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PAP version_name = "朱塞佩·西尔托里级" } } }
+			ship = { name = "布拉恰诺" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PAP version_name = "奥斯蒂亚级" } } }
+			ship = { name = "奇维塔韦基亚" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PAP version_name = "奥斯蒂亚级" } } }
+			ship = { name = "菲乌米奇诺" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PAP version_name = "奥斯蒂亚级" } } }
+			ship = { name = "奥斯蒂亚" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PAP version_name = "奥斯蒂亚级" } } }
+			ship = { name = "罗马" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = PAP version_name = "艾莉娜王后级" } } }
+			ship = { name = "H1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "H2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "H3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "H4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "扁船蛸" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "海螺" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "海樽" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "水螅" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "甲壳" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAP version_name = "美杜莎级" } } }
+			ship = { name = "安条克" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PAP version_name = "神诏级" } } }
+			ship = { name = "阿苏夫" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PAP version_name = "神诏级" } } }
+			ship = { name = "尼西亚" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PAP version_name = "神诏级" } } }
+			ship = { name = "瑟利戈登" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PAP version_name = "神诏级" } } }
+		}
+	}
+}
+

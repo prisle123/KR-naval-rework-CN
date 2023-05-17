@@ -1,0 +1,550 @@
+﻿###OOB File for FRA.txt
+instant_effect = {
+	set_technology = { basic_ship_hull_cruiser = 1 }
+	
+	create_equipment_variant = {
+		name = "绿宝石级"
+		role_icon_index = 38
+		type = ship_hull_submarine_2
+		name_group = FRA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "鲨鱼级"
+		role_icon_index = 38
+		type = ship_hull_submarine_1
+		name_group = FRA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "安菲特里忒级 / 拉格朗日级"					# minelayers
+		role_icon_index = 42
+		type = ship_hull_submarine_1
+		name_group = FRA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+
+	create_equipment_variant = {
+		name = "人鱼级"
+		role_icon_index = 38
+		type = ship_hull_submarine_1
+		name_group = FRA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "阿里阿德涅级 / 喀耳刻级"						# represents all 630 series classes
+		role_icon_index = 38
+		type = ship_hull_submarine_1
+		name_group = FRA_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "鲁尔少尉级"
+		role_icon_index = 30
+		type = ship_hull_light_1
+		name_group = FRA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "空想级"
+		role_icon_index = 34
+		icon = "gfx/interface/technologies/CoF/FRA_destroyer2.png"
+		type = ship_hull_light_2
+		name_group = FRA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_5
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2
+			front_2_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "豺狼级 / 猎豹级 / 沃克兰级"				# represents Chacal, Guépard, Agile, and Vauquelin classes
+		role_icon_index = 32
+		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Vauquelin.png"
+		type = ship_hull_light_1
+		name_group = FRA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_battery_1
+			front_2_custom_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "阔剑级 / 斯帕希级 / 盾牌级" 		#Represents the following WWI/1920s DDs/DEs: Curatone, Sauro/Sella, Turbine, Pilo, Audace, Siritori, La Masa, Palestro, Cantore
+		role_icon_index = 32
+		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Bouclier.png"
+		type = ship_hull_light_1
+		name_group = FRA_DE_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_light_battery_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "莫加多尔级"
+		role_icon_index = 34
+		type = ship_hull_light_2
+		name_group = FRA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_5
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2_double
+			mid_1_custom_slot = ship_light_battery_2_double
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2_double
+		}
+	}
+
+	create_equipment_variant = {
+		name = "暴风雪级"				# represents Bourrasque and L'Adroit classes
+		role_icon_index = 35
+		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Bourrasque.png"
+		type = ship_hull_light_1
+		name_group = FRA_DE_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_battery_1
+			mid_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "国际级"
+		role_icon_index = 2
+		type = ship_hull_heavy_2
+		name_group = FRA_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2_quad
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_armor_scheme_slot = ship_scheme_mixed
+			fixed_ship_torpedo_defense_system_slot = torpedo_belt
+			front_1_custom_slot = ship_heavy_battery_2_quad
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_anti_air_1
+			mid_3_custom_slot = ship_airplane_launcher_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "孤拔级"
+		role_icon_index = 4
+		type = ship_hull_heavy_1
+		name_group = FRA_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = ship_heavy_battery_small_1
+			mid_2_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "诺曼底级"
+		role_icon_index = 4
+		icon = "gfx/interface/technologies/CoF/FRA_battleship_Normandy.png"
+		type = ship_hull_heavy_1
+		name_group = FRA_MARTYRS
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1_quad
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_heavy_battery_1_quad
+			rear_1_custom_slot = ship_heavy_battery_1_quad
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "布列塔尼级"
+		role_icon_index = 4
+		type = ship_hull_heavy_1
+		name_group = FRA_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_anti_air_1
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = ship_heavy_battery_1
+			rear_2_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "儒勒·米什莱级 / 欧内斯特·勒南级"
+		role_icon_index = 18
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = FRA_MARSHALS
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1_double
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+			rear_2_custom_slot = ship_medium_battery_1_double
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "里昂级" # Coeperation between SRI and FRA for Fast raider cruiser
+		allow_without_tech = yes
+		role_icon_index = 26
+		type = ship_hull_cruiser_2
+		name_group = FRA_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			front_2_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "雷恩级" # Coeperation between SRI and FRA for scout cruiser
+		allow_without_tech = yes
+		role_icon_index = 26
+		type = ship_hull_cruiser_2
+		name_group = FRA_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_anti_air_1
+			front_2_custom_slot = ship_light_medium_battery_2_double
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2_double
+			rear_2_custom_slot = ship_light_medium_battery_2_double
+		}
+	}
+
+	create_equipment_variant = {
+		name = "巴黎级"			# represents Duguay-Trouin, Pluton, Jeanne d'Arc classes
+		role_icon_index = 46
+		type = ship_hull_cruiser_1
+		name_group = FRA_CITIES
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1_single
+			rear_1_custom_slot = ship_airplane_launcher_1
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
+
+	### Aircraft Carriers
+	create_equipment_variant = {
+		name = "联邦级"
+		role_icon_index = 12
+		type = ship_hull_carrier_conversion_ca
+		name_group = FRA_INSPIRATIONAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "欧仁·鲍狄埃级"
+		role_icon_index = 10
+		icon = "gfx/interface/technologies/CoF/FRA_carrier1.png"
+		type = ship_hull_carrier_conversion_bb
+		name_group = FRA_MARTYRS
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_armor_carrier_deck
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "芒什舰队"
+		naval_base = 11548 #Calais
+		task_force = {
+			name = "第一海军军区"
+			location = 11548 #Calais
+			ship = { name = "路易斯·德勒克吕兹" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "保罗·布鲁斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "皮埃尔·比埃特" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "巴约讷" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "巴黎级" } } }
+			ship = { name = "北风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "旋风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "台风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "风暴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+		}
+		task_force = {
+			name = "第一潜艇支队"
+			location = 9434 #Le Havre
+			ship = { name = "鲨鱼" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "宽吻海豚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "海象" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "独角鲸" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "鼠海豚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "海豚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "喀耳刻" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+			ship = { name = "卡吕普索" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+			ship = { name = "忒提斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+			ship = { name = "多里斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+		}
+	}
+	fleet = {
+		name = "大西洋舰队"
+		naval_base = 3552 #Brest
+		task_force = {
+			name = "第二海军军区"
+			location = 3552 #Brest
+			ship = { name = "欧仁·鲍狄埃" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "欧仁·鲍狄埃级" } } }
+			ship = { name = "查尔斯·傅里叶" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "儒勒·米什莱" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "儒勒·米什莱级 / 欧内斯特·勒南级" } } }
+			ship = { name = "欧内斯特·勒南" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "儒勒·米什莱级 / 欧内斯特·勒南级" } } }
+			ship = { name = "马赛" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "巴黎级" } } }
+			ship = { name = "沃邦" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "秃鹫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "信天翁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "海东青" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "鸢" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "雀鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "沃克兰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "凯尔森" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "卡萨尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "塔尔图" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "马伊·布雷泽" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "保罗·德·索米尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "暴风雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "气旋" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "西北风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "雷暴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "飓风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "龙卷风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "西蒙风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+		}
+		task_force = {
+			name = "第二潜艇支队"
+			location = 6536 #Lorient
+			ship = { name = "古斯塔夫·泽代" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "安菲特里忒" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "拉普拉斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "勒尼奥" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "安菲特里忒级 / 拉格朗日级" } } }
+			ship = { name = "人鱼" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "人鱼级" } } }
+			ship = { name = "涅瑞伊得斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "人鱼级" } } }
+			ship = { name = "加拉蒂亚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "人鱼级" } } }
+			ship = { name = "宁芙" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "人鱼级" } } }
+			ship = { name = "阿里阿德涅" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+			ship = { name = "欧律狄刻" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+			ship = { name = "达那厄" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "阿里阿德涅级 / 喀耳刻级" } } }
+		}
+	}
+	fleet = {
+		name = "地中海舰队"
+		naval_base = 911 #Toulon
+		task_force = {
+			name = "第三海军军区"
+			location = 911 #Toulon
+			ship = { name = "巴黎公社" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "国际级" } } }
+			ship = { name = "国际" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "国际级" } } }
+			ship = { name = "让·饶勒斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "布列塔尼级" } } }
+			ship = { name = "法兰西" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "孤拔级" } } }
+			ship = { name = "让·巴尔" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "孤拔级" } } }
+			ship = { name = "波尔多" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
+			ship = { name = "南特" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "雷恩级" } } }
+			ship = { name = "雷恩" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "雷恩级" } } }
+			ship = { name = "里昂" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
+			ship = { name = "土伦" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
+			ship = { name = "图卢兹" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
+			ship = { name = "大胆" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "空想" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "恶毒" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "可怖" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "凯旋" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "不屈" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "鲁尔少尉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "鲁尔少尉级" } } }
+			ship = { name = "莱斯坦士官" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "鲁尔少尉级" } } }
+			ship = { name = "莫加多尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "莫加多尔级" } } }
+			ship = { name = "盾牌" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "箭筒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "仙王座" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "阔剑" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "军旗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "花剑" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "石笼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "长剑" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "马贡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "金焰旗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "榴弹炮" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "匕首" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+			ship = { name = "火枪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
+		}
+		task_force = {
+			name = "第三潜艇支队"
+			location = 911 #Toulon
+			ship = { name = "绿宝石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "蛋白石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "孔雀石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "青金石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "黑曜石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "红宝石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "蓝宝石" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "紫水晶" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "绿宝石级" } } }
+			ship = { name = "凯门鳄" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "海豹" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+			ship = { name = "旗鱼" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "鲨鱼级" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "FRA"
+			version_name = "莫加多尔级"
+		}
+		name = "伏尔塔"
+		requested_factories = 2
+		progress = 0.2
+		amount = 1
+	}
+}
