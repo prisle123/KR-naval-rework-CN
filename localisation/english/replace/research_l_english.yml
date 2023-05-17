@@ -15,3 +15,21 @@
  
  ship_to_ship_missile: "线控反舰导弹"
  ship_to_ship_missile_desc: "使用线控的早期反舰导弹，其拥有极高的突防速度和毁伤能力。"
+
+ high_speed_light_engine: "高速动力系统"
+ large_destroyer_trend: "驱逐舰大型化"
+ escort_destroyer_trend: "护航驱逐舰"
+ destroyer_mass_production: "驱逐舰大规模生产"
+
+ early_cruiser_armor: "大战巡洋舰装甲"
+ basic_cruiser_armor: "战间期巡洋舰装甲"
+ improved_cruiser_armor: "改良型巡洋舰装甲"
+ advanced_cruiser_armor: "先进型巡洋舰装甲"
+ searchlight: "探照灯"
+ large_cruiser_trend: "巡洋舰大型化"
+ cruiser_gun_upgrade: "巡洋舰半自动扬弹机"
+ cruiser_aa_upgrade: "巡洋舰防空改装"
+ destroyer_cruiser_trend: "超级驱逐领舰"
+ cruiser_radar_sentry: "雷达哨舰改装"
+
+ 
