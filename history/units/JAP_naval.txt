@@ -1,5 +1,7 @@
 ﻿###OOB File for JAP.txt
 instant_effect = {
+	set_technology = { super_heavy_battery = 1 }
+
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "巡潜 III 型"

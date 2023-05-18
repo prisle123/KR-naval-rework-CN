@@ -39,7 +39,7 @@
  ship_hull_cruiser_4: "现代巡洋舰船体"
  ship_hull_heavy: "重型舰船[ACR,BC,BB,DN]"
  ship_hull_heavy_desc: "在世界大战之前，各国海军已经服役了一批装备15英寸主炮的超级战舰，这些都是人类历史上建造过的最强战争机器。但是时间到了20世纪20年代，作为无畏舰竞赛的直接成果，最前线的战列舰可以装备超过10门18英寸主炮。这些拥有最大化火力和生存能力的巨兽统治着地球上的每一寸水域。"
- ship_hull_heavy_1: "大战重型船体"
+ ship_hull_heavy_0: "大战重型船体"
  ship_hull_heavy_1: "战后重型船体"
  ship_hull_heavy_2: "战间期重型船体"
  ship_hull_heavy_3: "先进重型船体"

@@ -1,5 +1,8 @@
 ﻿l_english:
  NAVAL_TITLE_BATTLESHIPS:0 "战列舰"
+ NAVAL_TITLE_ARMOR_LAYOUT:0 "主力舰装甲方案"
+ early_ship_hull_heavy: "大战重型船体"
+ early_ship_hull_cruiser: "大战巡洋舰船体"
  
  modern_carrier_equipments:0 "现代化航母改装方案"
  modern_carrier_equipments_desc:0 "航母在经历过世界大战的淬炼后已经成为了海军最重要的武器，随着喷气式飞机的发明，舰载机的尺寸也逐渐变大。诸如弹射器之类全新航母技术的诞生将使以空制海的趋势更加不可阻挡。"

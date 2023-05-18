@@ -55,24 +55,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_missile.png"
 	}
 	
-	# new tech
-	spriteType = {
-		name = "GFX_modern_carrier_equipments_medium"
-		textureFile = "gfx/interface/technologies/floating_airfield.dds"
-	}
-	spriteType = {
-		name = "GFX_anti_air_rockets_medium"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_rockets.png"
-	}
-	spriteType = {
-		name = "GFX_advanced_sonar_medium"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/advanced_sonar.dds"
-	}
-	spriteType = {
-		name = "GFX_ship_to_ship_missile_medium"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_to_ship_missile.png"
-	}
-	
 	# topview images
 	spriteType = {
 		name = "GFX_SM_heavy_hull_fixed_triple_heavy_battery"
@@ -479,7 +461,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_SMI_ship_armor_bb_4"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn_4.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_thick_icn_4.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_armor_bc_4"

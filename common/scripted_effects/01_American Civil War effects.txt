@@ -3595,6 +3595,8 @@ USA_starting_tank_variants = {
 }
 
 USA_starting_naval_variants = {
+	set_technology = { super_heavy_battery = 1 }
+
 	create_equipment_variant = {
 		name = "鼠海豚级"
 		role_icon_index = 37

@@ -4,6 +4,7 @@ instant_effect = {
 	set_technology = { cruiser_submarines = 1 }
 	set_technology = { panzerschiffe = 1 }
 	set_technology = { basic_ship_hull_heavy = 1 }
+	set_technology = { super_heavy_battery = 1 }
 	
 	create_equipment_variant = {
 		name = "N 型"

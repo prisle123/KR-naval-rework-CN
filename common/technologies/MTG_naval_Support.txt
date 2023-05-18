@@ -355,6 +355,10 @@ technologies = {
 			leads_to_tech = basic_medium_shell
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = improved_medium_heavy_battery
+			research_cost_coeff = 0.75
+		}
 
 		enable_equipment_modules = {
 			ship_medium_battery_2
@@ -435,6 +439,7 @@ technologies = {
 			leads_to_tech = improved_medium_shell
 			research_cost_coeff = 1
 		}
+		
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
@@ -567,7 +572,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -1 y = 11 }
+			position = { x = 3 y = 5 }
 		}
 
 		ai_will_do = {
@@ -585,7 +590,7 @@ technologies = {
 		}
 	}
 
-	improved_medium_heavy_battery = {
+	advanced_medium_heavy_battery = {
 
 		research_cost = 1
 
@@ -601,7 +606,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -1 y = 13 }
+			position = { x = 3 y = 16 }
 		}
 
 		ai_will_do = {

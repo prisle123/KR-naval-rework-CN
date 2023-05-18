@@ -1,6 +1,7 @@
 ﻿###OOB File for FRA.txt
 instant_effect = {
 	set_technology = { basic_ship_hull_cruiser = 1 }
+	set_technology = { super_heavy_battery = 1 }
 	
 	create_equipment_variant = {
 		name = "绿宝石级"

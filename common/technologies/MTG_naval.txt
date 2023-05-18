@@ -1,4 +1,15 @@
 technologies = {
+	@1914 = 1
+	@1914_module = 2
+	@1914_module_2 = 3
+	@1924 = 5
+	@1924_module = 7
+	@1932 = 9
+	@1932_module = 11
+	@1940 = 13
+	@1940_module = 15
+	@1944 = 17
+	@1944_module = 19
 
 #   ###  ##  #  # ###	## #  # ### ###   ##
 #	#  #	#  #  #	#   #  #  #  #  # #
@@ -10,10 +21,10 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_light_0
-			ship_hull_light_role_dd
 		}
 		enable_equipment_modules = {
 			light_ship_engine_1
+			ship_hull_light_role_dd
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_light
@@ -36,7 +47,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = @1914 }
 		}
 
 		ai_will_do = {
@@ -78,7 +89,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = @1924 }
 		}
 
 		ai_will_do = {
@@ -123,7 +134,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -173,7 +184,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 11 }
+			position = { x = 0 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -211,7 +222,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -234,7 +245,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 3 }
+			position = { x = 1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -273,7 +284,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 3 }
+			position = { x = -1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -309,7 +320,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 9 }
+			position = { x = -1 y = @1932_module }
 		}
 		dependencies = {
 			basic_depth_charges = 1
@@ -347,7 +358,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 12 }
+			position = { x = -1 y = @1940_module }
 		}
 		dependencies = {
 			improved_depth_charges = 1
@@ -386,7 +397,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 15 }
+			position = { x = -1 y = @1944_module }
 		}
 		dependencies = {
 			advanced_depth_charges = 1
@@ -421,7 +432,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 6 }
+			position = { x = 1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -453,7 +464,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 9 }
+			position = { x = 1 y = @1932_module }
 		}
 		dependencies = {
 			sonar = 1
@@ -488,7 +499,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 15 }
+			position = { x = 1 y = @1944_module }
 		}
 		dependencies = {
 			improved_sonar = 1
@@ -511,7 +522,7 @@ technologies = {
 	}
 
 	high_speed_light_engine = {
-
+		research_cost = 1
 		enable_equipment_modules = {
 			light_ship_engine_5
 		}
@@ -520,7 +531,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 6 }
+			position = { x = -1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -535,6 +546,7 @@ technologies = {
 	}
 
 	large_destroyer_trend = {
+		research_cost = 1.5
 		enable_equipment_modules = {
 			ship_hull_light_role_dl
 		}
@@ -542,7 +554,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 6 }
+			position = { x = 3 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -554,6 +566,7 @@ technologies = {
 	}
 
 	escort_destroyer_trend = {
+		research_cost = 1.25
 		enable_equipment_modules = {
 			ship_hull_light_role_de
 		}
@@ -561,7 +574,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 9 }
+			position = { x = 3 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -573,6 +586,7 @@ technologies = {
 	}
 
 	destroyer_mass_production = {
+		research_cost = 0.8
 		start_year = 1942
 
 		destroyer = {
@@ -581,7 +595,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -603,7 +617,6 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_cruiser_0
-			ship_hull_cruiser_coastal_defense_ship
 		}
 		enable_equipment_modules = {
 			cruiser_ship_engine_1
@@ -631,7 +644,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 1 }
+			position = { x = -1 y = @1914 }
 		}
 
 		ai_will_do = {
@@ -672,7 +685,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 5 }
+			position = { x = -1 y = @1924 }
 		}
 
 		ai_will_do = {
@@ -722,7 +735,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 8 }
+			position = { x = -1 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -764,7 +777,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 11 }
+			position = { x = -1 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -793,7 +806,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 14 }
+			position = { x = -1 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -822,7 +835,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = 6 }
+			position = { x = -3 y = @1924_module }
 		}
 		dependencies = {
 			prototype_airplane_launcher = 1
@@ -858,7 +871,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 2 }
+			position = { x = 1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -891,7 +904,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 6 }
+			position = { x = 1 y = @1924_module }
 		}
 		dependencies = {
 			early_cruiser_armor = 1
@@ -927,7 +940,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 9 }
+			position = { x = 1 y = @1932_module }
 		}
 		dependencies = {
 			basic_cruiser_armor = 1
@@ -963,7 +976,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = @1940_module }
 		}
 		dependencies = {
 			improved_cruiser_armor = 1
@@ -993,7 +1006,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 2 }
+			position = { x = -3 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -1007,7 +1020,11 @@ technologies = {
 	}
 
 	large_cruiser_trend = {
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
 		start_year = 1925
+		research_cost = 1
 
 		heavy_cruiser = {
 			armor_value = 0.05
@@ -1023,7 +1040,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 3 }
+			position = { x = -1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -1038,6 +1055,7 @@ technologies = {
 	
 	cruiser_gun_upgrade = {
 		start_year = 1934
+		research_cost = 0.5
 
 		heavy_cruiser = {
 			lg_attack = 0.05
@@ -1049,7 +1067,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 9 }
+			position = { x = -2 y = @1932_module }
 		}
 
 		ai_will_do = {
@@ -1063,6 +1081,7 @@ technologies = {
 	}
 	cruiser_aa_upgrade = {
 		start_year = 1936
+		research_cost = 0.5
 
 		heavy_cruiser = {
 			anti_air_attack = 0.05
@@ -1073,7 +1092,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -4 y = 9 }
+			position = { x = -4 y = @1932_module }
 		}
 
 		ai_will_do = {
@@ -1088,6 +1107,7 @@ technologies = {
 
 	destroyer_cruiser_trend = {
 		start_year = 1932
+		research_cost = 1.25
 
 		enable_equipment_modules = {
 			ship_hull_light_role_cl
@@ -1095,7 +1115,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 9 }
+			position = { x = -6 y = @1932_module }
 		}
 
 		ai_will_do = {
@@ -1109,6 +1129,7 @@ technologies = {
 	}
 
 	cruiser_radar_sentry = {
+		research_cost = 1
 		start_year = 1944
 
 		heavy_cruiser = {
@@ -1120,7 +1141,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = 12 }
+			position = { x = -3 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -1155,11 +1176,11 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.25
 
-		start_year = 1910
+		start_year = 1916
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 1 }
+			position = { x = 1 y = @1914 }
 		}
 		dependencies = {
 			early_ship_hull_heavy = 1
@@ -1194,11 +1215,11 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.25
 
-		start_year = 1918
+		start_year = 1920
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 3 }
+			position = { x = 1 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1234,7 +1255,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 7 }
+			position = { x = 1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -1266,7 +1287,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -1291,7 +1312,6 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_heavy_0
-			ship_hull_pre_dreadnought
 		}
 
 		enable_equipment_modules = {
@@ -1315,7 +1335,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = enhanced_horizontal_defense
-			research_cost_coeff = 0.75
+			research_cost_coeff = 1
 		}
 
 		research_cost = 1.75
@@ -1324,7 +1344,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = @1914 }
 		}
 
 		ai_will_do = {
@@ -1378,7 +1398,7 @@ technologies = {
 		start_year = 1924
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = @1924 }
 		}
 
 		ai_will_do = {
@@ -1452,7 +1472,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -1498,7 +1518,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 11 }
+			position = { x = 0 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -1531,7 +1551,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -1568,7 +1588,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 3 }
+			position = { x = 1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -1603,7 +1623,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 9 }
+			position = { x = 1 y = @1932_module }
 		}
 		dependencies = {
 			basic_heavy_armor = 1
@@ -1644,7 +1664,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = @1940_module }
 		}
 		dependencies = {
 			improved_heavy_armor = 1
@@ -1680,7 +1700,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 3 }
+			position = { x = -1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -1704,11 +1724,11 @@ technologies = {
 		xp_research_bonus = 1.25
 		research_cost = 1.25
 		
-		start_year = 1925
+		start_year = 1932
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 6 }
+			position = { x = -1 y = @1932_module }
 		}
 		dependencies = {
 			basic_torpedo_defense = 1
@@ -1739,7 +1759,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 12 }
+			position = { x = -1 y = @1940_module }
 		}
 		dependencies = {
 			improved_torpedo_defense = 1
@@ -1772,7 +1792,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 6 }
+			position = { x = -1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -1796,7 +1816,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = 6 }
+			position = { x = 1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -1823,7 +1843,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 6 }
+			position = { x = -3 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -1847,7 +1867,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 3 }
+			position = { x = 3 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -1879,7 +1899,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 1 }
+			position = { x = -1 y = @1914 }
 		}
 
 		ai_will_do = {
@@ -1911,11 +1931,11 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = arresting_gear
-			research_cost_coeff = 0.75
+			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = landing_signal_officer
-			research_cost_coeff = 0.5
+			leads_to_tech = landing_aid_system
+			research_cost_coeff = 1
 		}
 
 		research_cost = 1.75
@@ -1961,7 +1981,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 8 }
+			position = { x = -1 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -2002,7 +2022,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 11 }
+			position = { x = -1 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -2030,7 +2050,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 14 }
+			position = { x = -1 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -2057,7 +2077,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = @1940_module }
 		}
 		
 		ai_will_do = {
@@ -2078,7 +2098,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -2090,15 +2110,15 @@ technologies = {
 		}
 	}
 
-	landing_signal_officer = {
+	landing_aid_system = {
 		research_cost = 0.5
 		start_year = 1925
 		
-		air_accidents_factor = -0.1
+		carrier_traffic = 0.05
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 5 }
+			position = { x = -2 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -2118,7 +2138,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = @1932_module }
 		}
 		
 		ai_will_do = {
@@ -2140,7 +2160,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = 12 }
+			position = { x = -3 y = @1940_module }
 		}
 		
 		ai_will_do = {
@@ -2171,6 +2191,10 @@ technologies = {
 			pressure_hull_1
 			sub_ship_periscope_0
 		}
+		
+		sub_technologies = {
+			midget_submarines
+		}
 
 		path = {
 			leads_to_tech = basic_ship_hull_submarine
@@ -2187,7 +2211,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 1 }
+			position = { x = -1 y = @1914 }
 		}
 
 		ai_will_do = {
@@ -2237,7 +2261,6 @@ technologies = {
 		}
 		sub_technologies = {
 			cruiser_submarines
-			midget_submarines
 		}
 
 		ai_will_do = {
@@ -2289,7 +2312,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 11 }
+			position = { x = -1 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -2335,7 +2358,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 14 }
+			position = { x = -1 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -2366,7 +2389,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -2403,7 +2426,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 16 }
+			position = { x = -1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2435,7 +2458,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 15 }
+			position = { x = -3 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2466,7 +2489,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 15 }
+			position = { x = 1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2495,7 +2518,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 2 }
+			position = { x = -2 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -2523,7 +2546,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -2551,7 +2574,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -2577,7 +2600,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -2600,7 +2623,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = @1940_module }
 		}
 
 		ai_will_do = {
