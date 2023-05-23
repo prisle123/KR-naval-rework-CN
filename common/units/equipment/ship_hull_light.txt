@@ -46,7 +46,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = { light_ship_engine }
 			}
-			fixed_ship_extra_secondaries_slot = {
+			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { dd_role }
 			}
@@ -115,7 +115,7 @@ equipments = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_extra_secondaries_slot = ship_hull_light_role_dd
+			fixed_ship_role_slot = ship_hull_light_role_dd
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
