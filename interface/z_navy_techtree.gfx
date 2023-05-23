@@ -94,6 +94,26 @@ spriteTypes = {
 		name = "GFX_all_or_nothing_armor_box_armor_scheme_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/ship_scheme_all_or_nothing_armor_box.png"
 	}
+	spriteType = {
+		name = "GFX_harvey_steel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/harvey_steel.png"
+	}
+	spriteType = {
+		name = "GFX_krupp_steel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/krupp_steel.png"
+	}
+	spriteType = {
+		name = "GFX_krupp_cemented_steel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/krupp_cemented_steel.png"
+	}
+	spriteType = {
+		name = "GFX_ducol_steel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/ducol_steel.png"
+	}
+	spriteType = {
+		name = "GFX_homogeneous_krupp_steel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/homogeneous_krupp_steel.png"
+	}
 	
 	spriteType = {
 		name = "GFX_enhanced_horizontal_defense_medium"
@@ -140,14 +160,46 @@ spriteTypes = {
 		name = "GFX_heavy_ship_refit_reduction_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/heavy_ship_refit_reduction.png"
 	}
+	spriteType = {
+		name = "GFX_fuel_oil_boiler_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/fuel_oil_boiler.png"
+	}
+	spriteType = {
+		name = "GFX_ship_living_standard_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/ship_living_standard.png"
+	}
+	spriteType = {
+		name = "GFX_gas_turbine_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/gas_turbine.png"
+	}
+	spriteType = {
+		name = "GFX_battleship_aa_upgrade_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/battleship_aa_upgrade.png"
+	}
 	
 	spriteType = {
 		name = "GFX_prototype_airplane_launcher_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/prototype_airplane_launcher.png"
 	}
 	spriteType = {
+		name = "GFX_aviation_dawn_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/aviation_dawn.png"
+	}
+	spriteType = {
 		name = "GFX_carrier_mass_production_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/carrier_mass_production.png"
+	}
+	spriteType = {
+		name = "GFX_carrier_steam_catapult_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/carrier_steam_catapult.png"
+	}
+	spriteType = {
+		name = "GFX_full_armored_carrier_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/full_armored_carrier.png"
+	}
+	spriteType = {
+		name = "GFX_carrier_angled_deck_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/carrier_angled_deck.png"
 	}
 	
 	spriteType = {
@@ -163,7 +215,19 @@ spriteTypes = {
 		name = "GFX_night_air_strike_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/night_air_strike.png"
 	}
+	spriteType = {
+		name = "GFX_folding_wing_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/folding_wing.png"
+	}
 	
+	spriteType = {
+		name = "GFX_basic_ballast_tank_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/ballast_tank.png"
+	}
+	spriteType = {
+		name = "GFX_improved_ballast_tank_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/ballast_tank.png"
+	}
 	spriteType = {
 		name = "GFX_basic_periscope_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/basic_periscope.png"
@@ -179,5 +243,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_anechoic_tile_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/anechoic_tile.png"
+	}
+	spriteType = {
+		name = "GFX_sub_AIP_engine_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/sub_AIP_engine.png"
 	}
 }

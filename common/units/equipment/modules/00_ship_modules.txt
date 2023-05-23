@@ -553,7 +553,8 @@ equipment_modules = {
 
 	ship_super_heavy_battery_1 = {
 		abbreviation = "sam"
-		category = ship_heavy_battery
+		category = ship_super_heavy_battery
+		gui_category = ship_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		
@@ -574,7 +575,8 @@ equipment_modules = {
 	
 	ship_super_heavy_battery_big_1 = {
 		abbreviation = "sam1"
-		category = ship_heavy_battery
+		category = ship_super_heavy_battery
+		gui_category = ship_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		
@@ -787,7 +789,8 @@ equipment_modules = {
 
 	ship_super_heavy_battery_1_triple = {
 		abbreviation = "samt"
-		category = ship_heavy_battery_triple
+		category = ship_super_heavy_battery
+		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		
@@ -808,7 +811,8 @@ equipment_modules = {
 	
 	ship_super_heavy_battery_big_1_triple = {
 		abbreviation = "sam1t"
-		category = ship_heavy_battery_triple
+		category = ship_super_heavy_battery
+		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		
@@ -1027,7 +1031,8 @@ equipment_modules = {
 
 	ship_super_heavy_battery_1_quad = {
 		abbreviation = "samq"
-		category = ship_heavy_battery_quad
+		category = ship_super_heavy_battery
+		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		
@@ -1048,7 +1053,8 @@ equipment_modules = {
 	
 	ship_super_heavy_battery_big_1_quad = {
 		abbreviation = "sam1q"
-		category = ship_heavy_battery_quad
+		category = ship_super_heavy_battery
+		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		
@@ -3259,6 +3265,26 @@ equipment_modules = {
 			convert_cost_ic = 4800
 		}
 	}
+	heavy_ship_engine_4_gas = {
+		category = heavy_ship_engine
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			#naval_speed = 12
+			fuel_consumption = 38
+			build_cost_ic = 4000
+			reliability = -0.2
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.65
+		}
+		
+		can_convert_from = {
+			module_category = heavy_ship_engine
+			convert_cost_ic = 6000
+		}
+	}
 	carrier_ship_engine_1 = {
 		abbreviation = "scd"
 		category = carrier_ship_engine
@@ -4004,7 +4030,6 @@ equipment_modules = {
 			armor_value = 30
 		}
 		dismantle_cost_ic = 5500
-		
 	}
 	ship_armor_bc_1 = {
 		abbreviation = "sdf"
@@ -4171,7 +4196,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 55
+			armor_value = 48
 			surface_visibility = 10
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 			naval_torpedo_damage_reduction_factor = 0.1
@@ -4427,7 +4452,7 @@ equipment_modules = {
 	
 ### modern carrier equipments
 	ship_airplane_launcher_3 = {
-		category = modern_carrier_equipments
+		category = steam_catapult
 		gfx = ship_airplane_launcher_3
 
 		add_stats = {
@@ -4441,7 +4466,7 @@ equipment_modules = {
 
 
 	side_lift = {
-		category = modern_carrier_equipments
+		category = carrier_side_lift
 		gfx = ship_side_lift
 
 		add_stats = {
@@ -4457,7 +4482,7 @@ equipment_modules = {
 	}
 
 	angled_deck = {
-		category = modern_carrier_equipments
+		category = carrier_angled_deck
 		gfx = ship_angled_deck
 
 		add_stats = {
@@ -4471,6 +4496,46 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 1250
+	}
+
+	ship_deck_space_small = {
+		category = ship_deck_space_small
+		gfx = ship_deck_space
+		add_stats = {
+			carrier_size = 1
+			build_cost_ic = 800
+		}
+		dismantle_cost_ic = 400
+	}
+	ship_deck_space_big = {
+		category = ship_deck_space_big
+		gfx = ship_deck_space
+		add_stats = {
+			carrier_size = 3
+			build_cost_ic = 2300
+		}
+		dismantle_cost_ic = 1100
+	}
+	ship_carrier_armor_heavy = {
+		category = ship_carrier_armor
+		gfx = ship_heavy_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.25
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		add_stats = {
+			armor_value = 10
+			max_strength = 50
+			naval_torpedo_damage_reduction_factor = 0.2
+			naval_torpedo_enemy_critical_chance_factor = -0.15
+		}
+		dismantle_cost_ic = 3500
 	}
 
 ### Missile

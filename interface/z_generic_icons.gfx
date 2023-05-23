@@ -110,6 +110,10 @@ spriteTypes = {
         		name = "GFX_ship_hull_carrier_3_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier4.png"
         	}
+			spriteType = {
+        		name = "GFX_ship_hull_super_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_super_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {

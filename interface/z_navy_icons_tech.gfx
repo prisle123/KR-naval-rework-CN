@@ -849,13 +849,17 @@ spriteTypes = {
         		name = "GFX_GER_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
-        	spriteType = {
-        		name = "GFX_GER_improved_ship_hull_light_medium"
+			spriteType = {
+        		name = "GFX_GER_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_GER_advanced_ship_hull_light_medium"
+        		name = "GFX_GER_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -867,13 +871,17 @@ spriteTypes = {
         		name = "GFX_GER_basic_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
-        	spriteType = {
-        		name = "GFX_GER_improved_ship_hull_cruiser_medium"
+			spriteType = {
+        		name = "GFX_GER_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_GER_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_GER_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -885,13 +893,17 @@ spriteTypes = {
         		name = "GFX_GER_basic_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
-        	spriteType = {
-        		name = "GFX_GER_improved_ship_hull_heavy_medium"
+			spriteType = {
+        		name = "GFX_GER_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_GER_advanced_ship_hull_heavy_medium"
+        		name = "GFX_GER_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GER_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 

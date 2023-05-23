@@ -355,10 +355,6 @@ technologies = {
 			leads_to_tech = basic_medium_shell
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = improved_medium_heavy_battery
-			research_cost_coeff = 0.75
-		}
 
 		enable_equipment_modules = {
 			ship_medium_battery_2
@@ -438,6 +434,10 @@ technologies = {
 		path = {
 			leads_to_tech = improved_medium_shell
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_medium_heavy_battery
+			research_cost_coeff = 0.75
 		}
 		
 		on_research_complete = {
@@ -572,7 +572,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 5 }
+			position = { x = 3 y = 11 }
 		}
 
 		ai_will_do = {
@@ -638,14 +638,8 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_heavy_battery_2
-			ship_super_heavy_battery_1
-			ship_super_heavy_battery_big_1
 			ship_heavy_battery_2_triple
-			ship_super_heavy_battery_1_triple
-			ship_super_heavy_battery_big_1_triple
 			ship_heavy_battery_2_quad
-			ship_super_heavy_battery_1_quad
-			ship_super_heavy_battery_big_1_quad
 		}
 
 		on_research_complete = {
@@ -1026,6 +1020,97 @@ technologies = {
 		}
 	}
 
+	basic_super_heavy_battery = {
+
+		research_cost = 1
+
+		start_year = 1921
+
+		path = {
+			leads_to_tech = experimental_super_heavy_battery
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			ship_super_heavy_battery_1
+			ship_super_heavy_battery_1_triple
+			ship_super_heavy_battery_1_quad
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = heavy_battery_advice_tt
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 7 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = basic_ship_hull_heavy
+				factor = 20
+			}
+			modifier = {
+				OR = {
+					tag = GER
+					tag = JAP
+				}
+				factor = 2
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_heavy_battery
+		}
+	}
+
+	experimental_super_heavy_battery = {
+
+		research_cost = 1
+
+		start_year = 1936
+
+		enable_equipment_modules = {
+			ship_super_heavy_battery_big_1
+			ship_super_heavy_battery_big_1_triple
+			ship_super_heavy_battery_big_1_quad
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = heavy_battery_advice_tt
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 7 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = basic_ship_hull_heavy
+				factor = 20
+			}
+			modifier = {
+				OR = {
+					tag = GER
+					tag = JAP
+				}
+				factor = 2
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_heavy_battery
+		}
+	}
+
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###
  #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #  
  #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ## 
@@ -1365,7 +1450,7 @@ technologies = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
 		}
-		critical_receive_chance = -0.1
+		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -1405,7 +1490,7 @@ technologies = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
 		}
-		critical_receive_chance = -0.1
+		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -1441,7 +1526,7 @@ technologies = {
 	damage_control_3 = {
 
 		research_cost = 2.5
-		critical_receive_chance = -0.1
+		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
 		xp_boost_cost = 50

@@ -245,11 +245,11 @@ equipments = {
 		manpower = 3200
 	}
 
-	ship_hull_heavy_0 = {
+	ship_hull_heavy_1 = {
 		year = 1914
 		archetype = ship_hull_heavy
 		priority = 1500
-		can_convert_from = { ship_hull_heavy_0 }
+		can_convert_from = { ship_hull_heavy_1 }
 		visual_level = 0
 		module_slots = inherit
 
@@ -276,13 +276,13 @@ equipments = {
 		build_cost_ic = 2000
 	}
 
-	ship_hull_heavy_1 = {
+	ship_hull_heavy_2 = {
 		abbreviation = "hcc"
 		year = 1922
-		parent = ship_hull_heavy_0
+		parent = ship_hull_heavy_1
 		archetype = ship_hull_heavy
 		priority = 1500
-		can_convert_from = { ship_hull_heavy_1 }
+		can_convert_from = { ship_hull_heavy_2 }
 		visual_level = 0
 		module_slots = inherit
 
@@ -309,14 +309,14 @@ equipments = {
 		build_cost_ic = 2400
 	}
 
-	ship_hull_heavy_2 = {
+	ship_hull_heavy_3 = {
 		abbreviation = "hcd"
 		year = 1936
 
 		archetype = ship_hull_heavy
 		priority = 1500
-		can_convert_from = { ship_hull_heavy_2 }
-		parent = ship_hull_heavy_1
+		can_convert_from = { ship_hull_heavy_3 }
+		parent = ship_hull_heavy_2
 		visual_level = 1
 		module_slots = inherit
 
@@ -344,14 +344,14 @@ equipments = {
 		}
 	}
 
-	ship_hull_heavy_3 = {
+	ship_hull_heavy_4 = {
 		abbreviation = "hce"
 		year = 1940
 
 		archetype = ship_hull_heavy
 		priority = 1500
-		can_convert_from = { ship_hull_heavy_3 }
-		parent = ship_hull_heavy_2
+		can_convert_from = { ship_hull_heavy_4 }
+		parent = ship_hull_heavy_3
 		visual_level = 1
 		module_slots = inherit
 
@@ -374,14 +374,14 @@ equipments = {
 		manpower = 6000
 	}
 
-	ship_hull_heavy_4 = {
+	ship_hull_heavy_5 = {
 		abbreviation = "hcf"
 		year = 1944
 
 		archetype = ship_hull_heavy
 		priority = 1500
-		can_convert_from = { ship_hull_heavy_4 }
-		parent = ship_hull_heavy_3
+		can_convert_from = { ship_hull_heavy_5 }
+		parent = ship_hull_heavy_4
 		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -471,7 +471,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_heavy_battery ship_heavy_battery_triple ship_heavy_battery_quad }
+				allowed_module_categories = { ship_heavy_battery ship_heavy_battery_triple ship_heavy_battery_quad ship_super_heavy_battery }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -520,6 +520,7 @@ equipments = {
 					ship_heavy_battery 
 					ship_heavy_battery_triple 
 					ship_heavy_battery_quad
+					ship_super_heavy_battery
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -532,6 +533,7 @@ equipments = {
 					ship_heavy_battery 
 					ship_heavy_battery_triple 
 					ship_heavy_battery_quad
+					ship_super_heavy_battery
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -545,21 +547,11 @@ equipments = {
 					ship_heavy_battery 
 					ship_heavy_battery_triple 
 					ship_heavy_battery_quad
+					ship_super_heavy_battery
 					ship_airplane_launcher
 				}
 			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_dp_secondaries
-					ship_heavy_battery 
-					ship_heavy_battery_triple 
-					ship_heavy_battery_quad
-					ship_airplane_launcher
-				}
-			}
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 
 		default_modules = {
@@ -571,7 +563,7 @@ equipments = {
 		}
 		naval_range = 4500
 		naval_speed = 30
-		max_strength = 600
+		max_strength = 500
 		fuel_consumption = 75
 		reliability = 0.9
 		build_cost_ic = 4500
