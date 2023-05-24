@@ -331,4 +331,10 @@ makeup_starting_tech = {
 			basic_cruiser_armor = 1
 		}
     }
+	every_country = {
+        limit = { has_tech = basic_battery }
+        set_technology = {
+			multi_mounted_battery = 1
+		}
+    }
 }

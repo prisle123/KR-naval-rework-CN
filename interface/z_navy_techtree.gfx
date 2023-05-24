@@ -248,4 +248,25 @@ spriteTypes = {
 		name = "GFX_sub_AIP_engine_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/sub_AIP_engine.png"
 	}
+	
+	spriteType = {
+		name = "GFX_basic_super_heavy_battery_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/super_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_improved_super_heavy_battery_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/super_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_experimental_super_heavy_battery_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/experimental_super_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_improved_medium_heavy_battery_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/improved_medium_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_advanced_medium_heavy_battery_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/advanced_medium_heavy_battery.png"
+	}
 }
