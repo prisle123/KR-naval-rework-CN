@@ -41,7 +41,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor ship_heavy_armor_bc }
+				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
@@ -1039,7 +1039,7 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_cruiser_armor ship_heavy_armor_bc }
+				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
 			}
 			fixed_ship_airplane_launcher_slot = inherit
 			front_1_custom_slot = {
