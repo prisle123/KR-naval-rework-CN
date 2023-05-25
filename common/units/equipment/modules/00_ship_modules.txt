@@ -4048,7 +4048,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			sub_detection = 6
+			sub_detection = 10
 			build_cost_ic = 40
 		}
 	}
@@ -4060,7 +4060,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_1
 		add_stats = {
-			sub_detection = 10.0
+			sub_detection = 15
 			build_cost_ic = 60
 		}
 		can_convert_from = {
@@ -4075,7 +4075,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_2
 		add_stats = {
-			sub_detection = 15.0
+			sub_detection = 20
 			build_cost_ic = 80
 		}
 		can_convert_from = {
