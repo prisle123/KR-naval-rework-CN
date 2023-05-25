@@ -77,6 +77,14 @@ spriteTypes = {
 		name = "GFX_cruiser_radar_sentry_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/cruiser_radar_sentry.png"
 	}
+	spriteType = {
+		name = "GFX_cruiser_missile_upgrade_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/cruiser_missile_upgrade.png"
+	}
+	spriteType = {
+		name = "GFX_fighter_directional_system_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/fighter_directional_system.png"
+	}
 	
 	spriteType = {
 		name = "GFX_incremental_armor_scheme_medium"
@@ -175,6 +183,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_battleship_aa_upgrade_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/battleship_aa_upgrade.png"
+	}
+	spriteType = {
+		name = "GFX_rudder_upgrade_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/rudder_upgrade.png"
+	}
+	spriteType = {
+		name = "GFX_fuel_tank_upgrade_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/fuel_tank_upgrade.png"
+	}
+	spriteType = {
+		name = "GFX_radar_jammer_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/radar_jammer.png"
 	}
 	
 	spriteType = {

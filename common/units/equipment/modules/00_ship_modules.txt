@@ -3342,6 +3342,7 @@ equipment_modules = {
 	}
 	heavy_ship_engine_4_gas = {
 		category = heavy_ship_engine
+		gfx = gasoline_engine
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {

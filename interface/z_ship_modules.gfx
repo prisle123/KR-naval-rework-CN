@@ -478,7 +478,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/high_speed_engine.png"
 	}
 	
-	# dd role
+	# ship role
 	spriteType = {
 		name = "GFX_SMI_ship_hull_light_role_dd"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_dd.png"
@@ -494,6 +494,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_hull_light_role_cl"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_cl.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_c"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_c.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_cb"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cb.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_cg"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cg.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_aa"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_aa.png"
 	}
 	
 	## scheme & TDS
@@ -524,6 +540,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_torpedo_belt"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_belt.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_belt_enhanced"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_belt_enhanced.png"
 	}
 	spriteType = {
 		name = "GFX_SMI_pugliese_system"
@@ -562,6 +582,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_diesel_engine_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_diesel_engine4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_heavy_ship_engine_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_gas_turbine_engine.dds"
 	}
 	
 	# pressure hull
