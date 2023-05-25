@@ -320,6 +320,7 @@ makeup_starting_tech = {
 	every_country = {
 		limit = { has_tech = basic_ship_hull_heavy }
 		set_technology = {
+            mixed_armor_scheme = 1
 			basic_heavy_armor = 1
 			krupp_steel = 1
 		}
@@ -336,5 +337,11 @@ makeup_starting_tech = {
         set_technology = {
 			multi_mounted_battery = 1
 		}
+    }
+    every_country = {
+        limit = { has_tech = basic_ship_hull_submarine }
+        set_technology = {
+            basic_periscope = 1
+        }
     }
 }

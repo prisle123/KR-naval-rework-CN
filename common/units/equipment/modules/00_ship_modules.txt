@@ -4897,7 +4897,7 @@ equipment_modules = {
 		category = c_role
 		forbid_module_categories = {
 			ship_medium_heavy_battery
-			ship_heavy_armor_bc
+			ship_cruiser_heavy_armor
 			ship_missile
 		}
 	}
@@ -4919,7 +4919,7 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery
-			ship_heavy_armor_bc
+			ship_cruiser_heavy_armor
 			ship_missile
 		}
 	}
@@ -4931,7 +4931,7 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery
-			ship_heavy_armor_bc
+			ship_cruiser_heavy_armor
 			ship_missile
 		}
 	}
