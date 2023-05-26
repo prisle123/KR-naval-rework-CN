@@ -2031,6 +2031,22 @@ guiTypes = {
 				slotsize = { width = 60 height = 50 }
 				format = "UP"
 			}
+
+			gridboxtype = {
+				name = "naval_radio_guiding_system_tree"
+				position = { x = 1300 y = 1000 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 60 height = 50 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "anti_air_rockets_tree"
+				position = { x = 1400 y = 1000 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 60 height = 50 }
+				format = "UP"
+			}
 		}
 
 		containerWindowType = {

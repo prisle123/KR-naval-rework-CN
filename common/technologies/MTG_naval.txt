@@ -3351,4 +3351,86 @@ technologies = {
 		research_cost = 2
 		start_year = 1944
 	}
+
+	naval_radio_guiding_system = {
+		dependencies = {
+			radio_detection = 1
+		}
+		path = {
+			leads_to_tech = 
+		}
+		start_year = 1943
+		research_cost = 1.5
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 0 }
+		}
+
+		naval_coordination = 0.05
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				has_navy_size = { size > 100 }
+			}
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+
+	ship_to_ship_missile = {
+		research_cost = 1
+		start_year = 1944
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 2 }
+		}
+		dependencies = {
+			rocket_engines = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipment_modules = {
+			ship_missile_1
+		}
+		
+		categories = {
+			rocketry
+			naval_equipment
+			ship_modules_tech
+		}
+	}
+
+	anti_air_rockets = {
+		research_cost = 1
+		start_year = 1943
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 0}
+		}
+		dependencies = {
+			experimental_rockets = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipment_modules = {
+			ship_anti_air_5
+		}
+		
+		categories = {
+			rocketry
+			naval_equipment
+			ship_modules_tech
+		}
+	}
 }
