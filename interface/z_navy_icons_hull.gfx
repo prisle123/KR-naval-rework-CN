@@ -4139,6 +4139,10 @@ spriteTypes = {
         		name = "GFX_ENG_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_ENG_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/UOB/ENG_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4157,6 +4161,10 @@ spriteTypes = {
         		name = "GFX_ENG_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_ENG_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/UOB/ENG_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4174,6 +4182,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ENG_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/UOB/ENG_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/UOB/ENG_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_ship_hull_cruiser_panzerschiff_medium"
@@ -4200,6 +4212,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ENG_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/UOB/ENG_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ENG_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/UOB/ENG_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_ENG_ship_hull_super_heavy_1_medium"
@@ -4250,7 +4266,6 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/UOB/ENG_cruiser_submarine.png"
         	}
 
-
 ### USA ###
 	# destroyer
 
@@ -4270,6 +4285,10 @@ spriteTypes = {
         		name = "GFX_USA_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_USA_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4288,6 +4307,10 @@ spriteTypes = {
         		name = "GFX_USA_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_USA_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4305,6 +4328,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_USA_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_USA_ship_hull_cruiser_panzerschiff_medium"
@@ -4331,6 +4358,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_USA_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_USA_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_USA_ship_hull_super_heavy_1_medium"
@@ -4399,6 +4430,10 @@ spriteTypes = {
         		name = "GFX_CSA_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_CSA_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4417,6 +4452,10 @@ spriteTypes = {
         		name = "GFX_CSA_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_CSA_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4434,6 +4473,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_CSA_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CSA_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_CSA_ship_hull_cruiser_panzerschiff_medium"
@@ -4460,6 +4503,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_CSA_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CSA_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_CSA_ship_hull_super_heavy_1_medium"
@@ -4528,6 +4575,10 @@ spriteTypes = {
         		name = "GFX_PSA_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_PSA_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4546,6 +4597,10 @@ spriteTypes = {
         		name = "GFX_PSA_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_PSA_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4563,6 +4618,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_PSA_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_PSA_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_PSA_ship_hull_cruiser_panzerschiff_medium"
@@ -4589,6 +4648,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_PSA_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_PSA_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_PSA_ship_hull_super_heavy_1_medium"
@@ -4657,6 +4720,10 @@ spriteTypes = {
         		name = "GFX_TEX_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_TEX_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4675,6 +4742,10 @@ spriteTypes = {
         		name = "GFX_TEX_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_TEX_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4692,6 +4763,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_TEX_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_TEX_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_TEX_ship_hull_cruiser_panzerschiff_medium"
@@ -4718,6 +4793,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_TEX_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_TEX_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_TEX_ship_hull_super_heavy_1_medium"
@@ -4786,6 +4865,10 @@ spriteTypes = {
         		name = "GFX_NEE_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_NEE_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4804,6 +4887,10 @@ spriteTypes = {
         		name = "GFX_NEE_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_NEE_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4821,6 +4908,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_NEE_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NEE_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_NEE_ship_hull_cruiser_panzerschiff_medium"
@@ -4847,6 +4938,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_NEE_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NEE_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_NEE_ship_hull_super_heavy_1_medium"
@@ -4915,6 +5010,10 @@ spriteTypes = {
         		name = "GFX_HAW_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer4.png"
         	}
+        	spriteType = {
+        		name = "GFX_HAW_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -4933,6 +5032,10 @@ spriteTypes = {
         		name = "GFX_HAW_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser4.png"
         	}
+        	spriteType = {
+        		name = "GFX_HAW_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -4950,6 +5053,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_HAW_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HAW_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_HAW_ship_hull_cruiser_panzerschiff_medium"
@@ -4976,6 +5083,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_HAW_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HAW_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_battleship5.png"
         	}
         	spriteType = {
         		name = "GFX_HAW_ship_hull_super_heavy_1_medium"
