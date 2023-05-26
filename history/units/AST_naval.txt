@@ -163,7 +163,6 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "纳尔逊级"
 		role_icon_index = 1
-		icon = "gfx/interface/technologies/Canada/CAN_battleship_Nelson.png"
 		type = ship_hull_heavy_2
 		name_group = AST_GBR_CA_HISTORICAL
 		modules = {
@@ -491,7 +490,7 @@ units = {
 			ship = { name = "HMAS K-26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
 			ship = { name = "HMAS K-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
 			ship = { name = "HMAS K-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "H 型 " } } }
-			ship = { name = "HMAS 德雷克" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "纳尔逊级" } } }
+			ship = { name = "HMAS 德雷克" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = AST version_name = "纳尔逊级" } } }
 			ship = { name = "HMAS 马来亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "伊丽莎白女王级" } } }
 			ship = { name = "HMAS 君权" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "复仇级" } } }
 		}

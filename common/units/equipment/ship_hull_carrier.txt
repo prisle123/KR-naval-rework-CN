@@ -472,10 +472,12 @@ equipments = {
 			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
-				ship_secondaries
-				ship_dp_secondaries
-				ship_anti_air
-				carrier_side_lift
+				allowed_module_categories = {
+					ship_secondaries
+					ship_dp_secondaries
+					ship_anti_air
+					carrier_side_lift
+				}
 			}
 		}
 		default_modules = {

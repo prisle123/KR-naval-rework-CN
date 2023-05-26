@@ -795,7 +795,7 @@ equipment_modules = {
 
 	ship_super_heavy_battery_1_triple = {
 		abbreviation = "samt"
-		category = ship_super_heavy_battery
+		category = ship_super_heavy_battery_triple
 		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -818,7 +818,7 @@ equipment_modules = {
 	
 	ship_super_heavy_battery_big_1_triple = {
 		abbreviation = "sam1t"
-		category = ship_super_heavy_battery
+		category = ship_super_heavy_battery_triple
 		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -1041,7 +1041,7 @@ equipment_modules = {
 
 	ship_super_heavy_battery_1_quad = {
 		abbreviation = "samq"
-		category = ship_super_heavy_battery
+		category = ship_super_heavy_battery_quad
 		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -1064,7 +1064,7 @@ equipment_modules = {
 	
 	ship_super_heavy_battery_big_1_quad = {
 		abbreviation = "sam1q"
-		category = ship_super_heavy_battery
+		category = ship_super_heavy_battery_quad
 		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -1107,7 +1107,7 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_super_heavy_battery_2_triple = {
-		category = ship_super_heavy_battery
+		category = ship_super_heavy_battery_triple
 		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -1128,7 +1128,7 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_super_heavy_battery_2_quad = {
-		category = ship_super_heavy_battery
+		category = ship_super_heavy_battery_quad
 		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
@@ -4864,7 +4864,7 @@ equipment_modules = {
         	lg_attack = 0.1
         	lg_armor_piercing = 0.1
         	max_strength = 0.1
-        	build_cost_ic = 0.3
+        	build_cost_ic = 0.1
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
@@ -4908,18 +4908,6 @@ equipment_modules = {
 			build_cost_ic = 0.2
 		}
 		forbid_module_categories = {
-			ship_missile
-		}
-	}
-	ship_hull_cruiser_role_aa = {
-		category = c_role
-		multiply_stats = {
-			anti_air_attack = 0.2
-			build_cost_ic = 0.2
-		}
-		forbid_module_categories = {
-			ship_medium_heavy_battery
-			ship_cruiser_heavy_armor
 			ship_missile
 		}
 	}

@@ -61,7 +61,6 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "豺狼级 / 猎豹级"				# represents Chacal, Guépard, Agile, and Vauquelin classes
 		role_icon_index = 31
-		icon = "gfx/interface/technologies/CoF/FRA_destroyer_Vauquelin.png"
 		type = ship_hull_light_2
 		name_group = FRA_DD_HISTORICAL
 		modules = {
@@ -124,7 +123,8 @@ instant_effect = {
 	create_equipment_variant = {#TBC
 		name = "尼斯级"
 		role_icon_index = 1
-		type = ship_hull_heavy_3
+		type = ship_hull_heavy_2
+		icon = "gfx/interface/technologies/NFA/NFA_battleship3.png"
 		name_group = FRA_CITIES
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1_quad
@@ -364,19 +364,19 @@ units = {
 			ship = { name = "东京人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "冒险家级 / 阿拉伯人级" } } }
 			ship = { name = "图阿雷格人" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "冒险家级 / 阿拉伯人级" } } }
 			#6e Escadrille
-			ship = { name = "捷豹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "豺狼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "豹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "虎" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "野牛" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "猎豹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "捷豹" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "豺狼" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "豹" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "虎" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "野牛" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "猎豹" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
 		}
 		task_force = {
 			name = "潜艇部队"
 			location = 3838 ###Corsica
 			#1re Escadrille
 			ship = { name = "跳跃者" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "战斗级 / 斯帕希级 / 盾牌级" } } }
-			ship = { name = "猞猁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "猞猁" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
 			ship = { name = "阿斯特赖亚" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			ship = { name = "阿耳忒弥斯" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			ship = { name = "林仙" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
@@ -384,8 +384,8 @@ units = {
 			ship = { name = "阿马兰蒂" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			ship = { name = "安德洛玛刻" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			#2e Escadrille
-			ship = { name = "瓦尔密" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "凡尔登" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "瓦尔密" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "凡尔登" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
 			ship = { name = "阿尔米德" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			ship = { name = "安提戈涅" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
 			ship = { name = "亚马逊" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NFA version_name = "安菲特里忒级 / 拉格朗日级" } } }
@@ -395,8 +395,8 @@ units = {
 		task_force = {
 			name = "特遣舰队"
 			location = 4948 ###Dakar
-			ship = { name = "黑豹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
-			ship = { name = "狮" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "黑豹" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
+			ship = { name = "狮" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NFA version_name = "豺狼级 / 猎豹级" } } }
 			ship = { name = "阿尔戈" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "阿尔戈级" } } }
 			ship = { name = "维斯塔贞女" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "阿尔戈级" } } }
 			ship = { name = "女苏丹" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = NFA version_name = "阿尔戈级" } } }

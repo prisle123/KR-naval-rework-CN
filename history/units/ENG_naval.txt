@@ -394,7 +394,6 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "纳尔逊级"
 		role_icon_index = 1
-		icon = "gfx/interface/technologies/UOB/ENG_battleship_Nelson.png"
 		type = ship_hull_heavy_2
 		name_group = ENG_ADMIRALS
 		parent_version = 0
@@ -421,7 +420,6 @@ instant_effect = {
 		role_icon_index = 7
 		type = ship_hull_super_heavy_1
 		name_group = ENG_REVOLUTIONARY_IDEALS
-		icon = "gfx/interface/technologies/UOB/ENG_heavy_battleship1.png"
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
@@ -557,21 +555,21 @@ units = {
 		task_force = {
 			name = "海峡舰队"
 			location = 9458
-			ship = { name = "RNS 斗牛犬" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 委员" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 新月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 彗星" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 准将" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 十字军" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 天鹅" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 戴安娜" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 肯彭费尔特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 月食" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 厄勒克特拉" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 远见" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 林地人" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 财富" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 猎狐犬" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 斗牛犬" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 委员" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 新月" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 彗星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 准将" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 十字军" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 天鹅" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 戴安娜" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 肯彭费尔特" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 月食" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 厄勒克特拉" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 远见" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 林地人" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 财富" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 猎狐犬" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
 			ship = { name = "RNS 托贝" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 斗牛士" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 黑碧玺" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
@@ -606,15 +604,15 @@ units = {
 			ship = { name = "RNS 摔跤手" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
 			ship = { name = "RNS 斜颈鸟" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
 			ship = { name = "RNS 顶点" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
-			ship = { name = "RNS 勇气" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 代达罗斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 殊死" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 树妖" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 达尼丁" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 德班" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 进取" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 忍耐" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "无限级" } } }
-			ship = { name = "RNS 执着" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "无限级" } } }
+			ship = { name = "RNS 勇气" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 代达罗斯" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 殊死" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 树妖" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 达尼丁" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 德班" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 进取" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 忍耐" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "无限级" } } }
+			ship = { name = "RNS 执着" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "无限级" } } }
 			ship = { name = "RNS 勇敢" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "勇敢级" } } }
 			ship = { name = "RNS 光荣" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "勇敢级" } } }
 			ship = { name = "RNS 联盟" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "联盟级" } } }
@@ -631,20 +629,20 @@ units = {
 		task_force = {
 			name = "北海舰队"
 			location = 351
-			ship = { name = "RNS 巴西利斯克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 比格犬" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 布兰切" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 布狄卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 玻瑞阿斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 无耻" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 聪慧" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 奉献" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 基斯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 回响" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 埃克斯茅斯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 猛烈" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 火热" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 怒火" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 巴西利斯克" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 比格犬" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 布兰切" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 布狄卡" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 玻瑞阿斯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 无耻" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 聪慧" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 奉献" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 基斯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 回响" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 埃克斯茅斯" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 猛烈" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 火热" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 怒火" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
 			ship = { name = "RNS 军刀" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 萨拉丁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 镰刀" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
@@ -674,21 +672,21 @@ units = {
 			ship = { name = "RNS 刺青" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 散漫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 可靠" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
-			ship = { name = "RNS 查塔姆" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 科林斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 查塔姆" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 科林斯" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
 			ship = { name = "RNS 麦凯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
 			ship = { name = "RNS 斯宾塞" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
 			ship = { name = "RNS 韦斯特沃德霍" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
 			ship = { name = "RNS 约曼" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
 			ship = { name = "RNS 十二宫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W 级" } } }
-			ship = { name = "RNS 无限" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "无限级" } } }
+			ship = { name = "RNS 无限" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "无限级" } } }
 			ship = { name = "RNS 约翰·丘吉尔" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "英王乔治五世级" } } }			
-			ship = { name = "RNS 艾伦" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "共和级" } } }
-			ship = { name = "RNS 皮卡德" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "共和级" } } }
-			ship = { name = "RNS 伍兹" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "共和级" } } }
-			ship = { name = "RNS 霍克" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
-			ship = { name = "RNS 科克本" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
-			ship = { name = "RNS 纳尔逊" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
+			ship = { name = "RNS 艾伦" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "共和级" } } }
+			ship = { name = "RNS 皮卡德" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "共和级" } } }
+			ship = { name = "RNS 伍兹" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "共和级" } } }
+			ship = { name = "RNS 霍克" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
+			ship = { name = "RNS 科克本" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
+			ship = { name = "RNS 纳尔逊" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
 			ship = { name = "RNS 反击" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "声望级" } } }
 			ship = { name = "RNS 声望" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "声望级" } } }
 			ship = { name = "RNS 鹰" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "鹰级" } } }
@@ -790,7 +788,7 @@ units = {
 		task_force = {
 			name = "不列颠革命军事博物馆"
 			location = 540
-			ship = { name = "RNS 胡德" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "海军上将级" } } }
+			ship = { name = "RNS 胡德" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "海军上将级" } } }
 		}
 	}
 	fleet = {
@@ -799,26 +797,26 @@ units = {
 		task_force = {
 			name = "西部舰队"
 			location = 6384
-			ship = { name = "RNS 班菲尔德" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "班菲尔德级" } } }
-			ship = { name = "RNS 耶德逊" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "班菲尔德级" } } }
+			ship = { name = "RNS 班菲尔德" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "班菲尔德级" } } }
+			ship = { name = "RNS 耶德逊" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "班菲尔德级" } } }
 			# ship = { name = "RNS 莫特谢德" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "班菲尔德级" } } }
 			# ship = { name = "RNS 斯米利" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "班菲尔德级" } } }
-			ship = { name = "RNS 委员会" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 鸬鹚" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 纤巧" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 诱饵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 守卫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 喜悦" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 金刚石" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 邓肯" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 电机" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
-			ship = { name = "RNS 相逢" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 捉弄" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 护卫" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 名望" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 福克诺" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 不怯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
-			ship = { name = "RNS 火龙" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 委员会" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 鸬鹚" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 纤巧" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 诱饵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 守卫" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 喜悦" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 金刚石" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 邓肯" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 电机" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "A/B/C/D 级" } } }
+			ship = { name = "RNS 相逢" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 捉弄" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 护卫" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 名望" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 福克诺" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 不怯" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
+			ship = { name = "RNS 火龙" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = ENG version_name = "E/F/G/H 级" } } }
 			ship = { name = "RNS 雀鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 战斧" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
 			ship = { name = "RNS 火炬" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R/S 级" } } }
@@ -858,17 +856,17 @@ units = {
 			ship = { name = "RNS 瑞贝卡" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "瑞贝卡级" } } }
 			ship = { name = "RNS 自由" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "共和国级" } } }
 			ship = { name = "RNS 共和国" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "共和国级" } } }
-			ship = { name = "RNS 再起" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "无限级" } } }
-			ship = { name = "RNS 加的夫" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 考文垂" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 冠军" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 克娄巴特拉" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 科慕斯" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 科迪莉亚" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 康科德" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
-			ship = { name = "RNS 马克思" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "共和级" } } }
-			ship = { name = "RNS 奥杰" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "共和级" } } }
-			ship = { name = "RNS 桂格" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "共和级" } } }
+			ship = { name = "RNS 再起" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "无限级" } } }
+			ship = { name = "RNS 加的夫" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 考文垂" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 冠军" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 克娄巴特拉" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 科慕斯" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 科迪莉亚" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 康科德" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "C/D/E 级" } } }
+			ship = { name = "RNS 马克思" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "共和级" } } }
+			ship = { name = "RNS 奥杰" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "共和级" } } }
+			ship = { name = "RNS 桂格" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "共和级" } } }
 		}
 	}
 }
@@ -887,7 +885,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = ENG
 			version_name = "班菲尔德级"
 		}
@@ -898,7 +896,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = ENG
 			version_name = "班菲尔德级"
 		}
@@ -909,7 +907,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "ENG"
 			version_name = "无限级"
 		}
@@ -920,7 +918,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "ENG"
 			version_name = "无限级"
 		}
@@ -931,7 +929,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "ENG"
 			version_name = "无限级"
 		}
@@ -942,7 +940,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "ENG"
 			version_name = "无限级"
 		}

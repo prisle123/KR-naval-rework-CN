@@ -23,9 +23,9 @@ units = {
 
 			# III Scouting Squadron / III. Aufklarungsgruppe
 			ship = { name = "SMS 俾斯麦亲王" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "马肯森级" } } }
-			ship = { name = "SMS 约克" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "约克级" } } }
-			ship = { name = "SMS 瓦滕斯莱本伯爵" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "约克级" } } }
-			ship = { name = "SMS 戈本" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "约克级" } } }
+			ship = { name = "SMS 约克" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "约克级" } } }
+			ship = { name = "SMS 瓦滕斯莱本伯爵" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "约克级" } } }
+			ship = { name = "SMS 戈本" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "约克级" } } }
 			ship = { name = "SMS 阿达尔贝特亲王" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "阿达尔贝特亲王级" } } }
 			ship = { name = "SMS 腓特烈·卡尔" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "阿达尔贝特亲王级" } } }
 
@@ -37,8 +37,8 @@ units = {
 			ship = { name = "SMS 科隆" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "格劳登茨 / 科隆 / 科尼斯堡级" } } }
 			ship = { name = "SMS 威斯巴登" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "格劳登茨 / 科隆 / 科尼斯堡级" } } }
 			ship = { name = "SMS 马德格堡" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "格劳登茨 / 科隆 / 科尼斯堡级" } } }
-			ship = { name = "SMS 奥斯纳布吕克" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
-			ship = { name = "SMS 奥古斯堡" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
+			ship = { name = "SMS 奥斯纳布吕克" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
+			ship = { name = "SMS 奥古斯堡" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
 
 			ship = { name = "SMS V 170" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170级" } } } # 4 left after dividing by 11
 			ship = { name = "SMS V 171" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170级" } } }
@@ -89,11 +89,11 @@ units = {
 			ship = { name = "SMS S 179" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170级" } } }
 			ship = { name = "SMS S 180" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "V170级" } } }
 
-			ship = { name = "SMS V 317" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 318" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 319" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 320" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 321" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 317" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 318" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 319" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 320" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 321" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
 		}
 
 		task_force = {
@@ -106,19 +106,19 @@ units = {
 			ship = { name = "SMS 西里西亚" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "西里西亚级" } } }
 
 			# VI Battle Squadron
-			ship = { name = "SMS 哈根" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
-			ship = { name = "SMS 魏玛" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
+			ship = { name = "SMS 哈根" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
+			ship = { name = "SMS 魏玛" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
 
 			# VII Battle Squadron
-			ship = { name = "SMS 齐格弗里德" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
-			ship = { name = "SMS 贝奥武夫" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
-			ship = { name = "SMS 伏里施乔夫" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
-			ship = { name = "SMS 海姆达尔" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
-			ship = { name = "SMS 希尔德布兰德" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
+			ship = { name = "SMS 齐格弗里德" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
+			ship = { name = "SMS 贝奥武夫" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
+			ship = { name = "SMS 伏里施乔夫" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
+			ship = { name = "SMS 海姆达尔" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
+			ship = { name = "SMS 希尔德布兰德" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "齐格弗里德级" } } }
 
 			# IV Scouting Group / IV. Aufklarungsgruppe
-			ship = { name = "SMS 布吕歇尔" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "布吕歇尔级" } } }
-			ship = { name = "SMS 莱因哈特·舍尔" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "布吕歇尔级" } } }
+			ship = { name = "SMS 布吕歇尔" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "布吕歇尔级" } } }
+			ship = { name = "SMS 莱因哈特·舍尔" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "布吕歇尔级" } } }
 			ship = { name = "SMS 科斯特海军上将" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "海因里希亲王级" } } }
 
 			ship = { name = "SMS 威悉河" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "威悉河级" } } }
@@ -129,69 +129,69 @@ units = {
 			ship = { name = "SMS 齐滕" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "亚琛级" } } }
 			ship = { name = "SMS 胡蒂尔" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "亚琛级" } } }
 
-			ship = { name = "SMS 斯特拉斯堡" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
-			ship = { name = "SMS 利格尼茨" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
+			ship = { name = "SMS 斯特拉斯堡" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
+			ship = { name = "SMS 利格尼茨" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = GER version_name = "奥斯纳布吕克级" } } }
 
-			ship = { name = "SMS H 245" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 246" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 247" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 248" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 249" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 250" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 251" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 252" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 253" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 254" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 255" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 245" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 246" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 247" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 248" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 249" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 250" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 251" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 252" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 253" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 254" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 255" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
 
-			ship = { name = "SMS S 256" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 257" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 258" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 259" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 260" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 261" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 262" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 263" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 264" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 265" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 266" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 267" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 256" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 257" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 258" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 259" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 260" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 261" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 262" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 263" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 264" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 265" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 266" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 267" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
 
-			ship = { name = "SMS V 268" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 269" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 270" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 271" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 272" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS G 273" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS G 274" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS G 275" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 276" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 277" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 278" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 268" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 269" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 270" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 271" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 272" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS G 273" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS G 274" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS G 275" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 276" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 277" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 278" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
 
-			ship = { name = "SMS H 279" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS H 280" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS H 281" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS H 282" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS H 283" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS H 284" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS H 285" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS B 286" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS B 287" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS B 288" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS B 289" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 279" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 280" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 281" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 282" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 283" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 284" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS H 285" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS B 286" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS B 287" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS B 288" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS B 289" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
 
-			ship = { name = "SMS B 310" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS B 311" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 312" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 313" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 314" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 315" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS V 316" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS S 322" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS S 323" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS S 324" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
-			ship = { name = "SMS S 325" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS B 310" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS B 311" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 312" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 313" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 314" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 315" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 316" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS S 322" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS S 323" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS S 324" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS S 325" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
 		}
 
 		task_force = {
@@ -199,11 +199,11 @@ units = {
 			location = 362
 			# Fleet Flagship
 			# Detached from VI Battle Squadron
-			ship = { name = "SMS 普鲁士" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
+			ship = { name = "SMS 普鲁士" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
 
 			# VI Battle Squadron
-			ship = { name = "SMS 施维林" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
-			ship = { name = "SMS 黑森" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
+			ship = { name = "SMS 施维林" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
+			ship = { name = "SMS 黑森" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "普鲁士级" } } }
 			ship = { name = "SMS 国王" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "国王级" } } }
 			ship = { name = "SMS 王储" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "国王级" } } }
 
@@ -255,11 +255,11 @@ units = {
 			ship = { name = "SMS H 168" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113级" } } }
 			ship = { name = "SMS H 169" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "S113级" } } }
 
-			ship = { name = "SMS V 236" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 237" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 238" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 239" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 326" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "H279级" } } }
+			ship = { name = "SMS V 236" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 237" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 238" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 239" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 326" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279级" } } }
 		}
 	}
 
@@ -276,24 +276,24 @@ units = {
 			ship = { name = "SMS 格劳登茨" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "格劳登茨 / 科隆 / 科尼斯堡级" } } }
 
 			# A full Torpedo boat flottila
-			ship = { name = "SMS T 214" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS T 215" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS T 216" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS T 217" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 218" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 219" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 220" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 221" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 222" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 223" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 224" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS T 214" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS T 215" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS T 216" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS T 217" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 218" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 219" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 220" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 221" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 222" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 223" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 224" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
 
 			# A Half flottila
-			ship = { name = "SMS H 240" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 241" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 242" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 243" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS H 244" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 240" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 241" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 242" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 243" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS H 244" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
 		}
 	}
 
@@ -308,17 +308,17 @@ units = {
 
 			ship = { name = "SMS 纽伦堡" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "格劳登茨 / 科隆 / 科尼斯堡级" } } }
 
-			ship = { name = "SMS V 225" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 226" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 227" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 228" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 229" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 230" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 231" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS S 232" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 233" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 234" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
-			ship = { name = "SMS V 235" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 225" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 226" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 227" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 228" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 229" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 230" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 231" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS S 232" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 233" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 234" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
+			ship = { name = "SMS V 235" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "T214级" } } }
 
 			ship = { name = "SMS B 109" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97级" } } }
 			ship = { name = "SMS B 110" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "B97级" } } }
@@ -456,7 +456,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = "GER"
 			version_name = "布吕歇尔级"
 		}
@@ -466,7 +466,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = "GER"
 			version_name = "布吕歇尔级"
 		}
@@ -496,7 +496,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "GER"
 			version_name = "H279级"
 		}
@@ -506,7 +506,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "GER"
 			version_name = "H279级"
 		}
@@ -516,7 +516,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "GER"
 			version_name = "H279级"
 		}
@@ -526,7 +526,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "GER"
 			version_name = "H279级"
 		}
@@ -536,7 +536,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "GER"
 			version_name = "H279级"
 		}

@@ -237,7 +237,7 @@ units = {
 		task_force = {
 			name = "第一舰队"
 			location = 819
-			ship = { name = "RN	弗朗切斯科·卡拉乔洛" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "弗朗切斯科·卡拉乔洛级" } } }
+			ship = { name = "RN	弗朗切斯科·卡拉乔洛" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "弗朗切斯科·卡拉乔洛级" } } }
 			ship = { name = "RN	安德烈亚·多利亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "安德烈亚·多利亚级" } } }
 			ship = { name = "RN	卡约·杜伊里奥" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "安德烈亚·多利亚级" } } }
 			ship = { name = "RN	蒙帕塞诺" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "亚历山德罗·波里奥级" } } }

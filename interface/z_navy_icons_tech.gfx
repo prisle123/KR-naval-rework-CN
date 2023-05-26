@@ -2,278 +2,313 @@ spriteTypes = {
 ### AST ###
 	# destroyer
 
-    	spriteType = {
-    		name = "GFX_AST_early_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_basic_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_improved_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_advanced_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_AST_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_improved_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_destroyer5.png"
+        	}
 	# cruiser
 
-    	spriteType = {
-    		name = "GFX_AST_early_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_basic_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_improved_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_advanced_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_AST_early_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_basic_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_interwar_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_improved_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_light_cruiser5.png"
+        	}
 	# battleship
 
-    	spriteType = {
-    		name = "GFX_AST_early_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_battleship1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_basic_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_battleship2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_improved_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_battleship3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_advanced_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_battleship4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_AST_early_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_basic_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_interwar_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_improved_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_battleship5.png"
+        	}
 	# carrier
 
-    	spriteType = {
-    		name = "GFX_AST_early_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_carrier1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_basic_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_carrier2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_improved_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_carrier3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_advanced_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_carrier4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_AST_early_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_basic_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_improved_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_advanced_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_carrier4.png"
+        	}
 	# submarine
 
-    	spriteType = {
-    		name = "GFX_AST_early_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_submarine1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_basic_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_submarine2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_improved_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_submarine3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_AST_advanced_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Australasia/AST_submarine4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_AST_early_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_basic_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_improved_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AST_advanced_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Australasia/AST_submarine4.png"
+        	}
 
 ### IMP ###
 	# destroyer
 
-    	spriteType = {
-    		name = "GFX_IMP_early_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_basic_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_improved_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_advanced_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_IMP_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_improved_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer5.png"
+        	}
 	# cruiser
 
-    	spriteType = {
-    		name = "GFX_IMP_early_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_basic_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_improved_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_advanced_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_IMP_early_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_basic_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_interwar_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_improved_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser5.png"
+        	}
 	# battleship
 
-    	spriteType = {
-    		name = "GFX_IMP_early_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_battleship1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_basic_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_battleship2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_improved_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_battleship3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_advanced_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_battleship4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_IMP_early_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_basic_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_interwar_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_improved_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship5.png"
+        	}
 	# carrier
 
-    	spriteType = {
-    		name = "GFX_IMP_early_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_carrier1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_basic_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_carrier2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_improved_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_carrier3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_advanced_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_carrier4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_IMP_early_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_basic_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_improved_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_advanced_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier4.png"
+        	}
 	# submarine
 
-    	spriteType = {
-    		name = "GFX_IMP_early_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_submarine1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_basic_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_submarine2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_improved_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_submarine3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_IMP_advanced_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/CAN_submarine4.png"
-    	}
-
+        	spriteType = {
+        		name = "GFX_IMP_early_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_basic_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_improved_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_IMP_advanced_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine4.png"
+        	}
 ### GBR ###
 	# destroyer
 
-    	spriteType = {
-    		name = "GFX_GBR_early_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_destroyer1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_basic_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_destroyer2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_improved_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_destroyer3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_advanced_ship_hull_light_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_destroyer4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_GBR_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_improved_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_destroyer5.png"
+        	}
 	# cruiser
 
-    	spriteType = {
-    		name = "GFX_GBR_early_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_light_cruiser1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_basic_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_light_cruiser2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_improved_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_light_cruiser3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_advanced_ship_hull_cruiser_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_light_cruiser4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_GBR_early_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_basic_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_interwar_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_improved_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_light_cruiser5.png"
+        	}
 	# battleship
 
-    	spriteType = {
-    		name = "GFX_GBR_early_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_battleship1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_basic_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_battleship2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_improved_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_battleship3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_advanced_ship_hull_heavy_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_battleship4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_GBR_early_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_basic_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_interwar_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_improved_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_battleship5.png"
+        	}
 	# carrier
 
-    	spriteType = {
-    		name = "GFX_GBR_early_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_carrier1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_basic_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_carrier2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_improved_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_carrier3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_advanced_ship_hull_carrier_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_carrier4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_GBR_early_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_basic_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_improved_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_advanced_ship_hull_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_carrier4.png"
+        	}
 	# submarine
 
-    	spriteType = {
-    		name = "GFX_GBR_early_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_submarine1.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_basic_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_submarine2.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_improved_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_submarine3.png"
-    	}
-    	spriteType = {
-    		name = "GFX_GBR_advanced_ship_hull_submarine_medium"
-    		texturefile = "gfx/interface/technologies/Canada/GBR_submarine4.png"
-    	}
+        	spriteType = {
+        		name = "GFX_GBR_early_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_basic_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_improved_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GBR_advanced_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Canada/CAN_submarine4.png"
+        	}
 
 ### QIE ###
 
@@ -456,12 +491,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/CoF/FRA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_FRA_improved_ship_hull_light_medium"
+        		name = "GFX_FRA_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/CoF/FRA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_FRA_advanced_ship_hull_light_medium"
+        		name = "GFX_FRA_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/CoF/FRA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/CoF/FRA_destroyer5.png"
         	}
 	# cruiser
 
@@ -474,12 +513,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/CoF/FRA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_FRA_improved_ship_hull_cruiser_medium"
+        		name = "GFX_FRA_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/CoF/FRA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_FRA_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_FRA_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/CoF/FRA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/CoF/FRA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -492,12 +535,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/CoF/FRA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_FRA_improved_ship_hull_heavy_medium"
+        		name = "GFX_FRA_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/CoF/FRA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_FRA_advanced_ship_hull_heavy_medium"
+        		name = "GFX_FRA_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/CoF/FRA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_FRA_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/CoF/FRA_battleship5.png"
         	}
 	# carrier
 
@@ -548,12 +595,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_AUS_improved_ship_hull_light_medium"
+        		name = "GFX_AUS_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_AUS_advanced_ship_hull_light_medium"
+        		name = "GFX_AUS_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -562,16 +613,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
         	}
         	spriteType = {
-        		name = "GFX_AUS_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser2.png"
-        	}
-        	spriteType = {
-        		name = "GFX_AUS_improved_ship_hull_cruiser_medium"
+        		name = "GFX_AUS_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_AUS_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_AUS_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -584,11 +635,11 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_AUS_improved_ship_hull_heavy_medium"
+        		name = "GFX_AUS_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_AUS_advanced_ship_hull_heavy_medium"
+        		name = "GFX_AUS_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
         	}
 ### CRO ###
@@ -603,12 +654,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_CRO_improved_ship_hull_light_medium"
+        		name = "GFX_CRO_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_CRO_advanced_ship_hull_light_medium"
+        		name = "GFX_CRO_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CRO_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -617,16 +672,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
         	}
         	spriteType = {
-        		name = "GFX_CRO_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser2.png"
-        	}
-        	spriteType = {
-        		name = "GFX_CRO_improved_ship_hull_cruiser_medium"
+        		name = "GFX_CRO_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_CRO_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_CRO_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CRO_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -639,11 +694,11 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_CRO_improved_ship_hull_heavy_medium"
+        		name = "GFX_CRO_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_CRO_advanced_ship_hull_heavy_medium"
+        		name = "GFX_CRO_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
         	}
 ### HUN ###
@@ -658,12 +713,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_HUN_improved_ship_hull_light_medium"
+        		name = "GFX_HUN_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_HUN_advanced_ship_hull_light_medium"
+        		name = "GFX_HUN_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -672,16 +731,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
         	}
         	spriteType = {
-        		name = "GFX_HUN_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser2.png"
-        	}
-        	spriteType = {
-        		name = "GFX_HUN_improved_ship_hull_cruiser_medium"
+        		name = "GFX_HUN_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_HUN_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_HUN_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -694,11 +753,11 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_HUN_improved_ship_hull_heavy_medium"
+        		name = "GFX_HUN_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_HUN_advanced_ship_hull_heavy_medium"
+        		name = "GFX_HUN_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
         	}
 ### GAL ###
@@ -713,12 +772,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_GAL_improved_ship_hull_light_medium"
+        		name = "GFX_GAL_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_GAL_advanced_ship_hull_light_medium"
+        		name = "GFX_GAL_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GAL_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -727,16 +790,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
         	}
         	spriteType = {
-        		name = "GFX_GAL_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser2.png"
-        	}
-        	spriteType = {
-        		name = "GFX_GAL_improved_ship_hull_cruiser_medium"
+        		name = "GFX_GAL_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_GAL_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_GAL_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GAL_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -749,11 +812,11 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_GAL_improved_ship_hull_heavy_medium"
+        		name = "GFX_GAL_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_GAL_advanced_ship_hull_heavy_medium"
+        		name = "GFX_GAL_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
         	}
 ### CZE ###
@@ -768,12 +831,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_CZE_improved_ship_hull_light_medium"
+        		name = "GFX_CZE_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_CZE_advanced_ship_hull_light_medium"
+        		name = "GFX_CZE_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CZE_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -782,16 +849,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
         	}
         	spriteType = {
-        		name = "GFX_CZE_basic_ship_hull_cruiser_medium"
-        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser2.png"
-        	}
-        	spriteType = {
-        		name = "GFX_CZE_improved_ship_hull_cruiser_medium"
+        		name = "GFX_CZE_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_CZE_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_CZE_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_CZE_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -804,11 +871,11 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_CZE_improved_ship_hull_heavy_medium"
+        		name = "GFX_CZE_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_CZE_advanced_ship_hull_heavy_medium"
+        		name = "GFX_CZE_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
         	}
 
@@ -953,12 +1020,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_GEA_improved_ship_hull_light_medium"
+        		name = "GFX_GEA_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_GEA_advanced_ship_hull_light_medium"
+        		name = "GFX_GEA_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GEA_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -971,12 +1042,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_GEA_improved_ship_hull_cruiser_medium"
+        		name = "GFX_GEA_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_GEA_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_GEA_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GEA_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -989,12 +1064,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_GEA_improved_ship_hull_heavy_medium"
+        		name = "GFX_GEA_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_GEA_advanced_ship_hull_heavy_medium"
+        		name = "GFX_GEA_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GEA_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 
@@ -1044,12 +1123,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_MAF_improved_ship_hull_light_medium"
+        		name = "GFX_MAF_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_MAF_advanced_ship_hull_light_medium"
+        		name = "GFX_MAF_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_MAF_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -1062,12 +1145,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_MAF_improved_ship_hull_cruiser_medium"
+        		name = "GFX_MAF_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_MAF_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_MAF_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_MAF_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1080,12 +1167,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_MAF_improved_ship_hull_heavy_medium"
+        		name = "GFX_MAF_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_MAF_advanced_ship_hull_heavy_medium"
+        		name = "GFX_MAF_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_MAF_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 
@@ -1135,12 +1226,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_GRU_improved_ship_hull_light_medium"
+        		name = "GFX_GRU_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_GRU_advanced_ship_hull_light_medium"
+        		name = "GFX_GRU_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GRU_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -1153,12 +1248,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_GRU_improved_ship_hull_cruiser_medium"
+        		name = "GFX_GRU_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_GRU_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_GRU_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GRU_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1171,12 +1270,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_GRU_improved_ship_hull_heavy_medium"
+        		name = "GFX_GRU_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_GRU_advanced_ship_hull_heavy_medium"
+        		name = "GFX_GRU_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_GRU_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 
@@ -1226,12 +1329,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_NGF_improved_ship_hull_light_medium"
+        		name = "GFX_NGF_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_NGF_advanced_ship_hull_light_medium"
+        		name = "GFX_NGF_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NGF_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -1244,12 +1351,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_NGF_improved_ship_hull_cruiser_medium"
+        		name = "GFX_NGF_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_NGF_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_NGF_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NGF_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1262,12 +1373,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_NGF_improved_ship_hull_heavy_medium"
+        		name = "GFX_NGF_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_NGF_advanced_ship_hull_heavy_medium"
+        		name = "GFX_NGF_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NGF_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 
@@ -1317,12 +1432,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_RHI_improved_ship_hull_light_medium"
+        		name = "GFX_RHI_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_RHI_advanced_ship_hull_light_medium"
+        		name = "GFX_RHI_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RHI_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -1335,12 +1454,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_RHI_improved_ship_hull_cruiser_medium"
+        		name = "GFX_RHI_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_RHI_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_RHI_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RHI_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1353,12 +1476,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_RHI_improved_ship_hull_heavy_medium"
+        		name = "GFX_RHI_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_RHI_advanced_ship_hull_heavy_medium"
+        		name = "GFX_RHI_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RHI_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 
@@ -1408,12 +1535,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_BAY_improved_ship_hull_light_medium"
+        		name = "GFX_BAY_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_BAY_advanced_ship_hull_light_medium"
+        		name = "GFX_BAY_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_BAY_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_destroyer5.png"
         	}
 	# cruiser
 
@@ -1426,12 +1557,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_BAY_improved_ship_hull_cruiser_medium"
+        		name = "GFX_BAY_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_BAY_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_BAY_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_BAY_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1444,12 +1579,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_BAY_improved_ship_hull_heavy_medium"
+        		name = "GFX_BAY_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_BAY_advanced_ship_hull_heavy_medium"
+        		name = "GFX_BAY_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Germany/GER_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_BAY_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Germany/GER_battleship5.png"
         	}
 	# carrier
 
@@ -1500,12 +1639,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_ITA_improved_ship_hull_light_medium"
+        		name = "GFX_ITA_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_ITA_advanced_ship_hull_light_medium"
+        		name = "GFX_ITA_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
         	}
 	# cruiser
 
@@ -1518,12 +1661,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_ITA_improved_ship_hull_cruiser_medium"
+        		name = "GFX_ITA_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_ITA_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_ITA_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1536,12 +1683,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_ITA_improved_ship_hull_heavy_medium"
+        		name = "GFX_ITA_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_ITA_advanced_ship_hull_heavy_medium"
+        		name = "GFX_ITA_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_ITA_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship5.png"
         	}
 	# carrier
 
@@ -1591,12 +1742,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_SRI_improved_ship_hull_light_medium"
+        		name = "GFX_SRI_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_SRI_advanced_ship_hull_light_medium"
+        		name = "GFX_SRI_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SRI_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
         	}
 	# cruiser
 
@@ -1609,12 +1764,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_SRI_improved_ship_hull_cruiser_medium"
+        		name = "GFX_SRI_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_SRI_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_SRI_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SRI_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1627,12 +1786,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_SRI_improved_ship_hull_heavy_medium"
+        		name = "GFX_SRI_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_SRI_advanced_ship_hull_heavy_medium"
+        		name = "GFX_SRI_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SRI_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship5.png"
         	}
 	# carrier
 
@@ -1682,12 +1845,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_SIC_improved_ship_hull_light_medium"
+        		name = "GFX_SIC_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_SIC_advanced_ship_hull_light_medium"
+        		name = "GFX_SIC_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIC_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
         	}
 	# cruiser
 
@@ -1700,12 +1867,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_SIC_improved_ship_hull_cruiser_medium"
+        		name = "GFX_SIC_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_SIC_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_SIC_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIC_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1718,12 +1889,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_SIC_improved_ship_hull_heavy_medium"
+        		name = "GFX_SIC_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_SIC_advanced_ship_hull_heavy_medium"
+        		name = "GFX_SIC_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIC_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship5.png"
         	}
 	# carrier
 
@@ -1773,12 +1948,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_PAP_improved_ship_hull_light_medium"
+        		name = "GFX_PAP_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_PAP_advanced_ship_hull_light_medium"
+        		name = "GFX_PAP_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_PAP_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
         	}
 	# cruiser
 
@@ -1791,12 +1970,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_PAP_improved_ship_hull_cruiser_medium"
+        		name = "GFX_PAP_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_PAP_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_PAP_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_PAP_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1809,12 +1992,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_PAP_improved_ship_hull_heavy_medium"
+        		name = "GFX_PAP_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_PAP_advanced_ship_hull_heavy_medium"
+        		name = "GFX_PAP_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_PAP_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship5.png"
         	}
 	# carrier
 
@@ -1864,12 +2051,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_SRD_improved_ship_hull_light_medium"
+        		name = "GFX_SRD_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_SRD_advanced_ship_hull_light_medium"
+        		name = "GFX_SRD_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SRD_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
         	}
 	# cruiser
 
@@ -1882,12 +2073,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_SRD_improved_ship_hull_cruiser_medium"
+        		name = "GFX_SRD_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_SRD_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_SRD_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SRD_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1900,12 +2095,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_SRD_improved_ship_hull_heavy_medium"
+        		name = "GFX_SRD_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_SRD_advanced_ship_hull_heavy_medium"
+        		name = "GFX_SRD_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SRD_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_battleship5.png"
         	}
 	# carrier
 
@@ -1956,12 +2155,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_JAP_improved_ship_hull_light_medium"
+        		name = "GFX_JAP_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_JAP_advanced_ship_hull_light_medium"
+        		name = "GFX_JAP_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer5.png"
         	}
 	# cruiser
 
@@ -1974,12 +2177,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_JAP_improved_ship_hull_cruiser_medium"
+        		name = "GFX_JAP_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_JAP_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_JAP_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser5.png"
         	}
 	# battleship
 
@@ -1992,12 +2199,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Japan/JAP_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_JAP_improved_ship_hull_heavy_medium"
+        		name = "GFX_JAP_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_JAP_advanced_ship_hull_heavy_medium"
+        		name = "GFX_JAP_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_JAP_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_battleship5.png"
         	}
 	# carrier
 
@@ -2048,12 +2259,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_destroyer2.png"
         	}
         	spriteType = {
-        		name = "GFX_NFA_improved_ship_hull_light_medium"
+        		name = "GFX_NFA_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_NFA_advanced_ship_hull_light_medium"
+        		name = "GFX_NFA_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NFA_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/NatFrance/NFA_destroyer5.png"
         	}
 	# cruiser
 
@@ -2066,12 +2281,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_light_cruiser2.png"
         	}
         	spriteType = {
-        		name = "GFX_NFA_improved_ship_hull_cruiser_medium"
+        		name = "GFX_NFA_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_NFA_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_NFA_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NFA_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/NatFrance/NFA_light_cruiser5.png"
         	}
 	# battleship
 
@@ -2084,12 +2303,16 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_battleship2.png"
         	}
         	spriteType = {
-        		name = "GFX_NFA_improved_ship_hull_heavy_medium"
+        		name = "GFX_NFA_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_NFA_advanced_ship_hull_heavy_medium"
+        		name = "GFX_NFA_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/NatFrance/NFA_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_NFA_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/NatFrance/NFA_battleship5.png"
         	}
 	# carrier
 

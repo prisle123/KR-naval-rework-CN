@@ -248,9 +248,9 @@ units = {
 		task_force = {
 			name = "热那亚舰队"
 			location = 6788 ###Change to proper province number
-			ship = { name = "NdP 意大利" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRI version_name = "弗朗切斯科·卡拉乔洛级" } } }
-			ship = { name = "NdP 复兴" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRI version_name = "弗朗切斯科·卡拉乔洛级" } } }
-			ship = { name = "NdP 斯巴达克斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SRI version_name = "弗朗切斯科·卡拉乔洛级" } } }
+			ship = { name = "NdP 意大利" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "弗朗切斯科·卡拉乔洛级" } } }
+			ship = { name = "NdP 复兴" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "弗朗切斯科·卡拉乔洛级" } } }
+			ship = { name = "NdP 斯巴达克斯" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SRI version_name = "弗朗切斯科·卡拉乔洛级" } } }
 			ship = { name = "NdP 孔菲耶恩扎" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "亚历山德罗·波里奥级" } } }
 			ship = { name = "NdP 帕莱斯特罗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "亚历山德罗·波里奥级" } } }
 			ship = { name = "NdP 圣马蒂诺" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SRI version_name = "亚历山德罗·波里奥级" } } }

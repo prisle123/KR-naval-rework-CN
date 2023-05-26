@@ -718,10 +718,10 @@ units = {
 		task_force = {
 			name = "第一舰队"
 			location = 9950 ###Change to proper province number
-			ship = { name = "赤城" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
+			ship = { name = "赤城" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "天城级" } } }
 			ship = { name = "雾岛" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "金刚级" } } }
 			ship = { name = "出云" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "出云级" } } }
-			ship = { name = "陆奥" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "长门级" } } }
+			ship = { name = "陆奥" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "长门级" } } }
 			ship = { name = "凤翔" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "凤翔级" } } }
 			ship = { name = "龙骧" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "龙骧级" } } }
 			ship = { name = "泽风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
@@ -730,16 +730,16 @@ units = {
 			ship = { name = "睦月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "卯月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "矢风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
-			ship = { name = "吹雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "矶波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			# ship = { name = "深雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "敷波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "东云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "丛云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "白云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "白雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "浦波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "薄云" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "吹雪" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "矶波" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			# ship = { name = "深雪" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "敷波" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "东云" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "丛云" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "白云" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "白雪" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "浦波" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "薄云" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
 			ship = { name = "栗" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
 			ship = { name = "梨" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
 			ship = { name = "榆" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
@@ -748,8 +748,8 @@ units = {
 			ship = { name = "竹" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
 			ship = { name = "栂" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
 			ship = { name = "茑" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
-			ship = { name = "五月雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "春雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "五月雨" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "春雨" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
 			ship = { name = "木曾" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "五十铃" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "六角川" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
@@ -762,14 +762,14 @@ units = {
 		task_force = {
 			name = "第二舰队"
 			location = 1092 ###Change to proper province number
-			ship = { name = "天城" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
+			ship = { name = "天城" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "天城级" } } }
 			ship = { name = "榛名" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "金刚级" } } }
-			ship = { name = "天雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "朝雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "绫波" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "胧" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "狭雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "夕雾" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "天雾" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "朝雾" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "绫波" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "胧" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "狭雾" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "夕雾" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
 			ship = { name = "文月" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "羽风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "滨风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
@@ -801,9 +801,9 @@ units = {
 			ship = { name = "北上" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "鬼怒" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "长良" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
-			ship = { name = "物部" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "物部" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "物部级" } } }
 			ship = { name = "隅田" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
-			ship = { name = "铃鹿" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "铃鹿" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "物部级" } } }
 			ship = { name = "磐手" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = JAP version_name = "出云级" } } }
 			ship = { name = "龙渊" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "龙渊级" } } }
 			ship = { name = "苍龙" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "苍龙级" } } }
@@ -816,12 +816,12 @@ units = {
 		task_force = {
 			name = "第三舰队"
 			location = 9998 ###Change to proper province number
-			ship = { name = "晓" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "曙" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "初雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "响" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "雷" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "电" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "晓" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "曙" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "初雪" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "响" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "雷" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "电" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
 			ship = { name = "秋风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "朝风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "朝凪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
@@ -839,32 +839,32 @@ units = {
 			ship = { name = "夕风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "夕凪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "峯风型 / 睦月型" } } }
 			ship = { name = "枞" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
-			# ship = { name = "江风" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }  in construction
-			ship = { name = "村雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "子日" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "时雨" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "白露" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "海风" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "若叶" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "夕立" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "夕暮" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			# ship = { name = "江风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }  in construction
+			ship = { name = "村雨" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "子日" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "时雨" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "白露" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "海风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "若叶" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "夕立" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "夕暮" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
 			ship = { name = "大井" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "多摩" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
-			ship = { name = "神通" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "川内型" } } }
-			ship = { name = "那珂" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "川内型" } } }
-			ship = { name = "川内" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "川内型" } } }
-			ship = { name = "夕张" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "夕张型" } } }
+			ship = { name = "神通" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "川内型" } } }
+			ship = { name = "那珂" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "川内型" } } }
+			ship = { name = "川内" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "川内型" } } }
+			ship = { name = "夕张" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "夕张型" } } }
 			ship = { name = "九头龙" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "十胜级" } } }
-			ship = { name = "三隈" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
-			ship = { name = "最上" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "三隈" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "物部级" } } }
+			ship = { name = "最上" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "物部级" } } }
 			ship = { name = "青叶" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
 			ship = { name = "衣笠" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
 			ship = { name = "古鹰" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
 			ship = { name = "加古" definition = armored_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = JAP version_name = "古鹰级 / 青叶级" } } }
-			ship = { name = "土佐" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "土佐级" } } }
-			ship = { name = "长门" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "长门级" } } }
-			ship = { name = "爱宕" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "天城级" } } }
-			ship = { name = "加贺" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "土佐级" } } }
+			ship = { name = "土佐" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "土佐级" } } }
+			ship = { name = "长门" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "长门级" } } }
+			ship = { name = "爱宕" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "天城级" } } }
+			ship = { name = "加贺" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "土佐级" } } }
 			ship = { name = "纪伊" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "纪伊级" } } }
 		}
 	}
@@ -965,11 +965,11 @@ units = {
 			ship = { name = "球磨" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "名取" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
 			ship = { name = "由良" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "球磨型 / 长良型" } } }
-			ship = { name = "有明" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "初春" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "初霜" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
-			ship = { name = "涟" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
-			ship = { name = "潮" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "有明" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "初春" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "初霜" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "初春型 / 白露型" } } }
+			ship = { name = "涟" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
+			ship = { name = "潮" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "吹雪型 / 晓型" } } }
 			ship = { name = "葵" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
 			ship = { name = "苇" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
 			ship = { name = "藤" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "桃型 / 枞型 " } } }
@@ -1000,7 +1000,7 @@ instant_effect = {
 	# }
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "JAP"
 			version_name = "初春型 / 白露型"
 		}
@@ -1011,7 +1011,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "JAP"
 			version_name = "初春型 / 白露型"
 		}
@@ -1022,7 +1022,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "JAP"
 			version_name = "初春型 / 白露型"
 		}

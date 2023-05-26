@@ -402,14 +402,14 @@ units = {
 		task_force = {
 			name = "第一海军军区"
 			location = 11548 #Calais
-			ship = { name = "路易斯·德勒克吕兹" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
-			ship = { name = "保罗·布鲁斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
-			ship = { name = "皮埃尔·比埃特" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "路易斯·德勒克吕兹" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "保罗·布鲁斯" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "皮埃尔·比埃特" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
 			ship = { name = "巴约讷" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "巴黎级" } } }
-			ship = { name = "北风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "旋风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "台风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "风暴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "北风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "旋风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "台风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "风暴" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
 		}
 		task_force = {
 			name = "第一潜艇支队"
@@ -433,30 +433,30 @@ units = {
 			name = "第二海军军区"
 			location = 3552 #Brest
 			ship = { name = "欧仁·鲍狄埃" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "欧仁·鲍狄埃级" } } }
-			ship = { name = "查尔斯·傅里叶" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
+			ship = { name = "查尔斯·傅里叶" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "诺曼底级" } } }
 			ship = { name = "儒勒·米什莱" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "儒勒·米什莱级 / 欧内斯特·勒南级" } } }
 			ship = { name = "欧内斯特·勒南" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "儒勒·米什莱级 / 欧内斯特·勒南级" } } }
 			ship = { name = "马赛" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "巴黎级" } } }
-			ship = { name = "沃邦" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "秃鹫" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "信天翁" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "海东青" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "鸢" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "雀鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "沃克兰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "凯尔森" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "卡萨尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "塔尔图" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "马伊·布雷泽" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "保罗·德·索米尔" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
-			ship = { name = "暴风雪" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "气旋" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "西北风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "雷暴" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "飓风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "龙卷风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
-			ship = { name = "西蒙风" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "沃邦" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "鹰" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "秃鹫" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "信天翁" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "海东青" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "鸢" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "雀鹰" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "沃克兰" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "凯尔森" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "卡萨尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "塔尔图" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "马伊·布雷泽" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "保罗·德·索米尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "豺狼级 / 猎豹级 / 沃克兰级" } } }
+			ship = { name = "暴风雪" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "气旋" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "西北风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "雷暴" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "飓风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "龙卷风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
+			ship = { name = "西蒙风" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "暴风雪级" } } }
 		}
 		task_force = {
 			name = "第二潜艇支队"
@@ -480,8 +480,8 @@ units = {
 		task_force = {
 			name = "第三海军军区"
 			location = 911 #Toulon
-			ship = { name = "巴黎公社" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "国际级" } } }
-			ship = { name = "国际" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "国际级" } } }
+			ship = { name = "巴黎公社" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = FRA version_name = "国际级" } } }
+			ship = { name = "国际" definition = battleship equipment = { ship_hull_heavy_3 = { amount = 1 owner = FRA version_name = "国际级" } } }
 			ship = { name = "让·饶勒斯" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "布列塔尼级" } } }
 			ship = { name = "法兰西" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "孤拔级" } } }
 			ship = { name = "让·巴尔" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "孤拔级" } } }
@@ -491,15 +491,15 @@ units = {
 			ship = { name = "里昂" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
 			ship = { name = "土伦" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
 			ship = { name = "图卢兹" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "里昂级" } } }
-			ship = { name = "大胆" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
-			ship = { name = "空想" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
-			ship = { name = "恶毒" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
-			ship = { name = "可怖" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
-			ship = { name = "凯旋" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
-			ship = { name = "不屈" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "大胆" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "空想" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "恶毒" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "可怖" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "凯旋" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "空想级" } } }
+			ship = { name = "不屈" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "空想级" } } }
 			ship = { name = "鲁尔少尉" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "鲁尔少尉级" } } }
 			ship = { name = "莱斯坦士官" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "鲁尔少尉级" } } }
-			ship = { name = "莫加多尔" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "莫加多尔级" } } }
+			ship = { name = "莫加多尔" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = FRA version_name = "莫加多尔级" } } }
 			ship = { name = "盾牌" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
 			ship = { name = "箭筒" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
 			ship = { name = "仙王座" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "阔剑级 / 斯帕希级 / 盾牌级" } } }
@@ -535,7 +535,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "FRA"
 			version_name = "莫加多尔级"
 		}
