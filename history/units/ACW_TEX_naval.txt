@@ -7,15 +7,15 @@
 			name = "第一战列舰大队"
 			location = 7552 #New Orleans
 			ship = { name = "USS 田纳西" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "田纳西级" } } }
-			ship = { name = "USS 马里兰" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "科罗拉多级" } } }
+			ship = { name = "USS 马里兰" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = TEX version_name = "科罗拉多级" } } }
 		}
 
 		task_force = {
 			name = "第一巡洋舰大队"
 			location = 1572 ###Green Cove Springs
-			ship = { name = "USS 北安普敦" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
-			ship = { name = "USS 切斯特" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
-			ship = { name = "USS 休斯顿" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 北安普敦" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 切斯特" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 休斯顿" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
 			ship = { name = "USS 普韦布洛" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "匹兹堡级 / 孟菲斯级" } } }
 			ship = { name = "USS 克利夫兰" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "丹佛级" } } }
 		}

@@ -21,10 +21,10 @@
 			name = "第一巡洋舰大队"
 			location = 7315 ###NS Puget Sound (Seattle)
 			#Cruiser Squadron 4
-			ship = { name = "USS 列克星敦" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = PSA version_name = "列克星敦级" } } }
-			ship = { name = "USS 萨拉托加" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = PSA version_name = "列克星敦级" } } }
-			ship = { name = "USS 彭萨科拉" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PSA version_name = "彭萨科拉级" } } }
-			ship = { name = "USS 盐湖城" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PSA version_name = "彭萨科拉级" } } }
+			ship = { name = "USS 列克星敦" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = PSA version_name = "列克星敦级" } } }
+			ship = { name = "USS 萨拉托加" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = PSA version_name = "列克星敦级" } } }
+			ship = { name = "USS 彭萨科拉" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = PSA version_name = "彭萨科拉级" } } }
+			ship = { name = "USS 盐湖城" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = PSA version_name = "彭萨科拉级" } } }
 			#Cruiser Squadron 9
 			ship = { name = "USS 奥马哈" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "奥马哈级" } } }
 			ship = { name = "USS 密尔沃基" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "奥马哈级" } } }
@@ -40,7 +40,7 @@
 			name = "第六驱逐舰中队"
 			location = 1562 ###NS+SB San Diego
 			#Leader
-			ship = { name = "USS 温斯洛" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PSA version_name = "波特级 / 索莫斯级" } } }
+			ship = { name = "USS 温斯洛" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = PSA version_name = "波特级 / 索莫斯级" } } }
 			#Division 16
 			ship = { name = "USS 阿贝尔·P·厄普舍" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
 			ship = { name = "USS 亨特" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }

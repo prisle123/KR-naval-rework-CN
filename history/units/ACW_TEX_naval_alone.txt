@@ -8,7 +8,7 @@
 			location = 7552 #New Orleans
 			ship = { name = "USS 印第安纳" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = TEX version_name = "南卡罗莱纳级" } } }
 			ship = { name = "USS 田纳西" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "田纳西级" } } }
-			ship = { name = "USS 马里兰" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "科罗拉多级" } } }
+			ship = { name = "USS 马里兰" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = TEX version_name = "科罗拉多级" } } }
 			ship = { name = "USS 密西西比" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "宾夕法尼亚级 / 新墨西哥级" } } }
 			ship = { name = "USS 爱达荷" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "宾夕法尼亚级 / 新墨西哥级" } } }
 			ship = { name = "USS 加利福尼亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "田纳西级" } } }
@@ -17,13 +17,13 @@
 		task_force = {
 			name = "第一巡洋舰大队"
 			location = 1572 ###Green Cove Springs
-			ship = { name = "USS 北安普敦" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
-			ship = { name = "USS 切斯特" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
-			ship = { name = "USS 休斯顿" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 北安普敦" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 切斯特" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 休斯顿" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
 			ship = { name = "USS 普韦布洛" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "匹兹堡级 / 孟菲斯级" } } }
 			ship = { name = "USS 克利夫兰" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "丹佛级" } } }
 			ship = { name = "USS 宪法" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = TEX version_name = "列克星敦级" } } }
-			ship = { name = "USS 芝加哥" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
+			ship = { name = "USS 芝加哥" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TEX version_name = "北安普敦级" } } }
 			ship = { name = "USS 特伦顿" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TEX version_name = "奥马哈级" } } }
 		}
 
@@ -63,7 +63,7 @@
 			name = "第二驱逐舰中队"
 			location = 1843 #Miami
 			#Leader
-			ship = { name = "USS 塞弗里奇" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TEX version_name = "波特级 / 索莫斯级" } } }
+			ship = { name = "USS 塞弗里奇" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = TEX version_name = "波特级 / 索莫斯级" } } }
 			#Division 19
 			ship = { name = "USS 麦考密克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
 			ship = { name = "USS 特鲁斯顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TEX version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }

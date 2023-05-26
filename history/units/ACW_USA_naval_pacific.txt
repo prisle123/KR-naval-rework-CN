@@ -6,7 +6,7 @@
 		task_force = {
 			name = "加勒比舰队"
 			location = 7617 ###NSB Coco Solo (Panama)
-			ship = { name = "USS 路易斯维尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "北安普敦级" } } }
+			ship = { name = "USS 路易斯维尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "北安普敦级" } } }
 			ship = { name = "USS 匹兹堡" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "匹兹堡级 / 孟菲斯级" } } }
 			ship = { name = "USS 宾夕法尼亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "宾夕法尼亚级 / 新墨西哥级" } } }
 			#Division 17

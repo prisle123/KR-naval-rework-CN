@@ -15,8 +15,8 @@
 		task_force = {
 			name = "巡洋舰支队"
 			location = 6845 #Philadelphia
-			ship = { name = "CNS 宪法" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = CSA version_name = "列克星敦级" } } }
-			ship = { name = "CNS 芝加哥" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "北安普敦级" } } }
+			ship = { name = "CNS 宪法" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = CSA version_name = "列克星敦级" } } }
+			ship = { name = "CNS 芝加哥" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CSA version_name = "北安普敦级" } } }
 			ship = { name = "CNS 特伦顿" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "奥马哈级" } } }
 			ship = { name = "CNS 得梅因" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "丹佛级" } } }
 			ship = { name = "CNS 查塔努加" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CSA version_name = "丹佛级" } } }
@@ -26,7 +26,7 @@
 			name = "第一驱逐舰支队"
 			location = 6845 #Philadelphia
 			#Leader
-			ship = { name = "CNS 塞弗里奇" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CSA version_name = "波特级 / 索莫斯级" } } }
+			ship = { name = "CNS 塞弗里奇" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = CSA version_name = "波特级 / 索莫斯级" } } }
 			#Division 19
 			ship = { name = "CNS 麦考密克" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
 			ship = { name = "CNS 特鲁斯顿" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "考德维尔 / 克莱门森 / 维克斯级" } } }
