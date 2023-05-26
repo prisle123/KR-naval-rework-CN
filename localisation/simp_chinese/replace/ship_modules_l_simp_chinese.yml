@@ -531,9 +531,9 @@
  ship_sonar_3_short: "拖拽式声呐"
  ship_sonar_3_desc: "拖拽式声呐也称可变深度声呐，其可在更深的水下工作以避免舰船本身噪音带来的影响。"
  
- ship_missile_1: "线控反舰导弹"
- ship_missile_1_short: "线控反舰导弹"
- ship_missile_1_desc: "使用线控的早期反舰导弹，其拥有极高的突防速度和毁伤能力。"
+ ship_missile_1: "无线电制导反舰导弹"
+ ship_missile_1_short: "无线电制导反舰导弹"
+ ship_missile_1_desc: "使用无线电制导的早期反舰导弹，其拥有极高的突防速度和毁伤能力。"
  
  pressure_hull_1: "耐压艇壳 I"
  pressure_hull_1_short: "耐压艇壳 I"
