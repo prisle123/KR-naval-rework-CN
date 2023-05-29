@@ -278,7 +278,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -314,7 +314,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1936
 
@@ -352,7 +352,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1940
 
@@ -391,7 +391,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1944
 
@@ -1168,7 +1168,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1940_module }
+			position = { x = -2 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -1211,7 +1211,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1944_module }
+			position = { x = -2 y = 21 }
 		}
 
 		ai_will_do = {
@@ -2597,7 +2597,7 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1925
 		
-		carrier_traffic = 0.05
+		carrier_traffic = 0.1
 		carrier_night_traffic = 0.05
 		
 		folder = {
@@ -2618,7 +2618,7 @@ technologies = {
 		research_cost = 0.75
 		start_year = 1934
 		
-		air_carrier_night_penalty_reduction_factor = 0.05
+		air_carrier_night_penalty_reduction_factor = 0.1
 		
 		folder = {
 			name = mtgnavalfolder
@@ -2699,7 +2699,7 @@ technologies = {
 	}
 
 	carrier_steam_catapult = {
-		research_cost = 2
+		research_cost = 1
 		start_year = 1944
 		
 		enable_equipment_modules = {
@@ -2722,7 +2722,7 @@ technologies = {
 	}
 
 	full_armored_carrier = {
-		research_cost = 2
+		research_cost = 1
 		start_year = 1944
 		
 		carrier = {
@@ -2745,7 +2745,7 @@ technologies = {
 	}
 
 	carrier_angled_deck = {
-		research_cost = 2
+		research_cost = 1
 		start_year = 1944
 		
 		enable_equipment_modules = {
@@ -3332,7 +3332,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_deck_space_small
 		}
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1941
 	}
 	super_carriers = {
@@ -3348,7 +3348,7 @@ technologies = {
 			carrier_angled_deck = 1
 			carrier_steam_catapult = 1
 		}
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1944
 	}
 
@@ -3357,7 +3357,8 @@ technologies = {
 			radio_detection = 1
 		}
 		path = {
-			leads_to_tech = 
+			leads_to_tech = ship_to_ship_missile
+			research_cost_coeff = 1
 		}
 		start_year = 1943
 		research_cost = 1.5
@@ -3386,7 +3387,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 6 }
 		}
 		dependencies = {
 			rocket_engines = 1

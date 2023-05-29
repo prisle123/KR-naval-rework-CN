@@ -56,18 +56,29 @@ guiTypes = {
 				pdx_tooltip = "SELECT_3D_MODEL"
 			}
 		}
+		
+		containerWindowType = {
+			name = "icon_bg_container"
+			position = { x=142 y=75 }
+			size = { width = 315 height = 73 }
 
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_research_bg"
+			}
+		}
+		
 		containerWindowType = {
 			name = "icon_selection_container"
-			position = { x=145 y=82 }
-			size = { width = 315 height = 60 }
+			position = { x=150 y=82 }
+			size = { width = 300 height = 58 }
 
 			background = {
 				name = "background"
 				spriteType = "rework_ship_icon_bg"
 				pdx_tooltip = "SELECT_2D_ICON"
 			}
-
+			
 			buttonType = {
 				name = "btn_equipment_icon"
 				position = { x = 0 y = 0 }

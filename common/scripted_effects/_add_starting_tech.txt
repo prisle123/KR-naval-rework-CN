@@ -61,6 +61,37 @@ add_starting_techs = {
             experimental_super_heavy_battery = 1
         }
     }
+	MAF = {
+        set_technology = {
+            interwar_ship_hull_light = 1
+            interwar_ship_hull_cruiser = 1
+            interwar_ship_hull_heavy = 1
+            large_destroyer_trend = 1
+            searchlight = 1
+            large_cruiser_trend = 1
+            early_cruiser_armor = 1
+            basic_cruiser_armor = 1
+            incremental_armor_scheme = 1
+            mixed_armor_scheme = 1
+            all_or_nothing_armor_scheme = 1
+            basic_torpedo_defense = 1
+            improved_torpedo_defense = 1
+            enhanced_horizontal_defense = 1
+            basic_heavy_armor = 1
+            dry_dock_expansion = 1
+            improved_conning_tower = 1
+            prototype_airplane_launcher = 1
+            landing_aid_system = 1
+            basic_periscope = 1
+            improved_periscope = 1
+            basic_ballast_tank = 1
+            cruiser_submarines = 1
+            midget_submarines = 1
+
+            basic_super_heavy_battery = 1
+            experimental_super_heavy_battery = 1
+        }
+    }
     ENG = {
         set_technology = {
             interwar_ship_hull_light = 1
@@ -186,6 +217,34 @@ add_starting_techs = {
             basic_super_heavy_battery = 1
         }
     }
+	AST = {
+        set_technology = {
+			basic_ship_hull_heavy = 1
+            interwar_ship_hull_light = 1
+            interwar_ship_hull_cruiser = 1
+            interwar_ship_hull_heavy = 1
+            searchlight = 1
+            large_cruiser_trend = 1
+            early_cruiser_armor = 1
+            basic_cruiser_armor = 1
+            incremental_armor_scheme = 1
+            mixed_armor_scheme = 1
+            all_or_nothing_armor_scheme = 1
+            basic_torpedo_defense = 1
+            improved_torpedo_defense = 1
+            enhanced_horizontal_defense = 1
+            basic_heavy_armor = 1
+            improved_conning_tower = 1
+            prototype_airplane_launcher = 1
+            landing_aid_system = 1
+            arresting_gear = 1
+            basic_periscope = 1
+            basic_ballast_tank = 1
+            cruiser_submarines = 1
+
+            basic_super_heavy_battery = 1
+        }
+    }
     FRA = {
         set_technology = {
 			basic_ship_hull_cruiser = 1
@@ -218,8 +277,10 @@ add_starting_techs = {
     }
     NFA = {
         set_technology = {
+			basic_ship_hull_cruiser = 1
             interwar_ship_hull_light = 1
             interwar_ship_hull_cruiser = 1
+			ship_hull_cruiser_panzerschiff = 1
             large_destroyer_trend = 1
             searchlight = 1
             large_cruiser_trend = 1
@@ -329,9 +390,27 @@ add_starting_techs = {
             basic_ballast_tank = 1
         }
     }
+	POR = {
+		set_technology = { basic_ship_hull_cruiser = 1 }
+	}
+	ARG = {
+		set_technology = { basic_ship_hull_cruiser = 1 }
+	}
+	PER = {
+		set_technology = { early_ship_hull_cruiser = 1 }
+	}
+	PER = {
+		set_technology = { early_ship_hull_cruiser = 1 }
+	}
+	CUB = {
+		set_technology = { early_ship_hull_cruiser = 1 }
+	}
+	URG = {
+		set_technology = { early_ship_hull_cruiser = 1 }
+	}
 }
 
-makeup_starting_tech = {
+makeup_starting_techs = {
 	every_country = {
         limit = { has_tech = early_ship_hull_carrier }
         set_technology = { prototype_airplane_launcher = 1 }

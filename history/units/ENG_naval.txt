@@ -166,7 +166,6 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "共和国级"
 		role_icon_index = 9
-		icon = "gfx/interface/technologies/UOB/ENG_carrier2.png"
 		type = ship_hull_carrier_1
 		name_group = ENG_REVOLUTIONARY_IDEALS
 		parent_version = 0

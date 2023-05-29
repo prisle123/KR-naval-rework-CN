@@ -24,6 +24,7 @@ every_possible_country = {
 }
 
 add_starting_techs = yes
+makeup_starting_techs = yes
 
 # set up ideology array
 add_to_array = { global.ideologies = token:totalist_subtype }

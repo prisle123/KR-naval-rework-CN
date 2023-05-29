@@ -3595,8 +3595,6 @@ USA_starting_tank_variants = {
 }
 
 USA_starting_naval_variants = {
-	set_technology = { super_heavy_battery = 1 }
-
 	create_equipment_variant = {
 		name = "鼠海豚级"
 		role_icon_index = 37
@@ -3765,7 +3763,7 @@ USA_starting_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "费城级"
-		type = ship_hull_cruiser_2
+		type = ship_hull_cruiser_3
 		name_group = USA_CITIES
 		role_icon_index = 25
 		modules = {
@@ -3851,7 +3849,6 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {					#Fictional Post WW1 Heavy Cruiser Design to replace aging Armoured Cruisers
 		name = "北安普敦级"
 		role_icon_index = 45
-		icon = "gfx/interface/technologies/USA/USA_heavy_cruiser_Northampton.png"
 		type = ship_hull_cruiser_2
 		name_group = USA_CITIES
 		modules = {
@@ -3969,7 +3966,6 @@ USA_starting_naval_variants = {
 	create_equipment_variant = {
 		name = "科罗拉多级"
 		role_icon_index = 3
-		icon = "gfx/interface/technologies/USA/USA_battleship_Colorado.png"
 		type = ship_hull_heavy_2
 		name_group = USA_STATES
 		modules = {

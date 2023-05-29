@@ -138,7 +138,7 @@ instant_effect = {
 			mid_2_custom_slot = ship_heavy_battery_2_triple
 		}
 	}
-	
+
 	create_equipment_variant = {
 		name = "不倦级"
 		role_icon_index = 15

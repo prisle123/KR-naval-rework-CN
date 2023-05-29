@@ -127,6 +127,10 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier4.png"
         	}
 			spriteType = {
+        		name = "GFX_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_escort_carrier.png"
+        	}
+			spriteType = {
         		name = "GFX_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_super_carrier.png"
         	}

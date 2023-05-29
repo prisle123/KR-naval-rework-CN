@@ -1480,7 +1480,6 @@ equipment_modules = {
 	# double medium heavy battery
 	ship_medium_heavy_battery_1_double = {
 		category = ship_medium_heavy_battery
-		gui_category = ship_medium_battery
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
@@ -1517,7 +1516,6 @@ equipment_modules = {
 	}
 	ship_medium_heavy_battery_2_double = {
 		category = ship_medium_heavy_battery
-		gui_category = ship_medium_battery
 		parent = ship_medium_heavy_battery_1_double
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1557,7 +1555,6 @@ equipment_modules = {
 	# triple medium heavy battery
 	ship_medium_heavy_battery_1 = {
 		category = ship_medium_heavy_battery
-		gui_category = ship_medium_battery
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
@@ -1594,7 +1591,6 @@ equipment_modules = {
 	}
 	ship_medium_heavy_battery_2 = {
 		category = ship_medium_heavy_battery
-		gui_category = ship_medium_battery
 		parent = ship_medium_heavy_battery_1
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -2936,7 +2932,6 @@ equipment_modules = {
 		category = sub_ship_engine
 		parent = sub_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
-		gfx = light_ship_engine_5
 
 		
 		add_stats = {
@@ -3247,8 +3242,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.55
-			
-			
 		}
 		
 		can_convert_from = {
@@ -3342,7 +3335,7 @@ equipment_modules = {
 	}
 	heavy_ship_engine_4_gas = {
 		category = heavy_ship_engine
-		gfx = gasoline_engine
+		gfx = tank_gas_turbine_engine
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -4528,6 +4521,7 @@ equipment_modules = {
 	}
 	ship_armor_cruiser_heavy_4 = {
 		category = ship_cruiser_heavy_armor
+		gfx = ship_armor_bc_4
 		parent = ship_armor_cruiser_heavy_3
 		multiply_stats = {
 			build_cost_ic = 0.18
@@ -4676,6 +4670,9 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 2300
+		}
+		multiply_stats = {
+			naval_speed = -0.1
 		}
 		dismantle_cost_ic = 1100
 	}
