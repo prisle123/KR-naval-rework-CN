@@ -2499,6 +2499,39 @@ equipment_modules = {
 			convert_cost_ic = 145
 		}
 	}
+	ship_fire_control_system_4 = {
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_fire_control_system_3
+		
+		add_stats = {
+			build_cost_ic = 600
+			naval_light_gun_hit_chance_factor = 0.125
+			naval_heavy_gun_hit_chance_factor = 0.125
+			surface_detection = 0.05
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.3
+		}
+		can_convert_from = {
+			module = ship_fire_control_system_3
+			convert_cost_ic = 150
+		}
+		can_convert_from = {
+			module_category = ship_fire_control_system
+			convert_cost_ic = 200
+		}
+	}
+	ship_sub_torpedo_computer = {
+		category = sub_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 150
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+	}
 
 
 ###   ##  ###   ##  ###  
