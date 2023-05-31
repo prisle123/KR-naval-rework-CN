@@ -660,4 +660,13 @@ spriteTypes = {
 		name = "GFX_SMI_ship_medium_heavy_battery_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_heavy_battery2.png"
 	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_torpedo_computer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer.png"
+	}
 }

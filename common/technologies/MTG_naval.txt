@@ -495,7 +495,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = sound_surveillance_system
-			research_cost = 1
+			research_cost_coeff = 1
 		}
 		research_cost = 1
 		
@@ -528,13 +528,13 @@ technologies = {
 	sound_surveillance_system = {
 		research_cost = 2
 
-		naval_detection = 0.2
+		navy_submarine_detection_factor = 0.2
 		
 		start_year = 1946
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 21 }
+			position = { x = 1 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -1134,10 +1134,10 @@ technologies = {
 		research_cost = 0.5
 
 		heavy_cruiser = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.1
 		}
 		light_cruiser = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.1
 		}
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_aa
@@ -1861,6 +1861,10 @@ technologies = {
 			leads_to_tech = radar_jammer
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = combat_information_center
+			research_cost_coeff = 1
+		}
 
 		start_year = 1944
 
@@ -2268,13 +2272,13 @@ technologies = {
 		start_year = 1943
 		
 		battleship = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.1
 		}
 		battle_cruiser = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.1
 		}
 		SH_battleship = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.1
 		}
 
 		folder = {
@@ -2324,7 +2328,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1944_module }
+			position = { x = 3 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2356,7 +2360,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1944_module }
+			position = { x = -1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2380,7 +2384,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1944_module }
+			position = { x = -3 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2406,7 +2410,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1944_module }
+			position = { x = 1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2855,7 +2859,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = diesel_electric_transimission
+			leads_to_tech = diesel_electric_transmission
 			research_cost_coeff = 1
 		}
 
@@ -3106,7 +3110,7 @@ technologies = {
 		}
 	}
 
-	diesel_electric_transimission = {
+	diesel_electric_transmission = {
 		research_cost = 0.75
 
 		start_year = 1914
@@ -3146,7 +3150,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1940_module }
+			position = { x = -2 y = @1932_module }
 		}
 		dependencies = {
 			mechanical_computing = 1
@@ -3175,13 +3179,11 @@ technologies = {
 
 		start_year = 1939
 
-		submarine = {
-			naval_torpedo_cooldown_factor = -0.1
-		}
+		naval_torpedo_cooldown_factor = -0.1
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1940_module }
+			position = { x = 0 y = @1932_module }
 		}
 
 		ai_will_do = {
@@ -3299,7 +3301,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1932 }
+			position = { x = -3 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -3353,7 +3355,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1932 }
+			position = { x = 1 y = @1932 }
 		}
 
 		ai_will_do = {

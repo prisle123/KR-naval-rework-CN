@@ -2508,11 +2508,11 @@ equipment_modules = {
 			build_cost_ic = 600
 			naval_light_gun_hit_chance_factor = 0.125
 			naval_heavy_gun_hit_chance_factor = 0.125
-			surface_detection = 0.05
 		}
 		
 		multiply_stats = {
 			anti_air_attack = 0.3
+			surface_detection = 0.05
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_3
@@ -3950,7 +3950,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_1
 		
 		multiply_stats = {
-			sub_visibility = -0.5
+			sub_visibility = -0.05
 		}
 		
 		add_stats = {
@@ -4920,7 +4920,7 @@ equipment_modules = {
     	multiply_stats = {
         	max_strength = 0.2
         	naval_speed = -0.1
-        	build_cost_ic = 0.8
+        	build_cost_ic = 0.3
     	}
 	}
 	ship_hull_cruiser_role_c = {

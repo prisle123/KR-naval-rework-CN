@@ -302,4 +302,25 @@ spriteTypes = {
 		name = "GFX_multi_mounted_battery_medium"
 		texturefile = "gfx/interface/technologies/basic_battery.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_sound_surveillance_system_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/sosus.png"
+	}
+	spriteType = {
+		name = "GFX_combat_information_center_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/combat_information_center.png"
+	}
+	spriteType = {
+		name = "GFX_torpedo_computer_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/torpedo_computer.png"
+	}
+	spriteType = {
+		name = "GFX_torpedo_loader_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/torpedo_loader.png"
+	}
+	spriteType = {
+		name = "GFX_diesel_electric_transmission_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/diesel_electric_transmission.png"
+	}
 }

@@ -156,6 +156,10 @@ spriteTypes = {
         		name = "GFX_ship_hull_cruiser_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_cruiser_submarine.png"
         	}
+			spriteType = {
+        		name = "GFX_ship_hull_midget_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_midget_submarine.png"
+        	}
 			
 
 ### generic tech ###
