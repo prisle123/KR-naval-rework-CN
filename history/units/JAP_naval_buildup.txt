@@ -19,8 +19,7 @@
 	create_equipment_variant = {
 		name = "河内级"
 		role_icon_index = 1
-		icon = "gfx/interface/technologies/Japan/JAP_battleship_Kawachi.png"
-		type = ship_hull_heavy_2
+		type = ship_hull_heavy_3
 		name_group = JAP_PREFECTURES
 		parent_version = 0
 		modules = {
@@ -67,7 +66,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = "JAP"
 			version_name = "河内级"
 		}
@@ -79,7 +78,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_heavy_2
+			type = ship_hull_heavy_3
 			creator = "JAP"
 			version_name = "河内级"
 		}

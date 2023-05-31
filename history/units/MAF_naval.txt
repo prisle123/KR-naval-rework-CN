@@ -17,16 +17,16 @@ units = {
 			ship = { name = "SMS V 28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MAF version_name = "S113级" } } }
 			ship = { name = "SMS V 29" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MAF version_name = "S113级" } } }
 			ship = { name = "SMS V 30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MAF version_name = "S113级" } } }
-			ship = { name = "SMS B 305" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS B 306" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS B 307" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS B 308" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS B 309" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS S 300" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS S 301" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS S 302" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS S 303" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
-			ship = { name = "SMS S 304" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS B 305" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS B 306" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS B 307" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS B 308" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS B 309" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS S 300" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS S 301" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS S 302" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS S 303" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
+			ship = { name = "SMS S 304" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = MAF version_name = "H279级" } } }
 		}
 	}
 	

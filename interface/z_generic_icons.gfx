@@ -18,6 +18,10 @@ spriteTypes = {
         		name = "GFX_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer4.png"
         	}
+			spriteType = {
+        		name = "GFX_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -35,6 +39,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser4.png"
+        	}
+			spriteType = {
+        		name = "GFX_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser5.png"
         	}
 	# heavy cruiser
 
@@ -57,6 +65,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ship_hull_cruiser_4_capital_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_heavy_cruiser4.png"
+        	}
+			spriteType = {
+        		name = "GFX_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_heavy_cruiser5.png"
         	}
         	spriteType = {
         		name = "GFX_ship_hull_cruiser_panzerschiff_medium"
@@ -84,6 +96,10 @@ spriteTypes = {
         		name = "GFX_ship_hull_heavy_4_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship4.png"
         	}
+			spriteType = {
+        		name = "GFX_ship_hull_heavy_5_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_battleship5.png"
+        	}
         	spriteType = {
         		name = "GFX_ship_hull_super_heavy_1_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_heavy_battleship1.png"
@@ -110,6 +126,14 @@ spriteTypes = {
         		name = "GFX_ship_hull_carrier_3_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier4.png"
         	}
+			spriteType = {
+        		name = "GFX_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_escort_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_ship_hull_super_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_super_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -132,6 +156,10 @@ spriteTypes = {
         		name = "GFX_ship_hull_cruiser_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_cruiser_submarine.png"
         	}
+			spriteType = {
+        		name = "GFX_ship_hull_midget_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_midget_submarine.png"
+        	}
 			
 
 ### generic tech ###
@@ -145,13 +173,17 @@ spriteTypes = {
         		name = "GFX_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer2.png"
         	}
-        	spriteType = {
-        		name = "GFX_improved_ship_hull_light_medium"
+			spriteType = {
+        		name = "GFX_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_ship_hull_light_medium"
+        		name = "GFX_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_destroyer5.png"
         	}
 	# cruiser
 
@@ -163,13 +195,17 @@ spriteTypes = {
         		name = "GFX_basic_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser2.png"
         	}
-        	spriteType = {
-        		name = "GFX_improved_ship_hull_cruiser_medium"
+			spriteType = {
+        		name = "GFX_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser5.png"
         	}
 	# battleship
 
@@ -181,13 +217,17 @@ spriteTypes = {
         		name = "GFX_basic_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship2.png"
         	}
-        	spriteType = {
-        		name = "GFX_improved_ship_hull_heavy_medium"
+			spriteType = {
+        		name = "GFX_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_advanced_ship_hull_heavy_medium"
+        		name = "GFX_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_battleship5.png"
         	}
 	# carrier
 

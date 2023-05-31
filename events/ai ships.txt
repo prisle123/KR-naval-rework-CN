@@ -18,7 +18,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "兴登堡级"
 				role_icon_index = 1
-				type = ship_hull_heavy_3
+				type = ship_hull_heavy_4
 				parent_version = 0
 				name_group = GER_BB_IMPERIAL
 				modules = {
@@ -42,7 +42,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "柯尼斯堡级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_3
+				type = ship_hull_cruiser_4
 				parent_version = 0
 				name_group = GER_CL_IMPERIAL
 				modules = {
@@ -64,7 +64,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "V350级"
 				role_icon_index = 31
-				type = ship_hull_light_3
+				type = ship_hull_light_4
 				parent_version = 0
 				name_group = GER_DD_IMPERIAL
 				modules = {
@@ -144,7 +144,7 @@ country_event = {
 		GER = {
 			create_equipment_variant = {
 				name = "拿骚级"
-				type = ship_hull_heavy_4
+				type = ship_hull_heavy_5
 				parent_version = 0
 				name_group = GER_BB_IMPERIAL
 				modules = {
@@ -186,7 +186,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "不来梅级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = GER_CL_IMPERIAL
 				modules = {
@@ -209,7 +209,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "T550级"
 				role_icon_index = 31
-				type = ship_hull_light_4
+				type = ship_hull_light_5
 				parent_version = 0
 				name_group = GER_DD_IMPERIAL
 				modules = {
@@ -252,7 +252,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "反抗级"
 				role_icon_index = 1
-				type = ship_hull_heavy_3
+				type = ship_hull_heavy_4
 				parent_version = 0
 				name_group = ENG_BB_COMMUNISM
 				modules = {
@@ -293,7 +293,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "黛朵级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_3
+				type = ship_hull_cruiser_4
 				parent_version = 0
 				name_group = ENG_CL_MYTHOLOGY
 				modules = {
@@ -315,7 +315,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "L/M级"
 				role_icon_index = 31
-				type = ship_hull_light_3
+				type = ship_hull_light_4
 				parent_version = 0
 				name_group = ENG_DD_ALPHABETICAL
 				modules = {
@@ -359,7 +359,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "狮级"
 				role_icon_index = 1
-				type = ship_hull_heavy_4
+				type = ship_hull_heavy_5
 				parent_version = 0
 				name_group = ENG_BB_COMMUNISM
 				modules = {
@@ -402,7 +402,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "海王星级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = ENG_CL_MYTHOLOGY 
 				modules = {
@@ -425,7 +425,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "O/P级"
 				role_icon_index = 31
-				type = ship_hull_light_4
+				type = ship_hull_light_5
 				parent_version = 0
 				name_group = ENG_DD_ALPHABETICAL
 				modules = {
@@ -467,7 +467,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "大和级"
 				role_icon_index = 3
-				type = ship_hull_heavy_3
+				type = ship_hull_heavy_4
 				parent_version = 0
 				name_group = JAP_PREFECTURES
 				modules = {
@@ -508,7 +508,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "利根型"
 				role_icon_index = 25
-				type = ship_hull_cruiser_3
+				type = ship_hull_cruiser_4
 				parent_version = 0
 				name_group = JAP_MOUNTAIN 
 				modules = {
@@ -531,7 +531,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "阳炎型"
 				role_icon_index = 31
-				type = ship_hull_light_3
+				type = ship_hull_light_4
 				parent_version = 0
 				name_group = JAP_WEATHER 
 				modules = {
@@ -572,7 +572,7 @@ country_event = {
 			
 			create_equipment_variant = {
 				name = "肥前级"
-				type = ship_hull_heavy_4
+				type = ship_hull_heavy_5
 				parent_version = 0
 				name_group = JAP_PREFECTURES
 				modules = {
@@ -614,7 +614,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "吾妻级"
 				role_icon_index = 27
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = JAP_MOUNTAIN 
 				modules = {
@@ -637,7 +637,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "藏王级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = JAP_MOUNTAIN 
 				modules = {
@@ -660,7 +660,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "岛风型"
 				role_icon_index = 31
-				type = ship_hull_light_4
+				type = ship_hull_light_5
 				parent_version = 0
 				name_group = JAP_WEATHER
 				modules = {
@@ -703,7 +703,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "弗吉尼亚级"
 				role_icon_index = 1
-				type = ship_hull_heavy_3
+				type = ship_hull_heavy_4
 				parent_version = 0
 				name_group = USA_STATES
 				modules = {
@@ -744,7 +744,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "克利夫兰级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_3
+				type = ship_hull_cruiser_4
 				parent_version = 0
 				name_group = USA_CITIES 
 				modules = {
@@ -766,7 +766,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "弗莱彻级"
 				role_icon_index = 31
-				type = ship_hull_light_3
+				type = ship_hull_light_4
 				parent_version = 0
 				name_group = USA_HEROES_NAVY 
 				modules = {
@@ -809,7 +809,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "蒙大拿级"
 				role_icon_index = 1
-				type = ship_hull_heavy_4
+				type = ship_hull_heavy_5
 				parent_version = 0
 				name_group = USA_STATES
 				modules = {
@@ -874,7 +874,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "法戈级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = USA_CITIES 
 				modules = {
@@ -897,7 +897,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "基林级"
 				role_icon_index = 31
-				type = ship_hull_light_4
+				type = ship_hull_light_5
 				parent_version = 0
 				name_group = USA_HEROES_NAVY 
 				modules = {
@@ -938,7 +938,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "弗吉尼亚级"
 				role_icon_index = 1
-				type = ship_hull_heavy_3
+				type = ship_hull_heavy_4
 				parent_version = 0
 				name_group = CSA_STATES
 				modules = {
@@ -979,7 +979,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "克利夫兰级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_3
+				type = ship_hull_cruiser_4
 				parent_version = 0
 				name_group = CSA_CITIES 
 				modules = {
@@ -1001,7 +1001,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "弗莱彻级"
 				role_icon_index = 31
-				type = ship_hull_light_3
+				type = ship_hull_light_4
 				parent_version = 0
 				name_group = CSA_HEROES_ACW
 				modules = {
@@ -1042,7 +1042,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "蒙大拿级"
 				role_icon_index = 1
-				type = ship_hull_heavy_4
+				type = ship_hull_heavy_5
 				parent_version = 0
 				name_group = CSA_STATES
 				modules = {
@@ -1107,7 +1107,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "法戈级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = CSA_CITIES 
 				modules = {
@@ -1130,7 +1130,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "基林级"
 				role_icon_index = 31
-				type = ship_hull_light_4
+				type = ship_hull_light_5
 				parent_version = 0
 				name_group = CSA_HEROES_ACW
 				modules = {
@@ -1170,7 +1170,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "阿尔萨斯级"
 				role_icon_index = 1
-				type = ship_hull_heavy_3
+				type = ship_hull_heavy_4
 				parent_version = 0
 				name_group = FRA_BB_HISTORICAL
 				modules = {
@@ -1193,7 +1193,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "弗雷瑞斯级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_3
+				type = ship_hull_cruiser_4
 				parent_version = 0
 				name_group = FRA_CITIES 
 				modules = {
@@ -1215,7 +1215,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "拉斐特级"
 				role_icon_index = 31
-				type = ship_hull_light_3
+				type = ship_hull_light_4
 				parent_version = 0
 				name_group = FRA_DD_HISTORICAL
 				modules = {
@@ -1255,7 +1255,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "卡尔·马克思级"
 				role_icon_index = 1
-				type = ship_hull_heavy_4
+				type = ship_hull_heavy_5
 				parent_version = 0
 				name_group = FRA_MARTYRS
 				modules = {
@@ -1297,7 +1297,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "贡比涅级"
 				role_icon_index = 25
-				type = ship_hull_cruiser_4
+				type = ship_hull_cruiser_5
 				parent_version = 0
 				name_group = FRA_CITIES 
 				modules = {
@@ -1320,7 +1320,7 @@ country_event = {
 			create_equipment_variant = {
 				name = "地平线级"
 				role_icon_index = 31
-				type = ship_hull_light_4
+				type = ship_hull_light_5
 				parent_version = 0
 				name_group = FRA_DE_HISTORICAL
 				modules = {
@@ -1440,21 +1440,38 @@ country_event = {
 				limit = {
 					is_ai = yes
 				}
-				set_technology = { improved_ship_hull_heavy = 1 }
-				set_technology = { improved_ship_hull_light = 1 }
-				set_technology = { improved_ship_hull_cruiser = 1 }
-				set_technology = { antiair2 = 1 }
-				set_technology = { improved_fire_control_system = 1 }
-				set_technology = { decimetric_radar = 1 }
-				set_technology = { basic_dp_light_battery = 1 }
-				set_technology = { improved_heavy_battery = 1 }
-				set_technology = { improved_medium_battery = 1 }
-				set_technology = { improved_light_battery = 1 }
-				set_technology = { advanced_ship_torpedo_launcher = 1 }
-				set_technology = { improved_heavy_armor_scheme = 1 }
-				set_technology = { improved_ship_hull_carrier = 1 }
-				set_technology = { antiair3 = 1 }
-				set_technology = { improved_decimetric_radar = 1 }
+				set_technology = {
+					improved_ship_hull_heavy = 1 
+					improved_ship_hull_light = 1 
+					improved_ship_hull_cruiser = 1 
+					antiair2 = 1 
+					antiair3 = 1 
+					improved_fire_control_system = 1 
+					decimetric_radar = 1 
+					improved_decimetric_radar = 1 
+					basic_dp_light_battery = 1 
+					improved_heavy_battery = 1
+					improved_super_heavy_battery = 1
+					improved_medium_battery = 1 
+					improved_medium_heavy_battery = 1 
+					improved_light_battery = 1 
+					advanced_ship_torpedo_launcher = 1 
+					improved_ship_hull_carrier = 1
+					improved_cruiser_armor = 1 
+					advanced_torpedo_defense = 1
+					improved_heavy_armor = 1
+					all_or_nothing_armor_scheme = 1
+					sonar = 1
+					improved_sonar = 1
+					improved_depth_charges = 1
+					escort_carriers_ship = 1
+					destroyer_cruiser_trend = 1
+					improved_periscope = 1
+
+					basic_light_shell = 1
+					basic_medium_shell = 1
+					basic_heavy_shell = 1
+				}
 			}
 		}
 		set_global_flag = naval_tech_1940
@@ -1488,23 +1505,72 @@ country_event = {
 				limit = {
 					is_ai = yes
 				}
-				set_technology = { advanced_ship_hull_carrier = 1 }
-				set_technology = { advanced_ship_hull_heavy = 1 }
-				set_technology = { advanced_ship_hull_cruiser = 1 }
-				set_technology = { advanced_ship_hull_light = 1 }
-				set_technology = { antiair4 = 1 }
-				set_technology = { antiair5 = 1 }
-				set_technology = { advanced_fire_control_system = 1 }
-				set_technology = { centimetric_radar = 1 }
-				set_technology = { advanced_dp_light_battery = 1 }
-				set_technology = { advanced_heavy_battery = 1 }
-				set_technology = { advanced_medium_battery = 1 }
-				set_technology = { advanced_light_battery = 1 }
-				set_technology = { advanced_heavy_armor_scheme = 1 }
-				set_technology = { modern_ship_torpedo_launcher = 1 }
-				set_technology = { modern_carrier_equipments = 1 }
+				set_technology = {
+					advanced_ship_hull_carrier = 1 
+					advanced_ship_hull_heavy = 1 
+					advanced_ship_hull_cruiser = 1 
+					advanced_ship_hull_light = 1 
+					antiair4 = 1 
+					antiair5 = 1 
+					advanced_fire_control_system = 1 
+					centimetric_radar = 1 
+					advanced_dp_light_battery = 1 
+					advanced_heavy_battery = 1 
+					advanced_medium_battery = 1 
+					advanced_light_battery = 1
+					advanced_heavy_armor = 1
+					advanced_cruiser_armor = 1
+					all_or_nothing_armor_box_armor_scheme = 1
+					advanced_sonar = 1
+					advanced_depth_charges = 1
+					modern_depth_charges = 1
+					advanced_periscope = 1
+
+					modern_ship_torpedo_launcher = 1
+					modern_carrier_equipments = 1
+				}
 			}
 		}
 		set_global_flag = naval_tech_1943
+	}
+}
+
+country_event = {
+	id = ai_ships.103
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1944.6.1
+		NOT = { has_global_flag = naval_tech_1944 }
+	}
+	immediate = {
+		add_to_temp_array = { temp_naval_countries = GER }
+		add_to_temp_array = { temp_naval_countries = GEA }
+		add_to_temp_array = { temp_naval_countries = USA }
+		add_to_temp_array = { temp_naval_countries = CSA }
+		add_to_temp_array = { temp_naval_countries = TEX }
+		add_to_temp_array = { temp_naval_countries = PSA }
+		add_to_temp_array = { temp_naval_countries = ENG }
+		add_to_temp_array = { temp_naval_countries = FRA }
+		add_to_temp_array = { temp_naval_countries = GBR }
+		add_to_temp_array = { temp_naval_countries = JAP }
+		add_to_temp_array = { temp_naval_countries = CAN }
+		add_to_temp_array = { temp_naval_countries = NFA }
+		for_each_scope_loop = {
+			array = temp_naval_countries
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					full_armored_carrier = 1
+					carrier_steam_catapult = 1
+					carrier_angled_deck = 1
+					super_carriers = 1
+					anechoic_tile = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1944
 	}
 }

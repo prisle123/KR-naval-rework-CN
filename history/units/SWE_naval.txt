@@ -249,6 +249,7 @@ instant_effect = {
 			version_name = "艾伦斯科德级 / 哥德堡级"
 		}
 		name = "HMS 马尔默"
+		amount = 1
 		requested_factories = 1
 		progress = 0.3
 	}
@@ -259,6 +260,7 @@ instant_effect = {
 			version_name = "艾伦斯科德级 / 哥德堡级"
 		}
 		name = "HMS 卡尔斯克鲁纳"
+		amount = 1
 		requested_factories = 1
 		progress = 0.3
 	}
@@ -269,6 +271,7 @@ instant_effect = {
 			version_name = "艾伦斯科德级 / 哥德堡级"
 		}
 		name = "HMS 北雪平"
+		amount = 1
 		requested_factories = 1
 		progress = 0.3
 	}
@@ -279,6 +282,7 @@ instant_effect = {
 			version_name = "艾伦斯科德级 / 哥德堡级"
 		}
 		name = "HMS 耶夫勒"
+		amount = 1
 		requested_factories = 1
 		progress = 0.3
 	}

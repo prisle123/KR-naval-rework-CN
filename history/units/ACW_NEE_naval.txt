@@ -6,7 +6,7 @@
 			name = "巡逻舰队"
 			location = 6732 #Boston
 			#Leader
-			ship = { name = "NES 麦道加" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "波特级 / 索莫斯级" } } }
+			ship = { name = "NES 麦道加" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = NEE version_name = "波特级 / 索莫斯级" } } }
 			#Division 4
 			ship = { name = "NES 法拉格特" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }
 			ship = { name = "NES 杜威" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NEE version_name = "法拉格特级 / 马汉级" } } }

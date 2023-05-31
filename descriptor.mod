@@ -11,5 +11,5 @@ tags={
 }
 name="KR navy rework (CN ver.)"
 picture="thumbnail.png"
-supported_version="1.12.12"
+supported_version="1.12.14"
 remote_file_id="2860531377"

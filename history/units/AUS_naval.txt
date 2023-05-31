@@ -5,7 +5,7 @@ instant_effect = {
 	create_equipment_variant = { #modern screen dd
 		name = "彗星级"
 		role_icon_index = 31
-		type = ship_hull_light_2
+		type = ship_hull_light_3
 		name_group = AUS_DD_T_C_ZERSTORER
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2_double
@@ -14,6 +14,7 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
+			fixed_ship_role_slot = ship_hull_light_role_dl
 			front_1_custom_slot = ship_light_battery_2_double
 			mid_1_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_depth_charge_1
@@ -40,7 +41,7 @@ instant_effect = {
 
 	create_equipment_variant = { #oldest dd in arsenal -nearly Torpedoboat
 		name = "塔特拉级"
-		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
 		role_icon_index = 29
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_M_ZERSTORER
@@ -60,7 +61,7 @@ instant_effect = {
 
 	create_equipment_variant = { #bigger old tbd
 		name = "特里格拉夫级"
-		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer_Triglav.png"
+		icon = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
 		role_icon_index = 31
 		type = ship_hull_light_1
 		name_group = AUS_DD_T_MC_ZERSTORER
@@ -214,7 +215,7 @@ instant_effect = {
 	create_equipment_variant = { #modern light cruiser coopearation with Italian Dockyards
 		name = "库斯托扎级"
 		role_icon_index = 25
-		type = ship_hull_cruiser_2
+		type = ship_hull_cruiser_3
 		name_group = AUS_C_T_B_Kreuzer
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2_double
@@ -360,10 +361,10 @@ units = {
 			ship = { name = "SMS 匈雅提" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "匈雅提级" } } }
 			ship = { name = "SMS 皇帝约瑟夫·弗朗茨" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "匈雅提级" } } }
 			ship = { name = "SMS 圣瓦茨拉夫" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "匈雅提级" } } }
-			ship = { name = "SMS 闪电" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
-			ship = { name = "SMS 流星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
-			ship = { name = "SMS 彗星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
-			ship = { name = "SMS 行星" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "彗星级" } } }
+			ship = { name = "SMS 闪电" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "彗星级" } } }
+			ship = { name = "SMS 流星" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "彗星级" } } }
+			ship = { name = "SMS 彗星" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "彗星级" } } }
+			ship = { name = "SMS 行星" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = AUS version_name = "彗星级" } } }
 			ship = { name = "SMS 龙骑兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
 			ship = { name = "SMS 枪骑兵" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "龙骑兵级" } } }
 			ship = { name = "SMS 利卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "特里格拉夫级" } } }
@@ -388,8 +389,8 @@ units = {
 			ship = { name = "SMS 潘杜军团" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
 			ship = { name = "SMS 里耶卡" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
 			ship = { name = "SMS 狙击手" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "骠骑兵级" } } }
-			ship = { name = "SMS 库斯托扎" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
-			ship = { name = "SMS 利萨" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
+			ship = { name = "SMS 库斯托扎" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
+			ship = { name = "SMS 利萨" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = AUS version_name = "库斯托扎级" } } }
 		}
 
 		task_force = {
@@ -524,7 +525,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "AUS"
 			version_name = "彗星级"
 		}
@@ -535,7 +536,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "AUS"
 			version_name = "彗星级"
 		}

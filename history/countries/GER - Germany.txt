@@ -31,6 +31,7 @@ set_technology = {
 	### Artillery ###
 	gw_artillery = 1
 	interwar_antiair = 1
+	interwar_antitank = 1
 
 	### Industry ###
 	fuel_silos = 1
@@ -339,20 +340,10 @@ recruit_character = GER_walter_dornberger
 recruit_character = GER_werner_heisenberg
 
 ### Character Flags ###
-every_character = {
-	limit = {
-		can_be_country_leader = yes
-		NOT = {
-			is_character = GER_wilhelm_ii
-			is_character = GER_wilhelm_iii
-			is_character = GER_willi_munzenberg
-		}
-	}
-	set_character_flag = GER_republican_leader
-}
-GER_heinz_guderian = {
-	set_nationality = POL
-}
+GER_wilhelm_ii = { set_character_flag = is_monarch }
+GER_wilhelm_iii = { set_character_flag = is_monarch }
+GER_wilhelm_iv = { set_character_flag = is_monarch }
+GER_heinz_guderian = { set_nationality = POL }
 
 ### Operatives ###
 if = {
