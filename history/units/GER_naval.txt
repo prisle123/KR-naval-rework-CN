@@ -460,6 +460,7 @@ instant_effect = {
 			creator = "GER"
 			version_name = "布吕歇尔级"
 		}
+		name = "SMS 奥古斯特王储"
 		requested_factories = 1
 		progress = 0.3
 		amount = 1
@@ -470,6 +471,7 @@ instant_effect = {
 			creator = "GER"
 			version_name = "布吕歇尔级"
 		}
+		name = "SMS 腓特烈一世国王"
 		requested_factories = 1
 		progress = 0.3
 		amount = 1

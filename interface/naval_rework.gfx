@@ -67,7 +67,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
-		texturefile = "gfx/interface/ship_icon_blueprint.dds"
+		textureFile = "gfx/interface/ship_icon_blueprint.dds"
 		size= { x=32 y=32 }
 		borderSize = { x=5 y=5 }
 	}
@@ -77,5 +77,14 @@ spriteTypes = {
 		textureFile ="gfx//interface//tiled_research_red_bg.dds"
 		borderSize = { x=32 y=32 }
 		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_navy_intro"
+		textureFile = "gfx/introscreen/navy_intro.png"
+	}
+	spriteType = {
+		name = "GFX_navy_splash_intro"
+		textureFile = "gfx/introscreen/navy_rework_splash.png"
 	}
 }

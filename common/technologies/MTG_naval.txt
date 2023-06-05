@@ -65,6 +65,9 @@ technologies = {
 		enable_equipments = {
 			ship_hull_light_2
 		}
+		enable_equipment_modules = {
+			light_ship_engine_2
+		}
 
 		path = {
 			leads_to_tech = interwar_ship_hull_light
@@ -112,7 +115,7 @@ technologies = {
 			ship_hull_light_3
 		}
 		enable_equipment_modules = {
-			light_ship_engine_2
+			light_ship_engine_3
 			light_ship_engine_2_diesel
 		}
 		path = {
@@ -157,7 +160,7 @@ technologies = {
 			ship_hull_light_4
 		}
 		enable_equipment_modules = {
-			light_ship_engine_3
+			light_ship_engine_4
 			light_ship_engine_3_diesel
 		}
 
@@ -203,7 +206,7 @@ technologies = {
 			ship_hull_light_5
 		}
 		enable_equipment_modules = {
-			light_ship_engine_4
+			light_ship_engine_5
 			light_ship_engine_4_diesel
 		}
 
@@ -554,7 +557,7 @@ technologies = {
 	high_speed_light_engine = {
 		research_cost = 1
 		enable_equipment_modules = {
-			light_ship_engine_5
+			light_ship_engine_6
 		}
 
 		start_year = 1928
@@ -695,6 +698,9 @@ technologies = {
 		enable_equipments = {
 			ship_hull_cruiser_2
 		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_2
+		}
 
 		path = {
 			leads_to_tech = interwar_ship_hull_cruiser
@@ -737,7 +743,7 @@ technologies = {
 			ship_hull_cruiser_3
 		}
 		enable_equipment_modules = {
-			cruiser_ship_engine_2
+			cruiser_ship_engine_3
 			cruiser_ship_engine_2_diesel
 		}
 
@@ -788,7 +794,7 @@ technologies = {
 			ship_hull_cruiser_4
 		}
 		enable_equipment_modules = {
-			cruiser_ship_engine_3
+			cruiser_ship_engine_4
 			cruiser_ship_engine_3_diesel
 		}
 		path = {
@@ -830,7 +836,7 @@ technologies = {
 			ship_hull_cruiser_5
 		}
 		enable_equipment_modules = {
-			cruiser_ship_engine_4
+			cruiser_ship_engine_5
 			cruiser_ship_engine_4_diesel
 		}
 		path = {
@@ -1385,7 +1391,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.25
 
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = mtgnavalfolder
@@ -1656,6 +1662,9 @@ technologies = {
 		enable_equipments = {
 			ship_hull_heavy_2
 		}
+		enable_equipment_modules = {
+			heavy_ship_engine_2
+		}
 
 		path = {
 			leads_to_tech = interwar_ship_hull_heavy
@@ -1739,7 +1748,7 @@ technologies = {
 			ship_hull_heavy_3
 		}
 		enable_equipment_modules = {
-			heavy_ship_engine_2
+			heavy_ship_engine_3
 			heavy_ship_engine_2_diesel
 		}
 		path = {
@@ -1789,7 +1798,7 @@ technologies = {
 			ship_hull_heavy_4
 		}
 		enable_equipment_modules = {
-			heavy_ship_engine_3
+			heavy_ship_engine_4
 			heavy_ship_engine_3_diesel
 		}
 		path = {
@@ -1843,7 +1852,7 @@ technologies = {
 			ship_hull_heavy_5
 		}
 		enable_equipment_modules = {
-			heavy_ship_engine_4
+			heavy_ship_engine_5
 			heavy_ship_engine_4_diesel
 		}
 		research_cost = 1.5

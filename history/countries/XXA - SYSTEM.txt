@@ -26,6 +26,13 @@ every_possible_country = {
 add_starting_techs = yes
 makeup_starting_techs = yes
 
+GEA = { GER_add_naval_variants = yes }
+MAF = { GER_add_naval_variants = yes }
+
+every_country = {
+	set_variable = { navy_rework_welcome_splash_variable = 1 }
+}
+
 # set up ideology array
 add_to_array = { global.ideologies = token:totalist_subtype }
 add_to_array = { global.ideologies = token:syndicalist_subtype }
