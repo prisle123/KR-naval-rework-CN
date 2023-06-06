@@ -1,6 +1,6 @@
 sub_units = {
 	armored_cruiser = {
-		sprite = armored_cruiser
+		sprite = heavy_cruiser
 		map_icon_category = ship
 		priority = 7
 		active = yes

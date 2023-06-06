@@ -1,0 +1,64 @@
+add_namespace = austral
+
+# First part of fleet upgraded
+country_event = {
+	id = austral.211
+	title = austral.211.t
+	desc = austral.211.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes
+
+	trigger = {
+		285 = { is_owned_and_controlled_by = AST } #New South Wales
+	}
+
+	option = {
+		name = austral.211.a
+		load_oob = AST_upgrade1
+		hidden_effect = {
+			country_event = { id = austral.212 days = 60 }
+		}
+	}
+}
+
+# Second part of fleet upgraded
+country_event = {
+	id = austral.212
+	title = austral.212.t
+	desc = austral.212.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes
+
+	trigger = {
+		285 = { is_owned_and_controlled_by = AST } #New South Wales
+	}
+
+	option = {
+		name = austral.211.a
+		load_oob = AST_upgrade2
+		hidden_effect = {
+			country_event = { id = austral.213 days = 60 }
+		}
+	}
+}
+
+# Third part of fleet upgraded
+country_event = {
+	id = austral.213
+	title = austral.213.t
+	desc = austral.213.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes
+
+	trigger = {
+		285 = { is_owned_and_controlled_by = AST } #New South Wales
+	}
+
+	option = {
+		name = austral.211.a
+		load_oob = AST_upgrade3
+	}
+}

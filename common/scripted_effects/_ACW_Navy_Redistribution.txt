@@ -1,0 +1,871 @@
+USA_release_PSA = {
+	set_global_flag = USA_PSA_existed
+	effect_tooltip = { release = PSA }
+	hidden_effect = {
+		set_political_party = { ideology = social_democrat popularity = 0 }
+
+		set_temp_variable = { USA_soclib_popularity = party_popularity_100@social_liberal }
+		divide_temp_variable = { USA_soclib_popularity = 3 }
+		set_political_party = { ideology = social_liberal popularity = USA_soclib_popularity }
+
+		set_temp_variable = { USA_marlib_popularity = party_popularity_100@market_liberal }
+		divide_temp_variable = { USA_marlib_popularity = 2 }
+		set_political_party = { ideology = market_liberal popularity = USA_marlib_popularity }
+
+		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+
+		PSA = {
+			add_state_core = 378 #Northern California
+			add_state_core = 385 #Oregon
+			add_state_core = 386 #Washington
+			add_state_core = 463 #Alaska
+			add_state_core = 797 #San Francisco
+			add_state_core = 798 #Los Angeles
+			add_state_core = 829 #Southern California
+			set_cosmetic_tag = PSA_ACW
+			transfer_technology_without_doctrines = yes
+		}
+
+		every_owned_state = {
+			limit = { is_core_of = PSA }
+			transfer_state_to = PSA
+			teleport_armies = {
+				limit = { tag = USA }
+				to_state_array = owned_controlled_states
+			}
+		}
+
+		every_state = {
+			limit = {
+				is_core_of = USA
+				NOT = {
+					is_core_of = PSA
+					is_claimed_by = PSA
+					state = 630 #Johnston Atoll
+					state = 631 #Midway Island
+					state = 632 #Wake Island
+					state = 638 #Guam
+					state = 685 #Panama Canal
+					state = 686 #Puerto Rico
+					state = 726 #Samoa
+					state = 727 #Line Islands
+				}
+			}
+			add_claim_by = PSA
+		}
+
+		PSA_john_lesesne_dewitt = {
+			promote_leader = yes
+			set_nationality = PSA
+		}
+		PSA_george_catlett_marshall = {
+			set_leader_description = PSA_george_catlett_marshall_PSA_leader_desc
+			promote_leader = yes
+			set_nationality = PSA
+		}
+		PSA_henry_harley_arnold = {
+			set_leader_description = PSA_henry_harley_arnold_PSA_leader_desc
+			set_nationality = PSA
+		}
+		PSA_william_daniel_leahy = { set_nationality = PSA }
+		PSA_chester_william_nimitz = { set_nationality = PSA }
+		PSA_ernest_joseph_king = { set_nationality = PSA }
+
+		send_equipment_fraction = { target = PSA value = 0.2 }
+		USA_remove_acw_templates_if_created = yes #no cheating
+		PSA = {
+			every_owned_state = { set_demilitarized_zone = no }
+
+			#no cheating
+			delete_unit_template_and_units = { division_template = "State Militia" disband = yes }
+			delete_unit_template_and_units = { division_template = "Volunteer Cavalry" disband = yes }
+			delete_unit_template_and_units = { division_template = "State Guard" disband = yes }
+
+			create_PSA_militia_template = yes
+			create_PSA_garrison_template = yes
+			create_PSA_mounted_militia_template = yes
+			if = {
+				limit = { has_dlc_bba = yes }
+				load_oob = ACW_PSA_air_bba
+			}
+			else = {
+				load_oob = ACW_PSA_air_legacy
+			}
+
+			378 = {
+				create_unit = {
+					division = "name = \"4th California National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 9713 #Sacramento
+					owner = PREV
+					id = 1776
+				}
+			}
+			385 = {
+				create_unit = {
+					division = "name = \"Oregon State Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3513 #Portland
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"1st Oregon National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3513 #Portland
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"2nd Oregon National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 4328 #Salem
+					owner = PREV
+					id = 1776
+				}
+			}
+			386 = {
+				create_unit = {
+					division = "name = \"Washington State Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 7386 #Olympia
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"1st Washington National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 7315 #Seattle
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"2nd Washington National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 7386 #Olympia
+					owner = PREV
+					id = 1776
+				}
+			}
+			797 = {
+				create_unit = {
+					division = "name = \"1st California National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 9671 #San Francisco
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"5th California National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 9671 #San Francisco
+					owner = PREV
+					id = 1776
+				}
+			}
+			798 = {
+				create_unit = {
+					division = "name = \"2nd California National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 9814 #Los Angeles
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"3rd California National Guard\" division_template = \"State Guard\" start_experience_factor = 0.6"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 1562 #San Diego
+					owner = PREV
+					id = 1776
+				}
+				create_unit = {
+					division = "name = \"Western Department Reserve Force\" division_template = \"Volunteer Motorized Infantry\" start_experience_factor = 1.0"
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 9814 #Los Angeles
+					owner = PREV
+				}
+			}
+
+			unit_limit_calculation_effect = yes
+
+			country_event = { id = pacificstates.150 days = 1 } #Initial Events
+
+			set_temp_variable = { days_to_event = 3110 }
+			calculate_days_since_game_start = yes
+			country_event = { id = ustates.187 days = days_to_event random_days = 180 } #Al Smith Passes Away
+		}
+		
+		PSA_defect_navy = yes
+
+		PSA = {
+			annex_country = { target = XXA }
+			load_oob = ACW_PSA_naval
+		}
+	}
+}
+
+PSA_defect_navy = {
+	# Pacific Fleet
+	transfer_ship = { prefer_name = "USS 犹他" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 阿肯色" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 怀俄明" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 德克萨斯" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 南卡罗莱纳" type = SH_battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 兰利" type = carrier target = XXA }
+	
+
+	transfer_ship = { prefer_name = "USS 列克星敦" type = battle_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 萨拉托加" type = battle_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 奥马哈" type = light_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 密尔沃基" type = light_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 罗利" type = light_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 底特律" type = light_cruiser target = XXA }
+
+	transfer_ship = { prefer_name = "USS 温斯洛" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 阿贝尔·P·厄普舍" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 亨特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 伍德" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 巴杰" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 布兰切" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 赫恩登" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 克莱门森" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 达尔格伦" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 金斯伯勒" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 塞梅斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 沙特利" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 格里尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 瓦德" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 克拉克斯顿" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 汉密尔顿" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 塔贝尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 亚纳尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 厄普舍" type = destroyer target = XXA }
+
+	#ADD DESTROYER LEADER FROM PRODUCTION
+	transfer_ship = { prefer_name = "USS 泰勒" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 雪利" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 赵" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 威廉姆斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 克兰" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 拉斯伯恩" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 西格尼" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 格里高利" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 史钦汉" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 古翰" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 麦基恩" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 菲尔法克斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 维克斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 菲利普" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 伊文斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 利特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 梅森" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 雅各布·琼斯" type = destroyer target = XXA }
+
+	# Pacific Submarine Fleet
+	transfer_ship = { prefer_name = "USS R11" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R12" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R13" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R14" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R15" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R16" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R17" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R18" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R19" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R20" type = submarine target = XXA }
+
+	# Pacific Reserve Fleet
+
+	transfer_ship = { prefer_name = "USS 考德维尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 克雷文" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 格温" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 康纳" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 斯托克顿" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 曼利" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 巴拉德" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 查普林" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 麦霍" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 黑泽尔伍德" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 哈特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 英格拉姆" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 斯特里布林" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 穆雷" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 以色列" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 鲁斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 莫里" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 兰斯代尔" type = destroyer target = XXA }
+
+	transfer_ship = { prefer_name = "USS S1" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S4" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S11" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S12" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S13" type = submarine target = XXA }
+
+	# Asiatic Fleet
+	transfer_ship = { prefer_name = "USS 奥古斯塔" type = heavy_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 马布尔海德" type = light_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 辛辛那提" type = light_cruiser target = XXA }
+
+	#ADD DESTROYER LEADER FROM PRODUCTION
+	transfer_ship = { prefer_name = "USS 奥尔登" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 惠普尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 埃兹尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 斯图尔特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 巴克" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 保罗·琼斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 特雷弗" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 迪凯特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 约翰·D·福特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 波普" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 佩里" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 皮尔斯伯里" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 拉德福德" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 甘布尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 巴杰" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 特维格斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 巴比特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 格拉汉姆" type = destroyer target = XXA }
+
+	transfer_ship = { prefer_name = "USS S3" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S7" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S8" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S9" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S24" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S25" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S26" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S27" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S28" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S29" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S30" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S31" type = submarine target = XXA }
+}
+
+ACW_navy_redistribution_CSA = {
+	hidden_effect = {
+		# Atlantic Battle Fleet
+		transfer_ship = { prefer_name = "USS 印第安纳" type = SH_battleship target = XXA }
+		transfer_ship = { prefer_name = "USS 蒙大拿" type = SH_battleship target = XXA }
+
+		transfer_ship = { prefer_name = "USS 密西西比" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS 爱达荷" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS 加利福尼亚" type = battleship target = XXA }
+
+		transfer_ship = { prefer_name = "USS 宪法" type = battle_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 芝加哥" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 特伦顿" type = light_cruiser target = XXA }
+
+		transfer_ship = { prefer_name = "USS 得梅因" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 查塔努加" type = heavy_cruiser target = XXA }
+
+		transfer_ship = { prefer_name = "USS 塞弗里奇" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 麦考密克" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 特鲁斯顿" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 哈特菲尔德" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 布鲁克斯" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 吉尔默" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 福克斯" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 史密斯" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 特雷西" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 博利" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 勒德洛" type = destroyer target = XXA }
+
+		# Atlantic Submarine Fleet
+		transfer_ship = { prefer_name = "USS O1" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O2" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O3" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O4" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O5" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O6" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O7" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O8" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O9" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS O10" type = submarine target = XXA }
+
+		# Pacific Fleet
+		if = {
+			limit = { country_exists = PSA }
+			PSA = {
+				transfer_ship = { prefer_name = "USS 怀俄明" type = battleship target = XXA }
+				transfer_ship = { prefer_name = "USS 考德维尔" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 克雷文" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 格温" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 康纳" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 斯托克顿" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 曼利" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 瓦德" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 克拉克斯顿" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 汉密尔顿" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 塔贝尔" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 亚纳尔" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 厄普舍" type = destroyer target = XXA }
+			}
+		}
+		else = {
+			transfer_ship = { prefer_name = "USS 怀俄明" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 考德维尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 克雷文" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 格温" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 康纳" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 斯托克顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 曼利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 瓦德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 克拉克斯顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 汉密尔顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 塔贝尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 亚纳尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 厄普舍" type = destroyer target = XXA }
+		}
+
+		if = {
+			limit = { NOT = { country_exists = TEX } }
+			transfer_ship = { prefer_name = "USS 田纳西" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 马里兰" type = battleship target = XXA }
+
+			transfer_ship = { prefer_name = "USS 突击者" type = carrier target = XXA }
+
+			transfer_ship = { prefer_name = "USS 北安普敦" type = heavy_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 切斯特" type = heavy_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 休斯顿" type = heavy_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 普韦布洛" type = heavy_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 克利夫兰" type = light_cruiser target = XXA }
+
+			transfer_ship = { prefer_name = "USS 麦基" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 罗宾逊" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 林戈德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 哈丁" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 格里德利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 贝尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 金伯利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 戴耶" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 史蒂文斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 霍维" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 朗" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 布鲁姆" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 亚历山大·达拉斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 钱德勒" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 索萨德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 贝尔纳普" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 麦克莱什" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 辛普森" type = destroyer target = XXA }
+
+			# Atlantic Submarine Fleet
+			transfer_ship = { prefer_name = "USS 梭鱼" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 鲈鱼" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 狐鲣" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 抹香鲸" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 墨鱼" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 海豚" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 鼠海豚" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS 狗鱼" type = submarine target = XXA }
+
+			# Pacific Fleet
+			transfer_ship = { prefer_name = "USS 俄克拉荷马" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 奥马哈" type = light_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 巴拉德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 查普林" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 麦霍" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 黑泽尔伍德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 哈特" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 英格拉姆" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 泰勒" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 雪利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 赵" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 威廉姆斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 克兰" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 拉斯伯恩" type = destroyer target = XXA }
+		}
+
+		CSA = {
+			annex_country = { target = XXA }
+			if = {
+				limit = { NOT = { country_exists = TEX } }
+				load_oob = ACW_CSA_naval_alone
+				if = {
+					limit = { has_dlc_bba = yes }
+					load_oob = ACW_CSA_naval_alone_air_bba
+				}
+				else = {
+					load_oob = ACW_CSA_naval_alone_air_legacy
+				}
+			}
+			else = {
+				load_oob = ACW_CSA_naval
+			}
+		}
+	}
+}
+
+ACW_navy_redistribution_TEX = {
+	hidden_effect = {
+		TEX_samuel_murray_robinson = { set_nationality = TEX }
+		TEX_david_worth_bagley = { set_nationality = TEX }
+		TEX_john_sidney_mccain_sr = { set_nationality = TEX }
+
+		# Atlantic Battle Fleet
+		transfer_ship = { prefer_name = "USS 田纳西" type = battleship target = XXA }
+		transfer_ship = { prefer_name = "USS 马里兰" type = battleship target = XXA }
+
+		transfer_ship = { prefer_name = "USS 突击者" type = carrier target = XXA }
+
+		transfer_ship = { prefer_name = "USS 北安普敦" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 切斯特" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 休斯顿" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 普韦布洛" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 克利夫兰" type = light_cruiser target = XXA }
+		
+		transfer_ship = { prefer_name = "USS 麦基" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 罗宾逊" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 林戈德" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 哈丁" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 格里德利" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 贝尔" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 金伯利" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 戴耶" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 史蒂文斯" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 霍维" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 朗" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 布鲁姆" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 亚历山大·达拉斯" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 钱德勒" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 索萨德" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 贝尔纳普" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 麦克莱什" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 辛普森" type = destroyer target = XXA }
+
+		# Atlantic Submarine Fleet
+		transfer_ship = { prefer_name = "USS 梭鱼" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 鲈鱼" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 狐鲣" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 抹香鲸" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 墨鱼" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 海豚" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 鼠海豚" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "USS 狗鱼" type = submarine target = XXA }
+
+		# Pacific Fleet
+		if = {
+			limit = { country_exists = PSA }
+			PSA = {
+				transfer_ship = { prefer_name = "USS 俄克拉荷马" type = battleship target = XXA }
+				transfer_ship = { prefer_name = "USS 奥马哈" type = light_cruiser target = XXA }
+				transfer_ship = { prefer_name = "USS 巴拉德" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 查普林" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 麦霍" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 黑泽尔伍德" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 哈特" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 英格拉姆" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 泰勒" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 雪利" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 赵" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 古翰" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 麦基恩" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "USS 菲尔法克斯" type = destroyer target = XXA }
+			}
+		}
+		else = {
+			transfer_ship = { prefer_name = "USS 俄克拉荷马" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 奥马哈" type = light_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 巴拉德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 查普林" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 麦霍" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 黑泽尔伍德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 哈特" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 英格拉姆" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 泰勒" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 雪利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 赵" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 古翰" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 麦基恩" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 菲尔法克斯" type = destroyer target = XXA }
+		}
+
+		if = {
+			limit = { NOT = { country_exists = CSA } }
+			# Atlantic Battle Fleet
+			transfer_ship = { prefer_name = "USS 印第安纳" type = SH_battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 密西西比" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 爱达荷" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 加利福尼亚" type = battleship target = XXA }
+
+			transfer_ship = { prefer_name = "USS 宪法" type = battle_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 芝加哥" type = heavy_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS 特伦顿" type = light_cruiser target = XXA }
+
+			transfer_ship = { prefer_name = "USS 塞弗里奇" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 麦考密克" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 特鲁斯顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 哈特菲尔德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 布鲁克斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 吉尔默" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 福克斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 史密斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 特雷西" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 博利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 勒德洛" type = destroyer target = XXA }
+
+			# Atlantic Submarine Fleet
+			transfer_ship = { prefer_name = "USS O1" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O2" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O3" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O4" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O5" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O6" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O7" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O8" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O9" type = submarine target = XXA }
+			transfer_ship = { prefer_name = "USS O10" type = submarine target = XXA }
+
+			transfer_ship = { prefer_name = "USS 怀俄明" type = battleship target = XXA }
+			transfer_ship = { prefer_name = "USS 考德维尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 克雷文" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 格温" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 康纳" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 斯托克顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 曼利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 瓦德" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 克拉克斯顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 汉密尔顿" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 塔贝尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 亚纳尔" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 厄普舍" type = destroyer target = XXA }
+		}
+		TEX = {
+			annex_country = { target = XXA }
+			if = {
+				limit = { NOT = { country_exists = CSA } }
+				load_oob = ACW_TEX_naval_alone
+				if = {
+					limit = { has_dlc_bba = yes }
+					load_oob = ACW_TEX_naval_alone_air_bba
+				}
+				else = {
+					load_oob = ACW_TEX_naval_alone_air_legacy
+				}
+			}
+			else = {
+				load_oob = ACW_TEX_naval
+				if = {
+					limit = { has_dlc_bba = yes }
+					load_oob = ACW_TEX_naval_air_bba
+				}
+				else = {
+					load_oob = ACW_TEX_naval_air_legacy
+				}
+			}
+		}
+	}
+}
+
+ACW_navy_redistribution_USA = {
+	hidden_effect = {
+		# Pacific Fleet
+		transfer_ship = { prefer_name = "USS 匹兹堡" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 路易斯维尔" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "USS 宾夕法尼亚" type = battleship target = XXA }
+
+		transfer_ship = { prefer_name = "USS 塔伯特" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 沃特斯" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 丹特" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 多西" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 利" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "USS 林巴顿" type = destroyer target = XXA }
+
+		PSA = {
+			transfer_ship = { prefer_name = "USS 罗利" type = light_cruiser target = XXA }
+			transfer_ship = { prefer_name = "USS R11" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R12" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R13" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R14" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R15" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R16" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R17" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R18" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R19" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS R20" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 克莱门森" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 达尔格伦" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 金斯伯勒" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 塞梅斯" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 沙特利" type = destroyer target = XXA }
+			transfer_ship = { prefer_name = "USS 格里尔" type = destroyer target = XXA }
+		}
+		USA = {
+			annex_country = { target = XXA }
+			load_oob = ACW_USA_naval_pacific
+		}
+	}
+}
+
+USA_spawn_new_england = {
+	add_political_power = 50
+	every_owned_state = {
+		limit = { is_core_of = NEE }
+		if = {
+			limit = { is_claimed_by = CAN }
+			remove_claim_by = CAN
+		}
+		save_current_factory_count = yes
+		transfer_state_to = NEE
+		restore_previous_factory_count = yes
+	}
+	set_autonomy = {
+		target = NEE
+		autonomy_state = kr_autonomous_puppet
+		end_wars = no
+	}
+	add_to_faction = NEE
+	hidden_effect = {
+		USA = { NEE = { transfer_technology_without_doctrines = yes } } #nested for PREV to work
+		NEE = {
+			country_event = { id = newengland.6 days = 2 }
+			load_oob = NEE
+			set_research_slots = 4
+			meta_effect = {
+				text = {
+					set_politics = {
+						ruling_party = social_liberal
+						last_election = "[CURRENT_DATE]"
+						election_frequency = 1
+						elections_allowed = yes
+					}
+				}
+				CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
+			}
+			set_popularities = {
+				totalist = 0
+				radical_socialist = 4
+				syndicalist = 9
+				social_democrat = 5
+				social_liberal = 28
+				market_liberal = 33
+				social_conservative = 7
+				authoritarian_democrat = 9
+				paternal_autocrat = 2
+				national_populist = 3
+			}
+		}
+		USA = {
+			NEE_defect_navy = yes
+			random_character = {
+				limit = { is_character = NEE_harold_stark }
+				set_nationality = NEE
+			}
+		}
+		NEE = {
+			annex_country = { target = XXA }
+			load_oob = ACW_NEE_naval
+			if = {
+				limit = { CAN = { has_country_flag = CAN_supports_USA } }
+				add_ideas = ACW_support_usa
+			}
+			else_if = {
+				limit = { CAN = { has_country_flag = CAN_supports_PSA } }
+				add_ideas = ACW_support_psa
+			}
+			else_if = {
+				limit = { CAN = { has_country_flag = CAN_supports_TEX } }
+				add_ideas = ACW_support_aus
+			}
+			hidden_effect = {
+				separate_peace_all_wars = yes
+				country_event = newengland.500
+				country_event = newengland.501
+				country_event = newengland.502
+			}
+		}
+		if = {
+			limit = { has_dlc_lar = yes }
+			NEE = {
+				create_operative_leader = {
+					name = "Virginia Hall"
+					GFX = GFX_portrait_kr_virginia_hall
+					traits = { operative_demolition_expert }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					female = yes
+					nationalities = { NEE USA CSA TEX PSA }
+				}
+			}
+		}
+		USA = { country_event = { id = newengland.1 hours = 8 } } #gives the player an option to switch to NEE
+		CSA = { country_event = { id = newengland.1 hours = 8 } }
+		PSA = { country_event = { id = newengland.1 hours = 8 } }
+		TEX = { country_event = { id = newengland.1 hours = 8 } }
+	}
+}
+
+NEE_defect_navy = {
+	transfer_ship = { prefer_name = "USS 麦道加" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 法拉格特" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 杜威" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 赫尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 麦克多诺" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 沃登" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 戴尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 莫纳根" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 埃尔文" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 马汉" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 甘明斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 杜雷顿" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 帕西瓦尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 凯恩" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 汉弗莱斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 傅拉瑟" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 里德" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 格斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 康宁汉" type = destroyer target = XXA }
+
+	transfer_ship = { prefer_name = "USS O11" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS O12" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS O13" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS O14" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS O15" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS O16" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R21" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R22" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R23" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R24" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R25" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R26" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS R27" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS 亚尔戈" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS 独角鲸" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS 鹦鹉螺" type = submarine target = XXA }
+}
+
+HAW_defect_navy = {
+	#Pacific Fleet
+	transfer_ship = { prefer_name = "USS 马萨诸塞" type = carrier target = XXA }
+
+	transfer_ship = { prefer_name = "USS 纽约" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 亚利桑那" type = battleship target = XXA }
+	transfer_ship = { prefer_name = "USS 新墨西哥" type = battleship target = XXA }
+
+	transfer_ship = { prefer_name = "USS 西雅图" type = heavy_cruiser target = XXA }
+	transfer_ship = { prefer_name = "USS 圣地亚哥" type = heavy_cruiser target = XXA }
+
+	#ADD DESTROYER LEADER FROM PRODUCTION
+	transfer_ship = { prefer_name = "USS 黑尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 克伦西" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 提尔曼" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 博格斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 凯提" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 肯尼逊" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 蒙哥马利" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 布利斯" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 拉姆齐" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 塔特纳尔" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 布坎南" type = destroyer target = XXA }
+	transfer_ship = { prefer_name = "USS 亚伦·沃德" type = destroyer target = XXA }
+
+	transfer_ship = { prefer_name = "USS S14" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S15" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S16" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S17" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S18" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S19" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S20" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S21" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S22" type = submarine target = XXA }
+	transfer_ship = { prefer_name = "USS S23" type = submarine target = XXA }
+}
+

@@ -2585,13 +2585,17 @@ spriteTypes = {
         		name = "GFX_RUS_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer2.png"
         	}
-        	spriteType = {
-        		name = "GFX_RUS_improved_ship_hull_light_medium"
+			spriteType = {
+        		name = "GFX_RUS_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_RUS_advanced_ship_hull_light_medium"
+        		name = "GFX_RUS_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RUS_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -2603,13 +2607,17 @@ spriteTypes = {
         		name = "GFX_RUS_basic_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser2.png"
         	}
-        	spriteType = {
-        		name = "GFX_RUS_improved_ship_hull_cruiser_medium"
+			spriteType = {
+        		name = "GFX_RUS_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_RUS_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_RUS_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RUS_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -2621,13 +2629,17 @@ spriteTypes = {
         		name = "GFX_RUS_basic_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_battleship2.png"
         	}
-        	spriteType = {
-        		name = "GFX_RUS_improved_ship_hull_heavy_medium"
+			spriteType = {
+        		name = "GFX_RUS_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_RUS_advanced_ship_hull_heavy_medium"
+        		name = "GFX_RUS_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_RUS_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Russia/RUS_battleship5.png"
         	}
 	# carrier
 
@@ -2676,13 +2688,17 @@ spriteTypes = {
         		name = "GFX_SOV_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer2.png"
         	}
-        	spriteType = {
-        		name = "GFX_SOV_improved_ship_hull_light_medium"
+			spriteType = {
+        		name = "GFX_SOV_interwar_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer3.png"
         	}
         	spriteType = {
-        		name = "GFX_SOV_advanced_ship_hull_light_medium"
+        		name = "GFX_SOV_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Russia/RUS_destroyer5.png"
         	}
 	# cruiser
 
@@ -2694,13 +2710,17 @@ spriteTypes = {
         		name = "GFX_SOV_basic_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser2.png"
         	}
-        	spriteType = {
-        		name = "GFX_SOV_improved_ship_hull_cruiser_medium"
+			spriteType = {
+        		name = "GFX_SOV_interwar_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser3.png"
         	}
         	spriteType = {
-        		name = "GFX_SOV_advanced_ship_hull_cruiser_medium"
+        		name = "GFX_SOV_improved_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Russia/RUS_light_cruiser5.png"
         	}
 	# battleship
 
@@ -2712,13 +2732,17 @@ spriteTypes = {
         		name = "GFX_SOV_basic_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_battleship2.png"
         	}
-        	spriteType = {
-        		name = "GFX_SOV_improved_ship_hull_heavy_medium"
+			spriteType = {
+        		name = "GFX_SOV_interwar_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_battleship3.png"
         	}
         	spriteType = {
-        		name = "GFX_SOV_advanced_ship_hull_heavy_medium"
+        		name = "GFX_SOV_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Russia/RUS_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SOV_advanced_ship_hull_heavy_medium"
+        		texturefile = "gfx/interface/technologies/Russia/RUS_battleship5.png"
         	}
 	# carrier
 

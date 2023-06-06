@@ -1,0 +1,79 @@
+﻿###########################
+# Hawaii Events
+###########################
+
+add_namespace = hawaii
+
+### Hawaiian Creation ###
+country_event = { # The Territory of Hawaii Revolts
+	id = hawaii.1
+	title = hawaii.1.t
+	desc = hawaii.1.d
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 629
+						state = 630
+						state = 631
+						state = 632
+						state = 638
+						state = 642
+						state = 726
+						state = 727
+					}
+				}
+				if = {
+					limit = { is_core_of = USA }
+					remove_core_of = USA
+					add_claim_by = USA
+				}
+				HAW = {
+					add_state_core = PREV
+					transfer_state = PREV
+				}
+			}
+			HAW = { transfer_technology_without_doctrines = yes }
+
+			HAW_defect_navy = yes
+			HAW_james_otto_richardson = { set_nationality = HAW }
+
+			HAW = {
+				annex_country = { target = XXA }
+				add_manpower = 30000
+				load_oob = ACW_HAW_naval
+				if = {
+					limit = { has_dlc_bba = yes }
+					load_oob = ACW_HAW_naval_air_bba
+				}
+				else = {
+					load_oob = ACW_HAW_naval_air_legacy
+				}
+				capital_scope = {
+					create_unit = {
+						division = "name = \"Hawaii National Guard\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1.0"
+						owner = PREV
+						prioritize_location = 4180
+					}
+				}
+				country_event = { id = hawaii.2 days = 3 }
+			}
+		}
+	}
+
+	option = { # Hawaii is indepedent
+		log = "[GetLogInfo]: event hawaii.1 option hawaii.1.a"
+		name = hawaii.1.a
+	}
+
+	option = { # Play as Hawaii
+		log = "[GetLogInfo]: event hawaii.1 option hawaii.1.b"
+		name = hawaii.1.b
+		ai_chance = { base = 0 }
+		HAW = { change_tag_from = ROOT }
+	}
+}
