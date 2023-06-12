@@ -330,6 +330,7 @@ add_starting_techs = {
     RUS = {
         set_technology = {
             interwar_ship_hull_light = 1
+			basic_ship_hull_light = 1
 			basic_ship_hull_cruiser = 1
             searchlight = 1
             large_cruiser_trend = 1
