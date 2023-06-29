@@ -1,0 +1,24 @@
+SiaCW_navy_redistribution = {
+	hidden_effect = {
+		### RSN 1st Naval Command
+		# CL
+		transfer_ship = { prefer_name = "HSMS 吞武里" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "HSMS 拉达那哥欣" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "HSMS 素可泰" type = heavy_cruiser target = XXA }
+		transfer_ship = { prefer_name = "HSMS 纳黎萱" type = light_cruiser target = XXA }
+		transfer_ship = { prefer_name = "HSMS 达信" type = light_cruiser target = XXA }
+		# DD
+		transfer_ship = { prefer_name = "HSMS 玛哈·扎克里" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "HSMS 昭拍耶" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "HSMS 朗帕" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "HSMS 卡罗辛" type = destroyer target = XXA }
+		transfer_ship = { prefer_name = "HSMS 塔延春" type = destroyer target = XXA }
+
+		### RSN Submarine Taskforce
+		# SS
+		transfer_ship = { prefer_name = "HSMS 玛差奴" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "HSMS 欣沙姆" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "HSMS 蔚润" type = submarine target = XXA }
+		transfer_ship = { prefer_name = "HSMS 普春蓬" type = submarine target = XXA }
+	}
+}
