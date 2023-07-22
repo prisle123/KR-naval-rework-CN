@@ -3763,7 +3763,6 @@ focus_tree = {
 		x = 0
 		y = 2
 
-		relative_position_id = GEA_develop_tsingtau
 		ai_will_do = {
 			factor = 8
 			modifier = {
@@ -3832,7 +3831,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEA_resume_sino_german_cooperation"
 			if = {
 				limit = {
-					QIE = { has_completed_focus = QIE_placateassembly }
+					QIE = {
+						OR = {
+							has_completed_focus = QIE_placateassembly
+							has_country_flag = QIE_manchu_ger_negotiations
+						}
+					}
 				}
 				QIE = { country_event = Ostasien.212 }
 				add_opinion_modifier = {

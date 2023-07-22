@@ -16,9 +16,6 @@ technologies = {
 		battle_cruiser = {
 			max_organisation = 5
 		}
-		armored_cruiser = {
-			max_organisation = 5
-		}
 		heavy_cruiser = {
 			max_organisation = 5
 		}
@@ -92,9 +89,6 @@ technologies = {
 			max_organisation = 5
 		}
 		battle_cruiser = {
-			max_organisation = 5
-		}
-		armored_cruiser = {
 			max_organisation = 5
 		}
 		heavy_cruiser = {
@@ -347,10 +341,6 @@ technologies = {
 		}
 		
 		SH_battleship = {
-			max_organisation = 20
-		}
-		
-		armored_cruiser = {
 			max_organisation = 20
 		}
 		
@@ -792,11 +782,6 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
-		
-		armored_cruiser = {
-			max_organisation = 10
-			surface_detection = 0.05
-		}
 		#######
 
 		xor = { fleet_in_being base_strike }
@@ -1083,12 +1068,6 @@ technologies = {
 			convoy_raiding_coordination = 0.35
 			surface_detection = 0.15
 		}
-		
-		armored_cruiser = {
-			max_organisation = 10
-			convoy_raiding_coordination = 0.35
-			surface_detection = 0.15
-		}
 
 		battle_cruiser = {
 			max_organisation = 10
@@ -1203,12 +1182,6 @@ technologies = {
 			convoy_raiding_coordination = 0.5
 			surface_detection = 0.25
 		}
-		
-		battle_cruiser = {
-			max_organisation = 20
-			convoy_raiding_coordination = 0.5
-			surface_detection = 0.25
-		}
 
 		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 		#######
@@ -1256,9 +1229,6 @@ technologies = {
 			max_organisation = 10
 		}
 		battle_cruiser = {
-			max_organisation = 10
-		}
-		armored_cruiser = {
 			max_organisation = 10
 		}
 		heavy_cruiser = {

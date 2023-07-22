@@ -34,9 +34,9 @@ technologies = {
 			ship_heavy_battery_small_1
 			ship_secondaries_1
 			
-			ship_ap_shell_1
-			ship_ap_shell_2
-			ship_ap_shell_3
+			# ship_ap_shell_1
+			# ship_ap_shell_2
+			# ship_ap_shell_3
 		}
 
 
@@ -157,6 +157,7 @@ technologies = {
 			ship_light_battery_2
 			ship_light_battery_2_double
 			dp_light_battery_1
+			dp_light_battery_1_single
 			dp_ship_secondaries_1
 		}
 
@@ -214,10 +215,6 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 		carrier = {
-			lg_attack = 0.05
-			lg_armor_piercing = 0.05
-		}
-		armored_cruiser = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -322,10 +319,6 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			lg_attack = 0.05
-			lg_armor_piercing = 0.05
-		}
 		SH_battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -402,6 +395,10 @@ technologies = {
 			leads_to_tech = basic_medium_shell
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = improved_medium_heavy_battery
+			research_cost_coeff = 1
+		}
 
 		enable_equipment_modules = {
 			ship_medium_battery_2
@@ -444,10 +441,7 @@ technologies = {
 			leads_to_tech = improved_medium_battery
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = improved_medium_heavy_battery
-			research_cost_coeff = 0.75
-		}
+		
 
 		light_cruiser = {
 			lg_attack = 0.05
@@ -497,7 +491,7 @@ technologies = {
 			ship_light_medium_battery_3
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
-			cat_ship_medium_battery
+			ship_secondaries_3
 		}
 
 
@@ -578,6 +572,7 @@ technologies = {
 			ship_light_medium_battery_4
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
+			ship_secondaries_4
 		}
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
@@ -836,10 +831,6 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			hg_attack = 0.05
-			hg_armor_piercing = 0.05
-		}
 		SH_battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -883,10 +874,6 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-		armored_cruiser = {
-			hg_attack = 0.05
-			hg_armor_piercing = 0.05
-		}
 		SH_battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -919,6 +906,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			dp_light_battery_2
+			dp_light_battery_2_single
 			dp_ship_secondaries_2
 		}
 
@@ -962,6 +950,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			dp_light_battery_3
+			dp_light_battery_3_single
 			dp_ship_secondaries_3
 		}
 
@@ -1005,6 +994,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			dp_light_battery_4
+			dp_light_battery_4_single
 			dp_ship_secondaries_4
 		}
 

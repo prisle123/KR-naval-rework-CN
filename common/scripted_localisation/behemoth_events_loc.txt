@@ -1,0 +1,10 @@
+defined_text = {
+    name = constitution_mod_loc
+    text = {
+        trigger = { original_tag = USA }
+        localization_key = constitution_usa_1
+    }
+    text = {
+        localization_key = constitution_generic_1
+    }
+}

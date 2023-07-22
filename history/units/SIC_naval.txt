@@ -117,6 +117,7 @@ instant_effect = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
 			fixed_ship_armor_slot = ship_armor_bb_1
 			fixed_ship_torpedo_defense_system_slot = pugliese_system
 			front_1_custom_slot = ship_anti_air_1
@@ -238,7 +239,6 @@ units = {
 			name = "第一舰队"
 			location = 819
 			ship = { name = "RN	弗朗切斯科·卡拉乔洛" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = SIC version_name = "弗朗切斯科·卡拉乔洛级" } } }
-			ship = { name = "RN	安德烈亚·多利亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "安德烈亚·多利亚级" } } }
 			ship = { name = "RN	卡约·杜伊里奥" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SIC version_name = "安德烈亚·多利亚级" } } }
 			ship = { name = "RN	蒙帕塞诺" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "亚历山德罗·波里奥级" } } }
 			ship = { name = "RN	鹰" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIC version_name = "亚历山德罗·波里奥级" } } }

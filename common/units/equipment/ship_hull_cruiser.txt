@@ -17,7 +17,18 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_medium_battery ship_medium_battery ship_light_battery ship_medium_heavy_battery }
+				allowed_module_categories = { 
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
+				}
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -55,10 +66,16 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_light_medium_battery
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
 					ship_medium_battery
+					ship_medium_battery_double
 					ship_light_battery
-					ship_medium_heavy_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -67,14 +84,20 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
-					ship_light_medium_battery
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
 					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
 					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
-					ship_light_battery
-					ship_medium_heavy_battery
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -83,14 +106,21 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_light_medium_battery
-					ship_medium_battery
 					ship_airplane_launcher
 					ship_mine_layer
 					ship_depth_charge
-					ship_light_battery
 					ship_torpedo
-					ship_medium_heavy_battery
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -139,7 +169,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 15
-		naval_speed = 29
+		naval_speed = 30
 		reliability = 0.80
 
 		naval_range = 2500
@@ -149,7 +179,7 @@ equipments = {
 
 		fuel_consumption = 20
 
-		build_cost_ic = 1600
+		build_cost_ic = 1400
 		resources = {
 			steel = 2
 		}
@@ -171,7 +201,7 @@ equipments = {
 		surface_detection = 15
 		sub_detection = 1
 		surface_visibility = 18
-		naval_speed = 25
+		naval_speed = 28
 		reliability = 0.75
 
 		naval_range = 2200
@@ -181,7 +211,7 @@ equipments = {
 
 		fuel_consumption = 18
 
-		build_cost_ic = 1400
+		build_cost_ic = 1300
 	}
 
 	ship_hull_cruiser_2 = {
@@ -193,8 +223,8 @@ equipments = {
 		priority = 1900
 		can_convert_from = { ship_hull_cruiser_2 }
 
-
 		module_slots = inherit
+		naval_speed = 29
 	}
 
 	ship_hull_cruiser_3 = {
@@ -279,10 +309,16 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_light_medium_battery
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
 					ship_medium_battery
-					ship_medium_heavy_battery
+					ship_medium_battery_double
 					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
 					ship_missile
 				}
 			}
@@ -292,15 +328,22 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
-					ship_light_medium_battery
-					ship_medium_battery
-					ship_medium_heavy_battery
 					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
-					ship_light_battery
 					ship_missile
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -309,15 +352,22 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_light_medium_battery
-					ship_medium_battery
-					ship_medium_heavy_battery
 					ship_airplane_launcher
 					ship_mine_layer
 					ship_depth_charge
-					ship_light_battery
 					ship_torpedo
 					ship_missile
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -1119,7 +1169,19 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_medium_battery ship_medium_battery ship_light_battery ship_heavy_battery ship_heavy_battery_triple }
+				allowed_module_categories = { 
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_heavy_battery 
+					ship_heavy_battery_triple 
+				}
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -1157,9 +1219,15 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_light_medium_battery
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
 					ship_medium_battery
+					ship_medium_battery_double
 					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
 					ship_heavy_battery
 					ship_heavy_battery_triple 
 				}
@@ -1170,13 +1238,20 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
-					ship_light_medium_battery
-					ship_medium_battery
 					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
 					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -1185,13 +1260,20 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_light_medium_battery
-					ship_medium_battery
 					ship_airplane_launcher
 					ship_mine_layer
 					ship_depth_charge
-					ship_light_battery
 					ship_torpedo
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
 					ship_heavy_battery
 					ship_heavy_battery_triple
 				}

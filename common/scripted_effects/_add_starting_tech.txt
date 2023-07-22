@@ -98,6 +98,7 @@ add_starting_techs = {
             interwar_ship_hull_light = 1
             interwar_ship_hull_cruiser = 1
             interwar_ship_hull_heavy = 1
+			ship_hull_super_heavy = 1
             large_destroyer_trend = 1
             sonar = 1
             searchlight = 1
@@ -391,6 +392,13 @@ add_starting_techs = {
             basic_ballast_tank = 1
         }
     }
+	SRI = {
+		set_technology = {
+			interwar_ship_hull_cruiser = 1
+			interwar_ship_hull_light = 1
+			destroyer_cruiser_trend = 1
+		}
+	}
 	POR = {
 		set_technology = { basic_ship_hull_cruiser = 1 }
 	}
@@ -458,6 +466,13 @@ makeup_starting_techs = {
         set_technology = {
             basic_periscope = 1
 			diesel_electric_transmission = 1
+			teardrop_hull = 1
+        }
+    }
+	every_country = {
+        set_technology = {
+            vnr_less_fuel_consumption = 1
+            popup = no
         }
     }
 }

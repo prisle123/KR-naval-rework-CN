@@ -80,7 +80,8 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "飞鸿级"
 		role_icon_index = 25
-		type = ship_hull_cruiser_1
+		icon = "gfx/interface/technologies/China/QIE_light_cruiser1.png"
+		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = CHYN_CL_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1_single
@@ -142,7 +143,8 @@ instant_effect = {
 	create_equipment_variant = {
 		name = "海蓉级"
 		role_icon_index = 23
-		type = ship_hull_cruiser_1
+		icon = "gfx/interface/technologies/China/QIE_light_cruiser1.png"
+		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = CHYN_CL_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1_single
@@ -196,12 +198,12 @@ units = {
 			ship = { name = "万阳山" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QIE version_name = "罗霄山级" } } }
 			ship = { name = "天柱山" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QIE version_name = "沂蒙山级" } } }
 			ship = { name = "沂蒙山" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = QIE version_name = "沂蒙山级" } } }
-			ship = { name = "飞鸿" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "飞鸿级" } } }
-			ship = { name = "海荣" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "飞鸿级" } } }
-			ship = { name = "浩然" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "飞鸿级" } } }
-			ship = { name = "海晨" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "海蓉级" } } }
-			ship = { name = "海筹" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "海蓉级" } } }
-			ship = { name = "海蓉" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "海蓉级" } } }
+			ship = { name = "飞鸿" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "飞鸿级" } } }
+			ship = { name = "海荣" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "飞鸿级" } } }
+			ship = { name = "浩然" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "飞鸿级" } } }
+			ship = { name = "海晨" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "海蓉级" } } }
+			ship = { name = "海筹" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "海蓉级" } } }
+			ship = { name = "海蓉" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = QIE version_name = "海蓉级" } } }
 			ship = { name = "平海" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIE version_name = "平海级" } } }
 			ship = { name = "虎威" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = QIE version_name = "不伦瑞克级 / 德意志级" } } }
 			ship = { name = "龙威" definition = battleship equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = QIE version_name = "不伦瑞克级 / 德意志级" } } }
