@@ -8,7 +8,7 @@ AUS_DD_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Z-%d"
@@ -36,7 +36,7 @@ AUS_DD_T_M_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -57,7 +57,7 @@ AUS_DD_T_S_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -75,7 +75,7 @@ AUS_DD_T_C_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -93,7 +93,7 @@ AUS_DD_T_R_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -110,7 +110,7 @@ AUS_DD_T_A_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -127,7 +127,7 @@ AUS_DD_T_MM_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -144,7 +144,7 @@ AUS_DD_T_MC_ZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "Zerstörer Z-%d"
@@ -161,7 +161,7 @@ AUS_DD_TORPEDOBOOTZERSTORER = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "TZ-%d"
@@ -189,7 +189,7 @@ AUS_DD_TORPEDOBOOTE = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "TB-%d"
@@ -384,7 +384,7 @@ AUS_ES_Ubootjager = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "UJ-%d"
@@ -412,7 +412,7 @@ AUS_ES_Minenabwehrfahrzeug = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "MT-%d"
@@ -440,7 +440,7 @@ AUS_ES_Flakschiffe = {
 	for_countries = { AUS }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer  ship_hull_civilian }
 
 	prefix = "SMS "
 	fallback_name = "FS-%d"

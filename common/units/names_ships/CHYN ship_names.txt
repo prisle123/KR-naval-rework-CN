@@ -13,7 +13,7 @@ CHYN_DD_HISTORICAL = {
 	for_countries = { QIE FNG CHI LEP ANQ YUN SQI XSM SIK SZC LEC GXC HNN SHX }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	#prefix = "ROCS "
 	fallback_name = "驱逐第%d号舰"

@@ -81,7 +81,7 @@ OTT_GEOGRAPHIC = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	prefix = "OHG " #Osmanli Humayun Gemileri
 	fallback_name = "Gemileri %d"
@@ -106,7 +106,7 @@ OTT_ISLANDS = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	prefix = "OHG " #Osmanli Humayun Gemileri
 	fallback_name = "Gemileri %d"

@@ -6,7 +6,7 @@ ENG_DD_ALPHABETICAL = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "RNS "
 	fallback_name = "Destroyer %s"
@@ -86,7 +86,7 @@ ENG_DD_WEAPONS = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "RNS "
 	fallback_name = "Destroyer %s"
@@ -105,7 +105,7 @@ ENG_DE_COMMUNISM = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "RNS "
 	fallback_name = "Destroyer Escort %s"
@@ -239,7 +239,7 @@ ENG_MINELAYERS_COMMUNISM = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "RNS "
 	fallback_name = "Miner %s"
@@ -429,7 +429,7 @@ ENG_BATTLES = {
 	name = NAME_THEME_BATTLES
 
 	for_countries = { ENG }
-	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	type = ship
 
@@ -450,7 +450,7 @@ ENG_RIVERS = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser }
+	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser  ship_hull_civilian }
 
 	prefix = "RNS "
 

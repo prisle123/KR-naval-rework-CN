@@ -6,7 +6,7 @@ GBR_DD_HISTORICAL = {
 	for_countries = { IMP }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMS "
 	fallback_name = "Destroyer %s"
@@ -55,7 +55,7 @@ GBR_DE_HISTORICAL = {
 	for_countries = { IMP }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMS "
 	fallback_name = "Destroyer Escort %s"
@@ -160,7 +160,7 @@ GBR_MINELAYERS_HISTORICAL = {
 	for_countries = { IMP }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMS "
 	fallback_name = "Miner %s"

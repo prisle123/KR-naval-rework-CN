@@ -485,7 +485,7 @@ GER_DD_IMPERIAL = {
 
 	prefix = "SMS "
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	fallback_name = "T %d"
 

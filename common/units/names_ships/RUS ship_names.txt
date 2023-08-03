@@ -35,7 +35,7 @@ RUS_ADJECTIVES_NAVY = {
 	for_countries = { RUS SOV SIB }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = ""
 	fallback_name = "驱逐舰 N%d"
@@ -109,7 +109,7 @@ RUS_NAMES_NAVY = {
 	for_countries = { RUS SOV SIB }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	prefix = ""
 	fallback_name = "战舰 N%d"
