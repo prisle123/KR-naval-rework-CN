@@ -103,7 +103,7 @@ equipments = {
 
 		naval_range = 3000
 
-		max_strength = 250
+		max_strength = 225
 
 
 		fuel_consumption = 87
@@ -155,7 +155,7 @@ equipments = {
 
 		reliability = 0.65
 		naval_speed = 20
-		build_cost_ic = 2700
+		build_cost_ic = 2200
 		resources = {
 			steel = 2
 		}
@@ -209,20 +209,20 @@ equipments = {
 		naval_speed = 26
 
 
-		build_cost_ic = 2700
+		build_cost_ic = 2500
 		resources = {
 			steel = 3
 			chromium = 1
 		}
 		manpower = 5000
 	}
-
+	
 	ship_hull_carrier_1 = {
 		abbreviation = "haa"
 		year = 1936
-		parent = ship_hull_carrier_conversion_bb
 		can_convert_from = { ship_hull_carrier_1 }
 		archetype = ship_hull_carrier
+		parent = ship_hull_carrier_conversion_bb
 		priority = 1000
 
 		module_slots = {
@@ -263,7 +263,17 @@ equipments = {
 					ship_dp_secondaries
 				}
 			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+					ship_carrier_armor
+					ship_secondaries
+					ship_dp_secondaries
+				}
+			}
 		}
+		naval_speed = 28
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
@@ -316,6 +326,9 @@ equipments = {
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck
+					ship_secondaries
+					ship_dp_secondaries
+					ship_deck_space
 				}
 			}
 		}
@@ -354,7 +367,10 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missle_aa }
+			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
@@ -399,6 +415,15 @@ equipments = {
 					carrier_angled_deck
 				}
 			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_secondaries
+					ship_dp_secondaries
+					ship_anti_air
+					carrier_side_lift
+				}
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -428,7 +453,7 @@ equipments = {
 		year = 1941
 		archetype = ship_hull_carrier
 		priority = 1200
-		can_convert_from = { ship_hull_escort_carrier }
+		can_convert_from = { ship_hull_escort_carrier vnr_ship_hull_civilian_1 vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 		parent = ship_hull_carrier_3
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -439,7 +464,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_deck_space_small }
 			}
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
@@ -461,6 +489,8 @@ equipments = {
 
 		reliability = 0.7
 		naval_speed = 20
+		sub_detection = 8.5
+		surface_visibility = 25
 		build_cost_ic = 2000
 		resources = {
 			steel = 1
@@ -483,7 +513,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_deck_space_big ship_deck_space }
 			}
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missle_aa }
+			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = {
@@ -523,6 +556,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 					ship_anti_air
+					ship_missle_aa
 					carrier_side_lift
 				}
 			}

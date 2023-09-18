@@ -155,7 +155,7 @@
 		task_force = {
 			name = "指挥舰支队"
 			location = 10265 ###Manila (Philippines)
-			ship = { name = "USS 奥古斯塔" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "北安普敦级" } } }
+			ship = { name = "USS 奥古斯塔" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PSA version_name = "北安普敦级" } } }
 			ship = { name = "USS 马布尔海德" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "奥马哈级" } } }
 			ship = { name = "USS 辛辛那提" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PSA version_name = "奥马哈级" } } }
 		}

@@ -9,7 +9,7 @@ tags={
 	"Translation"
 	"Graphics"
 }
-name="KR navy rework (CN ver.)"
+name="KR海军重置"
 picture="thumbnail.png"
 supported_version="1.12.14"
 remote_file_id="2860531377"

@@ -4,7 +4,7 @@ Naval_lore_category = {
 	}
 	
 	JAP_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_jap_flag
 		allowed = { tag = JAP }
 		
 		complete_effect = {
@@ -14,7 +14,7 @@ Naval_lore_category = {
 		}
 	}
 	GER_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_ger_flag
 		allowed = {
 			OR = {
 				tag = GER
@@ -29,7 +29,7 @@ Naval_lore_category = {
 		}
 	}
 	ENG_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_eng_flag
 		allowed = {
 			OR = {
 				tag = ENG
@@ -46,7 +46,7 @@ Naval_lore_category = {
 		}
 	}
 	USA_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_usa_flag
 		allowed = {
 			OR = {
 				tag = USA
@@ -64,7 +64,7 @@ Naval_lore_category = {
 		}
 	}
 	FRA_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_fra_flag
 		allowed = {
 			OR = {
 				tag = FRA
@@ -78,7 +78,7 @@ Naval_lore_category = {
 		}
 	}
 	RUS_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_rus_flag
 		allowed = {
 			tag = RUS
 		}
@@ -89,7 +89,7 @@ Naval_lore_category = {
 		}
 	}
 	AUS_naval_lore = {
-		icon = generic_naval
+		icon = GFX_vnr_aus_flag
 		allowed = {
 			OR = {
 				tag = AUS
@@ -123,6 +123,7 @@ Naval_lore_category = {
 		allowed = {
 			tag = GER
 		}
+		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
 		complete_effect = {
 			FROM = {
 				load_oob = GER_fun
@@ -135,6 +136,7 @@ Naval_lore_category = {
 		allowed = {
 			tag = ENG
 		}
+		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
 		complete_effect = {
 			FROM = {
 				load_oob = ENG_fun
@@ -147,6 +149,7 @@ Naval_lore_category = {
 		allowed = {
 			tag = JAP
 		}
+		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
 		complete_effect = {
 			FROM = {
 				load_oob = JAP_fun
@@ -159,6 +162,7 @@ Naval_lore_category = {
 		allowed = {
 			tag = USA
 		}
+		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
 		complete_effect = {
 			FROM = {
 				load_oob = USA_fun
@@ -171,6 +175,7 @@ Naval_lore_category = {
         available = {
             num_of_naval_factories > 0
         }
+		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
         complete_effect = {
             country_event = navy_rework.100
         }
