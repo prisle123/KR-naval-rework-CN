@@ -10,7 +10,7 @@ AST_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMAS "
 	fallback_name = "Destroyer %s"
@@ -33,7 +33,7 @@ AST_GBR_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMAS "
 	fallback_name = "Destroyer %s"
@@ -85,7 +85,7 @@ AST_DE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMAS "
 	fallback_name = "Corvette %s"
@@ -616,7 +616,7 @@ AST_DD_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "ANS "
 	fallback_name = "Destroyer %s"
@@ -639,7 +639,7 @@ AST_DE_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "ANS "
 	fallback_name = "Corvette %s"

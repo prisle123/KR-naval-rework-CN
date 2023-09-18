@@ -13,7 +13,7 @@ SIA_DD_HISTORICAL = {
 	for_countries = { SIA }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HSMS "
 	fallback_name = "Reua Pikart %d"

@@ -6,7 +6,7 @@ PRF_DD_HISTORICAL = {
 	for_countries = { PRF MDR MYS TRV }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "INS "
 	fallback_name = "Destroyer %s"

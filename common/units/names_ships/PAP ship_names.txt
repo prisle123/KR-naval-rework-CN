@@ -6,7 +6,7 @@ PAP_DD_HISTORICAL = {
 	for_countries = { PAP }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "" #
 	fallback_name = "Cacciatorpediniere %s"

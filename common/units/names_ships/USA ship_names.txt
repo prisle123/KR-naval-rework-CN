@@ -51,7 +51,7 @@ USA_HEROES_NAVY = {
 	for_countries = { USA PSA TEX } # HAW, NEE, CSA is separate
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "USS "
 	fallback_name = "Destroyer DD-%d"
@@ -373,7 +373,7 @@ CSA_HEROES_ACW = {
 	for_countries = { CSA }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "CNS "
 	fallback_name = "Destroyer Escort DE-%d"
@@ -617,7 +617,7 @@ NEE_HEROES_NAVY = {
 	for_countries = { NEE }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "NES "
 	fallback_name = "Destroyer DD-%d"
@@ -815,7 +815,7 @@ HAW_ISLANDS = {
 	for_countries = { HAW }
 
 	type = ship
-	ship_types = { ship_hull_submarine submarine ship_hull_light destroyer }
+	ship_types = { ship_hull_submarine submarine ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HNS "
 	fallback_name = "Ship-%d"
