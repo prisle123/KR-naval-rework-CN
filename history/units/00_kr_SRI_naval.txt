@@ -1,0 +1,565 @@
+﻿units = {
+  fleet = {
+    name = "上第勒尼安海军司令部"  # Comando Navale Alto Tirreno
+    naval_base = 6788
+    task_force = {
+      name = "热那亚舰队"  # Flotta Genovese
+      location = 6788
+      ship = {
+        name = "NdP 意大利"  # NdP Italia
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "弗朗切斯科·卡拉乔洛级"  # Francesco Caracciolo Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 同盟"  # NdP Unione
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "安德烈亚·多利亚级"  # Andrea Doria Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 卡洛·戴尔阿瓦勒"  # NdP Carlo Dell'Avalle
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "卡洛·戴尔阿瓦勒级"  # Carlo Dell'Avalle Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 科斯坦提诺·拉扎里"  # NdP Costantino Lazzari
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "卡洛·戴尔阿瓦勒级"  # Carlo Dell'Avalle Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 俄诺玛俄斯"  # NdP Enomao
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = SRI
+            version_name = "俄诺玛俄斯级"  # Enomao Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 甘尼科"  # NdP Gannico
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = SRI
+            version_name = "俄诺玛俄斯级"  # Enomao Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 克雷斯"  # NdP Crixo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "克雷斯级"  # Crixo Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 卡斯托"  # NdP Casto
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "克雷斯级"  # Crixo Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 伊特鲁里亚"  # NdP Etruria
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SRI
+            version_name = "伊特鲁里亚级"  # Etruria Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 皮凯努"  # NdP Picenum
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SRI
+            version_name = "伊特鲁里亚级"  # Etruria Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 翁布里亚"  # NdP Umbria
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SRI
+            version_name = "伊特鲁里亚级"  # Etruria Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 利古里亚"  # NdP Liguria
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SRI
+            version_name = "伊特鲁里亚级"  # Etruria Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 勃朗峰"  # NdP Bianco
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "阿尔卑斯级/戈尔扎诺级"  # Alpino/Gorzano Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 布莱特峰"  # NdP Breithorn
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "阿尔卑斯级/戈尔扎诺级"  # Alpino/Gorzano Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 马特洪峰"  # NdP Cervino
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "阿尔卑斯级/戈尔扎诺级"  # Alpino/Gorzano Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 亚历山德罗·波埃里奥"  # NdP Alessandro Poerio
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "亚历山德罗·波埃里奥级/天鹰级"  # Alessandro Poerio/Aquila Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 大胆"  # NdP Ardito
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 不屈"  # NdP Indomito
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 卡洛·米拉贝洛"  # NdP Carlo Mirabello
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "卡洛·米拉贝洛级"  # Carlo Mirabello Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 奥古斯托·里博蒂"  # NdP Augusto Riboty
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "卡洛·米拉贝洛级"  # Carlo Mirabello Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇舰队"  # I Squadra Sommergibili
+      location = 6788
+      ship = {
+        name = "NdP SE 1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP SE 8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "SE-I/II级"  # SE-I/II Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "上亚得里亚海军司令部"  # Comando Navale Alto Adriatico
+    naval_base = 925
+    task_force = {
+      name = "亚得里亚舰队"  # Flotta Adriatico
+      location = 925
+      ship = {
+        name = "NdP 弗朗西斯科·费鲁乔"  # NdP Francesco Ferruccio
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SRI
+            version_name = "加里波第级"  # Giuseppe Garibaldi Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 瓦雷泽"  # NdP Varese
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SRI
+            version_name = "加里波第级"  # Giuseppe Garibaldi Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 坎帕尼亚"  # NdP Campania
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "尼诺·比卓级/坎帕尼亚级"  # Nino Boxio/Campania Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 玛萨拉"  # NdP Marsala
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "尼诺·比卓级/坎帕尼亚级"  # Nino Boxio/Campania Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 戈尔扎诺"  # NdP Gorzano
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "阿尔卑斯级/戈尔扎诺级"  # Alpino/Gorzano Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 马埃拉"  # NdP Maiella
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "阿尔卑斯级/戈尔扎诺级"  # Alpino/Gorzano Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 西莫内"  # NdP Cimone
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SRI
+            version_name = "阿尔卑斯级/戈尔扎诺级"  # Alpino/Gorzano Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 古列尔莫·佩佩"  # NdP Guglielmo Pepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "亚历山德罗·波埃里奥级/天鹰级"  # Alessandro Poerio/Aquila Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 卡洛·阿尔贝托·拉基亚"  # NdP Carlo Alberto Racchia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "卡洛·米拉贝洛级"  # Carlo Mirabello Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇舰队"  # II Squadra Sommergibili
+      location = 925
+      ship = {
+        name = "NdP 安德烈亚·普罗瓦纳"  # NdP Andrea Provana
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "安德烈亚·普罗瓦纳级"  # Andrea Provana Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 阿葛斯提诺·巴巴里戈"  # NdP Agostino Barbarigo
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "安德烈亚·普罗瓦纳级"  # Andrea Provana Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 贾科莫·纳尼"  # NdP Giacomo Nani
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "安德烈亚·普罗瓦纳级"  # Andrea Provana Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP 塞巴斯提亚诺·维涅尔"  # NdP Sebastiano Veniero
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "安德烈亚·普罗瓦纳级"  # Andrea Provana Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "NdP H6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRI
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+    }
+  }
+}

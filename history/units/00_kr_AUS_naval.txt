@@ -1,0 +1,1064 @@
+﻿units = {
+  fleet = {
+    name = "皇家与王家作战舰队"  # k.u.k Schlachts-Flotte
+    naval_base = 11735
+    task_force = {
+      name = "第一作战舰队"  # k.u.k I. Schlachtschwadron
+      location = 11735
+      ship = {
+        name = "SMS 马加什一世"  # SMS Corvinus
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "匈雅提级"  # Hunyadi Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 匈雅提"  # SMS Hunyadi
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "匈雅提级"  # Hunyadi Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 弗朗茨·约瑟夫皇帝"  # SMS Kaiser Franz Josef
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "匈雅提级"  # Hunyadi Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 圣瓦茨拉夫"  # SMS Svatý Václav
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "匈雅提级"  # Hunyadi Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 闪电"  # SMS Blitz
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = AUS
+            version_name = "彗星级"  # Meteor Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 彗星"  # SMS Komet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = AUS
+            version_name = "彗星级"  # Meteor Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 流星"  # SMS Meteor
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = AUS
+            version_name = "彗星级"  # Meteor Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 行星"  # SMS Planet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = AUS
+            version_name = "彗星级"  # Meteor Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 龙骑兵"  # SMS Dragoner
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 枪骑兵"  # SMS Labanc
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 利卡"  # SMS Lika
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "特里格拉夫级"  # Triglav Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 特里格拉夫"  # SMS Triglav
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "特里格拉夫级"  # Triglav Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 巴拉顿"  # SMS Balaton
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "塔特拉级"  # Tátra Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 雷泰扎特"  # SMS Retyezát
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "图乌级"  # Turul Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 魏斯峰"  # SMS Weißhorn
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "图乌级"  # Turul Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 布切吉"  # SMS Bucsecs
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "图乌级"  # Turul Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 莱塔"  # SMS Lajta
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "图乌级"  # Turul Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二作战舰队"  # k.u.k II. Schlachtschwadron
+      location = 11735
+      ship = {
+        name = "SMS 君主"  # SMS Monarch
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "施瓦岑贝格级"  # Schwarzenberg Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 施瓦岑贝格"  # SMS Schwarzenberg
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "施瓦岑贝格级"  # Schwarzenberg Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 边境步兵"  # SMS Grenzer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 掷弹兵"  # SMS Grenadier
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 燧发枪兵"  # SMS Füsilier
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 牧马人"  # SMS Csikós
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 骠骑兵"  # SMS Huszár
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 潘杜军团"  # SMS Pandur
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 里耶卡"  # SMS Reka
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 狙击手"  # SMS Scharfschutze
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 库斯托扎"  # SMS Custozza
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = AUS
+            version_name = "库斯托扎级"  # Custozza Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 利萨"  # SMS Lissa
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = AUS
+            version_name = "库斯托扎级"  # Custozza Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第三作战舰队"  # k.u.k III. Schlachtschwadron
+      location = 11735
+      ship = {
+        name = "SMS 欧根亲王"  # SMS Prinz Eugen
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "泰格霍夫级"  # Tegetthoff Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 泰格霍夫"  # SMS Tegetthoff
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "泰格霍夫级"  # Tegetthoff Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 涅戈万海军上将"  # SMS Admiral Njegovan
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "涅戈万海军上将级"  # Admiral Njegovan Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 赫尔戈兰"  # SMS Helgoland
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "赫尔戈兰级"  # Helgoland Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 赛达"  # SMS Saida
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "赫尔戈兰级"  # Helgoland Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 诺瓦拉"  # SMS Novara
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "赫尔戈兰级"  # Helgoland Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 国土佣仆"  # SMS Landsknecht
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 线列步兵"  # SMS Vojnik
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 胸甲骑兵"  # SMS Kürassier
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 奥连"  # SMS Orjen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "塔特拉级"  # Tátra Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 塔特拉"  # SMS Tátra
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "塔特拉级"  # Tátra Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 杜克拉"  # SMS Dukla
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "特里格拉夫级"  # Triglav Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 乌若克"  # SMS Uzsok
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "特里格拉夫级"  # Triglav Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 施瓦茨科格尔"  # SMS Schwarzkogel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "图乌级"  # Turul Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 图乌"  # SMS Turul
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "图乌级"  # Turul Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "预备役舰队"  # k.u.k Reservegeschwader
+    naval_base = 6626
+    task_force = {
+      name = "预备役舰队"  # Reservegeschwader
+      location = 6626
+      ship = {
+        name = "SMS 拉德茨基"  # SMS Radetzky
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "拉德茨基级"  # Radetzky Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 兹里尼"  # SMS Zrinyi
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "拉德茨基级"  # Radetzky Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 弗朗茨·斐迪南大公"  # SMS Erzherzog Franz Ferdinand
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "拉德茨基级"  # Radetzky Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 迪纳拉"  # SMS Dinara
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 韦莱比特"  # SMS Velebit
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 皇帝卡尔六世"  # SMS Kaiser Karl VI
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = AUS
+            version_name = "皇帝卡尔六世级/圣乔治级"  # Kaiser Karl VI/Sankt Georg Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 圣乔治"  # SMS Sankt Georg
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = AUS
+            version_name = "皇帝卡尔六世级/圣乔治级"  # Kaiser Karl VI/Sankt Georg Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 联合力量"  # SMS Viribus Unitis
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "泰格霍夫级"  # Tegetthoff Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 斯邦海军上将"  # SMS Admiral Spaun
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "斯邦海军上将级"  # Admiral Spaun Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 切佩尔"  # SMS Csepel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "塔特拉级"  # Tátra Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 瓦拉斯迪纳"  # SMS Warasdiner
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 野人"  # SMS Wildfang
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 乌兰骑兵"  # SMS Ulan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 乌斯科克军团"  # SMS Uskoke
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "骠骑兵级"  # Huszár Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "第一潜艇大队"  # k.u.k I. U-Boot-Flotte
+    naval_base = 3924
+    task_force = {
+      name = "第一潜艇分队"  # U-Boot-schwadron A
+      location = 3924
+      ship = {
+        name = "SM U-101"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-102"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-103"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-104"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-105"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-106"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇分队"  # U-Boot-schwadron B
+      location = 3924
+      ship = {
+        name = "SM U-107"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-108"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-109"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-110"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-111"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-112"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第三潜艇分队"  # U-Boot-schwadron C
+      location = 3924
+      ship = {
+        name = "SM U-113"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-114"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-115"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-116"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-117"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-118"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-100级"  # U-100 Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "第二潜艇大队"  # k.u.k II. U-Boot-Flotte
+    naval_base = 3924
+    task_force = {
+      name = "第一潜艇分队"  # U-Boot-schwadron A
+      location = 3924
+      ship = {
+        name = "SM U-120"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-121"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-122"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-123"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-124"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-125"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇分队"  # U-Boot-schwadron B
+      location = 3924
+      ship = {
+        name = "SM U-126"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-127"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-128"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-129"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-130"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+      ship = {
+        name = "SM U-131"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AUS
+            version_name = "U-120级"  # U-120 Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_2
+      creator = "AUS"
+      version_name = "施瓦岑贝格级"  # Schwarzenberg Class
+    }
+    requested_factories = 2
+    progress = 0.5
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_2
+      creator = "AUS"
+      version_name = "施瓦岑贝格级"  # Schwarzenberg Class
+    }
+    requested_factories = 2
+    progress = 0.5
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "AUS"
+      version_name = "彗星级"  # Meteor Class
+    }
+    requested_factories = 1
+    progress = 0.9
+    amount = 4
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "AUS"
+      version_name = "彗星级"  # Meteor Class
+    }
+    requested_factories = 1
+    progress = 0.7
+    amount = 4
+  }
+}

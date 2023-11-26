@@ -1,0 +1,3242 @@
+﻿units = {
+  fleet = {
+    name = "南方指挥部"  # Southern Command
+    naval_base = 9458
+    task_force = {
+      name = "海峡舰队"  # Channel Fleet
+      location = 9458
+      ship = {
+        name = "RNS 鹰"  # RNS Eagle
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = ENG
+            version_name = "鹰级"  # Eagle Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 托尔帕德尔"  # RNS Tolpuddle
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "铁公爵级"  # Iron Duke Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 百夫长"  # RNS Centurion
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 大胆"  # RNS Audacious
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 普利茅斯"  # RNS Plymouth
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = ENG
+            version_name = "布伦海姆级"  # Blenheim Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 胆量"  # RNS Daring
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 代达罗斯"  # RNS Daedalus
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 绝望"  # RNS Desperate
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 树妖"  # RNS Dryad
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 德班"  # RNS Durban
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 进取"  # RNS Enterprise
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 斗牛犬"  # RNS Bulldog
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 政委"  # RNS Commissar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 新月"  # RNS Crescent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 彗星"  # RNS Comet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 科莫多"  # RNS Commodore
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 十字军"  # RNS Crusader
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 天鹅"  # RNS Cygnet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 戴安娜"  # RNS Diana
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 肯彭费尔特"  # RNS Kempenfelt
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 日蚀"  # RNS Eclipse
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 伊莱克特拉"  # RNS Electra
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 远见"  # RNS Foresight
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 林地人"  # RNS Forester
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 财富"  # RNS Fortune
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 猎狐犬"  # RNS Foxhound
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 托贝"  # RNS Torbay
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 斗牛士"  # RNS Toreador
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 黑碧玺"  # RNS Tourmaline
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 布鲁斯"  # RNS Bruce
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 道格拉斯"  # RNS Douglas
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 瓦尔哈拉"  # RNS Valhalla
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 旅人"  # RNS Wayfarer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 啄木鸟"  # RNS Woodpecker
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 韦斯特沃德霍"  # RNS Westward Ho
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 斑马"  # RNS Zebra
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "普利茅斯舰队"  # Plymouth Fleet
+      location = 540
+      ship = {
+        name = "RNS 达尼丁"  # RNS Dunedin
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 瓦诺克"  # RNS Vanoc
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 真实"  # RNS Verity
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 胜利者"  # RNS Vanquisher
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 维柯蒂斯"  # RNS Vectis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 复仇者"  # RNS Vendetta
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 黄昏"  # RNS Vesper
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 吸血鬼"  # RNS Vampire
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备役舰队"  # Reserved Fleet
+      location = 9458
+      ship = {
+        name = "RNS 约翰·丘吉尔"  # RNS John Churchill
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "英王乔治五世级"  # King George V Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 加的夫"  # RNS Cardiff
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 考文垂"  # RNS Coventry
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 温彻斯特"  # RNS Winchester
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 狼犬"  # RNS Wolfhound
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 沃尔西"  # RNS Wolsey
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 摔跤手"  # RNS Wrestler
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 斜颈鸟"  # RNS Wryneck
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 女武神"  # RNS Valkyrie
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 瓦伦丁"  # RNS Valentine
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 勇猛"  # RNS Valorous
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "诺尔舰队"  # Nore Fleet
+      location = 3501
+      ship = {
+        name = "RNS 艾伦"  # RNS Allen
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和级"  # Republican Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 忍耐"  # RNS Endurance
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "无限级"  # Measureless Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 执着"  # RNS Regardless
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "无限级"  # Measureless Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 哨兵"  # RNS Vidette
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 维米拉"  # RNS Vimiera
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 狂暴"  # RNS Violent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 子爵"  # RNS Viscount
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 维多利亚"  # RNS Vittoria
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 活跃"  # RNS Vivacious
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 航海家"  # RNS Voyager
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 虔诚者"  # RNS Votary
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 清醒"  # RNS Wakeful
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇舰队"  # 2nd Submarine Flotilla
+      location = 9458
+      ship = {
+        name = "RNS L-64"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-65"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-66"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-67"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-68"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-69"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-70"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-72"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-73"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-74"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS R1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS R2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS R3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS R4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS R5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第五潜艇舰队"  # 5th Submarine Flotilla
+      location = 3501
+      ship = {
+        name = "RNS S1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S9"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S10"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "北方指挥部"  # Northern Command
+    naval_base = 13631
+    task_force = {
+      name = "北海舰队"  # North Sea Fleet
+      location = 13631
+      ship = {
+        name = "RNS 勇敢"  # RNS Courageous
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = ENG
+            version_name = "勇敢级"  # Courageous Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 光荣"  # RNS Glorious
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = ENG
+            version_name = "勇敢级"  # Courageous Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 联盟"  # RNS Union
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "联盟级"  # Union Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 平等"  # RNS Leveller
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 纳尔逊"  # RNS Nelson
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "纳尔逊级"  # Nelson Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 反击"  # RNS Repulse
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "声望级"  # Renown Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 声望"  # RNS Renown
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "声望级"  # Renown Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 皮卡德"  # RNS Pickard
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和级"  # Republican Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 伍兹"  # RNS Woods
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和级"  # Republican Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 无限"  # RNS Measureless
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "无限级"  # Measureless Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 科迪莉亚"  # RNS Cordelia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 康科德"  # RNS Concord
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 回响"  # RNS Echo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 埃克斯茅斯"  # RNS Exmouth
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 猛烈"  # RNS Fierce
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 怒火"  # RNS Fiery
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 狂怒"  # RNS Fury
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 巴西利斯克"  # RNS Basilisk
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 比格犬"  # RNS Beagle
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 布兰切"  # RNS Blanche
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 布狄卡"  # RNS Boadicea
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 玻瑞阿斯"  # RNS Boreas
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 无耻"  # RNS Brazen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 聪慧"  # RNS Brilliant
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 女公爵"  # RNS Duchess
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 基斯"  # RNS Keith
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 沃里克"  # RNS Warwick
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 哨卫"  # RNS Watchman
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 苦恶鸟"  # RNS Waterhen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 韦斯特考特"  # RNS Westcott
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 旋风"  # RNS Whirlwind
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 惠特利"  # RNS Whitley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 温切尔西"  # RNS Winchelsea
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "罗塞斯护航分队"  # Rosyth Escort Force
+      location = 6300
+      ship = {
+        name = "RNS 军刀"  # RNS Sabre
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 萨拉丁"  # RNS Saladin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 镰刀"  # RNS Scythe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 海熊"  # RNS Seabear
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "北方巡逻舰队"  # Northern Patrol
+      location = 13631
+      ship = {
+        name = "RNS 查塔姆"  # RNS Chatham
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 科林斯"  # RNS Collins
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 麦凯"  # RNS Mackay
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 斯宾塞"  # RNS Spenser
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 农夫"  # RNS Yeoman
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 十二宫"  # RNS Zodiac
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "亨伯支队"  # Humber Force
+      location = 11297
+      ship = {
+        name = "RNS 海火"  # RNS Seafire
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 搜寻者"  # RNS Searcher
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 海狼"  # RNS Seawolf
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 议员"  # RNS Senator
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 西帕依"  # RNS Sepoy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 炽天使"  # RNS Seraph
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 塞拉皮斯"  # RNS Serapis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 宁静"  # RNS Serene
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇舰队"  # 1st Submarine Flotilla
+      location = 13631
+      ship = {
+        name = "RNS H-28"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-29"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-30"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-31"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-32"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-33"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-34"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-43"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS H-44"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "H/R级"  # H/R Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-50"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-51"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-52"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-53"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-54"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第四潜艇舰队"  # 4th Submarine Flotilla
+      location = 351
+      ship = {
+        name = "RNS S11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS S12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "S级"  # S Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS T1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS T2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS T3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS T4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS T5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS T6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "西方指挥部"  # Western Command
+    naval_base = 6384
+    task_force = {
+      name = "西进口航道舰队"  # Western Approaches Fleet
+      location = 6384
+      ship = {
+        name = "RNS 瑞贝卡"  # RNS Rebecca
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = ENG
+            version_name = "瑞贝卡级"  # Rebecca Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 耶德逊"  # RNS Judson
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "班菲尔德级"  # Bondfield Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 霍克"  # RNS Hawk
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "纳尔逊级"  # Nelson Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 马克思"  # RNS Marx
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和级"  # Republican Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 冠军"  # RNS Champion
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 克娄帕特拉"  # RNS Cleopatra
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 科摩斯"  # RNS Comus
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 福克诺"  # RNS Faulknor
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 无惧"  # RNS Fearless
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 火龙"  # RNS Firedrake
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 芝麻"  # RNS Sesame
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 鲨鱼"  # RNS Shark
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 锡克"  # RNS Sikh
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 西蒙风"  # RNS Simoom
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 长矛"  # RNS Spear
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RMS 璀璨"  # RNS Splendid
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 健体"  # RNS Sportive
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 幸存者"  # RNS Survivor
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 振奋"  # RNS Strenuous
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 据点"  # RNS Stronghold
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 燕子"  # RNS Swallow
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 剑士"  # RNS Swordsman
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 台风"  # RNS Typhoon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 塔斯马尼亚"  # RNS Tasmania
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 花纹"  # RNS Tattoo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 逃避"  # RNS Truant
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 信赖"  # RNS Trusty
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 薇薇恩"  # RNS Vivien
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 无常"  # RNS Volage
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 火山"  # RNS Volcano
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 志愿者"  # RNS Volunteer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 沃尔蒂根"  # RNS Vortigern
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 赌徒"  # RNS Wager
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 威克"  # RNS Wake
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 沃尔德格雷夫"  # RNS Waldegrave
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 漫游者"  # RNS Wanderer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "大西洋舰队"  # Atlantic Fleet
+      location = 6384
+      ship = {
+        name = "RNS 自由"  # RNS Freedom
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和国级"  # Republic Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 共和国"  # RNS Republic
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和国级"  # Republic Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 班菲尔德"  # RNS Bondfield
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "班菲尔德级"  # Bondfield Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 胡德"  # RNS Hood
+        pride_of_the_fleet = yes
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "海军上将级"  # Admiral Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 科克本"  # RNS Cockburn
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "纳尔逊级"  # Nelson Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 塔尔博特"  # RNS Talbot
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = ENG
+            version_name = "布伦海姆级"  # Blenheim Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 奥杰"  # RNS Odger
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和级"  # Republican Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 桂格"  # RNS Quaker
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "共和级"  # Republican Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 再起"  # RNS Resurgence
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "无限级"  # Measureless Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 委员会"  # RNS Commission
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 鸬鹚"  # RNS Cormorant
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 纤巧"  # RNS Dainty
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 诱饵"  # RNS Decoy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 保卫者"  # RNS Defender
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 喜悦"  # RNS Delight
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 钻石"  # RNS Diamond
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 邓肯"  # RNS Duncan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 电机"  # RNS Dynamo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 遭遇"  # RNS Encounter
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 妄为"  # RNS Escapade
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 援护"  # RNS Escort
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 名望"  # RNS Fame
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = ENG
+            version_name = "E/F/G/H级"  # E/F/G/H Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 沃伦"  # RNS Warren
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 好客"  # RNS Welcome
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 福利"  # RNS Welfare
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 狼人"  # RNS Werewolf
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 威斯特法尔"  # RNS Westphal
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 惠特克"  # RNS Whitaker
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 白厅"  # RNS Whitehall
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 怀特黑德"  # RNS Whitehead
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 维洛比"  # RNS Willoughby
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 凛冬"  # RNS Winter
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 女巫"  # RNS Witch
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 威瑟林顿"  # RNS Witherington
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 伍斯特"  # RNS Worcester
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 牧马人"  # RNS Wrangler
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 鹪鹩"  # RNS Wren
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 怀"  # RNS Wye
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "爱尔兰支队"  # Irish Squadron
+      location = 6395
+      ship = {
+        name = "RNS 雀鹰"  # RNS Sparrowhawk
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 战斧"  # RNS Tomahawk
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 火炬"  # RNS Torch
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 翠丰"  # RNS Tryphon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 神射手"  # RNS Marksman
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 猎迷"  # RNS Nimrod
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 范西塔特"  # RNS Vansittart
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 瓦尚"  # RNS Vashon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 维戈"  # RNS Vigo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 渴望"  # RNS Wistful
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "RNS 剧毒"  # RNS Virulent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第三潜艇舰队"  # 3rd Submarine Flotilla
+      location = 6384
+      ship = {
+        name = "RNS L-56"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-57"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-58"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-59"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-60"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-61"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-62"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS L-63"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ENG
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第六潜艇舰队"  # 6th Submarine Flotilla
+      location = 377
+      ship = {
+        name = "RNS U7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U9"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U10"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U14"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS U15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ENG
+            version_name = "T/U级"  # T/U Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS M-1"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "M级"  # M Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS M-2"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "M级"  # M Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS M-3"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "M级"  # M Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS M-4"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "M级"  # M Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS X-1"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "X级"  # X Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS X-2"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "X级"  # X Type
+          }
+        }
+      }
+      ship = {
+        name = "RNS X-3"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = ENG
+            version_name = "X级"  # X Type
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_3
+      creator = ENG
+      version_name = "联盟级"  # Union Class
+    }
+    name = "RNS 革命"  # RNS Revolution
+    requested_factories = 2
+    progress = 0.65
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_3
+      creator = ENG
+      version_name = "班菲尔德级"  # Bondfield Class
+    }
+    name = "RNS 莫特谢德"  # RNS Mottershead
+    requested_factories = 3
+    progress = 0.85
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_heavy_3
+      creator = ENG
+      version_name = "班菲尔德级"  # Bondfield Class
+    }
+    name = "RNS 斯米利"  # RNS Smillie
+    requested_factories = 3
+    progress = 0.85
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_3
+      creator = "ENG"
+      version_name = "无限级"  # Measureless Class
+    }
+    name = "RNS 不屈"  # RNS Indomitable
+    requested_factories = 1
+    progress = 0.5
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_3
+      creator = "ENG"
+      version_name = "无限级"  # Measureless Class
+    }
+    name = "RNS 自立"  # RNS Independence
+    requested_factories = 1
+    progress = 0.5
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_3
+      creator = "ENG"
+      version_name = "无限级"  # Measureless Class
+    }
+    name = "RNS 疾驰"  # RNS Rapid
+    requested_factories = 1
+    progress = 0.2
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_3
+      creator = "ENG"
+      version_name = "无限级"  # Measureless Class
+    }
+    name = "RNS 跨越"  # RNS Leap
+    requested_factories = 1
+    progress = 0.2
+    amount = 1
+  }
+}

@@ -1,0 +1,13 @@
+﻿air_wings = {
+	"SMS 美因河" = {
+		cv_fighter_equipment_0 = { owner = "GER" amount = 10 }
+	}
+	"SMS 威悉河" = {
+		cv_fighter_equipment_0 = { owner = "GER" amount = 15 }
+		cv_nav_bomber_equipment_1 = { owner = "GER" amount = 5 }
+	}
+	"SMS 易北河" = {
+		cv_fighter_equipment_0 = { owner = "GER" amount = 15 }
+		cv_nav_bomber_equipment_1 = { owner = "GER" amount = 5 }
+	}
+}

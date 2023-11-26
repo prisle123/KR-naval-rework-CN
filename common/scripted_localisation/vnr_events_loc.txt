@@ -1,0 +1,576 @@
+defined_text = {
+    name = constitution_mod_loc
+    text = {
+        trigger = { original_tag = USA }
+        localization_key = constitution_usa_1
+    }
+    text = {
+        localization_key = constitution_generic_1
+    }
+}
+
+defined_text = {
+	name = get_vnr_ai_difficulty
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 0 } }
+		localization_key = vnr_ai_difficulty_no
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 1 } }
+		localization_key = vnr_ai_difficulty_normal
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 2 } }
+		localization_key = vnr_ai_difficulty_hard
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 3 } }
+		localization_key = vnr_ai_difficulty_mad
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_title_1
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = naval_lore_title_1_ger
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		localization_key = naval_lore_title_1_fra
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = naval_lore_title_1_usa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = ENG
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = naval_lore_title_1_eng
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_title_1_jap
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = naval_lore_title_1_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = naval_lore_title_1_aus
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_title_2
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = naval_lore_title_2_ger
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = naval_lore_title_2_fra
+	}
+	text = {
+		trigger = { original_tag = NFA }
+		localization_key = naval_lore_title_2_nfa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = naval_lore_title_2_usa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = naval_lore_title_2_can
+	}
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = naval_lore_title_2_eng
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_title_2_jap
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = naval_lore_title_2_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = naval_lore_title_2_aus
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_desc_1
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = naval_lore_desc_1_ger
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		localization_key = naval_lore_desc_1_fra
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = naval_lore_desc_1_usa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = ENG
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = naval_lore_desc_1_eng
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_desc_1_jap
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = naval_lore_desc_1_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = naval_lore_desc_1_aus
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_desc_2
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = naval_lore_desc_2_ger
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = naval_lore_desc_2_fra
+	}
+	text = {
+		trigger = { original_tag = NFA }
+		localization_key = naval_lore_desc_2_nfa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = naval_lore_desc_2_usa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = naval_lore_desc_2_can
+	}
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = naval_lore_desc_2_eng
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_desc_2_jap
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = naval_lore_desc_2_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = naval_lore_desc_2_aus
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_option_1
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = naval_lore_option_1_ger
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		localization_key = naval_lore_option_1_fra
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = naval_lore_option_1_usa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = ENG
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = naval_lore_option_1_eng
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_option_1_jap
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = naval_lore_option_1_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = naval_lore_option_1_aus
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_option_2
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		 }
+		localization_key = naval_lore_option_2_ger
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = naval_lore_option_2_fra
+	}
+	text = {
+		trigger = { original_tag = NFA }
+		localization_key = naval_lore_option_2_nfa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = naval_lore_option_2_usa
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = naval_lore_option_2_can
+	}
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = naval_lore_option_2_eng
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_option_2_jap
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = naval_lore_option_2_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = naval_lore_option_2_aus
+	}
+}
+
+defined_text = {
+	name = get_naval_lore_picture
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = CAN
+				original_tag = GBR
+				original_tag = ENG
+				original_tag = AST
+				original_tag = WIF
+			}
+		}
+		localization_key = GFX_naval_lore_eng
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = USA
+				original_tag = PSA
+				original_tag = TEX
+				original_tag = NEE
+				original_tag = CSA
+				original_tag = HAW
+			}
+		}
+		localization_key = GFX_naval_lore_usa
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = GFX_naval_lore_jap
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		localization_key = GFX_naval_lore_fra
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		}
+		localization_key = GFX_naval_lore_ger
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = GFX_naval_lore_rus
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
+		localization_key = GFX_naval_lore_aus
+	}
+}
+
+defined_text = {
+	name = get_designer_title
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = ship_designer_title_eng
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = CAN
+				original_tag = SAF
+				original_tag = AST
+				original_tag = NZL
+				original_tag = RAJ
+			}
+		}
+		localization_key = ship_designer_title_can
+	}
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = USA
+				original_tag = CSA
+				original_tag = TEX
+				original_tag = PSA
+				original_tag = NEE
+				original_tag = COR
+				original_tag = WCC
+			}
+		}
+		localization_key = ship_designer_title_usa
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = ship_designer_title_jap
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		localization_key = ship_designer_title_fra
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = GER
+				original_tag = GEA
+				original_tag = MAF
+			}
+		}
+		localization_key = ship_designer_title_ger
+	}
+	text = {
+		trigger = { original_tag = RUS }
+		localization_key = ship_designer_title_rus
+	}
+	text = {
+		localization_key = ship_designer_title_gen
+	}
+}

@@ -28,3 +28,7 @@
  battlecarrier_desc: "航空战列舰是一种结合了航空母舰和战列舰特点的大型舰船，通常只出现在理论假设中。"
  auxiliary_ship: "辅助船"
  auxiliary_ship_desc: "负责舰队支援事宜的舰船，按照民用船舶的标准建造。"
+ cv_cas: "舰载俯冲轰炸机"
+ cv_CAS_equipment_desc: "俯冲轰炸机通过对目标进行俯冲以获得更高的投弹命中率。"
+ cv_nav_bomber: "舰载鱼雷轰炸机"
+ cv_nav_bomber_equipment_desc: "鱼雷轰炸机携带空射鱼雷攻击舰船。"

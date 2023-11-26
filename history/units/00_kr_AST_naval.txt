@@ -1,0 +1,436 @@
+﻿units = {
+  fleet = {
+    name = "澳大拉西亚皇家海军"  # Australasian Royal Navy
+    naval_base = 12406
+    task_force = {
+      name = "主力舰队"  # Capital Fleet
+      location = 12406
+      ship = {
+        name = "HMAS 竞技神"  # HMAS Hermes
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_ca = {
+            amount = 1
+            owner = AST
+            version_name = "竞技神级"  # Hermes Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 马来亚"  # HMAS Malaya
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AST
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 君权"  # HMAS Royal Sovereign
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AST
+            version_name = "复仇级"  # Revenge Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 埃芬汉"  # HMAS Effingham
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "霍金斯级"  # Hawkins Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 罗利"  # HMAS Raleigh
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = AST
+            version_name = "霍金斯级"  # Hawkins Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 康斯坦斯"  # HMAS Constance
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = AST
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 澳新军团"  # HMAS Anzac
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 格伦维尔"  # HMAS Grenville
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 帕克"  # HMAS Parker
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 索默里斯"  # HMAS Saumarez
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 西摩"  # HMAS Seymour
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 温哥华"  # HMAS Vancouver
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 瓦妮莎"  # HMAS Vanessa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 虚荣"  # HMAS Vanity
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 恶毒"  # HMAS Venomous
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 冒险"  # HMAS Venturous
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 凡尔登"  # HMAS Verdun
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 灵活"  # HMAS Versatile
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 维鲁拉姆"  # HMAS Verulam
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 历战"  # HMAS Veteran
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 总督"  # HMAS Viceroy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 沃克"  # HMAS Walker
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 沃波尔"  # HMAS Walpole
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇部队"  # Submarine Squadron
+      location = 12406
+      ship = {
+        name = "HMAS L-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AST
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS L-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AST
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS L-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = AST
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS H-48"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS H-49"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS H-50"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS K-23"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS K-24"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS K-25"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS K-26"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS K-27"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMAS K-28"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = AST
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "新西兰支队"  # New Zealand Squadron
+      location = 1814
+      ship = {
+        name = "HMAS 优势"  # HMAS Vantage
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 威尼斯"  # HMAS Venetia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 报复"  # HMAS Vengeful
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = AST
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+  }
+}

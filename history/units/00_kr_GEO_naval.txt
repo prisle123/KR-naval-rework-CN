@@ -1,0 +1,32 @@
+﻿units = {
+  fleet = {
+    name = "格鲁吉亚人民海军"  # Pirveli popularuli flotilla
+    naval_base = 772
+    task_force = {
+      name = "格鲁吉亚人民海军"  # Pirveli popularuli flotilla
+      location = 772
+      ship = {
+        name = "阿耶蒂"  # Ayety
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GEO
+            version_name = "巴统级"  # Batumi Class
+          }
+        }
+      }
+      ship = {
+        name = "巴统"  # Batumi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GEO
+            version_name = "巴统级"  # Batumi Class
+          }
+        }
+      }
+    }
+  }
+}

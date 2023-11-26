@@ -1,0 +1,287 @@
+﻿units = {
+  fleet = {
+    name = "北洋海军"  # Beiyang Haijun
+    naval_base = 7191
+    task_force = {
+      name = "第一舰队"  # 1st Fleet
+      location = 7191
+      ship = {
+        name = "武威"  # Wuwei
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "拿骚级"  # Nassau Class
+          }
+        }
+      }
+      ship = {
+        name = "平海"  # Pinghai
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "平海级"  # Pinghai Class
+          }
+        }
+      }
+      ship = {
+        name = "海容"  # Hairong
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = QIE
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "海筹"  # Haichou
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = QIE
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "大同"  # Dadong
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "建威级"  # Jianwei Class
+          }
+        }
+      }
+      ship = {
+        name = "自强"  # Zejiang
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "建威级"  # Jianwei Class
+          }
+        }
+      }
+      ship = {
+        name = "永绩"  # Yung Chi
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "永丰级/永绩级"  # Yung Feng/Yung Chi Class
+          }
+        }
+      }
+      ship = {
+        name = "永谦"  # Yung Chien
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "永丰级/永绩级"  # Yung Feng/Yung Chi Class
+          }
+        }
+      }
+      ship = {
+        name = "永丰"  # Yung Feng
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "永丰级/永绩级"  # Yung Feng/Yung Chi Class
+          }
+        }
+      }
+      ship = {
+        name = "建康"  # Chien Kang
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "长风级"  # Chang Feng Class
+          }
+        }
+      }
+      ship = {
+        name = "戴云山"  # Daiyun Shan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "罗霄山级"  # Luoxiao Shan Class
+          }
+        }
+      }
+      ship = {
+        name = "罗霄山"  # Luoxiao Shan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "罗霄山级"  # Luoxiao Shan Class
+          }
+        }
+      }
+      ship = {
+        name = "万洋山"  # Wanyang Shan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "罗霄山级"  # Luoxiao Shan Class
+          }
+        }
+      }
+      ship = {
+        name = "天柱山"  # Tianzhu Shan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "沂蒙山级"  # Yimen Shan Class
+          }
+        }
+      }
+      ship = {
+        name = "沂蒙山"  # Yimen Shan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "沂蒙山级"  # Yimen Shan Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二舰队"  # 2nd Fleet
+      location = 13707
+      ship = {
+        name = "楚泰"  # Chu Tai
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "楚有"  # Chu Yiu
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "楚同"  # Chu Tung
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "楚谦"  # Chu Chien
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "楚观"  # Chu Kuan
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "江元"  # Kiang Yuan
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "江贞"  # Kiang Chen
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = QIE
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "训练舰队"  # Training Fleet
+      location = 7191
+      ship = {
+        name = "应瑞"  # Yingrui
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = QIE
+            version_name = "肇和级"  # Zhaohe Class
+          }
+        }
+      }
+    }
+  }
+}

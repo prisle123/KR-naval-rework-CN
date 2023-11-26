@@ -1,0 +1,134 @@
+﻿units = {
+  fleet = {
+    name = "芬兰海军"  # Suomen Merivoimat
+    naval_base = 11105
+    task_force = {
+      name = "岸防舰队"  # Rannikkolaivue
+      location = 11105
+      ship = {
+        name = "伊尔玛利宁"  # Ilmarinen
+        definition = heavy_cruiser
+        start_experience_factor = 0.16
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FIN
+            version_name = "维纳莫依嫩级"  # Väinämöinen Class
+          }
+        }
+      }
+      ship = {
+        name = "维纳莫依嫩"  # Väinämöinen
+        definition = heavy_cruiser
+        start_experience_factor = 0.16
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FIN
+            version_name = "维纳莫依嫩级"  # Väinämöinen Class
+          }
+        }
+      }
+      ship = {
+        name = "新地"  # Uusimaa
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "哥卢布级/菲林级"  # Golub/Filin Class
+          }
+        }
+      }
+      ship = {
+        name = "海姆"  # Hämeenmaa
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "哥卢布级/菲林级"  # Golub/Filin Class
+          }
+        }
+      }
+      ship = {
+        name = "图伦马"  # Turunmaa
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "哥卢布级/菲林级"  # Golub/Filin Class
+          }
+        }
+      }
+      ship = {
+        name = "卡累利阿"  # Karjala
+        definition = destroyer
+        start_experience_factor = 0.10
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "哥卢布级/菲林级"  # Golub/Filin Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇部队"  # Sukellusvenelaivue
+      location = 11105
+      ship = {
+        name = "水妖"  # Vetehinen
+        definition = submarine
+        start_experience_factor = 0.16
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "水妖级"  # Vetehinen Class
+          }
+        }
+      }
+      ship = {
+        name = "水怪"  # Vesihiisi
+        definition = submarine
+        start_experience_factor = 0.16
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "水妖级"  # Vetehinen Class
+          }
+        }
+      }
+      ship = {
+        name = "伊库图索"  # Iku-Turso
+        definition = submarine
+        start_experience_factor = 0.16
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "水妖级"  # Vetehinen Class
+          }
+        }
+      }
+      ship = {
+        name = "水濑"  # Vesikko
+        definition = submarine
+        start_experience_factor = 0.16
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FIN
+            version_name = "水濑级"  # Vesikko Class
+          }
+        }
+      }
+    }
+  }
+}

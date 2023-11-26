@@ -1,0 +1,308 @@
+﻿units = {
+  fleet = {
+    name = "荷兰皇家海军"  # Koninklijke Marine
+    naval_base = 9498
+    task_force = {
+      name = "岸防舰队"  # Kustverdedigingseskader
+      location = 9498
+      ship = {
+        name = "HrMs 金狮"  # HrMs Gouden Leeuw
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_ca = {
+            amount = 1
+            owner = HOL
+            version_name = "金狮级"  # Gouden Leeuw Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 艾米利亚"  # HrMs Aemalia
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "艾米利亚级"  # Aemalia Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 泗水"  # HrMs Soerabaja
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "泗水级"  # Soerabaja Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 亨利公爵"  # HrMs Hertog Hendrik
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "亨利公爵级"  # Hertog Hendrik Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 艾默伊登"  # HrMs Ijmuiden
+        definition = heavy_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "雅各布·范·黑姆斯克尔克级"  # Jacob van Heemskerck Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 海尔德兰"  # HrMs Gelderland
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "荷兰级"  # Holland Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 北布拉班特"  # HrMs Noordbrabant
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = HOL
+            version_name = "荷兰级"  # Holland Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 豺狼"  # HrMs Jakhals
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 雪貂"  # HrMs Hermelijn
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 山猫"  # HrMs Lynx
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 狐狸"  # HrMs Vos
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 黑豹"  # HrMs Panter
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "潜艇部队"  # Onderzeebootvloot
+    naval_base = 9498
+    task_force = {
+      name = "第一潜艇舰队"  # 1e Onderzeebootseskader
+      location = 9498
+      ship = {
+        name = "HrMs O-12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-14"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-16"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-17"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-18"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-19"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-20"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-21"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-10"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs O-9"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = HOL
+            version_name = "O级"  # O Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_3
+      creator = "HOL"
+      version_name = "特朗普级"  # Tromp Class
+    }
+    requested_factories = 1
+    progress = 0.05
+    amount = 2
+  }
+}

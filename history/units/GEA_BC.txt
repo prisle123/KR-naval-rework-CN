@@ -1,8 +1,7 @@
 ﻿###OOB File for GEA.txt
 instant_effect = {
 	create_equipment_variant = {
-		name = "利奥波德王储级" 				# Fictional
-		role_icon_index = 15
+		name = "Prinz Leopold Class" 				# Fictional
 		icon = "gfx/interface/technologies/Germany/GER_battleship_Leopold.png"
 		type = ship_hull_heavy_2
 		name_group = GER_THEME_BATTLE_IMPERIAL
@@ -30,9 +29,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_heavy_2
 			creator = "GEA"
-			version_name = "利奥波德王储级"
+			version_name = "Prinz Leopold Class"
 		}
-		name = "SMS 阿尔布雷希特王储"
+		name = "SMS Herzog Albrecht"
 		requested_factories = 3
 		progress = 0.6
 		amount = 1
@@ -41,12 +40,11 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_heavy_2
 			creator = "GEA"
-			version_name = "利奥波德王储级"
+			version_name = "Prinz Leopold Class"
 		}
-		name = "SMS 利奥波德王储"
+		name = "SMS Prinz Leopold"
 		requested_factories = 3
 		progress = 0.6
 		amount = 1
 	}
 }
-

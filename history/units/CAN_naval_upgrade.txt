@@ -1,0 +1,120 @@
+﻿units = {
+  fleet = {
+    name = "预备役舰船"  # Reserved Ships
+    naval_base = 7361
+    task_force = {
+      name = "预备役舰船"  # Reserved Ships
+      location = 7361
+      ship = {
+        name = "HMCS 安森"  # HMCS Anson
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "海军上将级"  # Admiral Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 皇家橡树"  # HMCS Royal Oak
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "复仇级"  # Revenge Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 拉米利斯"  # HMCS Ramillies
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "复仇级"  # Revenge Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 决心"  # HMCS Resolution
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "复仇级"  # Revenge Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 复仇"  # HMCS Revenge
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "复仇级"  # Revenge Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 柏勒洛丰"  # HMCS Bellerophon
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "柏勒洛丰级"  # Bellerophon Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 征服者"  # HMCS Conqueror
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "猎户座级"  # Orion Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 猎户座"  # HMCS Orion
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "猎户座级"  # Orion Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 雷神"  # HMCS Thunderer
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "猎户座级"  # Orion Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 铁公爵"  # HMCS Iron Duke
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "铁公爵级"  # Iron Duke Class
+          }
+        }
+      }
+    }
+  }
+}

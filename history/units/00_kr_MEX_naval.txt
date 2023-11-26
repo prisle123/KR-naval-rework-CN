@@ -1,0 +1,82 @@
+﻿units = {
+  fleet = {
+    name = "墨西哥海军"  # Armada de Mexico
+    naval_base = 12810
+    task_force = {
+      name = "墨西哥海军"  # Armada de Mexico
+      location = 12810
+      ship = {
+        name = "ARM 阿纳瓦克"  # ARM Anáhuac
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = MEX
+            version_name = "阿纳瓦克级"  # Anahuac Class
+          }
+        }
+      }
+      ship = {
+        name = "ARM 尼古拉斯·布拉沃"  # ARM Nicolás Bravo
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "尼古拉斯·布拉沃级"  # Nicolás Bravo Class
+          }
+        }
+      }
+      ship = {
+        name = "ARM 杜兰戈"  # ARM Durango
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "杜兰戈级"  # Durango Class
+          }
+        }
+      }
+      ship = {
+        name = "ARM 瓜纳华托"  # ARM Guanajuato
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "瓜纳华托级"  # Guanajuato Class
+          }
+        }
+      }
+      ship = {
+        name = "ARM 克雷塔罗"  # ARM Querétaro
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "瓜纳华托级"  # Guanajuato Class
+          }
+        }
+      }
+      ship = {
+        name = "ARM 波托西"  # ARM Potosí
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MEX
+            version_name = "瓜纳华托级"  # Guanajuato Class
+          }
+        }
+      }
+    }
+  }
+}

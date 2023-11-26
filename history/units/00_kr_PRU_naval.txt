@@ -1,0 +1,109 @@
+﻿units = {
+  fleet = {
+    name = "秘鲁海军"  # Marina de Gurra del Perú
+    naval_base = 12997
+    task_force = {
+      name = "秘鲁海军"  # Marina de Gurra del Perú
+      location = 12997
+      ship = {
+        name = "BAP 格劳海军上将"  # BAP Almirante Grau
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = PRU
+            version_name = "格劳海军上将级"  # Almirante Grau Class
+          }
+        }
+      }
+      ship = {
+        name = "BAP 博洛涅西上校"  # BAP Coronel Bolognesi
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = PRU
+            version_name = "格劳海军上将级"  # Almirante Grau Class
+          }
+        }
+      }
+      ship = {
+        name = "BAP 罗德里格斯中尉"  # BAP Teniente Rodríguez
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "罗德里格斯中尉级"  # Teniente Rodríguez Class
+          }
+        }
+      }
+      ship = {
+        name = "R1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "R1级"  # R1 Class
+          }
+        }
+      }
+      ship = {
+        name = "R2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "R1级"  # R1 Class
+          }
+        }
+      }
+      ship = {
+        name = "R3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "R1级"  # R1 Class
+          }
+        }
+      }
+      ship = {
+        name = "R4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "R1级"  # R1 Class
+          }
+        }
+      }
+      ship = {
+        name = "R5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "R1级"  # R1 Class
+          }
+        }
+      }
+      ship = {
+        name = "R6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = PRU
+            version_name = "R1级"  # R1 Class
+          }
+        }
+      }
+    }
+  }
+}

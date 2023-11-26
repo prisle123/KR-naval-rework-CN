@@ -1,0 +1,798 @@
+﻿units = {
+  fleet = {
+    name = "第一海军军区"  # 1re Armée Navale
+    naval_base = 7132
+    task_force = {
+      name = "地中海舰队"  # Escadre de la Méditerranée
+      location = 9994
+      ship = {
+        name = "法兰西"  # France
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "神圣同盟级"  # Union Sacrée Class
+          }
+        }
+      }
+      ship = {
+        name = "神圣同盟"  # Union Sacrée
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "神圣同盟级"  # Union Sacrée Class
+          }
+        }
+      }
+      ship = {
+        name = "孤拔"  # Courbet
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "孤拔级"  # Courbet Class
+          }
+        }
+      }
+      ship = {
+        name = "巴黎"  # Paris
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "孤拔级"  # Courbet Class
+          }
+        }
+      }
+      ship = {
+        name = "波塔乌"  # Pothuau
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = NFA
+            version_name = "波塔乌级"  # Pothuau Class
+          }
+        }
+      }
+      ship = {
+        name = "美洲豹"  # Jaguar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+          }
+        }
+      }
+      ship = {
+        name = "豺狼"  # Chacal
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+          }
+        }
+      }
+      ship = {
+        name = "豹"  # Léopard
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+          }
+        }
+      }
+      ship = {
+        name = "头盔"  # Casque
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "弯刀"  # Cimeterre
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "指挥官博里"  # Commandant Bory
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "指挥官里维埃"  # Commandant Rivière
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "德霍特"  # Dehorter
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "猎人"  # Chasseur
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "比松"  # Bisson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "普罗泰"  # Protet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "梅尔上尉"  # Capitaine Mehl
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "指挥官卢卡"  # Commandant Lucas
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "马恩吉尼"  # Mangini
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备役舰队"  # Forces de réserve
+      location = 1145
+      ship = {
+        name = "民主"  # Démocratie
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = NFA
+            version_name = "自由级"  # Liberté Class
+          }
+        }
+      }
+      ship = {
+        name = "真理"  # Verité
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = NFA
+            version_name = "自由级"  # Liberté Class
+          }
+        }
+      }
+      ship = {
+        name = "埃德加·基内"  # Edgar Quinet
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NFA
+            version_name = "埃德加·基内级"  # Edgar Quinet Class
+          }
+        }
+      }
+      ship = {
+        name = "阿拉伯人"  # Arabe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "安南人"  # Annamite
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "班巴拉人"  # Bambara
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "霍瓦人"  # Hova
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "卡拜尔人"  # Kabyle
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "摩洛哥人"  # Marocain
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "索马里人"  # Somali
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "东京人"  # Tonkinois
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "图阿雷格人"  # Touareg
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇中队"  # 2ème Escadron Sous-Marins
+      location = 7132
+      ship = {
+        name = "阿尔米德"  # Armide
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "安提戈涅"  # Antigone
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "亚马逊"  # Amazone
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "拉格朗日"  # Lagrange
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "罗马佐蒂"  # Romazotti
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "第二海军军区"  # 2ème Armée Navale
+    naval_base = 3838
+    task_force = {
+      name = "科西嘉舰队"  # Flottille de Corsica
+      location = 3838
+      ship = {
+        name = "布列塔尼"  # Bretagne
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "布列塔尼级"  # Bretagne Class
+          }
+        }
+      }
+      ship = {
+        name = "洛林"  # Lorraine
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "布列塔尼级"  # Bretagne Class
+          }
+        }
+      }
+      ship = {
+        name = "贝尔热拉克"  # Bergerac
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "南特级"  # Nantes Class
+          }
+        }
+      }
+      ship = {
+        name = "南特"  # Nantes
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "南特级"  # Nantes Class
+          }
+        }
+      }
+      ship = {
+        name = "虎"  # Tigre
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+          }
+        }
+      }
+      ship = {
+        name = "野牛"  # Bison
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+          }
+        }
+      }
+      ship = {
+        name = "猎豹"  # Guépard
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "豺狼级/猎豹级"  # Chacal/Guépard Class
+          }
+        }
+      }
+      ship = {
+        name = "跳跃者"  # Voltigeur
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "雷诺丹"  # Renaudin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "耶尼切里"  # Janissaire
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "长枪兵"  # Tirailleur
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "战斗/斯帕希/盾牌级"  # Branlebas/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "冒险家"  # L'Aventurier
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "无畏"  # L'Intrépide
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "倔强"  # L'Opiniâtre
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "鲁莽"  # Le Téméraire
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇支队"  # 1ème Escadron Sous-Marins
+      location = 3838
+      ship = {
+        name = "阿斯特赖亚"  # Astrée
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "阿耳忒弥斯"  # Artémis
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "林仙"  # Aréthuse
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "阿塔兰塔"  # Atalante
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "阿马兰蒂"  # Amarante
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "安德洛玛刻"  # Andromaque
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "特遣舰队"  # Escadrille spéciale
+    naval_base = 4948
+    task_force = {
+      name = "特遣舰队"  # Escadrille spéciale
+      location = 4948
+      ship = {
+        name = "阿尔及利亚人"  # Algérien
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "萨卡瓦人"  # Sakalave
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "塞内加尔人"  # Sénégalais
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NFA
+            version_name = "冒险家级/阿拉伯人级"  # Aventurier/Arabe Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔戈"  # Argonaute
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = NFA
+            version_name = "阿尔戈级"  # Argonaute Class
+          }
+        }
+      }
+      ship = {
+        name = "维斯塔贞女"  # La Vestale
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = NFA
+            version_name = "阿尔戈级"  # Argonaute Class
+          }
+        }
+      }
+      ship = {
+        name = "女苏丹"  # La Sultane
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = NFA
+            version_name = "阿尔戈级"  # Argonaute Class
+          }
+        }
+      }
+      ship = {
+        name = "可畏"  # Redoutable
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "可畏级"  # Redoutable Class
+          }
+        }
+      }
+      ship = {
+        name = "复仇"  # Vengeur
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "可畏级"  # Redoutable Class
+          }
+        }
+      }
+      ship = {
+        name = "帕斯卡"  # Pascal
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "可畏级"  # Redoutable Class
+          }
+        }
+      }
+      ship = {
+        name = "巴斯德"  # Pasteur
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "可畏级"  # Redoutable Class
+          }
+        }
+      }
+      ship = {
+        name = "亨利·庞加莱"  # Henri Poincaré
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = NFA
+            version_name = "可畏级"  # Redoutable Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_2
+      creator = "NFA"
+      version_name = "南特级"  # Nantes Class
+    }
+    requested_factories = 4
+    progress = 0.85
+    amount = 2
+  }
+}

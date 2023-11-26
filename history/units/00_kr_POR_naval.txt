@@ -1,0 +1,150 @@
+﻿units = {
+  fleet = {
+    name = "潜艇部队"  # Frota Ultramarina
+    naval_base = 11805
+    task_force = {
+      name = "潜艇部队"  # Frota Ultramarina
+      location = 11805
+      ship = {
+        name = "NRP 海豚"  # NRP Delfim
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 剑旗鱼"  # NRP Espadarte
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 海豹"  # NRP Foca
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 齿鲸"  # NRP Golfinho
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = POR
+            version_name = "海豚级"  # Delfim Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "本土舰队"  # Frota Continental
+    naval_base = 11805
+    task_force = {
+      name = "本土舰队"  # Frota Continental
+      location = 11805
+      ship = {
+        name = "NRP 多娜·阿梅莉亚王后"  # NRP Rainha Dona Amélia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = POR
+            version_name = "多娜·阿梅莉亚王后"  # Rainha Dona Amélia Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 杜罗"  # NRP Douro
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 杜奥"  # NRP Dão
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 利马"  # NRP Lima
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 特霍"  # NRP Tejo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 沃加"  # NRP Vouga
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = POR
+            version_name = "杜罗级"  # Douro Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 瓜地亚纳"  # NRP Guadiana
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "瓜地亚纳级"  # Guadiana Class
+          }
+        }
+      }
+      ship = {
+        name = "NRP 塔梅加"  # NRP Tamega
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = POR
+            version_name = "瓜地亚纳级"  # Guadiana Class
+          }
+        }
+      }
+    }
+  }
+}

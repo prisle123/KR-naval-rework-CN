@@ -1,0 +1,223 @@
+﻿units = {
+  fleet = {
+    name = "共和国国家海军"  # Marina Nazionale Repubblicana
+    naval_base = 11584
+    task_force = {
+      name = "共和国国家海军"  # Marina Nazionale Repubblicana
+      location = 11584
+      ship = {
+        name = "RCT 罗马"  # RCT Roma
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = ITA
+            version_name = "埃莱娜王后级"  # Regina Elena Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 共和国"  # RCT Repubblica
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 威尼托"  # RCT Veneto
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 伦巴第"  # RCT Lombardia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ITA
+            version_name = "龙骑兵级"  # Dragoner Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 热切"  # RCT Ardente
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 无畏"  # RCT Impavido
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 罗索里诺·皮洛"  # RCT Rosolino Pilo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 朱塞佩·米索里"  # RCT Giuseppe Missori
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇部队"  # Squadra Sommergibili
+      location = 11584
+      ship = {
+        name = "RCT 鹦鹉螺"  # RCT Nautilus
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "鹦鹉螺级"  # Nautilus Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT 那伊阿德斯"  # RCT Nereide
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "鹦鹉螺级"  # Nautilus Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT W1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT W2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT W3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT Sla 1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "Sla级"  # Sla Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT Sla 2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "Sla级"  # Sla Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT Sla 3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "Sla级"  # Sla Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT Sla 4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "Sla级"  # Sla Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT Sla 5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "Sla级"  # Sla Class
+          }
+        }
+      }
+      ship = {
+        name = "RCT Sla 6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ITA
+            version_name = "Sla级"  # Sla Class
+          }
+        }
+      }
+    }
+  }
+}

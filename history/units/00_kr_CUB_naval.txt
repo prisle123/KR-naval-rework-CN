@@ -1,0 +1,76 @@
+﻿units = {
+  fleet = {
+    name = "第一舰队"  # First Fleet
+    naval_base = 7622
+    task_force = {
+      name = "第一舰队"  # First Fleet 
+      location = 7622
+      ship = {
+        name = "BGC 贝尔"  # BGC Baire
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CUB
+            version_name = "贝尔级/祖国级"  # Baire/Patria Class
+          }
+        }
+      }
+      ship = {
+        name = "BGC 圣克拉拉"  # BGC Santa Clara
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CUB
+            version_name = "贝尔级/祖国级"  # Baire/Patria Class
+          }
+        }
+      }
+      ship = {
+        name = "BGC 十月十日"  # BGC Diez de Octubre
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CUB
+            version_name = "贝尔级/祖国级"  # Baire/Patria Class
+          }
+        }
+      }
+      ship = {
+        name = "BGC 二月二十四日"  # BGC Veinte y Cuatro de Febrero
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CUB
+            version_name = "贝尔级/祖国级"  # Baire/Patria Class
+          }
+        }
+      }
+      ship = {
+        name = "BGC 祖国"  # BGC Patria
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CUB
+            version_name = "贝尔级/祖国级"  # Baire/Patria Class
+          }
+        }
+      }
+      ship = {
+        name = "BGC 古巴"  # BGC Cuba
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = CUB
+            version_name = "古巴级"  # Cuba Class
+          }
+        }
+      }
+    }
+  }
+}

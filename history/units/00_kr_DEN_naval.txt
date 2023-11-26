@@ -1,0 +1,238 @@
+﻿units = {
+  fleet = {
+    name = "丹麦皇家海军"  # Den Danske Flåde
+    naval_base = 6287
+    task_force = {
+      name = "丹麦皇家海军"  # Den Danske Flåde
+      location = 6287
+      ship = {
+        name = "KDM 尼尔斯·尤尔"  # KDM Niels Iuel
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = DEN
+            version_name = "尼尔斯·尤尔级"  # Niels Iuel Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 赫鲁弗·特罗尔"  # KDM Herluf Trolle
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = DEN
+            version_name = "赫鲁弗·特罗尔级"  # Herluf Trolle Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 彼得·斯克拉姆"  # KDM Peder Skram
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = DEN
+            version_name = "赫鲁弗·特罗尔级"  # Herluf Trolle Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 龙"  # KDM Dragen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "龙级/鸢级"  # Dragen/Glenten Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 鲸鱼"  # KDM Hvalen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "龙级/鸢级"  # Dragen/Glenten Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 鲑鱼"  # KDM Laxen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "龙级/鸢级"  # Dragen/Glenten Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 鸢"  # KDM Glenten
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "龙级/鸢级"  # Dragen/Glenten Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 鹰"  # KDM Høgen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "龙级/鸢级"  # Dragen/Glenten Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 鹫"  # KDM Ørnen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "龙级/鸢级"  # Dragen/Glenten Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 骑士"  # KDM Søridderen
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "骑士级"  # Søridderen Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 海狼"  # KDM Søulven
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "骑士级"  # Søridderen Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 飞鱼"  # KDM Flyvefisken
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "骑士级"  # Søridderen Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "丹麦潜艇舰队"  # Dansk Ubådsflåde
+    naval_base = 3325
+    task_force = {
+      name = "丹麦潜艇舰队"  # Dansk Ubådsflåde
+      location = 3325
+      ship = {
+        name = "KDM 澜"  # KDM Ran
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "埃吉尔级"  # Aegir Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 特里同"  # KDM Triton
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "埃吉尔级"  # Aegir Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 涅普顿"  # KDM Neptun
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "埃吉尔级"  # Aegir Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 罗塔"  # KDM Rota
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 贝罗纳"  # KDM Bellona
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 弗洛拉"  # KDM Flora
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "罗塔级"  # Rota Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 达佛涅"  # KDM Daphne
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "达佛涅级"  # Daphne Class
+          }
+        }
+      }
+      ship = {
+        name = "KDM 德律阿得斯"  # KDM Dryaden
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = DEN
+            version_name = "达佛涅级"  # Daphne Class
+          }
+        }
+      }
+    }
+  }
+}

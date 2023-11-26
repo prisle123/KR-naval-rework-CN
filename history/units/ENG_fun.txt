@@ -1,6 +1,6 @@
 instant_effect = {
     create_equipment_variant = {
-        name = "雄伟级"
+        name = "Magnificent Class"
         icon = "gfx/interface/technologies/Canada/CAN_heavy_battleship1.png"
 		type = ship_hull_super_heavy_1
 		role_icon_index = 7
@@ -22,7 +22,7 @@ instant_effect = {
     }
     
     create_equipment_variant = {
-		name = "玛丽王后级 / 虎级"
+		name = "Queen Mary/Tiger Class"
 		icon = "gfx/interface/technologies/Fun/ENG_Tiger.png"
 		type = ship_hull_heavy_1
 		name_group = ENG_ADMIRALS
@@ -46,7 +46,7 @@ instant_effect = {
 	}
 
     create_equipment_variant = {
-		name = "无比级"
+		name = "Incomparable Class"
 		icon = "gfx/interface/technologies/Fun/ENG_Incomparable.png"
 		type = ship_hull_heavy_1
 		role_icon_index = 15
@@ -71,25 +71,25 @@ instant_effect = {
 
 units = {
     fleet = {
-        name = "英灵舰队"
+        name = "Multiverse Fleet"
         naval_base = 9458
         task_force = {
-            name = "英灵舰队"
+            name = "Multiverse Fleet"
             location = 9458
 
-            ship = { name = "可敬" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "雄伟级" } } }
+            ship = { name = "Venerable" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ENG version_name = "Magnificent Class" } } }
 
-            ship = { name = "狮" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "玛丽王后级 / 虎级" } } }
-            ship = { name = "玛丽王后" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "玛丽王后级 / 虎级" } } }
-            ship = { name = "虎" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "玛丽王后级 / 虎级" } } }
+            ship = { name = "Tiger" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Mary/Tiger Class" } } }
+            ship = { name = "Queen Mary" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Mary/Tiger Class" } } }
+            ship = { name = "Lion" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Mary/Tiger Class" } } }
 
-            ship = { name = "无比" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "无比级" } } }
-            ship = { name = "罗德尼" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }
+            ship = { name = "Incomparable" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Incomparable Class" } } }
+            ship = { name = "Rodney" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
 
-            ship = { name = "勇士" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
-            ship = { name = "巴勒姆" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
-            ship = { name = "马来亚" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
-            ship = { name = "厌战" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }
+            ship = { name = "Valiant" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+            ship = { name = "Barham" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+            ship = { name = "Malaya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+            ship = { name = "Warspite" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
         }
     }
 }

@@ -120,6 +120,8 @@ add_starting_techs = {
             landing_aid_system = 1
             arresting_gear = 1
             aviation_dawn = 1
+			night_air_strike = 1
+			panzerschiffe = 1
             basic_periscope = 1
             improved_periscope = 1
             basic_ballast_tank = 1
@@ -155,6 +157,7 @@ add_starting_techs = {
             improved_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			dive_bomber_study = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -191,6 +194,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             midget_submarines = 1
+			dive_bomber_study = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -221,6 +225,7 @@ add_starting_techs = {
             arresting_gear = 1
             basic_periscope = 1
             basic_ballast_tank = 1
+			panzerschiffe = 1
             cruiser_submarines = 1
 
             basic_super_heavy_battery = 1
@@ -282,6 +287,9 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             midget_submarines = 1
+			high_speed_light_engine = 1
+			panzerschiffe = 1
+			enhanced_horizontal_defense = 1
 
             basic_super_heavy_battery = 1
 			popup = no
@@ -309,6 +317,7 @@ add_starting_techs = {
             improved_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			high_speed_light_engine = 1
 			popup = no
         }
     }
@@ -389,7 +398,30 @@ add_starting_techs = {
     }
     HOL = {
         set_technology = {
+			basic_ship_hull_heavy = 1
             interwar_ship_hull_light = 1
+			interwar_ship_hull_cruiser = 1
+            searchlight = 1
+            large_cruiser_trend = 1
+            early_cruiser_armor = 1
+            incremental_armor_scheme = 1
+            mixed_armor_scheme = 1
+            basic_torpedo_defense = 1
+            improved_torpedo_defense = 1
+            enhanced_horizontal_defense = 1
+            basic_heavy_armor = 1
+            improved_conning_tower = 1
+            prototype_airplane_launcher = 1
+            basic_periscope = 1
+            basic_ballast_tank = 1
+			popup = no
+        }
+    }
+	DEI = {
+        set_technology = {
+			basic_ship_hull_heavy = 1
+            interwar_ship_hull_light = 1
+			interwar_ship_hull_cruiser = 1
             searchlight = 1
             large_cruiser_trend = 1
             early_cruiser_armor = 1
@@ -414,6 +446,60 @@ add_starting_techs = {
 			popup = no
 		}
 	}
+	SIC = {
+		set_technology = {
+			interwar_ship_hull_cruiser = 1
+			interwar_ship_hull_light = 1
+			panzerschiffe = 1
+			popup = no
+		}
+	}
+	BEL = {
+		set_technology = {
+			early_ship_hull_cruiser = 1
+			early_ship_hull_heavy = 1
+			popup = no
+		}
+	}
+	SWE = {
+		set_technology = {
+			interwar_ship_hull_light = 1
+			popup = no
+		}
+	}
+	CHL = {
+		set_technology = {
+			basic_ship_hull_light = 1
+			popup = no
+		}
+	}
+	SPA = {
+		set_technology = {
+			basic_ship_hull_light = 1
+			popup = no
+		}
+	}
+	ROM = {
+		set_technology = {
+			basic_ship_hull_light = 1
+			popup = no
+		}
+	}
+	SIA = {
+		set_technology = {
+			basic_ship_hull_light = 1
+			popup = no
+		}
+	}
+	QIE = {
+		set_technology = { early_ship_hull_heavy = 1 popup = no }
+	}
+	FNG = {
+		set_technology = { early_ship_hull_heavy = 1 popup = no }
+	}
+	ECU = {
+		set_technology = { early_ship_hull_light = 1 popup = no }
+	}
 	POR = {
 		set_technology = { basic_ship_hull_cruiser = 1 popup = no }
 	}
@@ -437,7 +523,11 @@ add_starting_techs = {
 makeup_starting_techs = {
 	every_country = {
         limit = { has_tech = early_ship_hull_carrier }
-        set_technology = { prototype_airplane_launcher = 1 popup = no }
+        set_technology = { 
+            prototype_airplane_launcher = 1 
+            early_carrier_study = 1
+            popup = no 
+        }
     }
     every_country = {
         limit = { has_tech = early_ship_hull_cruiser }
@@ -475,6 +565,13 @@ makeup_starting_techs = {
 		}
     }
 	every_country = {
+        limit = { has_tech = basic_ship_hull_light }
+        set_technology = {
+			smoke_generator = 1
+			popup = no
+		}
+    }
+	every_country = {
         limit = { has_tech = basic_battery }
         set_technology = {
 			multi_mounted_battery = 1
@@ -500,9 +597,17 @@ makeup_starting_techs = {
         limit = { has_tech = mtg_transport }
         set_technology = {
             naval_combat_support = 1
+			basic_port_facility = 1
             popup = no
         }
     }
+	# every_country = {
+        # limit = { is_ai = yes }
+        # set_technology = {
+            # vnr_reckless_attack = 1
+            # popup = no
+        # }
+    # }
     every_country = {
         limit = { num_of_naval_factories > 0 }
         set_technology = {

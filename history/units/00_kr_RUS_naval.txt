@@ -1,0 +1,1014 @@
+﻿units = {
+  fleet = {
+    name = "北方舰队"  # Severny Flot
+    naval_base = 3134
+    task_force = {
+      name = "北方舰队"  # Severny Flot
+      location = 3134
+      ship = {
+        name = "阿扎德"  # Azard
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "杰斯纳"  # Desna
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "科农·佐托夫上校"  # Kapitan Konon Zotov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "杜巴索夫上尉"  # Leytenant Dubasov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "艾维特"  # Avtroil
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "布里亚奇斯拉夫"  # Bryachislav
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "菲多·斯特拉蒂拉"  # Fedor Stratilat
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "加吉贝伊"  # Gadzhibey
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "基里格"  # Tserigo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "卡古尔"  # Kagul
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "博加特耶尔级"  # Bogatyr Class
+          }
+        }
+      }
+      ship = {
+        name = "水星"  # Pamiat Merkuria
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "博加特耶尔级"  # Bogatyr Class
+          }
+        }
+      }
+      ship = {
+        name = "雷鸣"  # Gromoboy
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "雷鸣级"  # Gromoboy Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "波罗的海舰队"  # Baltiyskiy Flot
+    naval_base = 6174
+    task_force = {
+      name = "波罗的海舰队"  # Baltiyskiy Flot
+      location = 6174
+      ship = {
+        name = "波尔塔瓦"  # Poltava
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "甘古特级"  # Gangut Class
+          }
+        }
+      }
+      ship = {
+        name = "塞瓦斯托波尔"  # Sevastopol
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "甘古特级"  # Gangut Class
+          }
+        }
+      }
+      ship = {
+        name = "博罗季诺"  # Borodino
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊兹梅尔级"  # Izmail Class
+          }
+        }
+      }
+      ship = {
+        name = "伊兹梅尔"  # Izmail
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊兹梅尔级"  # Izmail Class
+          }
+        }
+      }
+      ship = {
+        name = "留里克"  # Rurik
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "留里克级"  # Rurik Class
+          }
+        }
+      }
+      ship = {
+        name = "诺维克"  # Novik
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "诺维克级/不倦级"  # Novik/Bespokoyny Class
+          }
+        }
+      }
+      ship = {
+        name = "贝里上校"  # Kapitan Belli
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "伊兹梅耶夫上校"  # Kapitan Izylmetev
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "伊雷因上尉"  # Leytenant Ilin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "肯恩上校"  # Kapitan Kern
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "波比迪泰尔"  # Pobiditel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "伊贾斯拉夫"  # Izyaslav
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "普里梅斯拉夫"  # Prymyslav
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "阿斯科尔德"  # Askold
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "阿斯科尔德级"  # Askold Class
+          }
+        }
+      }
+      ship = {
+        name = "博加特耶尔"  # Bogatyr
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "博加特耶尔级"  # Bogatyr Class
+          }
+        }
+      }
+      ship = {
+        name = "奥列格"  # Oleg
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "博加特耶尔级"  # Bogatyr Class
+          }
+        }
+      }
+      ship = {
+        name = "布塔科夫海军上将"  # Admiral Butakov
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "斯维特兰娜级"  # Svetlana Class
+          }
+        }
+      }
+      ship = {
+        name = "斯维特兰娜"  # Svetlana
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "斯维特兰娜级"  # Svetlana Class
+          }
+        }
+      }
+      ship = {
+        name = "阿芙乐尔"  # Aurora
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "帕拉达级"  # Pallada Class
+          }
+        }
+      }
+      ship = {
+        name = "首召者安德烈"  # Andrey Pervozvannyy
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = RUS
+            version_name = "首召者安德烈级"  # Andrey Pervozvannyy Class
+          }
+        }
+      }
+      ship = {
+        name = "皇帝保罗一世"  # Imperator Pavel I
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = RUS
+            version_name = "首召者安德烈级"  # Andrey Pervozvannyy Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "波罗的海潜艇舰队"  # Baltiyskiy Podvodniy Flot
+      location = 6174
+      ship = {
+        name = "鲨鱼"  # Akula
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "白鲸"  # Beluga
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "鲤鱼"  # Plotva
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "狗鱼"  # Schluka
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "白鱼"  # Sig
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "鲇鱼"  # Som
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "鲈鱼"  # Sudak
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "鲨鱼级"  # Akula Class
+          }
+        }
+      }
+      ship = {
+        name = "蟹"  # Krab
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "蟹级"  # Krab Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "黑海舰队"  # Chernomorskiy Flot
+    naval_base = 11668
+    task_force = {
+      name = "黑海舰队"  # Chernomorskiy Flot
+      location = 11668
+      ship = {
+        name = "甘古特"  # Gangut
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "甘古特级"  # Gangut Class
+          }
+        }
+      }
+      ship = {
+        name = "彼得罗巴甫洛夫斯克"  # Petropavlovsk
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "甘古特级"  # Gangut Class
+          }
+        }
+      }
+      ship = {
+        name = "格雷格海军上将"  # Admiral Greig
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "斯维特兰娜级"  # Svetlana Class
+          }
+        }
+      }
+      ship = {
+        name = "斯皮里多夫海军上将"  # Admiral Spiridov
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "斯维特兰娜级"  # Svetlana Class
+          }
+        }
+      }
+      ship = {
+        name = "舍斯塔科夫上尉"  # Leytenant Shestakov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "舍斯塔科夫上尉级"  # Leytenant Shestakov Class
+          }
+        }
+      }
+      ship = {
+        name = "萨肯上校"  # Kapitan Saken
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "舍斯塔科夫上尉级"  # Leytenant Shestakov Class
+          }
+        }
+      }
+      ship = {
+        name = "巴拉诺夫中校"  # Kapitan-leytenant Baranov
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "舍斯塔科夫上尉级"  # Leytenant Shestakov Class
+          }
+        }
+      }
+      ship = {
+        name = "不倦"  # Bespokoyny
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "诺维克级/不倦级"  # Novik/Bespokoyny Class
+          }
+        }
+      }
+      ship = {
+        name = "鲁莽"  # Derzky
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "诺维克级/不倦级"  # Novik/Bespokoyny Class
+          }
+        }
+      }
+      ship = {
+        name = "愤怒"  # Gnevny
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "诺维克级/不倦级"  # Novik/Bespokoyny Class
+          }
+        }
+      }
+      ship = {
+        name = "快速"  # Bystry
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "诺维克级/不倦级"  # Novik/Bespokoyny Class
+          }
+        }
+      }
+      ship = {
+        name = "热心"  # Pylki
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "诺维克级/不倦级"  # Novik/Bespokoyny Class
+          }
+        }
+      }
+      ship = {
+        name = "桑特"  # Zante
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "黑海潜艇舰队"  # Chernomorskiy Podvodniy Flot
+      location = 9417
+      ship = {
+        name = "海燕"  # Burevestnik
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "潜鸟"  # Gagara
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "天鹅"  # Lebed
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "海鹰"  # Orlan
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "独角鲸"  # Narval
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "独角鲸级"  # Narval Class
+          }
+        }
+      }
+      ship = {
+        name = "鲸鱼"  # Kit
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "独角鲸级"  # Narval Class
+          }
+        }
+      }
+      ship = {
+        name = "抹香鲸"  # Kashalot
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "独角鲸级"  # Narval Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-21"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-22"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-23"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-24"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-25"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "AG-26"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "太平洋舰队"  # Tikhookeanskiy Flot
+    naval_base = 12559
+    task_force = {
+      name = "太平洋舰队"  # Tikhookeanskiy Flot
+      location = 12559
+      ship = {
+        name = "马卡洛夫海军上将"  # Admiral Makarov
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "巴彦级"  # Bayan Class
+          }
+        }
+      }
+      ship = {
+        name = "巴彦"  # Bayan
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "巴彦级"  # Bayan Class
+          }
+        }
+      }
+      ship = {
+        name = "萨姆松"  # Samson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "扎比亚卡"  # Zabiyaka
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "奥菲级"  # Orfey Class
+          }
+        }
+      }
+      ship = {
+        name = "费多尼西"  # Fidonisi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "卡利亚克里亚"  # Kaliakria
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "刻赤"  # Kerch
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "科孚"  # Korfu
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+      ship = {
+        name = "莱夫卡斯"  # Levkas
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "伊贾斯拉夫级/费多尼西级"  # Izyaslav/Fidonisi Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "太平洋潜艇舰队"  # Tikhookeanskiy Podvodniy Flot
+      location = 12559
+      ship = {
+        name = "猎豹"  # Bars
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "美洲狮"  # Pantera
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "山猫"  # Rys
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "虎"  # Tigr
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "黑豹"  # Tur
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "野牛"  # Leopard
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "野猪"  # Kuguar
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "狼"  # Volk
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "捷豹"  # Vepr
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+      ship = {
+        name = "金钱豹"  # Yaguar
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "猎豹级"  # Bars Class
+          }
+        }
+      }
+    }
+  }
+}

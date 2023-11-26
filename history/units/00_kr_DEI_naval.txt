@@ -1,0 +1,337 @@
+﻿units = {
+  fleet = {
+    name = "荷兰皇家海军"  # Koninklijke Marine
+    naval_base = 7381
+    task_force = {
+      name = "第一特遣舰队"  # 1e Eskader
+      location = 7381
+      ship = {
+        name = "HrMs 墨丘利"  # HrMs Mercurius
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "威廉一世级"  # Willem van Oranje Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 威廉一世"  # HrMs Willem van Oranje
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "威廉一世级"  # Willem van Oranje Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 范根特"  # HrMs Van Ghent
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 艾弗特森"  # HrMs Evertsen
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 寇腾纳尔"  # HrMs Kortenaer
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 皮亚特·海恩"  # HrMs Piet Hein
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 威特·德·韦斯"  # HrMs Witte de With
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 班克特"  # HrMs Banckert
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 范·奈斯"  # HrMs Van Nes
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "海军上将级"  # Admiralen Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 德鲁伊特"  # HrMs De Ruyter
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = DEI
+            version_name = "德鲁伊特级"  # De Ruyter Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二特遣舰队"  # 2e Eskader
+      location = 7381
+      ship = {
+        name = "HrMs 博爱"  # HrMs Groote Liefde
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "艾米利亚级"  # Aemalia Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 圣马修"  # HrMs Sint Matheuus
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "艾米利亚级"  # Aemalia Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 西里伯斯"  # HrMs Celebes
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "爪哇级"  # Java Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 苏门答腊"  # HrMs Sumatra
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "爪哇级"  # Java Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs 爪哇"  # HrMs Java
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "爪哇级"  # Java Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 狼"  # HrMs Wolf
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 雪貂"  # HrMs Fret
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMS 斗牛犬"  # HrMs Bulhond
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = DEI
+            version_name = "狼级"  # Wolf Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "荷属东印度潜艇舰队"  # Nederlands-Indische Onderzeebootvloot
+    naval_base = 4608
+    task_force = {
+      name = "第二潜艇特遣舰队"  # 2e Onderzeebootseskader
+      location = 4608
+      ship = {
+        name = "HrMs K II"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K V"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K VI"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K VII"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K IX"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K VIII"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K X"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K XI"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K XII"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+      ship = {
+        name = "HrMs K XIII"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = DEI
+            version_name = "K级"  # K Class
+          }
+        }
+      }
+    }
+  }
+}

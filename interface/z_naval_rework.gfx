@@ -36,8 +36,18 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_battleship_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_III.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_IV.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_0.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_I.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_II.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_III.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_IV.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_0.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_I.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_II.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_III.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_IV.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_destroyer_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/destroyer_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_carrier_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_I.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_carrier_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_0.dds"	noOfFrames = 2 }
@@ -103,21 +113,21 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_unit_battlecarrier_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_battleship.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_battlecarrier_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_battleship_inverted.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier_inverted.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ship_battlecarrier_icon_small"
-		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
+		texturefile = "gfx/texticons/ship_battlecarrier_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "unit_battlecarrier_icon_small"
-		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
+		texturefile = "gfx/texticons/ship_battlecarrier_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -128,21 +138,21 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_unit_auxiliary_ship_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_destroyer.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_auxiliary_ship_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_destroyer_inverted.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship_inverted.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ship_auxiliary_ship_icon_small"
-		texturefile = "gfx/texticons/ship_destroyer_icon_small.dds"
+		texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "unit_auxiliary_ship_icon_small"
-		texturefile = "gfx/texticons/ship_destroyer_icon_small.dds"
+		texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -150,7 +160,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds"
 		noOfFrames = 2
 	}
-	
+
 	spriteType = {
 		name = "GFX_unit_behemoth_icon_medium_white"
 		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds"
@@ -198,7 +208,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
-		texturefile = "gfx/interface/ship_icon_blueprint.dds"
+		textureFile = "gfx/interface/ship_icon_blueprint.dds"
 		size= { x=32 y=32 }
 		borderSize = { x=5 y=5 }
 	}
@@ -222,12 +232,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons.dds"
-		noOfFrames = 60
+		noOfFrames = 72
 	}
 
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons_selected"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons_selected.dds"
-		noOfFrames = 60
+		noOfFrames = 72
+	}
+	
+	spriteType = {
+		name = "GFX_idea_vnr_mad"
+		textureFile = "gfx/interface/vnr_ai_difficulty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_vnr_hard"
+		textureFile = "gfx/interface/vnr_ai_difficulty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_vnr_normal"
+		textureFile = "gfx/interface/vnr_ai_difficulty.png"
 	}
 }

@@ -3,3 +3,6 @@
  GEA_sms_neckar_desc: "虽然德属东亚舰队已经足够强大，但战舰多了也不会有什么坏处。我们将下水一艘新战舰——史泰因梅茨号，它将成为我们强大且现代的开路先锋。"
  new_ship_being_built: "新舰即将完工。"
  DEI_takeover_fleet: "接管荷属东印度舰队"
+ CAN_refurbish_fleet: "修缮预备役舰队"
+ CAN_refurbish_fleet_desc: "我们已经准备好重夺本岛，现在可以先对过时的主力舰进行一番修缮。"
+ CAN_refurbish_fleet_tooltip: "一支舰队将在为期三个月的修缮后重新服役。"

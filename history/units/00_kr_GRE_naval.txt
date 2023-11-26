@@ -1,0 +1,277 @@
+﻿units = {
+  fleet = {
+    name = "希腊海军"  # Polemiko Naftiko
+    naval_base = 4109
+    task_force = {
+      name = "第一海军军区"  # Naftikes Amynas Periochi 1
+      location = 4109
+      ship = {
+        name = "EP 乔治·阿维罗夫"  # EP Georgios Averof
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = GRE
+            version_name = "乔治·阿维罗夫级"  # Georgios Averof Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 爱丽"  # EP Elli
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "爱丽级"  # Elli Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 普萨拉"  # EP Psara
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "康托里奥蒂斯级"  # Kountouriotis Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 斯佩察"  # EP Spetsai
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "康托里奥蒂斯级"  # Kountouriotis Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 鹫"  # EP Ierax
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "鹰级"  # Aetos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 鹰"  # EP Aetos
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "鹰级"  # Aetos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 亚德里亚"  # EP Adrias
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "亚德里亚级"  # Adrias Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 品都斯"  # EP Pindos
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "亚德里亚级"  # Adrias Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 卡纳里斯"  # EP Kanaris
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "亚德里亚级"  # Adrias Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二海军军区"  # Naftikes Amynas Periochi 2
+      location = 7211
+      ship = {
+        name = "EP 康斯坦丁诺斯国王"  # EP Vasilefs Konstantinos
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "佛罗里达级/怀俄明级"  # Florida/Wyoming Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 康托里奥蒂斯"  # EP Kountouriotis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "康托里奥蒂斯级"  # Kountouriotis Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 伊兹拉"  # EP Hydra
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "康托里奥蒂斯级"  # Kountouriotis Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 狮"  # EP Leon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "鹰级"  # Aetos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 豹"  # EP Panthir
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "鹰级"  # Aetos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 弹弓"  # EP Sfendoni
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 风暴"  # EP Thyella
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 米奥利斯"  # EP Miaoulis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "亚德里亚级"  # Adrias Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇部队"  # Dioikisi Ypovrychion
+      location = 4109
+      ship = {
+        name = "EP 卡特索尼斯"  # EP Katsonis
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "卡特索尼斯级"  # Katsonis Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 帕帕尼科利斯"  # EP Papanikolis
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = GRE
+            version_name = "卡特索尼斯级"  # Katsonis Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 普罗透斯"  # EP Protefs
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "格拉夫科斯级"  # Glafkos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 涅瑞夫斯"  # EP Nirefs
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "格拉夫科斯级"  # Glafkos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 特里同"  # EP Triton
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "格拉夫科斯级"  # Glafkos Class
+          }
+        }
+      }
+      ship = {
+        name = "EP 格拉夫科斯"  # EP Glafkos
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = GRE
+            version_name = "格拉夫科斯级"  # Glafkos Class
+          }
+        }
+      }
+    }
+  }
+}

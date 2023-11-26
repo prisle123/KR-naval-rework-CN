@@ -1,0 +1,490 @@
+﻿units = {
+  fleet = {
+    name = "殖民地舰队"  # Armada Colonial
+    naval_base = 12100
+    task_force = {
+      name = "第一舰队"  # 1. Fleet 
+      location = 12100
+      ship = {
+        name = "希斯卡"  # Císcar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "埃斯卡诺"  # Escaño
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "格拉维纳"  # Gravina
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "豪尔赫·胡安"  # Jorge Juan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "B1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "C2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "加的斯海军基地"  # Base Naval Cádiz
+    naval_base = 1048
+    task_force = {
+      name = "加的斯海军基地"  # Base Naval Cádiz
+      location = 1048
+      ship = {
+        name = "乌略亚"  # Ulloa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "阿尔塞多"  # Alsedo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "阿尔塞多级"  # Alsedo Class
+          }
+        }
+      }
+      ship = {
+        name = "拉萨加"  # Lazaga
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "阿尔塞多级"  # Alsedo Class
+          }
+        }
+      }
+      ship = {
+        name = "贝拉斯科"  # Velasco
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "阿尔塞多级"  # Alsedo Class
+          }
+        }
+      }
+      ship = {
+        name = "桑切斯·巴凯斯特吉"  # Sánchez Barcáiztegui
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "阿方索亲王"  # Príncipe Alfonso
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "塞韦拉海军上将级"  # Almirante Cervera Class
+          }
+        }
+      }
+      ship = {
+        name = "布拉斯·德·莱佐"  # Blas de Lezo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "布拉斯·德·莱佐级"  # Blas de Lezo Class
+          }
+        }
+      }
+      ship = {
+        name = "门德斯·努涅斯"  # Méndez Núñez
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "布拉斯·德·莱佐级"  # Blas de Lezo Class
+          }
+        }
+      }
+      ship = {
+        name = "B4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "C1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "C5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "D1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "D级"  # D Class
+          }
+        }
+      }
+      ship = {
+        name = "D2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "D级"  # D Class
+          }
+        }
+      }
+      ship = {
+        name = "D3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "D级"  # D Class
+          }
+        }
+      }
+      ship = {
+        name = "D4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "D级"  # D Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "作战舰队"  # Escuadròn de Batalla
+    naval_base = 758
+    task_force = {
+      name = "作战舰队"  # Escuadròn de Batalla
+      location = 758
+      ship = {
+        name = "西班牙"  # España
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "西班牙级"  # España Class
+          }
+        }
+      }
+      ship = {
+        name = "海梅一世"  # Jaime I
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "西班牙级"  # España Class
+          }
+        }
+      }
+      ship = {
+        name = "米兰达海军上将"  # Almirante Miranda
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "安特奎拉海军上将"  # Almirante Antequera
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "费兰迪斯海军上将"  # Almirante Ferrándiz
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "巴尔德斯海军上将"  # Almirante Valdés
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "丘鲁卡"  # Churucca
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "何塞·路易斯·迪亚兹"  # José Luis Díez
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "勒班陀"  # Lepanto
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "丘鲁卡级"  # Churruca Class
+          }
+        }
+      }
+      ship = {
+        name = "塞韦拉海军上将"  # Almirante Cervera
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "塞韦拉海军上将级"  # Almirante Cervera Class
+          }
+        }
+      }
+      ship = {
+        name = "米格尔·德·塞万提斯"  # Miguel de Cervantes
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SPA
+            version_name = "塞韦拉海军上将级"  # Almirante Cervera Class
+          }
+        }
+      }
+      ship = {
+        name = "维多利亚·欧仁妮王后"  # Reina Victoria Eugenia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SPA
+            version_name = "维多利亚·欧仁妮王后级"  # Reina Victoria Eugenia Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_2
+      creator = "SPA"
+      version_name = "加纳里亚斯级"  # Canarias Class
+    }
+    name = "加纳里亚斯"  # Canarias
+    requested_factories = 1
+    progress = 0.9
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_2
+      creator = "SPA"
+      version_name = "加纳里亚斯级"  # Canarias Class
+    }
+    name = "巴利阿里"  # Baleares
+    requested_factories = 1
+    progress = 0.8
+    amount = 1
+  }
+}

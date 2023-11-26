@@ -1,0 +1,279 @@
+﻿units = {
+  fleet = {
+    name = "第一海军军区"  # 1. Sjøforsvarsdistrikt
+    naval_base = 6115
+    task_force = {
+      name = "第一海军军区"  # 1. Sjøforsvarsdistrikt
+      location = 6115
+      ship = {
+        name = "KNM 埃兹沃尔德"  # KNM Eidsvold
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "埃兹沃尔德级"  # Eidsvold Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 挪威"  # KNM Norge
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "埃兹沃尔德级"  # Eidsvold Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 奥拉夫·特里格瓦松"  # KNM Olav Tryggvason
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "奥拉夫·特里格瓦松级"  # Olav Tryggvason Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 斯雷普尼尔"  # KNM Sleipner
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NOR
+            version_name = "斯雷普尼尔级"  # Sleipner Class
+          }
+        }
+      }
+      ship = {
+        name = "A2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A级"  # A Class
+          }
+        }
+      }
+      ship = {
+        name = "A3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A级"  # A Class
+          }
+        }
+      }
+      ship = {
+        name = "A4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "A级"  # A Class
+          }
+        }
+      }
+      ship = {
+        name = "B4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "第二海军军区"  # 2. Sjøforsvarsdistrikt
+    naval_base = 122
+    task_force = {
+      name = "第二海军军区"  # 2. Sjøforsvarsdistrikt
+      location = 122
+      ship = {
+        name = "KNM 哈拉尔一世"  # KNM Harald Haarfagre
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "托登斯基尔德级"  # Tordenskjold Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 托登斯基尔德"  # KNM Tordenskjold
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = NOR
+            version_name = "托登斯基尔德级"  # Tordenskjold Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 德拉古尔"  # KNM Draug
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "德拉古尔级"  # Draug Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 加姆"  # KNM Garm
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "德拉古尔级"  # Draug Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 巨魔"  # KNM Troll
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "德拉古尔级"  # Draug Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 西居尔一世"  # KNM Sigurd Jorsalfare
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "奥拉夫·特里格瓦松级"  # Olav Tryggvason Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 埃吉尔"  # KNM Æger
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NOR
+            version_name = "斯雷普尼尔级"  # Sleipner Class
+          }
+        }
+      }
+      ship = {
+        name = "KNM 盖勒"  # KNM Gyller
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = NOR
+            version_name = "斯雷普尼尔级"  # Sleipner Class
+          }
+        }
+      }
+      ship = {
+        name = "B6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B7"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "第三海军军区"  # 3. Sjøforsvarsdistrikt
+    naval_base = 192
+    task_force = {
+      name = "第三海军军区"  # 3. Sjøforsvarsdistrikt
+      location = 192
+      ship = {
+        name = "B1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+      ship = {
+        name = "B3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = NOR
+            version_name = "B级"  # B Class
+          }
+        }
+      }
+    }
+  }
+}

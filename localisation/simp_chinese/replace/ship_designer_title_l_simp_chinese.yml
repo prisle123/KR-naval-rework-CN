@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ SHIP_DESIGNER_TITLE: ""
+ VNR_SHIP_DESIGNER_TITLE: "[get_designer_title]"
+ ship_designer_title_gen: "舰艇设计商"
+ ship_designer_title_eng: "海军造舰委员会"
+ ship_designer_title_can: "海军造舰部"
+ ship_designer_title_usa: "海军整备局"
+ ship_designer_title_jap: "海军舰政本部"
+ ship_designer_title_fra: "海军造船技术局"
+ ship_designer_title_ger: "舰队舰艇设计部"
+ ship_designer_title_rus: "海军部造船设计局"

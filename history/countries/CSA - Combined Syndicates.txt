@@ -28,6 +28,12 @@ set_popularities = {
 	national_populist = 0
 }
 
+set_country_flag = CSA_companies_allowed_industrial
+set_country_flag = CSA_companies_allowed_weapons
+set_country_flag = CSA_companies_allowed_heavy_equipment
+set_country_flag = CSA_companies_allowed_naval
+set_country_flag = CSA_companies_allowed_aviation
+
 ### AI strategies ###
 add_ai_strategy = {
 	type = ignore_claim
@@ -67,7 +73,7 @@ create_country_leader = {
 	ideology = social_liberal_subtype
 }
 create_country_leader = {
-	name = USA_alben_barley
+	name = USA_alben_barkley
 	picture = "gfx/leaders/USA/Portrait_USA_Alben_Barkley.png"
 	ideology = social_liberal_subtype
 }

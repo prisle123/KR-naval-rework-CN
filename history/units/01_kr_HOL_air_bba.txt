@@ -1,0 +1,10 @@
+﻿air_wings = {
+  "HrMs 金狮" = {
+    cv_small_plane_airframe_0 = {
+      owner = "HOL"
+      amount = 10
+      version_name = "Ff 68 T"
+      creator = "GER"
+    }
+  }
+}

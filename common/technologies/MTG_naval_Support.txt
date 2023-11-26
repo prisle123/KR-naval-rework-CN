@@ -27,12 +27,15 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_1
 			ship_medium_battery_1_double
+			ship_medium_battery_1_single
 			ship_light_medium_battery_1_double
 			ship_light_medium_battery_1_single
 			ship_heavy_battery_1
 			ship_heavy_battery_big_1
 			ship_heavy_battery_small_1
 			ship_secondaries_1
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
 			
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -64,6 +67,10 @@ technologies = {
 			cat_ship_light_battery
 			cat_ship_medium_battery
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -181,6 +188,10 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -241,6 +252,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -283,6 +296,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -342,6 +357,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -378,6 +395,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -405,6 +424,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_2
 			ship_medium_battery_2_double
+			ship_medium_battery_2_single
 			ship_light_medium_battery_2
 			ship_light_medium_battery_2_double
 			ship_light_medium_battery_2_single
@@ -432,6 +452,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -471,6 +492,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -492,6 +514,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_3
 			ship_medium_battery_3_double
+			ship_medium_battery_3_single
 			ship_light_medium_battery_3
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
@@ -517,6 +540,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -561,6 +585,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -573,6 +598,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_4
 			ship_medium_battery_4_double
+			ship_medium_battery_4_single
 			ship_light_medium_battery_4
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
@@ -596,6 +622,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -634,6 +661,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -668,6 +696,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 	
@@ -721,6 +750,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	improved_heavy_battery = {
@@ -768,6 +798,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	advanced_heavy_battery = {
@@ -811,6 +842,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -861,6 +893,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	improved_heavy_shell = {
@@ -907,6 +940,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -951,6 +985,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -995,6 +1031,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1034,6 +1072,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1071,6 +1111,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -1123,6 +1165,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -1166,6 +1209,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -1208,6 +1252,7 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -1219,7 +1264,7 @@ technologies = {
 
 	basic_torpedo = {
 
-		research_cost = 1.0
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -1268,15 +1313,17 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
 	magnetic_detonator = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1936
 
@@ -1334,15 +1381,17 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
 	homing_torpedo = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 2
+		research_cost = 1.25
 
 		start_year = 1942
 		destroyer = {
@@ -1382,15 +1431,17 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
 	electric_torpedo = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1940
 
@@ -1419,11 +1470,13 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	improved_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1932
 
@@ -1460,11 +1513,13 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1940
 
@@ -1500,6 +1555,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	modern_ship_torpedo_launcher = {
@@ -1534,6 +1591,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1554,7 +1613,7 @@ technologies = {
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1594,7 +1653,7 @@ technologies = {
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1630,7 +1689,7 @@ technologies = {
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1692,7 +1751,7 @@ technologies = {
 			hg_attack = 0.05
 		}
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1719,7 +1778,7 @@ technologies = {
 
 	fire_control_methods_2 = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 2
 		path = {
@@ -1771,7 +1830,9 @@ technologies = {
 	}
 
 	fire_control_methods_3 = {
-
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
 		research_cost = 2
 		SH_battleship = {
 			lg_attack = 0.1
@@ -1802,7 +1863,7 @@ technologies = {
 			hg_attack = 0.05
 		}
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1836,7 +1897,7 @@ technologies = {
 
 	basic_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -1888,12 +1949,13 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
 	submarine_mine_laying = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -1934,7 +1996,7 @@ technologies = {
 
 	improved_submarine_mine_laying = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1940
 
@@ -1965,12 +2027,13 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
 	improved_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1936
 
@@ -2017,6 +2080,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
@@ -2050,6 +2114,10 @@ technologies = {
 			naval_mines
 			naval_minesweeping
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_carrier_and_modules
 		}
 	}
 
@@ -2094,6 +2162,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
@@ -2102,7 +2171,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 1.25
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -2145,7 +2214,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -2210,6 +2279,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
@@ -2218,7 +2288,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 2
+		research_cost = 0.75
 
 		start_year = 1944
 
@@ -2636,7 +2706,7 @@ technologies = {
 
 	# auxiliary ship branch
 	speed_over_range = {
-		research_cost = 0.5
+		research_cost = 0.3
 		start_year = 1925
 		force_use_small_tech_layout = yes
 
@@ -2661,7 +2731,7 @@ technologies = {
 		}
 	}
 	range_over_speed = {
-		research_cost = 0.5
+		research_cost = 0.3
 		start_year = 1925
 		force_use_small_tech_layout = yes
 
@@ -2686,7 +2756,7 @@ technologies = {
 		}
 	}
 	high_speed_civilian_engine = {
-		research_cost = 0.75
+		research_cost = 0.7
 		start_year = 1936
 
 		ai_will_do = {
@@ -2703,6 +2773,7 @@ technologies = {
 		auxiliary_ship = {
 			surface_visibility = -0.1
 		}
+		convoy_retreat_speed = 0.1
 
 		enable_equipment_modules = {
 			civilian_ship_engine_2
@@ -2712,15 +2783,13 @@ technologies = {
 		}
 	}
 	fast_combat_support_ship = {
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1943
 
 		enable_equipments = {
 			vnr_ship_hull_civilian_2
 		}
 		enable_equipment_modules = {
-			ship_heavy_mg_1
-			ship_civilian_light_battery_1
 			supply_hub
 		}
 		folder = {
@@ -2736,7 +2805,7 @@ technologies = {
 		}
 	}
 	armed_civilian_ship = {
-		research_cost = 0.75
+		research_cost = 0.7
 		start_year = 1936
 
 		ai_will_do = {
@@ -2753,10 +2822,9 @@ technologies = {
 		auxiliary_ship = {
 			max_strength = 0.1
 		}
+		navy_submarine_detection_factor = 0.05
 
 		enable_equipment_modules = {
-			ship_heavy_mg_1
-			ship_civilian_light_battery_1
 			ship_cruiser_camo_2
 		}
 		categories = {
@@ -2764,7 +2832,7 @@ technologies = {
 		}
 	}
 	integrated_supply_ship = {
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1943
 
 		ai_will_do = {
@@ -2815,7 +2883,7 @@ technologies = {
 		}
 	}
 	floating_dry_dock = {
-		research_cost = 0.8
+		research_cost = 0.5
 		start_year = 1936
 
 		ai_will_do = {
@@ -2847,7 +2915,7 @@ technologies = {
 		}
 	}
 	logistic_system_redundancy = {
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1942
 
 		ai_will_do = {
@@ -2873,7 +2941,7 @@ technologies = {
 		}
 	}
 	hospital_ship = {
-		research_cost = 0.5
+		research_cost = 0.35
 		start_year = 1918
 
 		ai_will_do = {
@@ -2895,7 +2963,7 @@ technologies = {
 		}
 	}
 	surgery_at_sea = {
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1932
 
 		ai_will_do = {
@@ -2921,7 +2989,7 @@ technologies = {
 		}
 	}
 	medical_supply_at_sea = {
-		research_cost = 0.8
+		research_cost = 0.55
 		start_year = 1939
 		ai_will_do = {
 			factor = 1
@@ -3025,4 +3093,14 @@ technologies = {
 		}
         navy_fuel_consumption_factor = -0.15
     }
+
+	vnr_reckless_attack = {
+		research_cost = 1
+		start_year = 1900
+
+		allow = {
+			always = no
+		}
+		naval_retreat_chance = -0.8
+	}
 }

@@ -1,0 +1,292 @@
+﻿units = {
+  fleet = {
+    name = "智利海军"  # Armada de Chile
+    naval_base = 13499
+    task_force = {
+      name = "智利海军"  # Armada de Chile
+      location = 13499
+      ship = {
+        name = "CSN 拉托雷海军上将"  # CSN Almirante Latorre
+        pride_of_the_fleet = yes
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "拉托雷海军上将级"  # Almirante Latorre Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 普拉特海军上校"  # CSN Capitán Prat
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = CHL
+            version_name = "普拉特海军上校级"  # Capitán Prat Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 奥希金斯"  # CSN O'Higgins
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHL
+            version_name = "奥希金斯级"  # O'Higgins Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 查卡布科"  # CSN Chacabuco
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = CHL
+            version_name = "查卡布科级"  # Chacabuco Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 科克伦"  # CSN Cochrane
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "科克伦级"  # Cochrane Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 埃萨吉雷"  # CSN Eyzaguirre
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "科克伦级"  # Cochrane Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 林奇海军上将"  # CSN Almirante Lynch
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "林奇海军上将级"  # Almirante Lynch Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 塞拉诺"  # CSN Serrano
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 哈亚特"  # CSN Hyatt
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 奥雷拉"  # CSN Orella
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 康戴尔海军少将"  # CSN Almirante Condell
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "林奇海军上将级"  # Almirante Lynch Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 萨根多·艾尔迪亚"  # CSN Aldea
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 里克梅尔"  # CSN Requelme
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 佩德罗·维德拉"  # CSN Videla
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "塞拉诺级"  # Serrano Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇舰队"  # Flotilla de Submarinos nro. 1
+      location = 13499
+      ship = {
+        name = "CSN 瓜科达"  # CSN Gualcolda
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "H级"  # H Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 特瓜尔达"  # CSN Tegualda
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "H级"  # H Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 鲁库米拉"  # CSN Rucumilla
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "H级"  # H Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 奎多拉"  # CSN Quidora
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "H级"  # H Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 芙蕾西亚"  # CSN Fresia
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "H级"  # H Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 瓜勒"  # CSN Guale
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = CHL
+            version_name = "H级"  # H Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇舰队"  # Flotilla de Submarinos nro. 2
+      location = 12994
+      ship = {
+        name = "CSN 奥布莱恩海军上校"  # CSN Capitán O`Brien
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "奥布莱恩海军上校级"  # Capitán O'Brien Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 辛普森海军上将"  # CSN Almirante Simpson
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "奥布莱恩海军上校级"  # Capitán O'Brien Class
+          }
+        }
+      }
+      ship = {
+        name = "CSN 汤姆森海军上校"  # CSN Capitán Thomson
+        definition = submarine
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = CHL
+            version_name = "奥布莱恩海军上校级"  # Capitán O'Brien Class
+          }
+        }
+      }
+    }
+  }
+}

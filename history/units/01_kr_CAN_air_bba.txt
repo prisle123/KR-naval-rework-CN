@@ -1,0 +1,10 @@
+﻿air_wings = {
+	"HMCS 百眼巨人" = {
+		cv_small_plane_airframe_0 = { owner = "IMP" amount = 10 version_name = "Gloster Gladiator" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "IMP" amount = 5 version_name = "Fairey Swordfish" }
+	}
+	"HMCS 暴怒" = {
+		cv_small_plane_airframe_0 = { owner = "IMP" amount = 10 version_name = "Gloster Gladiator" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "IMP" amount = 10 version_name = "Fairey Swordfish" }
+	}
+}

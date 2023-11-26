@@ -1,0 +1,54 @@
+﻿units = {
+  fleet = {
+    name = "本土分队"  # Home Squadron
+    naval_base = 4982
+    task_force = {
+      name = "本土分队"  # Home Squadron
+      location = 4982
+      ship = {
+        name = "HMWIS 魔术"  # HMWIS Magic
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = WIF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "HMWIS 尚武"  # HMWIS Martial
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = WIF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "HMWIS 惊奇"  # HMWIS Marvel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = WIF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "HMWIS 威慑"  # HMWIS Menace
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = WIF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+    }
+  }
+}

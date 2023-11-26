@@ -3,3 +3,8 @@ Naval_lore_category = {
 	allowed = { has_dlc_mtg = yes }
 	priority = 10
 }
+
+naval_develop_category = {
+	allowed = { has_dlc = "Man the Guns" }
+	priority = 10
+}

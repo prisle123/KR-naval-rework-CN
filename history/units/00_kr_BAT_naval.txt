@@ -1,0 +1,158 @@
+﻿units = {
+  fleet = {
+    name = "公国海军舰队"  # Die Herzogliche Marine
+    naval_base = 9340
+    task_force = {
+      name = "第一作战舰队"  # I. Riga-Einsatzflottille
+      location = 9340
+      ship = {
+        name = "VBHS 巴森海姆"  # VBHS Bassenheim
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BAT
+            version_name = "V170级"  # V170 Class
+          }
+        }
+      }
+      ship = {
+        name = "VBHS 海因里希"  # VBHS Heinrich
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BAT
+            version_name = "V170级"  # V170 Class
+          }
+        }
+      }
+      ship = {
+        name = "VBHS 乌尔里希"  # VBHS Ulrich
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BAT
+            version_name = "V170级"  # V170 Class
+          }
+        }
+      }
+      ship = {
+        name = "VBHS 格哈德"  # VBHS Gerhard
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BAT
+            version_name = "V170级"  # V170 Class
+          }
+        }
+      }
+      ship = {
+        name = "VBHS 米陶"  # VBHS Mitau
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "T214级"  # T214 Class
+          }
+        }
+      }
+      ship = {
+        name = "VBHS 雷瓦尔"  # VBHS Reval
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "T214级"  # T214 Class
+          }
+        }
+      }
+      ship = {
+        name = "VBHS 里加"  # VBHS Riga
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "T214级"  # T214 Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇部队"  # I. U-boot-geschwader
+      location = 9340
+      ship = {
+        name = "SS-100"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "Type VII级"  # Type VII Class
+          }
+        }
+      }
+      ship = {
+        name = "SS-101"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "Type VII级"  # Type VII Class
+          }
+        }
+      }
+      ship = {
+        name = "SS-102"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "Type VII级"  # Type VII Class
+          }
+        }
+      }
+      ship = {
+        name = "SS-103"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "Type VII级"  # Type VII Class
+          }
+        }
+      }
+      ship = {
+        name = "SS-104"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = BAT
+            version_name = "Type VII级"  # Type VII Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "BAT"
+      version_name = "Type VII级"  # Type VII Class
+    }
+    requested_factories = 2
+    progress = 0.55
+    amount = 4
+  }
+}

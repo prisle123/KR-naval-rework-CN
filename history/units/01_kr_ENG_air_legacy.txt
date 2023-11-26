@@ -1,0 +1,41 @@
+﻿air_wings = {
+	"RNS 瑞贝卡" = {
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+	}
+	"RNS 共和国" = {
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+	}
+	"RNS 自由" = {
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+	}
+	"RNS 勇敢" = {
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+	}
+	"RNS 光荣" = {
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+	}
+	"RNS 鹰" = {
+		cv_fighter_equipment_0 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 10 }
+	}
+}

@@ -1,0 +1,32 @@
+﻿units = {
+  fleet = {
+    name = "伊朗海军"  # Iranian Navy
+    naval_base = 7982
+    task_force = {
+      name = "伊朗海军"  # Iranian Navy
+      location = 7982
+      ship = {
+        name = "猛虎"  # Babr
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = PER
+            version_name = "猛虎级"  # Babr Class
+          }
+        }
+      }
+      ship = {
+        name = "豹"  # Palang
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = PER
+            version_name = "猛虎级"  # Babr Class
+          }
+        }
+      }
+    }
+  }
+}

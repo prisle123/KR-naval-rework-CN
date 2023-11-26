@@ -46,7 +46,7 @@ instant_effect = {
 			creator = "JAP"
 			version_name = "翔鹤级"
 		}
-		name = "翔鹤"
+		name = "Shokaku"
 		requested_factories = 3
 		progress = 0.4
 		amount = 1
@@ -57,7 +57,7 @@ instant_effect = {
 			creator = "JAP"
 			version_name = "翔鹤级"
 		}
-		name = "瑞鹤"
+		name = "Zuikaku"
 		requested_factories = 3
 		progress = 0.4
 		amount = 1

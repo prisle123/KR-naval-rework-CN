@@ -1,0 +1,102 @@
+﻿units = {
+  fleet = {
+    name = "罗马尼亚王家海军"  # Marina Regala Romana
+    naval_base = 6727
+    task_force = {
+      name = "主力舰队"  # Prima Flota
+      location = 6727
+      ship = {
+        name = "NMS 默勒什蒂"  # NMS Marasti
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ROM
+            version_name = "默勒什蒂级"  # Marasti Class
+          }
+        }
+      }
+      ship = {
+        name = "NMS 默勒谢什蒂"  # NMS Marasesti
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ROM
+            version_name = "默勒什蒂级"  # Marasti Class
+          }
+        }
+      }
+      ship = {
+        name = "NMS 斐迪南国王"  # NMS Regele Ferdinand
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ROM
+            version_name = "斐迪南国王级"  # Regele Ferdinand Class
+          }
+        }
+      }
+      ship = {
+        name = "NMS 玛丽亚王后"  # NMS Regina Maria
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ROM
+            version_name = "斐迪南国王级"  # Regele Ferdinand Class
+          }
+        }
+      }
+      ship = {
+        name = "海豚"  # Delfinul
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ROM
+            version_name = "海豚级"  # Delfinul Class
+          }
+        }
+      }
+      ship = {
+        name = "鲨"  # Rechinul
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ROM
+            version_name = "海豚级"  # Delfinul Class
+          }
+        }
+      }
+      ship = {
+        name = "鼠海豚"  # Marsuinul
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ROM
+            version_name = "海豚级"  # Delfinul Class
+          }
+        }
+      }
+      ship = {
+        name = "狗鱼"  # Stiuca
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = ROM
+            version_name = "海豚级"  # Delfinul Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,234 @@
+﻿units = {
+  fleet = {
+    name = "撒丁王家海军"  # Regia Marina Sarda
+    naval_base = 6891
+    task_force = {
+      name = "撒丁王家海军"  # Regia Marina Sarda
+      location = 6891
+      ship = {
+        name = "RN 但丁·阿利吉耶里"  # RN Dante Alighieri
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "但丁·阿利吉耶里级"  # Dante Alighieri Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 圣马可"  # RN San Marco
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SRD
+            version_name = "比萨级/圣乔治级"  # Pisa/San Giorgio Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 阿妮塔·加里波第"  # RN Anita Garibaldi
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SRD
+            version_name = "伊梅拉级"  # Imera Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 帕里奥罗戈"  # RN Paleologo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SRD
+            version_name = "伊梅拉级"  # Imera Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 恶毒"  # RN Insidioso
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 不惧"  # RN Animoso
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 不安"  # RN Irrequieto
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "大胆级/不屈级"  # Ardito/Indomito Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 勇敢"  # RN Audace
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 朱塞佩·拉法里纳"  # RN Giuseppe La Farina
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 贾钦托·卡里尼"  # RN Giacinto Carini
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 阿戈斯蒂诺·贝尔塔尼"  # RN Agostino Bertani
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 贾科莫·梅狄奇"  # RN Giacomo Medici
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇部队"  # Sottomarini
+      location = 6891
+      ship = {
+        name = "Rs.Smg. 卡利俄佩"  # Rs.Smg. Caliope
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 独眼巨人"  # Rs.Smg. Ciclope
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 阿尔戈"  # Rs.Smg. Argo
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 菲萨尼亚"  # Rs.Smg. Fisalia
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 亚莱亚"  # Rs.Smg. Jalea
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 美杜莎"  # Rs.Smg. Medusa
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 朱里艾莫蒂"  # Rs.Smg. Guglielmotti
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+      ship = {
+        name = "Rs.Smg. 帕奇诺蒂"  # Rs.Smg. Pacinotti
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SRD
+            version_name = "美杜莎级/帕奇诺蒂级"  # Medusa/Pacinotti Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1129 @@
+﻿units = {
+  fleet = {
+    name = "海峡舰队"  # Flotte de la Manche
+    naval_base = 11548
+    task_force = {
+      name = "第一海军军区"  # 1ère Région Navale
+      location = 11548
+      ship = {
+        name = "亨利·德·圣西蒙"  # Henri de Saint-Simon
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = FRA
+            version_name = "夏尔·傅里叶级"  # Charles Fourier Class
+          }
+        }
+      }
+      ship = {
+        name = "东布罗夫斯基"  # Dombrowski
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "拉莫特-皮凯级"  # La Motte-Picquet Class
+          }
+        }
+      }
+      ship = {
+        name = "北风"  # Tramontane
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "旋风"  # Trombe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "台风"  # Typhon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "风暴"  # Tempête
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇支队"  # 1er Escadron de Sous-Marins
+      location = 9434
+      ship = {
+        name = "鲨鱼"  # Requin
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "宽吻海豚"  # Souffleur
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "海象"  # Morse
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "独角鲸"  # Narval
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "鼠海豚"  # Marsouin
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "海豚"  # Dauphin
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "喀耳刻"  # Circé
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+      ship = {
+        name = "卡吕普索"  # Calypso
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+      ship = {
+        name = "忒提斯"  # Thétis
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+      ship = {
+        name = "多里斯"  # Doris
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "大西洋舰队"  # Flotte Atlantique
+    naval_base = 3552
+    task_force = {
+      name = "第二海军军区"  # 2ème Région Navale
+      location = 3552
+      ship = {
+        name = "欧仁·鲍狄埃"  # Eugène Pottier
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = FRA
+            version_name = "欧仁·鲍狄埃级"  # Eugène Pottier Class
+          }
+        }
+      }
+      ship = {
+        name = "路易·德勒克吕兹"  # Louis Delescluze
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "诺曼底级"  # Normandie Class
+          }
+        }
+      }
+      ship = {
+        name = "夏尔·傅里叶"  # Charles Fourier
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = FRA
+            version_name = "夏尔·傅里叶级"  # Charles Fourier Class
+          }
+        }
+      }
+      ship = {
+        name = "维克托·康西德兰特"  # Victor Considerant
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = FRA
+            version_name = "夏尔·傅里叶级"  # Charles Fourier Class
+          }
+        }
+      }
+      ship = {
+        name = "蒲鲁东"  # Proudhon
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FRA
+            version_name = "儒勒·米什莱级"  # Jules Michelet Class
+          }
+        }
+      }
+      ship = {
+        name = "勒德律-洛兰"  # Ledru-Rollin
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FRA
+            version_name = "儒勒·米什莱级"  # Jules Michelet Class
+          }
+        }
+      }
+      ship = {
+        name = "维克托·诺伊尔"  # Noir
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "拉莫特-皮凯级"  # La Motte-Picquet Class
+          }
+        }
+      }
+      ship = {
+        name = "欧仁·瓦尔兰"  # Varlin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "路易斯·米歇尔"  # Michel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "泽菲林·卡梅利纳"  # Camélinat
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "欧仁·博丹"  # Baudin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "维克托琳·戈尔杰"  # Gorget
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "泰奥菲尔·费雷"  # Ferré
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "弗兰克尔·列奥"  # Frankel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "约瑟芬·马凯斯"  # Marchais
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "夏尔·贝斯莱"  # Beslay
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "菲利克斯·皮亚特"  # Pyat
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "儒勒·米奥特"  # Miot
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "劳尔·里戈"  # Rigault
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "公社成员级"  # Communard Class
+          }
+        }
+      }
+      ship = {
+        name = "暴风雪"  # Bourrasque
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "气旋"  # Cyclone
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "西北风"  # Mistral
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "雷暴"  # Orage
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "飓风"  # Ouragan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "龙卷风"  # Tornade
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+      ship = {
+        name = "西蒙风"  # Simoun
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "暴风雪级"  # Bourrasque Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二潜艇支队"  # 2ème Escadron de Sous-Marins
+      location = 6536
+      ship = {
+        name = "古斯塔夫·泽代"  # Gustave Zédé
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "安菲特里忒"  # Amphitrite
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "拉普拉斯"  # Laplace
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "勒尼奥"  # Regnault
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "安菲特里忒级/拉格朗日级"  # Amphitrite/Lagrange Class
+          }
+        }
+      }
+      ship = {
+        name = "人鱼"  # Sirène
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "人鱼级"  # Sirène Class
+          }
+        }
+      }
+      ship = {
+        name = "涅瑞伊得斯"  # Naïade
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "人鱼级"  # Sirène Class
+          }
+        }
+      }
+      ship = {
+        name = "加拉蒂亚"  # Galathée
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "人鱼级"  # Sirène Class
+          }
+        }
+      }
+      ship = {
+        name = "宁芙"  # Nymphe
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "人鱼级"  # Sirène Class
+          }
+        }
+      }
+      ship = {
+        name = "阿里阿德涅"  # Ariane
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+      ship = {
+        name = "欧律狄刻"  # Eurydice
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+      ship = {
+        name = "达娜厄"  # Danaé
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阿里阿德涅级/喀耳刻级"  # Ariane/Circé Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "地中海舰队"  # Flotte Méditerranée
+    naval_base = 911
+    task_force = {
+      name = "第三海军军区"  # 3ème Région Navale
+      location = 911
+      ship = {
+        name = "国际"  # Internationale
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "国际级"  # Internationale Class
+          }
+        }
+      }
+      ship = {
+        name = "巴黎公社"  # Commune de Paris
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "国际级"  # Internationale Class
+          }
+        }
+      }
+      ship = {
+        name = "让·饶勒斯"  # Jean Jaurès
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "布列塔尼级"  # Bretagne Class
+          }
+        }
+      }
+      ship = {
+        name = "保罗·布鲁斯"  # Paul Brousse
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "孤拔级"  # Courbet Class
+          }
+        }
+      }
+      ship = {
+        name = "皮埃尔·比埃特"  # Pierre Biétry
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "孤拔级"  # Courbet Class
+          }
+        }
+      }
+      ship = {
+        name = "波尔多"  # Bordeaux
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "里昂级"  # Lyon Class
+          }
+        }
+      }
+      ship = {
+        name = "南特"  # Nantes
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "雷恩级"  # Rennes Class
+          }
+        }
+      }
+      ship = {
+        name = "雷恩"  # Rennes
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "雷恩级"  # Rennes Class
+          }
+        }
+      }
+      ship = {
+        name = "里昂"  # Lyon
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "里昂级"  # Lyon Class
+          }
+        }
+      }
+      ship = {
+        name = "土伦"  # Toulon
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "里昂级"  # Lyon Class
+          }
+        }
+      }
+      ship = {
+        name = "图卢兹"  # Toulouse
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "里昂级"  # Lyon Class
+          }
+        }
+      }
+      ship = {
+        name = "大胆"  # L'Audacieux
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "空想级"  # Le Fantasque Class
+          }
+        }
+      }
+      ship = {
+        name = "空想"  # Le Fantasque
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "空想级"  # Le Fantasque Class
+          }
+        }
+      }
+      ship = {
+        name = "恶毒"  # Le Malin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "空想级"  # Le Fantasque Class
+          }
+        }
+      }
+      ship = {
+        name = "可怖"  # Le Terrible
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "空想级"  # Le Fantasque Class
+          }
+        }
+      }
+      ship = {
+        name = "凯旋"  # Le Triomphant
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "空想级"  # Le Fantasque Class
+          }
+        }
+      }
+      ship = {
+        name = "不屈"  # L'Indomptable
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "空想级"  # Le Fantasque Class
+          }
+        }
+      }
+      ship = {
+        name = "鲁尔少尉"  # Enseigne Roux
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲁尔少尉级"  # Enseigne Roux Class
+          }
+        }
+      }
+      ship = {
+        name = "莱斯坦士官"  # M P Lestin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲁尔少尉级"  # Enseigne Roux Class
+          }
+        }
+      }
+      ship = {
+        name = "凡尔登"  # Verdun
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = FRA
+            version_name = "凡尔登级"  # Verdun Class
+          }
+        }
+      }
+      ship = {
+        name = "盾牌"  # Bouclier
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "箭筒"  # Carquois
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "仙王座"  # Céphée
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "阔剑"  # Claymore
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "军旗"  # Fanion
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "花剑"  # Fleuret
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "石笼"  # Gabion
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "长剑"  # Glaive
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "马贡"  # Magon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "金焰旗"  # Oriflamme
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "榴弹炮"  # Obusier
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "匕首"  # Stylet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+      ship = {
+        name = "火枪"  # Tromblon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "阔剑/斯帕希/盾牌级"  # Claymore/Spahi/Bouclier Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第三潜艇支队"  # 3ème Escadron de Sous-Marins
+      location = 911
+      ship = {
+        name = "绿宝石"  # Émeraude
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "蛋白石"  # Opale
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "孔雀石"  # Malachite
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "青金石"  # Lazurite
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "黑曜石"  # Obsidienne
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "红宝石"  # Rubis
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "蓝宝石"  # Saphir
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "紫水晶"  # Améthyste
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = FRA
+            version_name = "绿宝石级"  # Émeraude Class
+          }
+        }
+      }
+      ship = {
+        name = "凯门鳄"  # Caïman
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "海豹"  # Phoque
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+      ship = {
+        name = "旗鱼"  # Espadon
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = FRA
+            version_name = "鲨鱼级"  # Requin Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_panzerschiff
+      creator = "FRA"
+      version_name = "夏尔·傅里叶级"  # Charles Fourier Class
+    }
+    name = "奥古斯塔·布朗基"  # Auguste Blanqui
+    requested_factories = 2
+    progress = 0.5
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_3
+      creator = "FRA"
+      version_name = "凡尔登级"  # Verdun Class
+    }
+    name = "马恩"  # Marne
+    requested_factories = 2
+    progress = 0.2
+    amount = 1
+  }
+}

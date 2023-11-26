@@ -1,0 +1,242 @@
+﻿units = {
+  fleet = {
+    name = "地中海舰队"  # Belomorski Flot
+    naval_base = 11905
+    task_force = {
+      name = "水面舰队"  # Povurhnostna flotiliya
+      location = 11905
+      ship = {
+        name = "西美昂一世"  # Simeon I Veliki
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = BUL
+            version_name = "密西西比级"  # Mississippi Class
+          }
+        }
+      }
+      ship = {
+        name = "勇敢"  # Hrabri
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "新生级"  # Nea Genea Class
+          }
+        }
+      }
+      ship = {
+        name = "飞翔"  # Letyashchi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "新生级"  # Nea Genea Class
+          }
+        }
+      }
+      ship = {
+        name = "多布罗蒂奇"  # Dobrotich
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "布利兹"  # Briz
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "戈迪"  # Gordi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "维尔尼"  # Verni
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "马尔尼"  # Malnyi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "风暴级/胜利级"  # Thyella/Niki Class
+          }
+        }
+      }
+      ship = {
+        name = "娜杰日达"  # Nadezhda
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "娜杰日达级"  # Nadezhda Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Podvodna flotiliya
+      location = 11905
+      ship = {
+        name = "no. 18"  # Podvodnik no. 18
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "Type I级"  # Type I Class
+          }
+        }
+      }
+      ship = {
+        name = "潜鸟"  # Gagara
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "Type I级"  # Type I Class
+          }
+        }
+      }
+      ship = {
+        name = "胜利"  # Pobeda
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "Type I级"  # Type I Class
+          }
+        }
+      }
+      ship = {
+        name = "荣光"  # Slava
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "Type I级"  # Type I Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "黑海舰队"  # Chernomorski Flot
+    naval_base = 9783
+    task_force = {
+      name = "水面舰队"  # Povurhnostna flotiliya
+      location = 9783
+      ship = {
+        name = "阿斯巴鲁赫"  # Asparuh
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = BUL
+            version_name = "密西西比级"  # Mississippi Class
+          }
+        }
+      }
+      ship = {
+        name = "哈斯科沃"  # Haskovo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "尼俄伯级"  # Niobe Class
+          }
+        }
+      }
+      ship = {
+        name = "无畏"  # Druzki
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = BUL
+            version_name = "无畏级"  # Druzki Class
+          }
+        }
+      }
+      ship = {
+        name = "英勇"  # Smeli
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = BUL
+            version_name = "无畏级"  # Druzki Class
+          }
+        }
+      }
+      ship = {
+        name = "威严"  # Strogi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = BUL
+            version_name = "无畏级"  # Druzki Class
+          }
+        }
+      }
+      ship = {
+        name = "彼得罗夫斯基"  # Petrovski
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "彼得罗夫斯基级"  # Petrovski Class
+          }
+        }
+      }
+      ship = {
+        name = "斐迪南"  # Ferdinand
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BUL
+            version_name = "彼得罗夫斯基级"  # Petrovski Class
+          }
+        }
+      }
+    }
+  }
+}

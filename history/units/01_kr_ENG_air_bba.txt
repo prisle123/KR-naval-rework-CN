@@ -1,0 +1,149 @@
+﻿air_wings = {
+  "RNS 瑞贝卡" = {
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+  }
+  "RNS 共和国" = {
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+  }
+  "RNS 自由" = {
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+  }
+  "RNS 勇敢" = {
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+  }
+  "RNS 光荣" = {
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+  }
+  "RNS 鹰" = {
+    cv_small_plane_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Hawker Nimrod"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "ENG"
+      amount = 10
+      version_name = "Blackburn Baffin"
+    }
+  }
+}

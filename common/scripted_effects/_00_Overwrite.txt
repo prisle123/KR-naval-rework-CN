@@ -1,0 +1,4 @@
+GER_add_naval_variants = {}
+ARG_starting_naval_variants = {}
+RUS_starting_naval_variants = {}
+USA_starting_naval_variants = {}

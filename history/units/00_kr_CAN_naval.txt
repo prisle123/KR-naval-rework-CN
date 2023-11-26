@@ -1,0 +1,1898 @@
+﻿units = {
+  fleet = {
+    name = "大舰队"  # Grand Fleet
+    naval_base = 7361
+    task_force = {
+      name = "战列舰舰队"  # Battle Fleet
+      location = 7361
+      ship = {
+        name = "HMCS 雄伟"  # HMCS Magnificent
+        definition = SH_battleship
+        equipment = {
+          ship_hull_super_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "雄伟级"  # Magnificent Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 庄严"  # HMCS Majestic
+        definition = SH_battleship
+        equipment = {
+          ship_hull_super_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "雄伟级"  # Magnificent Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 巴勒姆"  # HMCS Barham
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 勇士"  # HMCS Valiant
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 开普敦"  # HMCS Capatown
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 派遣"  # HMCS Despatch
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 龙"  # HMCS Dragon
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡吕普索"  # HMCS Calypso
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡利俄佩"  # HMCS Calliope
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡斯托"  # HMCS Castor
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡莱尔"  # HMCS Carlisle
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 肯彭菲尔特"  # HMCS Kempenfelt
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 莱特富特"  # HMCS Lightfoot
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 斯图亚特"  # HMCS Stuart
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 布罗克"  # HMCS Broke
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 确捷"  # HMCS Steadfast
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 斯特林"  # HMCS Sterling
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 成功"  # HMCS Success
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 战术家"  # HMCS Tactician
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 蒂尔伯里"  # HMCS Tilbury
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 特洛伊"  # HMCS Trojan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 喧嚣"  # HMCS Tumult
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 绿松石"  # HMCS Turquoise
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 海象"  # HMCS Walrus
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 韦泽尔"  # HMCS Weazel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 韦尔斯利"  # HMCS Wellesley
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 威塞克斯"  # HMCS Wessex
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 惠勒"  # HMCS Wheeler
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 幼兽"  # HMCS Whelp
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 长鞭"  # HMCS Whip
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 惠比特"  # HMCS Whippet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "战列巡洋舰舰队"  # Battle Cruiser Fleet
+      location = 7361
+      ship = {
+        name = "HMCS 暴怒"  # HMCS Furious
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = IMP
+            version_name = "暴怒级"  # Furious Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 德雷克"  # HMCS Drake
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "纳尔逊级"  # Nelson Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 豪"  # HMCS Howe
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "海军上将级"  # Admiral Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 罗德尼"  # HMCS Rodney
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "海军上将级"  # Admiral Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 阿金库尔"  # HMCS Agincourt
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = IMP
+            version_name = "布伦海姆级"  # Blenheim Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 蒙克顿"  # HMCS Moncton
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = IMP
+            version_name = "蒙克顿级"  # Moncton Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 蒙特利尔"  # HMCS Montreal
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = IMP
+            version_name = "蒙克顿级"  # Moncton Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 渥太华"  # HMCS Ottawa
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = IMP
+            version_name = "蒙克顿级"  # Moncton Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 多伦多"  # HMCS Toronto
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_3 = {
+            amount = 1
+            owner = IMP
+            version_name = "蒙克顿级"  # Moncton Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 无畏"  # HMCS Dauntless
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 科伦坡"  # HMCS Colombo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 加罗林"  # HMCS Caroline
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡里斯福特"  # HMCS Carysfort
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 亚必迭"  # HMCS Abdiel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡普佩尔"  # HMCS Keppel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 桑德斯"  # HMCS Saunders
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 莎士比亚"  # HMCS Shakespeare
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 斯普拉奇"  # HMCS Spragge
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 华莱士"  # HMCS Wallace
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 阿卡斯塔"  # HMCS Acasta
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 阿盖特"  # HMCS Achates
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 冥河"  # HMCS Acheron
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 积极"  # HMCS Active
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 安蒂洛普"  # HMCS Antelope
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 安东尼"  # HMCS Anthony
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 热诚"  # HMCS Ardent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 箭"  # HMCS Arrow
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 科德林顿"  # HMCS Codrington
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 亚马逊"  # HMCS Amazon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 伏击"  # HMCS Ambuscade
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "A/B/C/D级"  # A/B/C/D Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 三叶草"  # HMCS Shamrock
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 猎人"  # HMCS Shikari
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 领队"  # HMCS Sirdar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 索姆河"  # HMCS Somme
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 白熊"  # HMCS White Bear
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 惠特希德"  # HMCS Whitshed
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 野天鹅"  # HMCS Wild Swan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 妒忌"  # HMCS Zealous
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 温莎"  # HMCS Windsor
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备役舰队"  # Reserved Fleet
+      location = 7361
+      ship = {
+        name = "HMCS 厌战"  # HMCS Warspite
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "伊丽莎白女王级"  # Queen Elizabeth Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 征服"  # HMCS Conquest
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 德里"  # HMCS Delhi
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 加布里埃尔"  # HMCS Gabriel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 伊斯瑞尔"  # HMCS Ithuriel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "神射手级/帕克级"  # Marksman/Parker Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 廷塔杰尔"  # HMCS Tintagel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 护民官"  # HMCS Tribune
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 特立尼达"  # HMCS Trinidad
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 威沙特"  # HMCS Wishart
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 伍尔斯顿"  # HMCS Woolston
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "海岸巡逻舰队"  # Coastal Patrol
+      location = 4285
+      ship = {
+        name = "HMCS 坎贝尔"  # HMCS Campbell
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 马尔科姆"  # HMCS Malcolm
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 蒙特罗斯"  # HMCS Montrose
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "莎士比亚级/斯考特级"  # Shakespeare/Scott Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 翡翠"  # HMCS Emerald
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "翡翠级"  # Emerald Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡文迪什"  # HMCS Cavendish
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "霍金斯级"  # Hawkins Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "大西洋潜艇舰队"  # Atlantic Submarine Fleet
+      location = 12149
+      ship = {
+        name = "HMCS N-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "N级"  # N Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS N-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "N级"  # N Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS N-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "N级"  # N Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS N-4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "N级"  # N Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS N-5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "N级"  # N Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS N-6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "N级"  # N Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-38"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-39"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-40"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-41"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-42"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-43"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS X-2"
+        definition = submarine
+        equipment = {
+          ship_hull_cruiser_submarine = {
+            amount = 1
+            owner = IMP
+            version_name = "X1级"  # X1 Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-11"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-12"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-14"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-16"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-17"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-18"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-19"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-20"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-21"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-22"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-23"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-24"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-25"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-28"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-29"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-30"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-31"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-32"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-33"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-34"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS L-35"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "印度分遣舰队"  # Indian Squadron
+    naval_base = 3456
+    task_force = {
+      name = "印度分遣舰队"  # Indian Squadron
+      location = 3456
+      ship = {
+        name = "HMCS 玛瑙"  # HMCS Sardonyx
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 土星"  # HMCS Saturn
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 快速"  # HMCS Speedy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 海沫"  # HMCS Spindrift
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 顽强"  # HMCS Sturdy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 锡卡莫尔"  # HMCS Sycamore
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 多巴哥"  # HMCS Tobago
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 忒涅多斯"  # HMCS Tenedos
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 萨尼特"  # HMCS Thanet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 色雷斯"  # HMCS Thracian
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 迪奥米德"  # HMCS Diomede
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 坎布里亚"  # HMCS Cambrian
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 坎特伯雷"  # HMCS Canterbury
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 半人马"  # HMCS Centaur
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "太平洋舰队"  # Pacific Fleet
+    naval_base = 7259
+    task_force = {
+      name = "太平洋舰队"  # Pacific Fleet
+      location = 7259
+      ship = {
+        name = "HMCS 布伦海姆"  # HMCS Blenheim
+        definition = armored_cruiser
+        equipment = {
+          ship_hull_cruiser_panzerschiff = {
+            amount = 1
+            owner = IMP
+            version_name = "布伦海姆级"  # Blenheim Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 弗罗比舍"  # HMCS Frobisher
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "霍金斯级"  # Hawkins Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 霍金斯"  # HMCS Hawkins
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "霍金斯级"  # Hawkins Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 弯刀"  # HMCS Scimitar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 苏格兰人"  # HMCS Scotsman
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 斥候"  # HMCS Scout
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 巨石阵"  # HMCS Stonehenge
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 暴风云"  # HMCS Stormcloud
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 湍流"  # HMCS Turbulent
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 织女星"  # HMCS Vega
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 慷慨"  # HMCS Vehement
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 迅速"  # HMCS Velox
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 沃尔顿"  # HMCS Walton
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 沃森"  # HMCS Watson
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 达娜厄"  # HMCS Danae
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "达娜厄级"  # Danae Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡桑德拉"  # HMCS Cassandra
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡利登"  # HMCS Caledon
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "预备役舰队"  # Reserved Fleet
+      location = 7259
+      ship = {
+        name = "HMCS 百眼巨人"  # HMCS Argus
+        definition = carrier
+        equipment = {
+          ship_hull_carrier_conversion_ca = {
+            amount = 1
+            owner = IMP
+            version_name = "百眼巨人级"  # Argus Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 卡拉多克"  # HMCS Caradoc
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 刻瑞斯"  # HMCS Ceres
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 杓鹬"  # HMCS Curlew
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = IMP
+            version_name = "C级"  # C Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 波涛"  # HMCS Wave
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 威斯敏斯特"  # HMCS Westminster
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 飞龙"  # HMCS Wivern
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+      ship = {
+        name = "HMCS 狼獾"  # HMCS Wolverine
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "V/W级"  # V/W Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "太平洋潜艇舰队"  # Pacific Submarine Fleet
+      location = 1408
+      ship = {
+        name = "HMCS H-24"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS H-25"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS H-26"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS H-27"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-29"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-30"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-36"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+      ship = {
+        name = "HMCS K-37"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = IMP
+            version_name = "H级"  # H Type
+          }
+        }
+      }
+    }
+  }
+}

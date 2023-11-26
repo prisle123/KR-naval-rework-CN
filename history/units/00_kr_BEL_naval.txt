@@ -1,0 +1,109 @@
+﻿units = {
+  fleet = {
+    name = "泽布吕赫舰队"  # Smaldeel van Zeebrugge
+    naval_base = 6446
+    task_force = {
+      name = "泽布吕赫舰队"  # Smaldeel van Zeebrugge
+      location = 6446
+      ship = {
+        name = "BNS 斯卡尔迪斯"  # BNS Scaldis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "根特级"  # Gent Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 伊萨拉"  # BNS Ysara
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "根特级"  # Gent Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 穆萨"  # BNS Mosa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "根特级"  # Gent Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 乌尔塔"  # BNS Urta
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "根特级"  # Gent Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 莱吉亚"  # BNS Legia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "根特级"  # Gent Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 萨比斯"  # BNS Sabis
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "根特级"  # Gent Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 安特卫普"  # BNS Antverpia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "格劳登茨/科隆/科尼斯堡级"  # Graudenz/Cöln/Königsberg Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 法兰德斯"  # BNS Vlaanderen
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "皇帝级"  # Kaiser Class
+          }
+        }
+      }
+      ship = {
+        name = "BNS 布拉班特"  # BNS Brabants
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = BEL
+            version_name = "拿骚级"  # Nassau Class
+          }
+        }
+      }
+    }
+  }
+}

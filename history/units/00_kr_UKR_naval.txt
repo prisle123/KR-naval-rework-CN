@@ -1,0 +1,340 @@
+﻿units = {
+  fleet = {
+    name = "乌克兰海军"  # Ukrayins'ki Flot
+    naval_base = 3686
+    task_force = {
+      name = "乌克兰海军"  # Ukrayins'ki Flot
+      location = 3686
+      ship = {
+        name = "基辅"  # Kyyiv
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "玛丽亚皇后级"  # Imperatritsa Mariya Class
+          }
+        }
+      }
+      ship = {
+        name = "联合乌克兰"  # Soborna Ukrayina
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "玛丽亚皇后级"  # Imperatritsa Mariya Class
+          }
+        }
+      }
+      ship = {
+        name = "金刚石"  # Almaz
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "金刚石级"  # Almaz Class
+          }
+        }
+      }
+      ship = {
+        name = "卢斯科"  # Luts'k
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "卢斯科级"  # Luzk Class
+          }
+        }
+      }
+      ship = {
+        name = "普罗德尼普罗亚"  # Prydniprov'ya
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "卢斯科级"  # Luzk Class
+          }
+        }
+      }
+      ship = {
+        name = "捷尔诺波利"  # Ternopil'
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "卢斯科级"  # Luzk Class
+          }
+        }
+      }
+      ship = {
+        name = "文尼察"  # Vinnytsya
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "卢斯科级"  # Luzk Class
+          }
+        }
+      }
+      ship = {
+        name = "快速"  # Shvydkyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "无敌"  # Neperemozhnyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "哈尔科夫"  # Kharkiv
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "急促"  # Pospishnyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "热心"  # Palkyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "沃拉迪米尔-沃伦斯基"  # Volodymyr-Volyns'kyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "活泼"  # Schastlivyy
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "敖德萨"  # Odesa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "活泼级"  # Schastlivyy Class
+          }
+        }
+      }
+      ship = {
+        name = "叶夫斯塔菲"  # Evstafi
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = UKR
+            version_name = "叶夫斯塔菲级"  # Evstafi Class
+          }
+        }
+      }
+      ship = {
+        name = "萨伊达奇尼盖特曼"  # Hetman Sahaydachnyy
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = UKR
+            version_name = "叶夫斯塔菲级"  # Evstafi Class
+          }
+        }
+      }
+      ship = {
+        name = "三圣徒"  # Try Svyatyteli
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = UKR
+            version_name = "三圣徒级"  # Try Svyatyteli Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-122"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-123"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-124"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-125"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-111"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-112"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-113"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = UKR
+            version_name = "AG级"  # AG Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-131"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "131级"  # 131 Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-132"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "131级"  # 131 Class
+          }
+        }
+      }
+      ship = {
+        name = "PCh-133"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = UKR
+            version_name = "131级"  # 131 Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_submarine_2
+      creator = "UKR"
+      version_name = "131级"  # 131 Class
+    }
+    requested_factories = 1
+    progress = 0.75
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "UKR"
+      version_name = "卢斯科级"  # Luzk Class
+    }
+    requested_factories = 1
+    progress = 0.8
+    amount = 1
+  }
+}

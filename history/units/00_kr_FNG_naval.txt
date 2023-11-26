@@ -1,0 +1,105 @@
+﻿units = {
+  fleet = {
+    name = "东北海军"  # Dongbei Haijun
+    naval_base = 11764
+    task_force = {
+      name = "东北海军"  # Dongbei Haijun
+      location = 11764
+      ship = {
+        name = "镇海"  # Chen Hai
+        definition = auxiliary_ship
+        equipment = {
+          vnr_ship_hull_civilian_1 = {
+            amount = 1
+            owner = FNG
+            version_name = "镇海级"  # Chen Hai Class
+          }
+        }
+      }
+      ship = {
+        name = "海圻"  # Haiqi
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FNG
+            version_name = "海圻级"  # Haiqi Class
+          }
+        }
+      }
+      ship = {
+        name = "海琛"  # Haichen
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FNG
+            version_name = "海容级"  # Hairong Class
+          }
+        }
+      }
+      ship = {
+        name = "肇和"  # Zhaohe
+        definition = light_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = FNG
+            version_name = "肇和级"  # Zhaohe Class
+          }
+        }
+      }
+      ship = {
+        name = "同安"  # Tung An
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FNG
+            version_name = "长风级"  # Chang Feng Class
+          }
+        }
+      }
+      ship = {
+        name = "永翔"  # Yung Hsiang
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FNG
+            version_name = "永丰级/永绩级"  # Yung Feng/Yung Chi Class
+          }
+        }
+      }
+      ship = {
+        name = "楚豫"  # Chu Yu
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FNG
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+      ship = {
+        name = "江利"  # Kiang Li
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = FNG
+            version_name = "楚泰级/江元级"  # Chu Tai/Kiang Yuan Class
+          }
+        }
+      }
+    }
+  }
+}

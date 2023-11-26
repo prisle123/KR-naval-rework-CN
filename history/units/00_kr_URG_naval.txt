@@ -1,0 +1,98 @@
+﻿units = {
+  fleet = {
+    name = "乌拉圭海军"  # Armada Uruguaya
+    naval_base = 10362
+    task_force = {
+      name = "乌拉圭海军"  # Armada Uruguaya
+      location = 10362
+      ship = {
+        name = "ROU 派桑杜"  # ROU Paysandú
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = URG
+            version_name = "史密斯级"  # Smith Class
+          }
+        }
+      }
+      ship = {
+        name = "ROU 里奥内格罗"  # ROU Río Negro
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = URG
+            version_name = "史密斯级"  # Smith Class
+          }
+        }
+      }
+      ship = {
+        name = "ROU 阿蒂加斯"  # ROU Artigas
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = URG
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "ROU 乌拉圭"  # ROU Uruguay
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = URG
+            version_name = "宾夕法尼亚级"  # Pennsylvania Class
+          }
+        }
+      }
+      ship = {
+        name = "SMU-1 七月十八日"  # SMU-1 Dieciocho de Julio
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = URG
+            version_name = "O/R/S级"  # O/R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "SMU-2 埃尔塞昆多"  # SMU-2 El Secundo
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = URG
+            version_name = "O/R/S级"  # O/R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "SMU-3 鲁莽"  # SMU-3 Temerario
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = URG
+            version_name = "O/R/S级"  # O/R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "SMU-4 奋进"  # SMU-4 Audaz
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = URG
+            version_name = "O/R/S级"  # O/R/S Class
+          }
+        }
+      }
+    }
+  }
+}

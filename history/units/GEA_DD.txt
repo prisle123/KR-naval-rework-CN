@@ -1,19 +1,19 @@
 ﻿###OOB File for GEA.txt
 units = {
 	fleet = {
-		name = "驱逐舰中队"
+		name = "Zerstörergeschwader"
 		naval_base = 12299 ###Change to proper province number
 		task_force = {
-			name = "驱逐舰中队"
+			name = "Zerstörergeschwader"
 			location = 12299 ###Change to proper province number
-			ship = { name = "SMS Z 102" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 103" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 104" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 105" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 106" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 107" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 108" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
-			ship = { name = "SMS Z 109" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279级" } } }
+			ship = { name = "SMS Z 102" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 103" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 104" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 105" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 106" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 107" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 108" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
+			ship = { name = "SMS Z 109" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = GEA version_name = "H279 Class" } } }
 		}
 	}
 }

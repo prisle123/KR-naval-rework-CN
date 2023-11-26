@@ -1,0 +1,76 @@
+﻿units = {
+  fleet = {
+    name = "爱尔兰海军"  # tSeirbhís Chabhlaigh Flotilla
+    naval_base = 7394
+    task_force = {
+      name = "爱尔兰海军"  # tSeirbhís Chabhlaigh Flotilla
+      location = 7394
+      ship = {
+        name = "LÉ 本博"  # LÉ Benburb
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRE
+            version_name = "G192级"  # G192 Class
+          }
+        }
+      }
+      ship = {
+        name = "LÉ 卡斯尔巴"  # LÉ Castlebar
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRE
+            version_name = "G192级"  # G192 Class
+          }
+        }
+      }
+      ship = {
+        name = "LÉ 克朗梅尔"  # LÉ Clonmel
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRE
+            version_name = "G192级"  # G192 Class
+          }
+        }
+      }
+      ship = {
+        name = "LÉ 波特莱斯特"  # LÉ Portlester
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRE
+            version_name = "G192级"  # G192 Class
+          }
+        }
+      }
+      ship = {
+        name = "LÉ 克朗蒂布雷特"  # LÉ Clontibret
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRE
+            version_name = "G192级"  # G192 Class
+          }
+        }
+      }
+      ship = {
+        name = "LÉ 耶洛福特"  # LÉ Yellow Ford
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRE
+            version_name = "G192级"  # G192 Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,337 @@
+﻿units = {
+  fleet = {
+    name = "东非分遣舰队"  # Ostafrikageschwader
+    naval_base = 13551
+    task_force = {
+      name = "东非分遣舰队"  # Ostafrikageschwader
+      location = 13551
+      ship = {
+        name = "SMS 塞德利茨"  # SMS Seydlitz
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "塞德利茨级"  # Seydlitz Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 25"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "S113级"  # S113 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 26"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "S113级"  # S113 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 27"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "S113级"  # S113 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 28"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "S113级"  # S113 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 29"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "S113级"  # S113 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 30"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "S113级"  # S113 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS B 305"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS B 306"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS B 307"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS B 308"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS B 309"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS S 300"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS S 301"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS S 302"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS S 303"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS S 304"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = MAF
+            version_name = "H279级"  # H279 Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "西非分遣舰队"  # Westafrikageschwader
+    naval_base = 6039
+    task_force = {
+      name = "西非分遣舰队"  # Westafrikageschwader
+      location = 6039
+      ship = {
+        name = "SMS 冯·德·坦恩"  # SMS Von Der Tann
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "冯·德·坦恩级"  # Von Der Tann Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS 毛奇"  # SMS Moltke
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "毛奇级"  # Moltke Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 1"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 2"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 3"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS V 4"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS G 7"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS G 8"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS G 9"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS G 10"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS G 11"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+      ship = {
+        name = "SMS G 12"
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAF
+            version_name = "V1级/G7级"  # V1/G7 Class
+          }
+        }
+      }
+    }
+  }
+}

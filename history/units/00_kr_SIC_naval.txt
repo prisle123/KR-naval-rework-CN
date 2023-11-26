@@ -1,0 +1,748 @@
+﻿units = {
+  fleet = {
+    name = "西西里王家海军"  # Regia Marina Siciliana
+    naval_base = 819
+    task_force = {
+      name = "第一舰队"  # I Flotta
+      location = 819
+      ship = {
+        name = "RN 弗朗切斯科·卡拉乔洛"  # RN Francesco Caracciolo
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "弗朗切斯科·卡拉乔洛级"  # Francesco Caracciolo Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 卡约·杜伊里奥"  # RN Caio Duilio
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "安德烈亚·多利亚级"  # Andrea Doria Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 古列尔莫二世"  # RN Guglielmo II
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "阿尔塔维拉级"  # Altavilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 罗伯托·圭斯卡尔多"  # RN Roberto Guiscardo
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "阿尔塔维拉级"  # Altavilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 克里米索"  # RN Crimiso
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "克里米索级"  # Crimoso Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 杰拉"  # RN Gela
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "伊梅拉级"  # Imera Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 伊梅拉"  # RN Imera
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "伊梅拉级"  # Imera Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 利里贝欧"  # RN Lilibeo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "伊梅拉级"  # Imera Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 巴西利卡塔"  # RN Basilicata
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "尼诺·比卓级/坎帕尼亚级"  # Nino Boxio/Campania Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 箭"  # RN Freccia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SIC
+            version_name = "箭级"  # Freccia Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 飞镖"  # RN Dardo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SIC
+            version_name = "箭级"  # Freccia Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 矢"  # RN Saetta
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SIC
+            version_name = "箭级"  # Freccia Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 贝内文托"  # RN Benevento
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 卡普里"  # RN Capri
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 福里奥伊斯基亚"  # RN Fioro Ischia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 拉戈内格罗"  # RN Lago Negro
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 利奥尼"  # RN Lioni
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 隼"  # RN Falco
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "亚历山德罗·波埃里奥级/天鹰级"  # Alessandro Poerio/Aquila Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 朱塞佩·西尔托里"  # RN Giuseppe Sirtori
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 乔瓦尼·阿切尔比"  # RN Giovanni Acerbi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 文森佐·吉奥达诺·奥尔西尼"  # RN Vincenzo Giordano Orsini
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 弗朗切斯科·斯托尔科"  # RN Francesco Stocco
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "皮洛级/西尔托里级"  # Pilo/Sirtori Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 拉·马萨"  # RN La Masa
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 库尔塔托内"  # RN Curtatone
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 卡斯特尔菲达多"  # RN Castelfidardo
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第二舰队"  # II Flotta
+      location = 11846
+      ship = {
+        name = "RN 鲁杰罗一世"  # RN Ruggero I
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "阿尔塔维拉级"  # Altavilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 坦卡里迪"  # RN Tancredi
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "阿尔塔维拉级"  # Altavilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 陶尔米纳"  # RN Taormina
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "克里米索级"  # Crimoso Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 莫齐亚"  # RN Mozia
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "伊梅拉级"  # Imera Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 标枪"  # RN Strale
+        definition = destroyer
+        equipment = {
+          ship_hull_light_3 = {
+            amount = 1
+            owner = SIC
+            version_name = "箭级"  # Freccia Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 曼弗雷多尼亚"  # RN Manfredonia
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 蒙德拉戈内"  # RN Mondragone
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 新奥尔塔"  # RN Orta Nova
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 奥特朗托"  # RN Otranto
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 塞尼塞"  # RN Senise
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 天鹰"  # RN Aquila
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "亚历山德罗·波埃里奥级/天鹰级"  # Alessandro Poerio/Aquila Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 帕雷斯托"  # RN Palestro
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 孔菲耶恩扎"  # RN Confienza
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 圣马蒂诺"  # RN San Martino
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 索尔费里诺"  # RN Solferino
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第三舰队"  # III Flotta
+      location = 11837
+      ship = {
+        name = "RN 西西里"  # RN Trinicaria
+        definition = battleship
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = SIC
+            version_name = "埃莱娜王后级"  # Regina Elena Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 比萨"  # RN Pisa
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIC
+            version_name = "比萨级/圣乔治级"  # Pisa/San Giorgio Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 圣乔治"  # RN San Giorgio
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIC
+            version_name = "比萨级/圣乔治级"  # Pisa/San Giorgio Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 尼诺·比卓"  # RN Nino Boxio
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "尼诺·比卓级/坎帕尼亚级"  # Nino Boxio/Campania Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 希拉"  # RN Scilla
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = SIC
+            version_name = "奥特朗托级/希拉级"  # Otranto/Scilla Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 蒙扎巴诺"  # RN Monzambano
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 卡拉塔菲米"  # RN Calatafimi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "帕雷斯托级/库尔塔托内级"  # Palestro/Curtatone Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 贝内德托·卡利罗里"  # RN Benedetto Cairoli
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 安杰洛·巴西尼"  # RN Angelo Bassini
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+      ship = {
+        name = "RN 尼古拉·法布里齐"  # RN Nicola Fabrizi
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "勇敢级/拉·马萨级"  # Audace/La Masa Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一潜艇舰队"  # I Gruppo Sommergibile
+      location = 819
+      ship = {
+        name = "R.Smg. F13"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. F14"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. F15"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. F16"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. F17"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. F18"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. H8"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. N1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. N2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. N3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. N4"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. N5"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. N6"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. X1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. X2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+      ship = {
+        name = "R.Smg. X3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIC
+            version_name = "W/H/N/X级"  # W/H/N/X Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -24,7 +24,7 @@ Naval_lore_category = {
 		}
 		complete_effect = {
 			FROM = {
-				country_event = Naval_lore.2
+				country_event = Naval_lore.0
 			}
 		}
 	}
@@ -41,7 +41,7 @@ Naval_lore_category = {
 		}
 		complete_effect = {
 			FROM = {
-				country_event = Naval_lore.4
+				country_event = Naval_lore.0
 			}
 		}
 	}
@@ -59,7 +59,7 @@ Naval_lore_category = {
 		}
 		complete_effect = {
 			FROM = {
-				country_event = Naval_lore.7
+				country_event = Naval_lore.0
 			}
 		}
 	}
@@ -73,7 +73,7 @@ Naval_lore_category = {
 		}
 		complete_effect = {
 			FROM = {
-				country_event = Naval_lore.9
+				country_event = Naval_lore.0
 			}
 		}
 	}
@@ -84,7 +84,7 @@ Naval_lore_category = {
 		}
 		complete_effect = {
 			FROM = {
-				country_event = Naval_lore.12
+				country_event = Naval_lore.0
 			}
 		}
 	}
@@ -101,7 +101,7 @@ Naval_lore_category = {
 		}
 		complete_effect = {
 			FROM = {
-				country_event = Naval_lore.14
+				country_event = Naval_lore.0
 			}
 		}
 	}

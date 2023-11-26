@@ -1,17 +1,32 @@
-﻿###OOB File for AST.txt
-units = {
-	fleet = {
-		name = "升级舰队3"
-		naval_base = 12406 ###Change to proper province number
-		task_force = {
-			name = "升级舰队3"
-			location = 12406 ###Change to proper province number
-			ship = { name = "HMAS 新西兰" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "不倦级" } } }
-			ship = { name = "HMAS 澳大利亚" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "不倦级" } } }
-			ship = { name = "HMAS 壮丽" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "伯勒洛丰级" } } }
-			ship = { name = "HMAS 本鲍" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "铁公爵级" } } }
-			ship = { name = "HMAS 印度皇帝" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "铁公爵级" } } }
-		}
-	}
+﻿units = {
+  fleet = {
+    name = "升级舰队3"  # Upgraded Fleet 3
+    naval_base = 12406
+    task_force = {
+      name = "升级舰队3"  # Upgraded Fleet 3
+      location = 12406
+      ship = {
+        name = "HMAS 本鲍"  # HMAS Benbow
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AST
+            version_name = "铁公爵级"  # Iron Duke Class
+          }
+        }
+      }
+      ship = {
+        name = "HMAS 印度皇帝"  # HMAS Emperor of India
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = AST
+            version_name = "铁公爵级"  # Iron Duke Class
+          }
+        }
+      }
+    }
+  }
 }
-

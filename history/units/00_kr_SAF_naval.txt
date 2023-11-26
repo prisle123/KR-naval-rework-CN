@@ -1,0 +1,65 @@
+﻿units = {
+  fleet = {
+    name = "南非舰队"  # South African Fleet
+    naval_base = 12589
+    task_force = {
+      name = "南非舰队"  # South African Fleet
+      location = 12589
+      ship = {
+        name = "SAS 无双"  # SAS Matchless
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SAF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "SAS 米尔恩"  # SAS Milne
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SAF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "SAS 劳福德"  # SAS Lawford
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SAF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "SAS 兰斯"  # SAS Lance
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SAF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+      ship = {
+        name = "SAS 莱夫罗克"  # SAS Laverock
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SAF
+            version_name = "L/M级"  # L/M Class
+          }
+        }
+      }
+    }
+  }
+}

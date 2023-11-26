@@ -1,4 +1,4 @@
-version="v0.12"
+version="v2.0"
 replace_path="common/units/names_ships"
 dependencies={
 	"Kaiserreich"
@@ -11,5 +11,5 @@ tags={
 }
 name="KR海军重置"
 picture="thumbnail.png"
-supported_version="1.12.14"
+supported_version="1.13.*"
 remote_file_id="2860531377"

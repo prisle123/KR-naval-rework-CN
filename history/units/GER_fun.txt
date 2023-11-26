@@ -1,6 +1,6 @@
 instant_effect = {
     create_equipment_variant = {
-        name = "里希特霍芬级"
+        name = "Richthofen Class"
 		role_icon_index = 9
         type = ship_hull_carrier_1
         name_group = GER_CV_IMPERIAL
@@ -15,7 +15,7 @@ instant_effect = {
         }
     }
     create_equipment_variant = {
-        name = "俾斯麦级"
+        name = "Bismarck Class"
 		role_icon_index = 1
 		icon = "gfx/interface/technologies/Germany/GER_battleship3.png"
         type = ship_hull_heavy_2
@@ -40,23 +40,23 @@ instant_effect = {
 
 units = {
     fleet = {
-        name = "英灵舰队"
+        name = "Multiverse Fleet"
         naval_base = 11360
         task_force = {
-            name = "英灵舰队"
+            name = "Multiverse Fleet"
             location = 11360
-            ship = { name = "里希特霍芬" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "里希特霍芬级"} } }
-            ship = { name = "齐柏林伯爵" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "里希特霍芬级"} } }
-            ship = { name = "恩斯特·乌德特" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "里希特霍芬级"} } }
-            ship = { name = "赫尔曼·戈林" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "里希特霍芬级"} } }
-            ship = { name = "俾斯麦" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "俾斯麦级" } } }
-            ship = { name = "提尔皮茨" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "俾斯麦级" } } }
+            ship = { name = "Richthofen" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Richthofen Class"} } }
+            ship = { name = "Graf Zeppelin" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Richthofen Class"} } }
+            ship = { name = "Ernst Udet" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Richthofen Class"} } }
+            ship = { name = "Hermann Göring" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Richthofen Class"} } }
+            ship = { name = "Bismarck" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Bismarck Class" } } }
+            ship = { name = "Tirpitz" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Bismarck Class" } } }
 
-            ship = { name = "拿骚" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "西里西亚级" } } }
-            ship = { name = "莱茵兰" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "西里西亚级" } } }
-            ship = { name = "威斯特法伦" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "西里西亚级" } } }
+            ship = { name = "Nassau" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Schlesien Class" } } }
+            ship = { name = "Rhineland" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Schlesien Class" } } }
+            ship = { name = "Westfalen" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = GER version_name = "Schlesien Class" } } }
 
-            ship = { name = "吕佐夫" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "德弗林格级" } } }
+            ship = { name = "Lützow" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
         }
     }
 }

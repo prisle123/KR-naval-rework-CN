@@ -1,0 +1,54 @@
+﻿units = {
+  fleet = {
+    name = "埃及皇家海军"  # Royal Egyptian Fleet
+    naval_base = 4076
+    task_force = {
+      name = "埃及皇家海军"  # Royal Egyptian Fleet
+      location = 4076
+      ship = {
+        name = "纳赛尔"  # Al Nasser
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = EGY
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "杜姆亚特"  # Domyat
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = EGY
+            version_name = "R/S级"  # R/S Class
+          }
+        }
+      }
+      ship = {
+        name = "科尼"  # Koni
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = EGY
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+      ship = {
+        name = "开罗"  # Cairo
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = EGY
+            version_name = "城级"  # Town Class
+          }
+        }
+      }
+    }
+  }
+}

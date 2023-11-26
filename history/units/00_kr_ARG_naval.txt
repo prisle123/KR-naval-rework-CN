@@ -1,0 +1,254 @@
+﻿units = {
+  fleet = {
+    name = "阿根廷海军"  # Armada Argentina
+    naval_base = 12364
+    task_force = {
+      name = "阿根廷海军"  # Armada Argentina
+      location = 12364
+      ship = {
+        name = "ARA 里瓦达维亚"  # ARA Rivadavia
+        pride_of_the_fleet = yes
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "里瓦达维亚级"  # Rivadavia Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 莫雷诺"  # ARA Moreno
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "里瓦达维亚级"  # Rivadavia Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 五月二十五日"  # ARA Veinticinco de Mayo
+        definition = heavy_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "五月二十五日级"  # Veinticinco de Mayo Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 布朗海军上将"  # ARA Almirante Brown
+        definition = heavy_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "五月二十五日级"  # Veinticinco de Mayo Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 马尔维纳斯群岛"  # ARA Islas Malvinas
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "五月二十五日级"  # Veinticinco de Mayo Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 皮伊尔登"  # ARA Pueyrredon
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = ARG
+            version_name = "加里波第级"  # Garibaldi Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 自由"  # ARA Libertad
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = ARG
+            version_name = "自由级/独立级"  # Libertad/Independencia Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 独立"  # ARA Independencia
+        definition = heavy_cruiser
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = ARG
+            version_name = "自由级/独立级"  # Libertad/Independencia Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 卡塔马卡"  # ARA Catamarca
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "卡塔马卡级/拉普拉塔级"  # Catamarca/La Plata Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 胡胡伊"  # ARA Jujuy
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "卡塔马卡级/拉普拉塔级"  # Catamarca/La Plata Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 科尔多巴"  # ARA Córdoba
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "卡塔马卡级/拉普拉塔级"  # Catamarca/La Plata Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 拉普拉塔"  # ARA La Plata
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "卡塔马卡级/拉普拉塔级"  # Catamarca/La Plata Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 塞凡提斯"  # ARA Cervantes
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞凡提斯级/门多萨级"  # Cervantes/Mendoza Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 胡安·德·加雷"  # ARA Juan de Garay
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞凡提斯级/门多萨级"  # Cervantes/Mendoza Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 门多萨"  # ARA Mendoza
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞凡提斯级/门多萨级"  # Cervantes/Mendoza Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 拉里奥哈"  # ARA La Rioja
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞凡提斯级/门多萨级"  # Cervantes/Mendoza Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 图库曼"  # ARA Tucumán
+        definition = destroyer
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = ARG
+            version_name = "塞凡提斯级/门多萨级"  # Cervantes/Mendoza Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Flotilla de Submarinos
+      location = 12364
+      ship = {
+        name = "ARA 圣菲"  # ARA Santa Fe
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "圣菲级"  # Santa Fe Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 圣地亚哥-德尔埃斯特罗"  # ARA Santiago del Estero
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "圣菲级"  # Santa Fe Class
+          }
+        }
+      }
+      ship = {
+        name = "ARA 萨尔塔"  # ARA Salta
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = ARG
+            version_name = "圣菲级"  # Santa Fe Class
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,292 @@
 add_namespace = navy_rework
+add_namespace = vnr_ai
+
+country_event = {
+	id = navy_rework.0
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		add_starting_techs = yes
+		makeup_starting_techs = yes
+
+		ARG = {
+			ARG_starting_naval_variants_kr = yes
+			load_oob = 00_kr_ARG_naval
+		}
+		AST = {
+			AST_starting_naval_variants_kr = yes
+			load_oob = 00_kr_AST_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_AST_air_bba
+			}
+			else = {
+				load_oob = 01_kr_AST_air_legacy
+			}
+		}
+		AUS = {
+			AUS_starting_naval_variants_kr = yes
+			load_oob = 00_kr_AUS_naval
+		}
+		BAT = {
+			BAT_starting_naval_variants_kr = yes
+			load_oob = 00_kr_BAT_naval
+		}
+		BEL = {
+			BEL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_BEL_naval
+		}
+		BRA = {
+			BRA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_BRA_naval
+		}
+		BUL = {
+			BUL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_BUL_naval
+		}
+		CAN = {
+			CAN_starting_naval_variants_kr = yes
+			load_oob = 00_kr_CAN_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_CAN_air_bba
+			}
+			else = {
+				load_oob = 01_kr_CAN_air_legacy
+			}
+		}
+		CHL = {
+			CHL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_CHL_naval
+		}
+		COL = {
+			COL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_COL_naval
+		}
+		CUB = {
+			CUB_starting_naval_variants_kr = yes
+			load_oob = 00_kr_CUB_naval
+		}
+		DEI = {
+			HOL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_DEI_naval
+		}
+		DEN = {
+			DEN_starting_naval_variants_kr = yes
+			load_oob = 00_kr_DEN_naval
+		}
+		ECU = {
+			ECU_starting_naval_variants_kr = yes
+			load_oob = 00_kr_ECU_naval
+		}
+		EGY = {
+			EGY_starting_naval_variants_kr = yes
+			load_oob = 00_kr_EGY_naval
+		}
+		ENG = {
+			ENG_starting_naval_variants_kr = yes
+			load_oob = 00_kr_ENG_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_ENG_air_bba
+			}
+			else = {
+				load_oob = 01_kr_ENG_air_legacy
+			}
+		}
+		FIN = {
+			FIN_starting_naval_variants_kr = yes
+			load_oob = 00_kr_FIN_naval
+		}
+		FNG = {
+			QIE_starting_naval_variants_kr = yes
+			load_oob = 00_kr_FNG_naval
+		}
+		FRA = {
+			FRA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_FRA_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_FRA_air_bba
+			}
+			else = {
+				load_oob = 01_kr_FRA_air_legacy
+			}
+		}
+		GBR = {
+			GBR_starting_naval_variants_kr = yes
+			load_oob = 00_kr_GBR_naval
+		}
+		GEA = {
+			GER_starting_naval_variants_kr = yes
+			load_oob = 00_kr_GEA_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_GEA_air_bba
+			}
+			else = {
+				load_oob = 01_kr_GEA_air_legacy
+			}
+		}
+		GEO = {
+			GEO_starting_naval_variants_kr = yes
+			load_oob = 00_kr_GEO_naval
+		}
+		GER = {
+			GER_starting_naval_variants_kr = yes
+			load_oob = 00_kr_GER_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_GER_air_bba
+			}
+			else = {
+				load_oob = 01_kr_GER_air_legacy
+			}
+		}
+		GRE = {
+			GRE_starting_naval_variants_kr = yes
+			load_oob = 00_kr_GRE_naval
+		}
+		HND = {
+			HND_starting_naval_variants_kr = yes
+			load_oob = 00_kr_HND_naval
+		}
+		HOL = {
+			HOL_starting_naval_variants_kr = yes
+			load_oob = 00_kr_HOL_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_HOL_air_bba
+			}
+			else = {
+				load_oob = 01_kr_HOL_air_legacy
+			}
+		}
+		IRE = {
+			IRE_starting_naval_variants_kr = yes
+			load_oob = 00_kr_IRE_naval
+		}
+		ITA = {
+			ITA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_ITA_naval
+		}
+		JAP = {
+			JAP_starting_naval_variants_kr = yes
+			load_oob = 00_kr_JAP_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_JAP_air_bba
+			}
+			else = {
+				load_oob = 01_kr_JAP_air_legacy
+			}
+		}
+		MAF = {
+			GER_starting_naval_variants_kr = yes
+			load_oob = 00_kr_MAF_naval
+		}
+		MEX = {
+			MEX_starting_naval_variants_kr = yes
+			load_oob = 00_kr_MEX_naval
+		}
+		NFA = {
+			NFA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_NFA_naval
+		}
+		NOR = {
+			NOR_starting_naval_variants_kr = yes
+			load_oob = 00_kr_NOR_naval
+		}
+		PER = {
+			PER_starting_naval_variants_kr = yes
+			load_oob = 00_kr_PER_naval
+		}
+		POR = {
+			POR_starting_naval_variants_kr = yes
+			load_oob = 00_kr_POR_naval
+		}
+		PRU = {
+			PRU_starting_naval_variants_kr = yes
+			load_oob = 00_kr_PRU_naval
+		}
+		QIE = {
+			QIE_starting_naval_variants_kr = yes
+			load_oob = 00_kr_QIE_naval
+		}
+		ROM = {
+			ROM_starting_naval_variants_kr = yes
+			load_oob = 00_kr_ROM_naval
+		}
+		RUS = {
+			RUS_starting_naval_variants_kr = yes
+			load_oob = 00_kr_RUS_naval
+		}
+		SAF = {
+			SAF_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SAF_naval
+		}
+		SIA = {
+			SIA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SIA_naval
+		}
+		SIC = {
+			SIC_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SIC_naval
+		}
+		SPA = {
+			SPA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SPA_naval
+		}
+		SRD = {
+			SRD_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SRD_naval
+		}
+		SRI = {
+			SRI_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SRI_naval
+		}
+		SWE = {
+			SWE_starting_naval_variants_kr = yes
+			load_oob = 00_kr_SWE_naval
+		}
+		TRM = {
+			TRM_starting_naval_variants_kr = yes
+			load_oob = 00_kr_TRM_naval
+		}
+		TUR = {
+			TUR_starting_naval_variants_kr = yes
+			load_oob = 00_kr_TUR_naval
+		}
+		UKR = {
+			UKR_starting_naval_variants_kr = yes
+			load_oob = 00_kr_UKR_naval
+		}
+		URG = {
+			URG_starting_naval_variants_kr = yes
+			load_oob = 00_kr_URG_naval
+		}
+		USA = {
+			USA_starting_naval_variants_kr = yes
+			load_oob = 00_kr_USA_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_kr_USA_air_bba
+			}
+			else = {
+				load_oob = 01_kr_USA_air_legacy
+			}
+		}
+		VEN = {
+			VEN_starting_naval_variants_kr = yes
+			load_oob = 00_kr_VEN_naval
+		}
+		WIF = {
+			WIF_starting_naval_variants_kr = yes
+			load_oob = 00_kr_WIF_naval
+		}
+	}
+}
 
 country_event = {
 	id = navy_rework.1
@@ -126,5 +414,77 @@ country_event = {
 	}
 	option = {
 		name = navy_rework.100.1
+	}
+}
+
+# Buff AI
+country_event = {
+	id = vnr_ai.0
+	title = vnr_ai.0.t
+	desc = vnr_ai.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = vnr_ai.0.0
+		set_variable = { vnr_ai_difficulty = 3 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_hard
+					vnr_normal
+				}
+			}
+		}
+		
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_mad
+		}
+	}
+	option = {
+		name = vnr_ai.0.1
+		set_variable = { vnr_ai_difficulty = 2 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_normal
+				}
+			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_hard
+		}
+	}
+	option = {
+		name = vnr_ai.0.2
+		set_variable = { vnr_ai_difficulty = 1 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+				}
+			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_normal
+		}
+	}
+	option = {
+		name = vnr_ai.0.3
+		set_variable = { vnr_ai_difficulty = 0 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+					vnr_normal
+				}
+			}
+		}
 	}
 }

@@ -1,0 +1,21 @@
+﻿units = {
+  fleet = {
+    name = "厄瓜多尔海军"  # Armada del Ecuador
+    naval_base = 8252
+    task_force = {
+      name = "厄瓜多尔海军"  # Armada del Ecuador 
+      location = 8252
+      ship = {
+        name = "BAE 基多"  # BAE Quito
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ECU
+            version_name = "史密斯级"  # Smith Class
+          }
+        }
+      }
+    }
+  }
+}

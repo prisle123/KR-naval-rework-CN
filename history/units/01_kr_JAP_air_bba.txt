@@ -1,0 +1,100 @@
+﻿air_wings = {
+  "龙骧" = {
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_cas_airframe_0 = {
+      owner = "JAP"
+      amount = 5
+      version_name = "Aichi D1A2"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "B2M"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "JAP"
+      amount = 5
+      version_name = "B2M"
+    }
+  }
+  "龙渊" = {
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_cas_airframe_0 = {
+      owner = "JAP"
+      amount = 5
+      version_name = "Aichi D1A2"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "B2M"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "JAP"
+      amount = 5
+      version_name = "B2M"
+    }
+  }
+  "凤翔" = {
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_naval_bomber_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "B2M"
+    }
+  }
+  "苍龙" = {
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "A4N"
+    }
+    cv_small_plane_cas_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "Aichi D1A2"
+    }
+    cv_small_plane_cas_airframe_0 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "Aichi D1A2"
+    }
+    cv_small_plane_naval_bomber_airframe_1 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "B4Y"
+    }
+    cv_small_plane_naval_bomber_airframe_1 = {
+      owner = "JAP"
+      amount = 10
+      version_name = "B4Y"
+    }
+  }
+}

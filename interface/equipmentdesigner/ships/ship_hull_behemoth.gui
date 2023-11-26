@@ -3,7 +3,7 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_alicorn"
+		name = "equipment_designer_vnr_ship_hull_alicorn"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -149,7 +149,7 @@ guiTypes = {
 	
 	
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_constitution"
+		name = "equipment_designer_vnr_ship_hull_constitution"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -232,7 +232,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_macross"
+		name = "equipment_designer_vnr_ship_hull_macross"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -377,7 +377,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_space_yamato"
+		name = "equipment_designer_vnr_ship_hull_space_yamato"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }

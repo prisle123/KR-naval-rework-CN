@@ -1,6 +1,6 @@
 instant_effect = {
     create_equipment_variant = {
-        name = "内布拉斯加级"
+        name = "Nebraska Class"
 		icon = "gfx/interface/technologies/Fun/USA_Nebraska.png"
 		role_icon_index = 7
         type = ship_hull_super_heavy_1
@@ -26,23 +26,23 @@ instant_effect = {
 
 units = {
     fleet = {
-        name = "英灵舰队"
+        name = "Multiverse Fleet"
         naval_base = 788
         task_force = {
-            name = "英灵舰队"
+            name = "Multiverse Fleet"
             location = 788
 
-            ship = { name = "内布拉斯加" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "内布拉斯加级" } } }
-            ship = { name = "密苏里" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "内布拉斯加级" } } }
-            ship = { name = "明尼苏达" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "内布拉斯加级" } } }
-            ship = { name = "佛蒙特" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "内布拉斯加级" } } }
+            ship = { name = "Nebraska" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Nebraska Class" } } }
+            ship = { name = "Missouri" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Nebraska Class" } } }
+            ship = { name = "Minnesota" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Nebraska Class" } } }
+            ship = { name = "Vermont" definition = SH_battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Nebraska Class" } } }
 
-            ship = { name = "南达科他" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "南达科他级" } } }
-            ship = { name = "印第安纳" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "南达科他级" } } }
-            ship = { name = "蒙大拿" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "南达科他级" } } }
-            ship = { name = "北卡罗莱纳" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "南达科他级" } } }
-            ship = { name = "衣阿华" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "南达科他级" } } }
-            ship = { name = "马萨诸塞" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "南达科他级" } } }
+            ship = { name = "South Dakota" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+            ship = { name = "Indiana" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+            ship = { name = "Montana" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+            ship = { name = "North Carolina" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+            ship = { name = "Iowa" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+            ship = { name = "Massachusetts" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
         }
     }
 }

@@ -1,0 +1,387 @@
+﻿units = {
+  fleet = {
+    name = "奥斯曼帝国海军本土舰队"  # Donanma-yı Vatan Komutanlığı
+    naval_base = 9833
+    task_force = {
+      name = "第一作战舰队"  # 1. Donanma Filosu
+      location = 9833
+      ship = {
+        name = "OHG 苏丹穆罕默德四世"  # OHG Sultan Murad-i Rabi
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "巴伐利亚级"  # Bayern Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 苏丹奥斯曼一世"  # OHG Sultan Osman-i Evvel
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "苏丹奥斯曼一世级"  # Sultan Osman I Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 苏丹穆罕默德五世"  # OHG Sultan Mehmed-i Hamis
+        definition = battleship
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "雷沙迪耶级"  # Reşadiye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 格克切"  # OHG Gökceada
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "斯特拉斯堡级"  # Straßburg Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 苏丹迈吉德一世"  # OHG Sultan Abdülmecid-i Evvel
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = TUR
+            version_name = "梅西迪耶级"  # Mecidiye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 佩伊克伊·谢夫克特"  # OHG Peyk-i Şevket
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = TUR
+            version_name = "佩伊克伊·谢夫克特级"  # Peyk-i Şevket Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 伯克·伊·萨特维特"  # OHG Berk-i Satvet
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = TUR
+            version_name = "佩伊克伊·谢夫克特级"  # Peyk-i Şevket Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "第一支援舰队"  # 1. Muhrip Filosu
+      location = 4112
+      ship = {
+        name = "OHG 科札德佩"  # OHG Kocatepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "科札德佩级"  # Kocatepe Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 阿达泰佩"  # OHG Adatepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "科札德佩级"  # Kocatepe Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 扎法"  # OHG Zafer
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "扎法级"  # Zafer Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 提纳兹特佩"  # OHG Tinaztepe
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "扎法级"  # Zafer Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 爱国"  # OHG Muavenet-i Milliye
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "爱国级"  # Muavenet-i Milliye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 发展"  # OHG Nümune-i Hamiyet
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "爱国级"  # Muavenet-i Milliye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 巴勒克西尔"  # OHG Balikesir
+        definition = destroyer
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "科札德佩级"  # Kocatepe Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "奥斯曼帝国海军地中海舰队"  # Donanma-yı Akdeniz Komutanlığı
+    naval_base = 9833
+    task_force = {
+      name = "第二作战舰队"  # 2. Donanma Filosu
+      location = 792
+      ship = {
+        name = "OHG 苏丹塞利姆一世"  # OHG Yavuz Sultan Selim-i Evvel
+        definition = battle_cruiser
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "毛奇级"  # Moltke Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 苏丹哈米德二世"  # OHG Sultan Abdulhamid-i Sani
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = TUR
+            version_name = "梅西迪耶级"  # Mecidiye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 科斯"  # OHG Istanköy
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "斯特拉斯堡级"  # Straßburg Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 希俄斯"  # OHG Sakiz
+        definition = light_cruiser
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "不来梅级"  # Bremen Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 萨姆松"  # OHG Samsun
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "萨姆松级"  # Samsun Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 巴士拉"  # OHG Basra
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "萨姆松级"  # Samsun Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 萨索斯"  # OHG Taşoz
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "萨姆松级"  # Samsun Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇分队"  # Denizalti Filosu
+      location = 1149
+      ship = {
+        name = "OHG T-1"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "UB III 级"  # UB III Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG T-2"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "UB III 级"  # UB III Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG T-3"
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "UB III 级"  # UB III Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 奥鲁奇海军上将"  # OHG Oruc Reis
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "奥鲁奇海军上将级"  # Oruc Reis Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 穆拉特海军上将"  # OHG Murat Reis
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "奥鲁奇海军上将级"  # Oruc Reis Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 布拉克海军上将"  # OHG Burak Reis
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_2 = {
+            amount = 1
+            owner = TUR
+            version_name = "奥鲁奇海军上将级"  # Oruc Reis Class
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "奥斯曼帝国海军波斯湾舰队"  # Donanma-yı Körfez Komutanlığı
+    naval_base = 2089
+    task_force = {
+      name = "第二支援舰队"  # 2. Muhrip Filosu
+      location = 2089
+      ship = {
+        name = "OHG 埃尔津詹"  # OHG Erzincan
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "爱国级"  # Muavenet-i Milliye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 迪兹杰"  # OHG Düzce
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "爱国级"  # Muavenet-i Milliye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 伊兹密尔"  # OHG Izmir
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "爱国级"  # Muavenet-i Milliye Class
+          }
+        }
+      }
+      ship = {
+        name = "OHG 比加"  # OHG Biga
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = TUR
+            version_name = "爱国级"  # Muavenet-i Milliye Class
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "TUR"
+      version_name = "扎法级"  # Zafer Class
+    }
+    requested_factories = 5
+    progress = 0.1
+    amount = 12
+  }
+}

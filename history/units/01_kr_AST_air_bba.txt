@@ -1,0 +1,7 @@
+﻿air_wings = {
+	"HMAS 竞技神" = {
+		cv_small_plane_airframe_0 = { owner = "AST" creator = "IMP" amount = 10 version_name = "Gloster Gladiator" }
+		cv_small_plane_airframe_0 = { owner = "AST" creator = "IMP" amount = 10 version_name = "Gloster Gladiator" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "AST" creator = "IMP" amount = 10 version_name = "Fairey Swordfish" }
+	}
+}

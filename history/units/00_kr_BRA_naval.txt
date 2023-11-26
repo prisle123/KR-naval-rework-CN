@@ -1,0 +1,171 @@
+﻿units = {
+  fleet = {
+    name = "巴西海军"  # Marinha do Brasil
+    naval_base = 10980
+    task_force = {
+      name = "巴西海军"  # Marinha do Brasil
+      location = 10980
+      ship = {
+        name = "NRB 米纳斯格拉斯"  # NRB Minas Gerais
+        pride_of_the_fleet = yes
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "米纳斯格拉斯级"  # Minas Gerais Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 圣保罗"  # NRB São Paulo
+        definition = battleship
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "米纳斯格拉斯级"  # Minas Gerais Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 巴伊亚"  # NRB Bahia
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "巴伊亚级"  # Bahia Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 南里约格朗德"  # NRB Rio Grande do Sul
+        definition = light_cruiser
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "巴伊亚级"  # Bahia Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 皮奥伊"  # NRB Piaui
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 北里约格兰德"  # NRB Rio Grande do Norte
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 帕拉伊巴"  # NRB Paraíba
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 阿拉戈斯"  # NRB Alagoas
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 马拉尼昂"  # NRB Marnhão
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "阿卡斯塔级"  # Acasta Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 塞尔希培"  # NRB Sergipe
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 圣卡塔琳娜"  # NRB Santa Catharina
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+      ship = {
+        name = "NRB 马托格罗索"  # NRB Mato Grosso
+        definition = destroyer
+        start_experience_factor = 0.04
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "帕拉级"  # Para Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # Flotilha de Submarinos
+      location = 10980
+      ship = {
+        name = "NRB 乌迈塔"  # NRB Humaytá
+        definition = submarine
+        start_experience_factor = 0.075
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = BRA
+            version_name = "乌迈塔级"  # Humaytá Class
+          }
+        }
+      }
+    }
+  }
+}

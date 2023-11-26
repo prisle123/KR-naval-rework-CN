@@ -1,0 +1,181 @@
+﻿units = {
+  fleet = {
+    name = "暹罗皇家海军"  # Royal Siamese Navy
+    naval_base = 4433
+    task_force = {
+      name = "第一海军司令部"  # RSN 1st Naval Command
+      location = 4433
+      ship = {
+        name = "HSMS 阿瑜陀耶"  # HSMS Sri Ayuthia
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIA
+            version_name = "阿瑜陀耶级"  # Sri Ayuthia Class
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 拉达那哥欣"  # HSMS Rattanakosin
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIA
+            version_name = "伊吹级"  # Ibuki Class
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 素可泰"  # HSMS Sukhothai
+        definition = heavy_cruiser
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = SIA
+            version_name = "伊吹级"  # Ibuki Class
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 帕峦"  # HSMS Phra Ruang
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "帕峦级"  # Phra Ruang Class
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 塔延春"  # HSMS Sua Tayanchon
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "塔延春级"  # Sua Tayanchon Class
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 卡罗辛"  # HSMS Sua Khamronsin
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "塔延春级"  # Sua Tayanchon Class
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 昭披耶"  # HSMS Chao Phraya
+        definition = destroyer
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "昭披耶级"  # Chao Phraya Class
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "潜艇舰队"  # RSN Submarine Taskforce
+      location = 4433
+      ship = {
+        name = "HSMS 马差奴"  # HSMS Matchanu
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 欣沙姆"  # HSMS Sinsamut
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+      ship = {
+        name = "HSMS 蔚润"  # HSMS Wirun
+        definition = submarine
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = SIA
+            version_name = "L级"  # L Type
+          }
+        }
+      }
+    }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_cruiser_coastal_defense_ship
+      creator = "SIA"
+      version_name = "阿瑜陀耶级"  # Sri Ayuthia Class
+    }
+    name = "HSMS 吞武里"  # HSMS Thonburi
+    requested_factories = 1
+    progress = 0.03
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SIA"
+      version_name = "达叻级"  # Trad Class
+    }
+    name = "HSMS 达叻"  # HSMS Trad
+    requested_factories = 1
+    progress = 0.9
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SIA"
+      version_name = "达叻级"  # Trad Class
+    }
+    name = "HSMS 普吉岛"  # HSMS Puket
+    requested_factories = 1
+    progress = 0.87
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SIA"
+      version_name = "达叻级"  # Trad Class
+    }
+    name = "HSMS 巴丹"  # HSMS Patani
+    requested_factories = 1
+    progress = 0.4
+    amount = 1
+  }
+  add_equipment_production = {
+    equipment = {
+      type = ship_hull_light_2
+      creator = "SIA"
+      version_name = "达叻级"  # Trad Class
+    }
+    name = "HSMS 苏拉特"  # HSMS Surasdra
+    requested_factories = 1
+    progress = 0.35
+    amount = 1
+  }
+}

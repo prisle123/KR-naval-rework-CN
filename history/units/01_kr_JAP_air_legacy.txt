@@ -1,0 +1,28 @@
+﻿air_wings = {
+	"龙骧" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 5 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 5 }
+	}
+	"龙渊" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 5 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 5 }
+	}
+	"凤翔" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+	}
+	"苍龙" = {
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_CAS_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 10 }
+	}
+}

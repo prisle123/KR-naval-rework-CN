@@ -1,0 +1,22 @@
+﻿air_wings = {
+	"SMS 罗恩" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+	"SMS 布卢门撒尔" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+	"SMS 摩泽尔河" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+	"SMS 莱茵河" = {
+		cv_fighter_equipment_0 = { owner = "GEA" amount = 10 }
+		cv_nav_bomber_equipment_1 = { owner = "GEA" amount = 10 }
+	}
+}
